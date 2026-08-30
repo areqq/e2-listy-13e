@@ -46,6 +46,17 @@ ALIASES = {
     "canalplus1premiumhd": "canalpluspremiumhd",
     "travelhd": "travelchannelhd",
     "inultratvuhd": "ultratv4k",
+    "cgtnnewshd": "cgtnhd",
+    "cgtndocumhd": "cgtndocumentary",
+    "dubairacingchannel": "dubairacing",
+    "euronewsitalian": "euronews",
+    "ewtnenglish": "ewtn",
+    "noursatkids": "noursat",
+    "mta2hdeuropa": "mta2",
+    "ln24inter": "ln24international",
+    "solocalciohd": "sportitaliasolocalcio",
+    "mvmtmovementofculture": "mvmtculture",
+    "greaterlovehd": "greaterlove2",
 }
 
 
@@ -140,6 +151,8 @@ def candidate_names(picon_name: str) -> list[str]:
             derived.append(name.replace("sport", "sports", 1))
         if name.endswith("tv"):
             derived.append(name[:-2])
+        if name.endswith("channel"):
+            derived.append(name[: -len("channel")])
         if "tv" in name:
             derived.append(name.replace("tv", "", 1))
     unique: list[str] = []

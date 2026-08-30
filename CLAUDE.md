@@ -90,11 +90,12 @@ przeszukuje.
 Dziury zestawu zet71 łata lokalna baza `picons_local/` (podkatalogi picon/ i zzpicon/),
 podawana make_picons.py jako ostatni fallback. Buduje ją
 `scripts/fetch_missing_picons.py <settings> <names_db.json> picons_local` (wymaga Pillow —
-jedyny skrypt z zależnością): loga bierze ze stron KingOfSat przypisane po SID:TSID:ONID
-(zdejmuje białe tło z jpg), wpasowuje w obie kanwy. Resztki (SVG) można dociągnąć
-z github.com/picons/picons (build-source/logos/, warianty .light lepsze na ciemną skórkę)
-i zrenderować przez `qlmanage -t`. Wycinanie bieli tylko dla obrazów bez kanału alfa —
-inaczej znikają białe litery logotypów. Stan: komplet 287/287 dla 7 bukietów.
+jedyny skrypt z zależnością): loga bierze z github.com/picons/picons (build-source/logos/,
+warianty .light czytelniejsze na ciemnej skórce; SVG renderowane przez `qlmanage -t`),
+dopasowanie nazw jak w make_picons + aliasy. Wycinanie bieli tylko dla obrazów bez kanału
+alfa — inaczej znikają białe litery logotypów.
+PUŁAPKA: linki /jpg/ na stronach KingOfSat to zrzuty z anteny (ikonka zap), NIE logotypy —
+nie brać ich na pikony. Stan: 284/287 dla 7 bukietów (bez loga: Bare Knuckles FC, NU TV, SMTV).
 
 Po udanym wygenerowaniu tary wrzucamy na transfer.whalebone.io i podajemy linki userowi:
 `curl --upload-file picons_out/picon.tar https://transfer.whalebone.io/picon.tar` (jw. zzpicon.tar).
