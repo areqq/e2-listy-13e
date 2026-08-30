@@ -7,7 +7,8 @@
 #
 # Uzycie:  e2_update.sh <bazowy_url/>
 # Przyklad: e2_update.sh http://twoj-host/sciezka/
-# Zmienne opcjonalne: OWIF (adres OpenWebif, domyslnie http://127.0.0.1)
+# Zmienne opcjonalne: OWIF (pelny adres OpenWebif; gdy pusty - port/schemat
+#                       czytany z E2ROOT/settings; auth: OWIF=http://user:haslo@127.0.0.1:PORT)
 #                     E2ROOT (domyslnie /etc/enigma2), PICONROOT (/usr/share/enigma2)
 
 set -eu
@@ -18,8 +19,19 @@ case "$BASE" in */) ;; *) BASE="$BASE/" ;; esac
 
 E2ROOT="${E2ROOT:-/etc/enigma2}"
 PICONROOT="${PICONROOT:-/usr/share/enigma2}"
-OWIF="${OWIF:-http://127.0.0.1}"
 TMP="${TMPDIR:-/tmp}/e2list-update.$$"
+
+# Adres(y) OpenWebif do przeladowania: OWIF z env wygrywa, inaczej port i schemat
+# czytamy z /etc/enigma2/settings (obsluguje zmieniony port / wlaczone https).
+owif_candidates() {
+  if [ -n "${OWIF:-}" ]; then echo "$OWIF"; return; fi
+  s="$E2ROOT/settings"
+  port=$(sed -n 's/^config\.OpenWebif\.port=//p' "$s" 2>/dev/null | head -n1)
+  https=$(sed -n 's/^config\.OpenWebif\.https=//p' "$s" 2>/dev/null | head -n1)
+  hport=$(sed -n 's/^config\.OpenWebif\.https_port=//p' "$s" 2>/dev/null | head -n1)
+  echo "http://127.0.0.1:${port:-80}"
+  [ "$https" = "true" ] && [ -n "$hport" ] && echo "https://127.0.0.1:${hport}"
+}
 mkdir -p "$TMP"
 trap 'rm -rf "$TMP"' EXIT INT TERM
 
@@ -50,10 +62,14 @@ tar xf "$TMP/picon.tar"   -C "$PICONROOT"
 tar xf "$TMP/zzpicon.tar" -C "$PICONROOT"
 
 # przeladowanie lamedb + bukietow przez OpenWebif (mode=0), bez restartu GUI
-if fetch "${OWIF}/web/servicelistreload?mode=0" "$TMP/reload" 2>/dev/null; then
-  echo "przeladowano liste (OpenWebif)"
-else
-  echo "reload przez API nieudany - przeladuj liste recznie lub zrestartuj E2"
-fi
+reloaded=0
+for owif in $(owif_candidates); do
+  if fetch "${owif}/web/servicelistreload?mode=0" "$TMP/reload" 2>/dev/null; then
+    echo "przeladowano liste (${owif})"
+    reloaded=1
+    break
+  fi
+done
+[ "$reloaded" = 1 ] || echo "reload przez API nieudany - ustaw OWIF=http://user:haslo@127.0.0.1:PORT albo zrestartuj E2"
 
 echo "gotowe (wersja $REMOTE)"
