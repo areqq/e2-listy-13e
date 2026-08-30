@@ -1,0 +1,35 @@
+{
+  "add_services": [
+    {"sid": "3ACE", "tsid": "0514", "type": 25, "name": "Canal+ Sport 2 HD", "provider": "Canal+"}
+  ],
+  "rename_services": [
+    {"sid": "106C", "tsid": "2260", "new_name": "BarLume Collection HD"}
+  ],
+  "targets": [
+    {"bouquet": "userbouquet.dbe00.tv",
+     "moves": [
+       {"name": "Canal+ Film HD",    "old_sid": "3779", "old_tsid": "044C", "new_sid": "32CE", "new_tsid": "0190"},
+       {"name": "Ale Kino+ HD",      "old_sid": "3781", "old_tsid": "044C", "new_sid": "32CB", "new_tsid": "0190"},
+       {"name": "TVP Seriale",       "old_sid": "3D5C", "old_tsid": "2C88", "new_sid": "1142", "new_tsid": "2AF8"},
+       {"name": "Canal+ Domo HD",    "old_sid": "13EF", "old_tsid": "05DC", "new_sid": "113D", "new_tsid": "2AF8"},
+       {"name": "TVP Kultura HD",    "old_sid": "3D59", "old_tsid": "2C88", "new_sid": "32D7", "new_tsid": "0190"},
+       {"name": "Canal+ Kuchnia",    "old_sid": "13F0", "old_tsid": "05DC", "new_sid": "113E", "new_tsid": "2AF8"},
+       {"name": "Canal+ Sport 2 HD", "old_sid": "13EE", "old_tsid": "05DC", "new_sid": "3ACE", "new_tsid": "0514"}
+     ]},
+    {"bouquet": "userbouquet.dbe64.tv",
+     "moves": [
+       {"name": "Canal+ Film HD",    "old_sid": "3779", "old_tsid": "044C", "new_sid": "32CE", "new_tsid": "0190"},
+       {"name": "Ale Kino+ HD",      "old_sid": "3781", "old_tsid": "044C", "new_sid": "32CB", "new_tsid": "0190"},
+       {"name": "TVP Seriale",       "old_sid": "3D5C", "old_tsid": "2C88", "new_sid": "1142", "new_tsid": "2AF8"}
+     ]},
+    {"bouquet": "userbouquet.dbe03.tv",
+     "moves": [
+       {"name": "Canal+ Sport 2 HD", "old_sid": "13EE", "old_tsid": "05DC", "new_sid": "3ACE", "new_tsid": "0514"}
+     ]},
+    {"bouquet": "userbouquet.dbe0b.tv",
+     "moves": [
+       {"name": "Canal+ Domo HD",    "old_sid": "13EF", "old_tsid": "05DC", "new_sid": "113D", "new_tsid": "2AF8"},
+       {"name": "Canal+ Kuchnia",    "old_sid": "13F0", "old_tsid": "05DC", "new_sid": "113E", "new_tsid": "2AF8"}
+     ]}
+  ]
+}

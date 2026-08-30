@@ -1,0 +1,9 @@
+# lokalne artefakty i cudze listy - nie publikujemy
+work/
+picons_out/
+__pycache__/
+E2_HD_settings_*.zip
+*.zip
+names_db.json
+STATUS.md
+codedb.snapshot
