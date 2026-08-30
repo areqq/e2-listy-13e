@@ -1,6 +1,7 @@
 # lokalne artefakty i cudze listy - nie publikujemy
 work/
 picons_out/
+dist/
 __pycache__/
 E2_HD_settings_*.zip
 komplet_*.tar
