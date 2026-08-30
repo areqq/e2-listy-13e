@@ -19,7 +19,7 @@ case "$BASE" in */) ;; *) BASE="$BASE/" ;; esac
 E2ROOT="${E2ROOT:-/etc/enigma2}"
 PICONROOT="${PICONROOT:-/usr/share/enigma2}"
 OWIF="${OWIF:-http://127.0.0.1}"
-TMP="${TMPDIR:-/tmp}/e2listy.$$"
+TMP="${TMPDIR:-/tmp}/e2list-update.$$"
 mkdir -p "$TMP"
 trap 'rm -rf "$TMP"' EXIT INT TERM
 
