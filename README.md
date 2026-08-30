@@ -49,9 +49,22 @@ poza repo (`.gitignore *.local.*`); wzorce w `postprocess.example.toml` / `uploa
 Metodyka (źródła zapowiedzi i faktów, pułapki typu reużycie SID przy rebrandingu,
 konsolidacja transponderów Canal+ 2026) — patrz [CLAUDE.md](CLAUDE.md).
 
-Aktualizacja na dekoderze (samo-obsługowa): `sh e2_update.sh <bazowy_url/>` porównuje `version`
-z lokalną `userbouquet.version` i tylko przy nowszej podmienia pliki + robi reload bukietów
-(`/web/servicelistreload?mode=0`). Adres serwera podaje się parametrem — skrypt go nie zawiera.
+### Aktualizacja na dekoderze (OTA)
+
+`e2_update.sh` porównuje `version` z lokalną `userbouquet.version` i tylko przy nowszej pobiera
+`lista.tar` + `picon.tar` + `zzpicon.tar`, podmienia pliki (`/etc/enigma2`, `/usr/share/enigma2`)
+i przeładowuje bukiety przez OpenWebif (`/web/servicelistreload?mode=0`, bez restartu GUI).
+Po rozpakowaniu wypisuje raport (bukiety, lamedb, liczba i rozmiar pikon).
+
+```sh
+sh e2_update.sh https://host/sciezka/           # URL jako parametr (repo nie zawiera adresu)
+wget -O - https://host/sciezka/u | sh           # wariant z FTP: 'u' ma URL zaszyty (do crona)
+wget -O - https://host/sciezka/u | FORCE=1 sh   # wymuś mimo tej samej wersji (reinstal)
+```
+
+Port/schemat OpenWebif czytany jest z `/etc/enigma2/settings` (obsługa zmienionego portu i https).
+Gdy localhost wymaga logowania: `OWIF="http://user:haslo@127.0.0.1:PORT"`. Adres serwera podaje się
+parametrem lub jest zaszyty tylko w kopii `u`/`e2_update.sh` wgranej na FTP — repo go nie zawiera.
 
 `picons/` to nasz store pikon trzymany w repo (source of truth budowy tarów). Zasilają go
 `update_picons.py` (z zet71) i `fetch_missing_picons.py` (z github.com/picons/picons) — raz
