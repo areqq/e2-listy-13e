@@ -106,7 +106,7 @@ warianty .light czytelniejsze na ciemnej skórce; SVG renderowane przez `qlmanag
 dopasowanie nazw jak w make_picons + aliasy. Wycinanie bieli tylko dla obrazów bez kanału
 alfa — inaczej znikają białe litery logotypów.
 PUŁAPKA: linki /jpg/ na stronach KingOfSat to zrzuty z anteny (ikonka zap), NIE logotypy —
-nie brać ich na pikony. Stan: 285/287 dla 7 bukietów (bez loga: NU TV, SMTV — efemeryczne kanały iKOMG bez logotypu w repo).
+nie brać ich na pikony. Stan: 286/287 dla 7 bukietów (bez loga tylko NU TV — efemeryczny kanał iKOMG).
 
 Po udanym wygenerowaniu tary wrzucamy na transfer.whalebone.io i podajemy linki userowi:
 `curl --upload-file picons_out/picon.tar https://transfer.whalebone.io/picon.tar` (jw. zzpicon.tar).
