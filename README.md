@@ -4,7 +4,12 @@ Narzędzia do utrzymania list kanałów Enigma2 dla **Hot Bird 13°E**: wykrywan
 wpisów po przenosinach transponderowych, podmiany referencji w miejscu (bez zmiany
 kolejności kanałów) oraz budowa kompletu pikon dopasowanego do listy.
 
-Czysty Python 3, bez zależności zewnętrznych (wyjątek: `fetch_missing_picons.py` wymaga Pillow).
+## Zależności
+
+Tylko biblioteka standardowa Pythona 3. Jedyny wyjątek: `fetch_missing_picons.py`
+(budowa lokalnej bazy pikon-zastępczych) wymaga **Pillow** — reszta narzędzi działa na
+samej stdlib. Config post-procesora i uploadu w TOML wymaga Pythona 3.11+ (`tomllib`);
+na starszym Pythonie użyj równoważnego configu `.json`.
 
 ## Skrypty
 

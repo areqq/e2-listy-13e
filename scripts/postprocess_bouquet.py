@@ -27,12 +27,9 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 try:
-    import tomllib as _toml
+    import tomllib as _toml   # stdlib, Python 3.11+
 except ModuleNotFoundError:
-    try:
-        import tomli as _toml
-    except ModuleNotFoundError:
-        _toml = None
+    _toml = None              # starszy Python: uzyj configu .json
 
 from e2lib import ServiceKey, list_bouquets, load_lamedb
 
@@ -56,7 +53,7 @@ def load_config(path: Path) -> Config:
     elif _toml is not None:
         data = _toml.loads(raw.decode("utf-8"))
     else:
-        raise SystemExit("brak modulu tomllib/tomli - uzyj configu .json")
+        raise SystemExit("TOML wymaga Pythona 3.11+ - uzyj configu .json")
     channels = data.get("channels", {})
     name_to_key: dict[str, str] = {}
     key_to_url: dict[str, str] = {}

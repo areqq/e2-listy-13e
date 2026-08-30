@@ -26,7 +26,11 @@ import sys
 import tempfile
 from pathlib import Path
 
-from PIL import Image
+try:
+    from PIL import Image
+except ModuleNotFoundError:
+    raise SystemExit("fetch_missing_picons wymaga Pillow (pip install pillow) - "
+                     "jedyny skrypt z zaleznoscia zewnetrzna; reszta dziala na samej stdlib")
 
 from make_picons import (DEFAULT_BOUQUETS, RAW_BASE, SUBDIR, Wanted, candidate_names,
                          collect_wanted, digits_of, http_get, ipk_pngs, newest_packages)

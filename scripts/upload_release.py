@@ -18,12 +18,9 @@ import urllib.request
 from pathlib import Path
 
 try:
-    import tomllib as _toml
+    import tomllib as _toml   # stdlib, Python 3.11+
 except ModuleNotFoundError:
-    try:
-        import tomli as _toml
-    except ModuleNotFoundError:
-        _toml = None
+    _toml = None              # starszy Python: uzyj configu .json
 
 CONFIG_CANDIDATES = ["upload.local.toml", "upload.local.json"]
 DEFAULT_TRANSFER = "https://transfer.whalebone.io"
