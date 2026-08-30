@@ -11,6 +11,7 @@ Uzycie: python3 scripts/pack_release.py <katalog_settings> <katalog_wyjsciowy> [
 """
 from __future__ import annotations
 
+import datetime
 import re
 import sys
 import tarfile
@@ -18,6 +19,7 @@ import zipfile
 from pathlib import Path
 
 SKIP = {".DS_Store"}
+VERSION_LABEL = "e2-listy-13e Hot Bird 13E"
 TAR_FORMAT = tarfile.GNU_FORMAT
 
 
@@ -26,6 +28,16 @@ def _clean(info: tarfile.TarInfo) -> tarfile.TarInfo:
     info.uname = info.gname = ""
     info.pax_headers.clear()
     return info
+
+
+def write_version(settings_dir: Path, out_dir: Path) -> str:
+    """userbouquet.version (do archiwum, marker wersji na dekoderze) + version
+    (do uploadu, do porownania przez e2_update.sh). Pierwsza linia = epoch."""
+    now = datetime.datetime.now().astimezone()
+    content = f"{int(now.timestamp())}\n{now.strftime('%Y-%m-%d %H:%M:%S %z')}\n{VERSION_LABEL}\n"
+    (settings_dir / "userbouquet.version").write_text(content, encoding="utf-8")
+    (out_dir / "version").write_text(content, encoding="utf-8")
+    return content
 
 
 def build_zip(settings_dir: Path, zip_path: Path) -> int:
@@ -60,6 +72,8 @@ def main() -> int:
     out_dir.mkdir(parents=True, exist_ok=True)
     picon_tars = [Path(p) for p in sys.argv[3:]]
 
+    stamp = write_version(settings_dir, out_dir).splitlines()
+    print(f"version: {stamp[0]} ({stamp[1]}) -> userbouquet.version + {out_dir.name}/version")
     zip_path = out_dir / f"{settings_dir.name}.zip"
     lista_tar = out_dir / "lista.tar"
     print(f"{zip_path.name}: {build_zip(settings_dir, zip_path)} plikow")

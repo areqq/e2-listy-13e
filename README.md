@@ -26,6 +26,8 @@ na starszym Pythonie użyj równoważnego configu `.json`.
 | `scripts/postprocess_bouquet.py <settings> [config] [bukiety]` | generyczny post-procesor sterowany lokalnym configiem (poza repo); podmiany/wpisy dodatkowe wg `*.local.toml` |
 | `scripts/pack_release.py <settings> <out_dir> [picon.tar zzpicon.tar]` | archiwa tylko przez Pythona: `<nazwa>.zip`, `lista.tar` (korzeń), `komplet_<DDMMRR>.tar` |
 | `scripts/upload_release.py <pliki...>` | publikacja na transfer.whalebone.io + mirror wg lokalnego `upload.local.toml` (np. FTP) |
+| `scripts/pack_release.py` | (jw.) generuje też `userbouquet.version` (w archiwum) i `version` (do uploadu) z pełnym timestampem |
+| `scripts/e2_update.sh <bazowy_url/>` | **na dekoderze**: sprawdza `version`, pobiera i podmienia listę + pikony, przeładowuje bukiety przez OpenWebif — ultra-przenośny POSIX/busybox, URL bazowy jako parametr |
 
 ## Przepływ pracy
 
@@ -46,6 +48,10 @@ poza repo (`.gitignore *.local.*`); wzorce w `postprocess.example.toml` / `uploa
 
 Metodyka (źródła zapowiedzi i faktów, pułapki typu reużycie SID przy rebrandingu,
 konsolidacja transponderów Canal+ 2026) — patrz [CLAUDE.md](CLAUDE.md).
+
+Aktualizacja na dekoderze (samo-obsługowa): `sh e2_update.sh <bazowy_url/>` porównuje `version`
+z lokalną `userbouquet.version` i tylko przy nowszej podmienia pliki + robi reload bukietów
+(`/web/servicelistreload?mode=0`). Adres serwera podaje się parametrem — skrypt go nie zawiera.
 
 `picons/` to nasz store pikon trzymany w repo (source of truth budowy tarów). Zasilają go
 `update_picons.py` (z zet71) i `fetch_missing_picons.py` (z github.com/picons/picons) — raz

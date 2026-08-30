@@ -66,7 +66,10 @@ projektu), wykonaj cały łańcuch:
    wprost w /etc/enigma2) oraz `komplet_<DDMMRR>.tar` (lista.tar + oba tary pikon). Nie pakować
    przez systemowe tar/zip (bsdtar dokłada SCHILY.xattr). Publikacja przez
    `scripts/upload_release.py dist/*.zip dist/lista.tar picons_out/*.tar dist/komplet_*.tar`:
-   transfer.whalebone.io (weryfikuje linki) + mirror do celów z `upload.local.toml`, jeśli jest;
+   transfer.whalebone.io (weryfikuje linki) + mirror do celów z `upload.local.toml`, jeśli jest.
+   pack_release generuje `userbouquet.version` (w archiwum) i `version` (osobno do uploadu) z pełnym
+   timestampem; dekoder aktualizuje się sam `sh scripts/e2_update.sh <bazowy_url/>` (porównuje version,
+   podmienia pliki, reload przez OpenWebif). Bazowy URL to PARAMETR — namiarów nie trzymamy w repo;
 4. podaj userowi wszystkie linki + krótkie podsumowanie zmian w liście.
 
 Plików wejściowych (cudzych list) nie commitujemy do repo — zostają lokalnie.
