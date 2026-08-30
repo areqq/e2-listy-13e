@@ -11,5 +11,10 @@ destinations = [
   "ftp://user:password@host:port/katalog/",
 ]
 
+# Publiczny URL bazowy pod ktorym serwowane sa wgrane pliki (mapowanie FTP->HTTP).
+# Gdy podany, do kazdego celu FTP dogrywany jest self-contained e2_update.sh z
+# zaszytym tym URL - jako "e2_update.sh" oraz "u" (do: wget -O - <base>u | sh).
+base_url = "http://host/sciezka/"
+
 # Opcjonalnie: dodatkowe pliki dorzucane do mirrora obok przekazanych w wywolaniu.
 include_files = []

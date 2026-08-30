@@ -5,11 +5,16 @@ Silnik nie zawiera zadnych adresow ani hasel - cele mirrora (np. FTP z danymi
 logowania) mieszkaja w upload.local.toml / .json (gitignore *.local.*) albo w
 sciezce ze zmiennej LISTY_UPLOAD_CONFIG. Schemat: patrz upload.example.toml.
 
+Gdy config ma 'base_url', do kazdego celu FTP dogrywany jest self-contained
+scripts/e2_update.sh z zaszytym tym URL - jako 'e2_update.sh' i 'u' (dla
+wget -O - <base>u | sh). Repo trzyma wariant generyczny (URL jako parametr).
+
 Uzycie: python3 scripts/upload_release.py <plik> [plik ...]
 """
 from __future__ import annotations
 
 import ftplib
+import io
 import json
 import os
 import sys
@@ -83,6 +88,35 @@ def upload_ftp(path: Path, dest: str) -> None:
     ftp.quit()
 
 
+def upload_ftp_data(data: bytes, name: str, dest: str) -> None:
+    parts = urllib.parse.urlsplit(dest)
+    ftp = ftplib.FTP()
+    ftp.connect(parts.hostname, parts.port or 21, timeout=60)
+    ftp.login(urllib.parse.unquote(parts.username or ""), urllib.parse.unquote(parts.password or ""))
+    ftp.set_pasv(True)
+    remote_dir = parts.path.strip("/")
+    if remote_dir:
+        for segment in remote_dir.split("/"):
+            try:
+                ftp.cwd(segment)
+            except ftplib.error_perm:
+                ftp.mkd(segment)
+                ftp.cwd(segment)
+    ftp.storbinary(f"STOR {name}", io.BytesIO(data))
+    ftp.quit()
+
+
+def self_contained_updater(base_url: str) -> bytes:
+    """Kopia scripts/e2_update.sh z zaszytym domyslnym URL bazowym (do FTP),
+    zeby dzialalo bez parametru: wget -O - <base>u | sh. Repo trzyma wariant
+    generyczny (URL jako parametr) - namiar wstrzykiwany tylko tutaj."""
+    src = (Path(__file__).parent / "e2_update.sh").read_text(encoding="utf-8")
+    injected = src.replace('BASE="${1:-}"', f'BASE="${{1:-{base_url}}}"', 1)
+    if injected == src:
+        raise SystemExit("nie znaleziono linii BASE=\"${1:-}\" w e2_update.sh")
+    return injected.encode("utf-8")
+
+
 def main() -> int:
     files = [Path(a) for a in sys.argv[1:]]
     if not files:
@@ -107,6 +141,8 @@ def main() -> int:
     if not destinations:
         print("(brak upload.local.* - mirror pominiety)")
         return 0
+    base_url = str(cfg.get("base_url", ""))
+    updater = self_contained_updater(base_url) if base_url else None
     print("== mirror ==")
     for dest in destinations:
         for path in files + extra:
@@ -118,6 +154,13 @@ def main() -> int:
                     print(f"  {mask(dest)}  <- {path.name}  [POMINIETO: nieobslugiwany schemat]")
             except OSError as e:
                 print(f"  {mask(dest)}  <- {path.name}  [BLAD: {e}]")
+        if updater and dest.startswith("ftp://"):
+            for name in ("e2_update.sh", "u"):
+                try:
+                    upload_ftp_data(updater, name, dest)
+                    print(f"  {mask(dest)}  <- {name}  [aktualizator z zaszytym URL]")
+                except OSError as e:
+                    print(f"  {mask(dest)}  <- {name}  [BLAD: {e}]")
     return 0
 
 
