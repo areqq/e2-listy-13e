@@ -47,7 +47,7 @@ python3 scripts/watch_13e.py  work/<nowa_data>        # KingOfSat vs lista: co z
 python3 scripts/apply_moves.py work/<nowa_data> moves/<plik>.json
 python3 scripts/fix_types.py  work/<nowa_data>        # wyrównanie typów SD/HD do lamedb
 python3 scripts/check_list.py work/<nowa_data>        # musi dać 0 problemów
-(cd work && zip -r ../E2_HD_settings_<nowa_data>.zip <nowa_data>)
+(cd work && zip -r -X ../E2_HD_settings_<nowa_data>.zip <nowa_data> -x '*.DS_Store')
 ```
 
 ## Przygotowanie listy na żądanie
@@ -61,7 +61,7 @@ projektu), wykonaj cały łańcuch:
    `make_picons.py work/<DDMMRR> picons_out names_db.json picons_local`;
    braki dociągnij `fetch_missing_picons.py` i przebuduj — ma być 0 braków;
 3. spakuj też `lista.tar` — pliki listy BEZPOŚREDNIO w korzeniu archiwum (bez podkatalogu),
-   do rozpakowania wprost w `/etc/enigma2` (`cd <settings> && tar -cf ../lista.tar *`);
+   do rozpakowania wprost w `/etc/enigma2` (`cd <settings> && COPYFILE_DISABLE=1 tar --no-mac-metadata --no-xattrs -cf ../lista.tar *` — flagi ucinają śmieci macOS: SCHILY.xattr z com.apple.provenance/quarantine);
    opublikuj przez `scripts/upload_release.py` komplet: zip listy, `lista.tar`, `picon.tar`,
    `zzpicon.tar` oraz `komplet_<DDMMRR>.tar` (lista.tar + oba tary pikon). Skrypt wrzuca na
    transfer.whalebone.io (weryfikuje linki) i mirror do celów z `upload.local.toml`, jeśli jest;
