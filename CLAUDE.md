@@ -79,10 +79,14 @@ referencjach (rozpakować w `/usr/share/enigma2/`).
 Dopasowanie nazw: warianty końcówek (hd/uhd/4k), reguły pl↔polska, docu↔doku,
 viasat→polsatviasat, tv±, aliasy jawne, difflib z blokadą różnych cyfr (żeby Eurosport 3
 nie dostał pikony Eurosport 2 — zła pikona jest gorsza niż brak). Najskuteczniejsza jest
-jednak baza równoważnych nazw: `scripts/build_names_db.py names_db.json <listy...>`
-zbiera pisownie tej samej usługi (klucz SID:TSID:ONID) z wielu list (robocza, Vhannibal,
-bzyk83 — https://enigma2.hswg.pl/listy-kanalow-e2-by-bzyk83/, paczka hb.zip) oraz ze stron
-KingOfSat (sat-hb13f/sat-hb13g; NID/TID dziesiętnie w nagłówku transpondera).
+jednak baza równoważnych nazw `names_db.json` — TRZYMANA W GIT i odświeżana przyrostowo
+(`scripts/build_names_db.py names_db.json <katalog[=etykieta]>...`; zapis tylko gdy doszło
+coś nowego, posortowany JSON = czytelne diffy; etykieta źródła zamiast nazwy katalogu).
+Skrypt sam dociąga najnowszego Vhannibala z vhannibal.net i strony KingOfSat
+(sat-hb13f/sat-hb13g; NID/TID dziesiętnie w nagłówku transpondera); bzyk83 —
+https://enigma2.hswg.pl/listy-kanalow-e2-by-bzyk83/, paczka hb.zip — dokładać ręcznie.
+Tary pikon dostają symlinki dla KAŻDEJ znanej pisowni nazwy (plus referencje), więc
+działają też na listach nazywających kanały inaczej.
 Gdy pikony brakuje w jednym rozmiarze, a jest w drugim, trafia do tara zastępczo —
 renderer i tak skaluje do rozmiaru widgetu (`setScale(1)`), a między katalogami sam nie
 przeszukuje.

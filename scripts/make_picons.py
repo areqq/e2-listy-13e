@@ -190,6 +190,7 @@ def build_tar(out_path: Path, subdir: str, pngs: dict[str, bytes],
             tar.addfile(info, io.BytesIO(data))
 
         packed: set[str] = set()
+        linked: set[str] = set()
         for w in sorted(wanted, key=lambda x: x.picon_name):
             found = pick_png(pngs, w.picon_name, w.aliases)
             source = pngs
@@ -206,11 +207,16 @@ def build_tar(out_path: Path, subdir: str, pngs: dict[str, bytes],
             if found not in packed:
                 pack(found, source[found])
                 packed.add(found)
-            link = tarfile.TarInfo(f"{subdir}/{w.ref}.png")
-            link.type = tarfile.SYMTYPE
-            link.linkname = f"{found}.png"
-            tar.addfile(link)
-    print(f"{out_path.name}: {len(packed)} pikon, {len(wanted) - len(missing)} symlinkow, brakuje {len(missing)}")
+            link_names = [w.ref] + [a for a in [w.picon_name] + w.aliases if a != found]
+            for link_name in link_names:
+                if link_name in packed or link_name in linked:
+                    continue
+                link = tarfile.TarInfo(f"{subdir}/{link_name}.png")
+                link.type = tarfile.SYMTYPE
+                link.linkname = f"{found}.png"
+                tar.addfile(link)
+                linked.add(link_name)
+    print(f"{out_path.name}: {len(packed)} pikon, {len(linked)} symlinkow (referencje + znane pisownie), brakuje {len(missing)}")
     for label, channels in substituted.items():
         print(f"   zastepczo z {label}: {', '.join(sorted(channels))}")
     return missing

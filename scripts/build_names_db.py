@@ -2,7 +2,12 @@
 listach (robocza, Vhannibal, bzyk83...) i na KingOfSat nosi rozne pisownie nazwy.
 Suma tych pisowni sluzy potem make_picons.py jako aliasy przy dopasowywaniu pikon.
 
-Uzycie: python3 scripts/build_names_db.py <wyjscie.json> <katalog_settings> [kolejne katalogi...] [--bez-kos] [--bez-vh]
+Baza jest trzymana w git i odswiezana przyrostowo: istniejacy plik wyjsciowy jest
+wczytywany, dochodza tylko nowe pisownie, a zapis nastepuje wylacznie przy zmianach
+(stabilny, posortowany JSON = czytelne diffy).
+
+Uzycie: python3 scripts/build_names_db.py <wyjscie.json> <katalog[=etykieta]> [kolejne...] [--bez-kos] [--bez-vh]
+Etykieta (domyslnie nazwa katalogu) laduje w polu sources.
 Zrodla: kazdy podany katalog settings (nazwa zrodla = nazwa katalogu)
         + najnowsza paczka Vhannibal Hot Bird 13E z vhannibal.net (chyba ze --bez-vh)
         + strony KingOfSat dla 13E (Hot Bird 13F i 13G), chyba ze podano --bez-kos.
@@ -39,10 +44,10 @@ def add(db: dict[str, dict[str, object]], key: str, name: str, source: str) -> N
         entry["sources"][clean] = source
 
 
-def from_settings(db: dict[str, dict[str, object]], settings_dir: Path) -> int:
+def from_settings(db: dict[str, dict[str, object]], settings_dir: Path, label: str) -> int:
     lamedb = load_lamedb(settings_dir / "lamedb")
     for key, svc in lamedb.services.items():
-        add(db, f"{key.sid:04x}:{key.tsid:04x}:{key.onid:04x}", svc.name, settings_dir.name)
+        add(db, f"{key.sid:04x}:{key.tsid:04x}:{key.onid:04x}", svc.name, label)
     return len(lamedb.services)
 
 
@@ -89,15 +94,24 @@ def main() -> int:
         return 2
     out_path = Path(args[0])
     db: dict[str, dict[str, object]] = {}
-    for directory in args[1:]:
-        n = from_settings(db, Path(directory))
+    if out_path.exists():
+        db = json.loads(out_path.read_text(encoding="utf-8"))
+        print(f"istniejaca baza: {len(db)} uslug")
+    before = json.dumps(db, ensure_ascii=False, sort_keys=True)
+    for spec in args[1:]:
+        directory, _, label = spec.partition("=")
+        n = from_settings(db, Path(directory), label or Path(directory).name)
         print(f"{directory}: {n} uslug")
     if use_vh:
         print(f"vhannibal (najnowsza z vhannibal.net): {from_vhannibal(db)} uslug")
     if use_kos:
         print(f"kingofsat: {from_kingofsat(db)} wpisow")
     multi = sum(1 for e in db.values() if len(e["names"]) > 1)
-    out_path.write_text(json.dumps(db, ensure_ascii=False, indent=1), encoding="utf-8")
+    after = json.dumps(db, ensure_ascii=False, sort_keys=True)
+    if after == before:
+        print(f"bez zmian: {len(db)} uslug, w tym {multi} z >1 pisownia nazwy")
+        return 0
+    out_path.write_text(json.dumps(db, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
     print(f"zapisano {out_path}: {len(db)} uslug, w tym {multi} z >1 pisownia nazwy")
     return 0
 
