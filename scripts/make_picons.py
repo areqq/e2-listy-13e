@@ -61,6 +61,7 @@ ALIASES = {
     "solocalciohd": "sportitaliasolocalcio",
     "mvmtmovementofculture": "mvmtculture",
     "greaterlovehd": "greaterlove2",
+    "bareknucklesfightingchampionship": "bkfc",
 }
 
 
