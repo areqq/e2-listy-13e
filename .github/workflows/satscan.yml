@@ -1,0 +1,72 @@
+name: satscan
+
+on:
+  push:
+    branches: [main]
+    paths: ['satscan/**', '.github/workflows/satscan.yml']
+    tags: ['satscan-v*']
+  pull_request:
+    paths: ['satscan/**']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  ZIG_VERSION: 0.16.0
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Zig ${{ env.ZIG_VERSION }} (oficjalna paczka, bez zewnętrznych akcji)
+        run: |
+          curl -fsSL "https://ziglang.org/download/${ZIG_VERSION}/zig-x86_64-linux-${ZIG_VERSION}.tar.xz" -o zig.tar.xz
+          tar xf zig.tar.xz
+          echo "$PWD/zig-x86_64-linux-${ZIG_VERSION}" >> "$GITHUB_PATH"
+
+      - name: Build (armhf bez NEON + mipsel r1)
+        working-directory: satscan
+        run: |
+          zig version
+          zig build
+          ls -la zig-out/bin/
+          # szybka walidacja formatu ELF
+          file zig-out/bin/satscan-armhf zig-out/bin/satscan-mipsel || true
+
+      - name: Sumy kontrolne
+        working-directory: satscan/zig-out/bin
+        run: sha256sum satscan-* | tee SHA256SUMS
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: satscan-binaries
+          path: |
+            satscan/zig-out/bin/satscan-*
+            satscan/zig-out/bin/SHA256SUMS
+          if-no-files-found: error
+
+  release:
+    if: startsWith(github.ref, 'refs/tags/satscan-v')
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: satscan-binaries
+          path: dist
+
+      - name: Release z binarkami
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="${GITHUB_REF#refs/tags/}"
+          gh release create "$tag" dist/satscan-armhf dist/satscan-mipsel dist/SHA256SUMS \
+            --title "$tag" \
+            --notes "satscan — skan list Polsat/Canal+ z tunera DVB-S2 (13°E).
+          Binarki statyczne (musl): **satscan-armhf** (ARMv7, bez NEON — działa na każdym ARM-owym dekoderze) i **satscan-mipsel** (MIPS32 r1, starsze Broadcomy).
+          Użycie: \`satscan --provider canalplus|polsat\` — tuner i unicable dobierane automatycznie z /etc/enigma2/settings."
