@@ -1,0 +1,15 @@
+# Przyklad konfiguracji uploadu dla scripts/upload_release.py
+# Skopiuj do upload.local.toml (plik lokalny, poza repo - patrz .gitignore).
+# Silnik nie zna zadnego z tych adresow ani hasel - pochodza wylacznie stad.
+
+# Baza serwisu transfer.sh (opcjonalna, domyslnie https://transfer.whalebone.io).
+transfer_base = "https://transfer.whalebone.io"
+
+# Cele mirrora - do kazdego wysylany jest komplet plikow. Obslugiwane: ftp://
+# (user:haslo@host:port z opcjonalnym katalogiem docelowym w sciezce).
+destinations = [
+  "ftp://user:password@host:port/katalog/",
+]
+
+# Opcjonalnie: dodatkowe pliki dorzucane do mirrora obok przekazanych w wywolaniu.
+include_files = []
