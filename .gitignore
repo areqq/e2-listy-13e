@@ -6,3 +6,7 @@ E2_HD_settings_*.zip
 *.zip
 STATUS.md
 codedb.snapshot
+
+# lokalne konfiguracje post-procesora (tresc modyfikacji trzymana poza repo)
+*.local.toml
+*.local.json
