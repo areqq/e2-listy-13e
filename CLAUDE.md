@@ -76,9 +76,13 @@ Plików wejściowych (cudzych list) nie commitujemy do repo — zostają lokalni
 Skórka BlackHarmonyFHD (eeRepo j00zeka) czyta pikony z `/usr/share/enigma2/picon/` (220×132)
 i `/usr/share/enigma2/zzpicon/` (400×170), najpierw po referencji
 (`1_0_19_32D7_190_13E_820000_0_0_0.png`), potem po znormalizowanej nazwie kanału.
-`scripts/make_picons.py <settings> <out> [names_db.json]` pobiera najnowsze paczki zet71
-i buduje `picon.tar`/`zzpicon.tar` dla naszych bukietów: pliki po nazwach + symlinki po
-referencjach (rozpakować w `/usr/share/enigma2/`).
+Pikony trzymamy NA STAŁE w repo (store `picons/` z podkatalogami `picon/` i `zzpicon/`) —
+to źródło budowy tarów, odporne na zniknięcie zewnętrznych źródeł.
+`scripts/make_picons.py <settings> <store> <out> [names_db.json]` buduje `picon.tar`/`zzpicon.tar`
+z tego store OFFLINE (bez pobierania): pliki + symlinki po referencji, wszystkich znanych
+pisowniach i dla wpisów strumieniowych (rozpakować w `/usr/share/enigma2/`).
+Store odświeżamy osobno: `scripts/update_picons.py <settings> <store> [names_db.json]`
+dokłada/aktualizuje pikony z najnowszych paczek zet71 (raz pobrane zostają w repo).
 
 Dopasowanie nazw: warianty końcówek (hd/uhd/4k), reguły pl↔polska, docu↔doku,
 viasat→polsatviasat, tv±, aliasy jawne, difflib z blokadą różnych cyfr (żeby Eurosport 3
@@ -95,9 +99,8 @@ Gdy pikony brakuje w jednym rozmiarze, a jest w drugim, trafia do tara zastępcz
 renderer i tak skaluje do rozmiaru widgetu (`setScale(1)`), a między katalogami sam nie
 przeszukuje.
 
-Dziury zestawu zet71 łata lokalna baza `picons_local/` (podkatalogi picon/ i zzpicon/),
-podawana make_picons.py jako ostatni fallback. Buduje ją
-`scripts/fetch_missing_picons.py <settings> <names_db.json> picons_local` (wymaga Pillow —
+Dziury zestawu zet71 (czego zet71 nie ma) dokłada do store
+`scripts/fetch_missing_picons.py <settings> <names_db.json> picons` (wymaga Pillow —
 jedyny skrypt z zależnością): loga bierze z github.com/picons/picons (build-source/logos/,
 warianty .light czytelniejsze na ciemnej skórce; SVG renderowane przez `qlmanage -t`),
 dopasowanie nazw jak w make_picons + aliasy. Wycinanie bieli tylko dla obrazów bez kanału

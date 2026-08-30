@@ -1,15 +1,18 @@
-"""Budowa picon.tar i zzpicon.tar z najnowszych paczek zet71 (eeRepo j00zeka)
-dla kanalow z wybranych bukietow naszej listy.
+"""Budowa picon.tar i zzpicon.tar z NASZEGO repozytorium pikon (offline).
 
-Pliki nazywane sa znormalizowana nazwa kanalu (algorytm renderera j00zekPicons),
-a obok powstaja symlinki po referencji uslugi (1_0_19_32D7_190_13E_820000_0_0_0.png),
-wiec pikony znajduja sie i po nazwie, i po referencji.
+Pikony trzymamy na stale w repo (katalog store z podkatalogami picon/ i zzpicon/);
+ten skrypt tylko sklada z nich tary dla kanalow z bukietow - bez pobierania z sieci,
+wiec dziala nawet gdy zrodlo zniknie. Store odswieza sie osobno:
+  scripts/update_picons.py       - z paczek zet71 (eeRepo j00zeka),
+  scripts/fetch_missing_picons.py - z github.com/picons/picons (czego zet71 nie ma).
 
-Uzycie: python3 scripts/make_picons.py <katalog_settings> <katalog_wyjsciowy> [names_db.json] [baza_lokalna] [bukiet.tv ...]
+W tarze: plik pikony + symlinki po referencji uslugi
+(1_0_19_32D7_190_13E_820000_0_0_0.png), po wszystkich znanych pisowniach nazwy
+oraz dla wpisow strumieniowych - wiec pikona lapie sie na rozne sposoby.
+
+Uzycie: python3 scripts/make_picons.py <katalog_settings> <store> <katalog_wyjsciowy> [names_db.json] [bukiet.tv ...]
 Podanie names_db.json (ze scripts/build_names_db.py) wlacza dopasowywanie takze
-po rownowaznych nazwach kanalu z innych list i KingOfSat. Baza lokalna (katalog
-z podkatalogami picon/ i zzpicon/, np. z fetch_missing_picons.py) sluzy jako
-ostatni fallback, gdy pikony nie ma w zadnej paczce zet71.
+po rownowaznych nazwach kanalu z innych list i KingOfSat.
 Wynik:  <katalog_wyjsciowy>/picon.tar   (220x132, rozpakowac w /usr/share/enigma2/)
         <katalog_wyjsciowy>/zzpicon.tar (400x170, jw.)
 """
@@ -245,24 +248,27 @@ def build_tar(out_path: Path, subdir: str, pngs: dict[str, bytes],
     return missing
 
 
+def load_store(store_dir: Path) -> dict[str, dict[str, bytes]]:
+    pngs: dict[str, dict[str, bytes]] = {}
+    for size, sub in SUBDIR.items():
+        directory = store_dir / sub
+        pngs[size] = {f.stem: f.read_bytes() for f in directory.glob("*.png")} if directory.is_dir() else {}
+    return pngs
+
+
 def main() -> int:
-    if len(sys.argv) < 3:
+    if len(sys.argv) < 4:
         print(__doc__)
         return 2
     settings_dir = Path(sys.argv[1])
-    out_dir = Path(sys.argv[2])
+    store_dir = Path(sys.argv[2])
+    out_dir = Path(sys.argv[3])
     out_dir.mkdir(parents=True, exist_ok=True)
-    rest = sys.argv[3:]
+    rest = sys.argv[4:]
     names_db: dict[str, dict[str, object]] = {}
     if rest and rest[0].endswith(".json"):
         names_db = json.loads(Path(rest[0]).read_text(encoding="utf-8"))
         print(f"baza nazw: {rest[0]} ({len(names_db)} uslug)")
-        rest = rest[1:]
-    local_base: dict[str, dict[str, bytes]] = {}
-    if rest and Path(rest[0]).is_dir() and any((Path(rest[0]) / sub).is_dir() for sub in SUBDIR.values()):
-        for sub in SUBDIR.values():
-            local_base[sub] = {f.stem: f.read_bytes() for f in (Path(rest[0]) / sub).glob("*.png")}
-        print(f"baza lokalna: {rest[0]} ({sum(len(v) for v in local_base.values())} plikow)")
         rest = rest[1:]
     bouquets = rest or DEFAULT_BOUQUETS
     wanted = collect_wanted(settings_dir, bouquets, names_db)
@@ -271,17 +277,11 @@ def main() -> int:
         wanted += streams
         print(f"wpisow strumieniowych (pikon po nazwie bazowej): {len(streams)}")
     print(f"kanalow (unikalne referencje) z {len(bouquets)} bukietow: {len(wanted)}")
-    packages = newest_packages()
-    pngs_by_size: dict[str, dict[str, bytes]] = {}
-    for size, pkg_name in sorted(packages.items()):
-        print(f"pobieram {pkg_name} ...")
-        pngs_by_size[size] = ipk_pngs(http_get(RAW_BASE + pkg_name))
-    for size in sorted(packages):
+    pngs_by_size = load_store(store_dir)
+    print(f"repo pikon: {store_dir} ({sum(len(v) for v in pngs_by_size.values())} plikow)")
+    for size in SUBDIR:
         other = next(s for s in SUBDIR if s != size)
-        fallbacks: list[tuple[str, dict[str, bytes]]] = [(other, pngs_by_size[other])]
-        if local_base:
-            fallbacks.append(("baza lokalna", local_base.get(SUBDIR[size], {})))
-            fallbacks.append(("baza lokalna (inny rozmiar)", local_base.get(other, {})))
+        fallbacks = [(f"{SUBDIR[other]} (inny rozmiar)", pngs_by_size[other])]
         missing = build_tar(out_dir / f"{SUBDIR[size]}.tar", SUBDIR[size],
                             pngs_by_size[size], fallbacks, wanted)
         for w in missing:
