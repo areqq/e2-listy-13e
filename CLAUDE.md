@@ -60,9 +60,9 @@ projektu), wykonaj cały łańcuch:
 2. odśwież `names_db.json` (build_names_db), zbuduj pikony:
    `make_picons.py work/<DDMMRR> picons_out names_db.json picons_local`;
    braki dociągnij `fetch_missing_picons.py` i przebuduj — ma być 0 braków;
-3. wrzuć na https://transfer.whalebone.io OSOBNO: `picon.tar`, `zzpicon.tar` oraz zip listy,
-   a do tego KOMPLET jako jeden `komplet_<DDMMRR>.tar` (zip listy + oba tary pikon);
-   każdy zwrócony URL od razu zweryfikuj GET-em (serwis umie oddać martwy link — wtedy ponów);
+3. opublikuj przez `scripts/upload_release.py` komplet: zip listy, `picon.tar`, `zzpicon.tar`
+   oraz `komplet_<DDMMRR>.tar` (zip + oba tary pikon). Skrypt wrzuca na transfer.whalebone.io
+   (weryfikuje linki) i robi mirror do celów z `upload.local.toml`, jeśli istnieje;
 4. podaj userowi wszystkie linki + krótkie podsumowanie zmian w liście.
 
 Plików wejściowych (cudzych list) nie commitujemy do repo — zostają lokalnie.
