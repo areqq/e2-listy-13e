@@ -47,19 +47,25 @@ LOCAL=$(head -n1 "$E2ROOT/userbouquet.version" 2>/dev/null | tr -dc '0-9' || tru
 LOCAL="${LOCAL:-0}"
 [ -n "$REMOTE" ] || { echo "pusta/zla zawartosc version"; exit 1; }
 
-if [ "$REMOTE" -le "$LOCAL" ]; then
-  echo "lista aktualna (lokalna=$LOCAL, zdalna=$REMOTE)"
+if [ "${FORCE:-0}" != 1 ] && [ "$REMOTE" -le "$LOCAL" ]; then
+  echo "lista aktualna (lokalna=$LOCAL, zdalna=$REMOTE) - FORCE=1 wymusza"
   exit 0
 fi
 echo "nowa wersja $REMOTE (lokalna $LOCAL) - aktualizuje..."
 
 for f in lista.tar picon.tar zzpicon.tar; do
   fetch "${BASE}${f}" "$TMP/$f" || { echo "blad pobierania $f"; exit 1; }
+  echo "  pobrano ${f} ($(wc -c < "$TMP/$f") B)"
 done
 
 tar xf "$TMP/lista.tar"   -C "$E2ROOT"
 tar xf "$TMP/picon.tar"   -C "$PICONROOT"
 tar xf "$TMP/zzpicon.tar" -C "$PICONROOT"
+
+echo "rozpakowano:"
+echo "  lista:   $(ls "$E2ROOT"/userbouquet.*.tv 2>/dev/null | wc -l) bukietow, lamedb $(wc -l < "$E2ROOT/lamedb" 2>/dev/null || echo 0) linii"
+echo "  picon:   $(ls "$PICONROOT/picon" 2>/dev/null | wc -l) plikow ($(du -sh "$PICONROOT/picon" 2>/dev/null | cut -f1))"
+echo "  zzpicon: $(ls "$PICONROOT/zzpicon" 2>/dev/null | wc -l) plikow ($(du -sh "$PICONROOT/zzpicon" 2>/dev/null | cut -f1))"
 
 # przeladowanie lamedb + bukietow przez OpenWebif (mode=0), bez restartu GUI
 reloaded=0
