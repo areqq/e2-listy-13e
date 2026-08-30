@@ -15,3 +15,6 @@ codedb.snapshot
 # lokalne konfiguracje post-procesora (tresc modyfikacji trzymana poza repo)
 *.local.toml
 *.local.json
+satscan/satscan-armhf
+satscan/.zig-cache/
+satscan/zig-out/
