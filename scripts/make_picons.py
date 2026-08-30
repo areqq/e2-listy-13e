@@ -42,6 +42,7 @@ DEFAULT_BOUQUETS = [
     "userbouquet.dbe24.tv",  # *Info
 ]
 USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"
+STREAM_TAG_RE = re.compile(r"\s*\([^)]*\)\s*$")
 ALIASES = {
     "canalplus1premiumhd": "canalpluspremiumhd",
     "travelhd": "travelchannelhd",
@@ -104,6 +105,28 @@ def normalize_name(channel: str) -> str:
     lowered = channel.lower().replace("&", "and").replace("+", "plus").replace("*", "star").replace(" hevc", "")
     ascii_name = unicodedata.normalize("NFKD", lowered).encode("ascii", "ignore").decode()
     return re.sub("[^a-z0-9]", "", ascii_name)
+
+
+def collect_streams(settings_dir: Path, bouquets: list[str]) -> list[Wanted]:
+    """Wpisy strumieniowe (z URL w polu 11) - pikon bierzemy po nazwie bazowej
+    (bez tagu w nawiasie), a symlinki tworzymy po referencji i po pelnej nazwie."""
+    streams: dict[str, Wanted] = {}
+    for bq in bouquets:
+        for raw in (settings_dir / bq).read_text(encoding="utf-8", errors="replace").splitlines():
+            if not raw.startswith("#SERVICE 1:"):
+                continue
+            parts = raw[len("#SERVICE "):].split(":")
+            if len(parts) <= 11 or not parts[10]:
+                continue
+            ref = "_".join(parts[:10])
+            label = ":".join(parts[11:]).strip()
+            base = normalize_name(STREAM_TAG_RE.sub("", label))
+            if not base:
+                continue
+            full = normalize_name(label)
+            aliases = [full] if full != base else []
+            streams.setdefault(ref, Wanted(ref, base, label, bq, aliases))
+    return list(streams.values())
 
 
 def collect_wanted(settings_dir: Path, bouquets: list[str], names_db: dict[str, dict[str, object]]) -> list[Wanted]:
@@ -243,6 +266,10 @@ def main() -> int:
         rest = rest[1:]
     bouquets = rest or DEFAULT_BOUQUETS
     wanted = collect_wanted(settings_dir, bouquets, names_db)
+    streams = collect_streams(settings_dir, bouquets)
+    if streams:
+        wanted += streams
+        print(f"wpisow strumieniowych (pikon po nazwie bazowej): {len(streams)}")
     print(f"kanalow (unikalne referencje) z {len(bouquets)} bukietow: {len(wanted)}")
     packages = newest_packages()
     pngs_by_size: dict[str, dict[str, bytes]] = {}
