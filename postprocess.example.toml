@@ -3,7 +3,9 @@
 # i wypelnij wlasnymi danymi. Silnik nie zna zadnej z tych wartosci - pochodza
 # wylacznie stad.
 
-# Szablon pola sciezki wpisu; {key} podstawiane jest kluczem kanalu. Wymagane.
+# Opcjonalny WSPOLNY szablon sciezki; {key} = nazwa tabeli kanalu. Uzywany tylko
+# tam, gdzie kanal/extend nie ma wlasnego pola 'url'. Mozna pominac calkowicie
+# i podac 'url' osobno przy kazdym kanale.
 url_template = "scheme://host/path/{key}"
 
 # Dopisek do nazwy wpisu, ktory dostal sciezke (opcjonalny).
@@ -13,16 +15,24 @@ suffix = " (ALT)"
 # (bez wzgledu na wielkosc liter). Pusta lista = bez filtra.
 keywords = []
 
-# Podmiana istniejacych uslug: nazwa uslugi z lamedb -> klucz kanalu.
+# Podmiana istniejacych uslug. Kazdy kanal moze miec WLASNY 'url' (niezalezny
+# schemat/host); gdy go brak, uzyty jest url_template z kluczem tabeli.
 [channels.ExampleKeyA]
 aliases = ["EXAMPLE CHANNEL HD", "EXAMPLE CHANNEL"]
+url = "scheme://host-a/stream/a"
 
 [channels.ExampleKeyB]
 aliases = ["ANOTHER CHANNEL HD"]
+url = "other-scheme://host-b/b.m3u8"
 
-# Dodatkowe wpisy wstawiane po kanale-kotwicy (po jego kluczu 'name'/'after').
+# Bez wlasnego 'url' - skorzysta z url_template (-> scheme://host/path/ExampleKeyC)
+[channels.ExampleKeyC]
+aliases = ["THIRD CHANNEL"]
+
+# Dodatkowe wpisy wstawiane po kanale-kotwicy (po jego kluczu 'after').
 [[extend]]
 after = "ExampleKeyB"
-name = "ExampleKeyC"
+name = "ExampleKeyD"
 sref = "1:0:1:AAAA:BBBB:CC:0:0:0:0:"
 display = "Extra Example Channel"
+url = "scheme://host-d/stream/d"

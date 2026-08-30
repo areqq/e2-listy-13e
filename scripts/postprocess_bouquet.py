@@ -6,11 +6,14 @@ dodac) mieszka w lokalnym pliku konfiguracyjnym, trzymanym poza repozytorium.
 
 Config (TOML lub JSON), domyslnie ./postprocess.local.toml / .json albo sciezka
 ze zmiennej srodowiskowej LISTY_POSTPROC_CONFIG. Schemat - patrz postprocess.example.toml:
-  url_template : szablon pola sciezki, {key} = klucz wpisu (wymagany do podmian/extend)
+  url_template : opcjonalny wspolny szablon sciezki, {key} = klucz wpisu; uzywany
+                gdy dany kanal/extend nie ma wlasnego pola 'url'
   suffix       : dopisek do nazwy wpisu ze strumieniem (opcjonalny)
   keywords     : filtr nazw bez wzgledu na wielkosc liter (opcjonalny)
-  [channels.<key>] aliases=[...] : nazwy uslug (jak w lamedb) -> ustaw sciezke na <key>
-  [[extend]] after/name/sref/display : dodatkowy wpis wstawiany po kanale-kotwicy
+  [channels.<key>] aliases=[...] url="..." : nazwy uslug (jak w lamedb) -> ustaw
+                sciezke; kazdy kanal definiuje swoj 'url' niezaleznie (albo korzysta
+                z url_template)
+  [[extend]] after/name/sref/display/url : dodatkowy wpis wstawiany po kanale-kotwicy
 
 Uzycie: python3 scripts/postprocess_bouquet.py <katalog_settings> [config] [bukiet.tv ...]
 Bez podania bukietow przetwarza wszystkie userbouquet.*.tv. lamedb bierze z katalogu.
@@ -38,10 +41,11 @@ CONFIG_CANDIDATES = ["postprocess.local.toml", "postprocess.local.json"]
 
 @dataclass
 class Config:
-    url_template: str
+    url_template: str = ""
     suffix: str = ""
     keywords: list[str] = field(default_factory=list)
     name_to_key: dict[str, str] = field(default_factory=dict)
+    key_to_url: dict[str, str] = field(default_factory=dict)
     extends: list[dict[str, str]] = field(default_factory=list)
 
 
@@ -54,20 +58,29 @@ def load_config(path: Path) -> Config:
     else:
         raise SystemExit("brak modulu tomllib/tomli - uzyj configu .json")
     channels = data.get("channels", {})
-    name_to_key = {
-        alias.strip().upper(): key
-        for key, info in channels.items()
-        for alias in info.get("aliases", [])
-    }
-    if "url_template" not in data:
-        raise SystemExit("config bez 'url_template'")
+    name_to_key: dict[str, str] = {}
+    key_to_url: dict[str, str] = {}
+    for key, info in channels.items():
+        for alias in info.get("aliases", []):
+            name_to_key[alias.strip().upper()] = key
+        if info.get("url"):
+            key_to_url[key] = str(info["url"])
     return Config(
-        url_template=str(data["url_template"]),
+        url_template=str(data.get("url_template", "")),
         suffix=str(data.get("suffix", "")),
         keywords=[k.lower() for k in data.get("keywords", [])],
         name_to_key=name_to_key,
+        key_to_url=key_to_url,
         extends=list(data.get("extend", [])),
     )
+
+
+def stream_url(cfg: Config, key: str, explicit: str | None) -> str | None:
+    if explicit:
+        return explicit
+    if key in cfg.key_to_url:
+        return cfg.key_to_url[key]
+    return cfg.url_template.format(key=key) if cfg.url_template else None
 
 
 def resolve_config_path(explicit: str | None) -> Path:
@@ -115,10 +128,15 @@ def process(bouquet_path: Path, db_services: dict[ServiceKey, object], cfg: Conf
         if key is None or (cfg.keywords and not any(kw in name.lower() for kw in cfg.keywords)):
             out.append((line, None))
             continue
+        url = stream_url(cfg, key, None)
+        if url is None:
+            print(f"  UWAGA: brak url dla '{name}' (klucz {key}) - pomijam")
+            out.append((line, None))
+            continue
         while len(ref_parts) < 11:
             ref_parts.append("")
         ref_parts = ref_parts[:11]
-        ref_parts[10] = cfg.url_template.format(key=key)
+        ref_parts[10] = url
         display = name.replace(":", " ").strip()
         if cfg.suffix and not display.endswith(cfg.suffix.strip()):
             display += cfg.suffix
@@ -133,7 +151,11 @@ def process(bouquet_path: Path, db_services: dict[ServiceKey, object], cfg: Conf
         while len(sref_parts) < 11:
             sref_parts.append("")
         sref_parts = sref_parts[:11]
-        sref_parts[10] = cfg.url_template.format(key=ext["name"])
+        ext_url = stream_url(cfg, ext["name"], ext.get("url"))
+        if ext_url is None:
+            print(f"  UWAGA: brak url dla extend '{ext['name']}' - pomijam")
+            continue
+        sref_parts[10] = ext_url
         display = str(ext.get("display", ext["name"])).replace(":", " ").strip()
         if cfg.suffix and not display.endswith(cfg.suffix.strip()):
             display += cfg.suffix
