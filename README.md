@@ -49,6 +49,13 @@ poza repo (`.gitignore *.local.*`); wzorce w `postprocess.example.toml` / `uploa
 Metodyka (źródła zapowiedzi i faktów, pułapki typu reużycie SID przy rebrandingu,
 konsolidacja transponderów Canal+ 2026) — patrz [CLAUDE.md](CLAUDE.md).
 
+### Skan z anteny — [satscan](https://github.com/areqq/satscan)
+
+Osobny projekt (Zig, statyczna binarka bez zależności): skanuje ramówki platform
+13°E prosto z tunera dekodera — usługi, transpondery i numerację LCN operatora,
+albo cały satelita (`--scan-all`). Jego wyjście jest źródłem dla `build_names_db.py`
+(świeże pisownie nazw z SI) i do weryfikacji listy względem faktycznego sygnału.
+
 ### Aktualizacja na dekoderze (OTA)
 
 `e2_update.sh` porównuje `version` z lokalną `userbouquet.version` i tylko przy nowszej pobiera

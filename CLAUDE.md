@@ -33,7 +33,11 @@ work/                    rozpakowana kopia robocza (generowana, można kasować)
    (10719 V, 10796 V, 11278 V, 11411 H, 11449 H, 11488 H — wszystkie SR 27500, FEC 5/6,
    DVB-S2/8PSK) i opróżnia **10796 V (tp.114)** oraz **11411 H (tp.11)**. Kanał z tych TP,
    któremu pojawiła się kopia gdzie indziej, jest następny do wygaszenia.
-4. **Świeży skan do porównań**: paczka Vhannibal Hot Bird 13°E
+4. **Skan własny z anteny — [satscan](https://github.com/areqq/satscan)** (osobne repo):
+   `satscan --provider canalplus|polsat` daje usługi + LCN prosto z SI, `--scan-all`
+   cały satelita. Wyjście (linie T/S/L) zasila `build_names_db.py` i weryfikuje listę
+   względem sygnału (0 martwych referencji = lista zdrowa).
+5. **Świeży skan do porównań**: paczka Vhannibal Hot Bird 13°E
    (`https://www.vhannibal.net/download_setting.php?id=2&action=download`) — dobre źródło
    nowych SID-ów do `add_services`, ale bywa opóźniona względem zmian i miewa złe typy usług.
 
