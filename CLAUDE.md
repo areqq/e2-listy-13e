@@ -98,6 +98,9 @@ Skrypt sam dociąga najnowszego Vhannibala z vhannibal.net i strony KingOfSat
 https://enigma2.hswg.pl/listy-kanalow-e2-by-bzyk83/, paczka hb.zip — dokładać ręcznie.
 Tary pikon dostają symlinki dla KAŻDEJ znanej pisowni nazwy (plus referencje), więc
 działają też na listach nazywających kanały inaczej.
+ZASADA: names_db to wyłącznie baza duplikatów/pisowni do dopasowywania pikon i
+generowania wielowariantowych symlinków — NIGDY nie zmienia nazw w naszej liście
+(lamedb/bukiety zachowują swoje nazwy; rename tylko świadomie przez apply_moves).
 Gdy pikony brakuje w jednym rozmiarze, a jest w drugim, trafia do tara zastępczo —
 renderer i tak skaluje do rozmiaru widgetu (`setScale(1)`), a między katalogami sam nie
 przeszukuje.
