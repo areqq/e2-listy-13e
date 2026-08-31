@@ -62,10 +62,12 @@
  "0002:2e18:00b0": {
   "names": [
    "Al Aoula Laayoune HD",
-   "Laayoune TV HD"
+   "Laayoune TV HD",
+   "Al Aoula Middle East"
   ],
   "sources": {
    "Al Aoula Laayoune HD": "robocza",
+   "Al Aoula Middle East": "antena-canalplus",
    "Laayoune TV HD": "vhannibal"
   }
  },
@@ -87,10 +89,12 @@
  },
  "0003:1964:013e": {
   "names": [
-   "Nick Jr"
+   "Nick Jr",
+   "Nick Jr."
   ],
   "sources": {
-   "Nick Jr": "robocza"
+   "Nick Jr": "robocza",
+   "Nick Jr.": "antena-canalplus"
   }
  },
  "0003:2580:00d5": {
@@ -220,10 +224,12 @@
  "0007:2e18:00b0": {
   "names": [
    "2M Monde HD",
-   "2M MONDE HD"
+   "2M MONDE HD",
+   "2M Monde"
   ],
   "sources": {
    "2M MONDE HD": "vhannibal",
+   "2M Monde": "antena-canalplus",
    "2M Monde HD": "robocza"
   }
  },
@@ -314,11 +320,13 @@
  "000d:1964:013e": {
   "names": [
    "Paramount Network PL",
-   "Paramount Network Polska"
+   "Paramount Network Polska",
+   "Paramount Network Polska HD"
   ],
   "sources": {
    "Paramount Network PL": "robocza",
-   "Paramount Network Polska": "vhannibal"
+   "Paramount Network Polska": "vhannibal",
+   "Paramount Network Polska HD": "antena-canalplus"
   }
  },
  "000d:2580:00d5": {
@@ -379,10 +387,12 @@
  },
  "0010:1964:013e": {
   "names": [
-   "Polsat Comedy Central Extra"
+   "Polsat Comedy Central Extra",
+   "Polsat Comedy Central Extra HD"
   ],
   "sources": {
-   "Polsat Comedy Central Extra": "robocza"
+   "Polsat Comedy Central Extra": "robocza",
+   "Polsat Comedy Central Extra HD": "antena-canalplus"
   }
  },
  "0010:2580:00d5": {
@@ -463,6 +473,14 @@
    "STAR Crime": "kingofsat"
   }
  },
+ "0016:1e78:0071": {
+  "names": [
+   "Consumer Cam"
+  ],
+  "sources": {
+   "Consumer Cam": "antena-polsat"
+  }
+ },
  "0016:2580:00d5": {
   "names": [
    "Star Crime Bulgaria",
@@ -508,10 +526,12 @@
  "001a:2580:00d5": {
   "names": [
    "Radio Eparhiiski glas",
-   "12635V SID 0x1a"
+   "12635V SID 0x1a",
+   "No Name"
   ],
   "sources": {
    "12635V SID 0x1a": "vhannibal",
+   "No Name": "antena-13e",
    "Radio Eparhiiski glas": "robocza"
   }
  },
@@ -575,6 +595,14 @@
   ],
   "sources": {
    "STAR Channel": "kingofsat"
+  }
+ },
+ "0020:0021:0085": {
+  "names": [
+   "Sonnenklar TV"
+  ],
+  "sources": {
+   "Sonnenklar TV": "antena-canalplus"
   }
  },
  "0020:1964:013e": {
@@ -763,12 +791,28 @@
    "BNR Plovdiv": "robocza"
   }
  },
+ "002e:0021:0085": {
+  "names": [
+   "Handystar TV 2"
+  ],
+  "sources": {
+   "Handystar TV 2": "antena-canalplus"
+  }
+ },
  "002e:2580:00d5": {
   "names": [
    "Radio Fresh"
   ],
   "sources": {
    "Radio Fresh": "robocza"
+  }
+ },
+ "002f:0021:0085": {
+  "names": [
+   "Regio TV"
+  ],
+  "sources": {
+   "Regio TV": "antena-canalplus"
   }
  },
  "002f:2580:00d5": {
@@ -785,6 +829,14 @@
   ],
   "sources": {
    ".": "bzyk83"
+  }
+ },
+ "0030:0005:0085": {
+  "names": [
+   "N24 DOKU"
+  ],
+  "sources": {
+   "N24 DOKU": "antena-canalplus"
   }
  },
  "0030:2580:00d5": {
@@ -817,6 +869,14 @@
   ],
   "sources": {
    "Agadir": "robocza"
+  }
+ },
+ "0033:0021:0085": {
+  "names": [
+   "Tele 5 Germany"
+  ],
+  "sources": {
+   "Tele 5 Germany": "antena-canalplus"
   }
  },
  "0033:2580:00d5": {
@@ -899,6 +959,14 @@
    "Houceima": "robocza"
   }
  },
+ "003d:0007:0085": {
+  "names": [
+   "NICK / CC"
+  ],
+  "sources": {
+   "NICK / CC": "antena-canalplus"
+  }
+ },
  "003d:1964:013e": {
   "names": [
    "Eurosport 3 HD"
@@ -931,6 +999,14 @@
    "Radio Veselina S": "vhannibal"
   }
  },
+ "003f:0021:0085": {
+  "names": [
+   "DMAX"
+  ],
+  "sources": {
+   "DMAX": "antena-canalplus"
+  }
+ },
  "003f:1964:013e": {
   "names": [
    "VOD 205"
@@ -961,6 +1037,14 @@
   ],
   "sources": {
    "N-JOY Reg 1": "robocza"
+  }
+ },
+ "0041:0007:0085": {
+  "names": [
+   "DELUXE MUSIC"
+  ],
+  "sources": {
+   "DELUXE MUSIC": "antena-canalplus"
   }
  },
  "0041:1964:013e": {
@@ -1057,6 +1141,14 @@
   ],
   "sources": {
    "Fresh K": "vhannibal"
+  }
+ },
+ "0049:0007:0085": {
+  "names": [
+   "DMAX Austria"
+  ],
+  "sources": {
+   "DMAX Austria": "antena-canalplus"
   }
  },
  "0049:1770:00be": {
@@ -1423,6 +1515,14 @@
    "3+": "robocza"
   }
  },
+ "0064:1db0:013e": {
+  "names": [
+   "VoA TV Europe"
+  ],
+  "sources": {
+   "VoA TV Europe": "antena-polsat"
+  }
+ },
  "0064:3264:013e": {
   "names": [
    "3+HD",
@@ -1572,10 +1672,12 @@
  "0067:251c:00d5": {
   "names": [
    "BNT1 HD",
-   "БНТ1 HD"
+   "БНТ1 HD",
+   "ą˝Â1 HD"
   ],
   "sources": {
    "BNT1 HD": "robocza",
+   "ą˝Â1 HD": "antena-13e",
    "БНТ1 HD": "vhannibal"
   }
  },
@@ -1625,9 +1727,11 @@
  },
  "0068:1770:00be": {
   "names": [
-   "Virgin radio"
+   "Virgin radio",
+   "Virgin Radio"
   ],
   "sources": {
+   "Virgin Radio": "antena-canalplus",
    "Virgin radio": "robocza"
   }
  },
@@ -1785,6 +1889,14 @@
   "sources": {
    "Kabelio Tele Zueri": "vhannibal",
    "TeleZüri HD": "robocza"
+  }
+ },
+ "006c:000c:0085": {
+  "names": [
+   "Sky Sport News HD"
+  ],
+  "sources": {
+   "Sky Sport News HD": "antena-canalplus"
   }
  },
  "006c:00c8:013e": {
@@ -1975,9 +2087,11 @@
  },
  "0070:2fa8:013e": {
   "names": [
-   "Nastoyashcheye Vremya"
+   "Nastoyashcheye Vremya",
+   "Current Time TV"
   ],
   "sources": {
+   "Current Time TV": "antena-canalplus",
    "Nastoyashcheye Vremya": "robocza"
   }
  },
@@ -2054,10 +2168,12 @@
  "0072:251c:00d5": {
   "names": [
    "BNT 2",
-   "БНТ 2"
+   "БНТ 2",
+   "ą˝Â 2"
   ],
   "sources": {
    "BNT 2": "robocza",
+   "ą˝Â 2": "antena-13e",
    "БНТ 2": "vhannibal"
   }
  },
@@ -2132,10 +2248,12 @@
  "0074:251c:00d5": {
   "names": [
    "Diema HD",
-   "Диема HD"
+   "Диема HD",
+   "´ŘŐÜĐ HD"
   ],
   "sources": {
    "Diema HD": "robocza",
+   "´ŘŐÜĐ HD": "antena-13e",
    "Диема HD": "vhannibal"
   }
  },
@@ -2168,10 +2286,12 @@
  "0075:251c:00d5": {
   "names": [
    "Diema Family HD",
-   "Диема Фемили HD"
+   "Диема Фемили HD",
+   "´ŘŐÜĐ ÄŐÜŘŰŘ HD"
   ],
   "sources": {
    "Diema Family HD": "robocza",
+   "´ŘŐÜĐ ÄŐÜŘŰŘ HD": "antena-13e",
    "Диема Фемили HD": "vhannibal"
   }
  },
@@ -2453,11 +2573,13 @@
   "names": [
    "TgCom24 HD",
    "TGCOM24 HD",
-   "TGCOM24"
+   "TGCOM24",
+   "TgCom24"
   ],
   "sources": {
    "TGCOM24": "bzyk83",
    "TGCOM24 HD": "vhannibal",
+   "TgCom24": "antena-canalplus",
    "TgCom24 HD": "robocza"
   }
  },
@@ -2650,10 +2772,12 @@
  "0086:251c:00d5": {
   "names": [
    "Lowno-Ribarski Klub",
-   "Ловно-рибарски клуб"
+   "Ловно-рибарски клуб",
+   "ťŢŇÝŢ-ŕŘŃĐŕáÚŘ ÚŰăŃ"
   ],
   "sources": {
    "Lowno-Ribarski Klub": "robocza",
+   "ťŢŇÝŢ-ŕŘŃĐŕáÚŘ ÚŰăŃ": "antena-13e",
    "Ловно-рибарски клуб": "vhannibal"
   }
  },
@@ -2905,6 +3029,14 @@
   "names": [],
   "sources": {}
  },
+ "00a0:0007:0085": {
+  "names": [
+   "ROCKANTENNE"
+  ],
+  "sources": {
+   "ROCKANTENNE": "antena-canalplus"
+  }
+ },
  "00a7:0000:0000": {
   "names": [
    "."
@@ -2927,6 +3059,38 @@
   ],
   "sources": {
    ".": "bzyk83"
+  }
+ },
+ "00a9:0007:0085": {
+  "names": [
+   "sunshine live"
+  ],
+  "sources": {
+   "sunshine live": "antena-canalplus"
+  }
+ },
+ "00aa:0007:0085": {
+  "names": [
+   "ANTENNE BAYERN"
+  ],
+  "sources": {
+   "ANTENNE BAYERN": "antena-canalplus"
+  }
+ },
+ "00ac:0005:0085": {
+  "names": [
+   "egoFM"
+  ],
+  "sources": {
+   "egoFM": "antena-canalplus"
+  }
+ },
+ "00ad:0005:0085": {
+  "names": [
+   "Klassik Radio"
+  ],
+  "sources": {
+   "Klassik Radio": "antena-canalplus"
   }
  },
  "00b1:0000:0000": {
@@ -3086,10 +3250,12 @@
  "00cc:25e4:00d5": {
   "names": [
    "Tiankov Folk",
-   "Тянков Фолк"
+   "Тянков Фолк",
+   "ÂďÝÚŢŇ ÄŢŰÚ"
   ],
   "sources": {
    "Tiankov Folk": "robocza",
+   "ÂďÝÚŢŇ ÄŢŰÚ": "antena-13e",
    "Тянков Фолк": "vhannibal"
   }
  },
@@ -3178,10 +3344,12 @@
  "00d1:25e4:00d5": {
   "names": [
    "Planeta Folk",
-   "Планета Фолк"
+   "Планета Фолк",
+   "żŰĐÝŐâĐ ÄŢŰÚ"
   ],
   "sources": {
    "Planeta Folk": "robocza",
+   "żŰĐÝŐâĐ ÄŢŰÚ": "antena-13e",
    "Планета Фолк": "vhannibal"
   }
  },
@@ -3204,10 +3372,12 @@
  "00d3:25e4:00d5": {
   "names": [
    "Folklor TV",
-   "Фолклор ТВ"
+   "Фолклор ТВ",
+   "ÄŢŰÚŰŢŕ Â˛"
   ],
   "sources": {
    "Folklor TV": "robocza",
+   "ÄŢŰÚŰŢŕ Â˛": "antena-13e",
    "Фолклор ТВ": "vhannibal"
   }
  },
@@ -3280,10 +3450,12 @@
  "00d6:25e4:00d5": {
   "names": [
    "Fashion TV",
-   "Без Багаж"
+   "Без Багаж",
+   "ąŐ× ąĐÓĐÖ"
   ],
   "sources": {
    "Fashion TV": "robocza",
+   "ąŐ× ąĐÓĐÖ": "antena-13e",
    "Без Багаж": "vhannibal"
   }
  },
@@ -3608,10 +3780,12 @@
  "00ea:25e4:00d5": {
   "names": [
    "Ckat TV",
-   "СКАТ"
+   "СКАТ",
+   "Áş°Â"
   ],
   "sources": {
    "Ckat TV": "robocza",
+   "Áş°Â": "antena-13e",
    "СКАТ": "vhannibal"
   }
  },
@@ -3952,10 +4126,12 @@
  "0109:25e4:00d5": {
   "names": [
    "Bulgaria 24",
-   "България 24"
+   "България 24",
+   "ąęŰÓĐŕŘď 24"
   ],
   "sources": {
    "Bulgaria 24": "robocza",
+   "ąęŰÓĐŕŘď 24": "antena-13e",
    "България 24": "vhannibal"
   }
  },
@@ -4072,6 +4248,38 @@
   "sources": {
    "Vivid TV": "kingofsat"
   }
+ },
+ "0110:3070:013e": {
+  "names": [],
+  "sources": {}
+ },
+ "0111:3070:013e": {
+  "names": [],
+  "sources": {}
+ },
+ "0112:3070:013e": {
+  "names": [],
+  "sources": {}
+ },
+ "0113:3070:013e": {
+  "names": [],
+  "sources": {}
+ },
+ "0114:3070:013e": {
+  "names": [],
+  "sources": {}
+ },
+ "0115:3070:013e": {
+  "names": [],
+  "sources": {}
+ },
+ "0116:3070:013e": {
+  "names": [],
+  "sources": {}
+ },
+ "0117:3070:013e": {
+  "names": [],
+  "sources": {}
  },
  "0126:0000:0000": {
   "names": [
@@ -4226,10 +4434,12 @@
  "0136:157c:013e": {
   "names": [
    "Greek Church",
-   "Εκκλησία της Ελλάδος"
+   "Εκκλησία της Ελλάδος",
+   "Ĺęęëçóßá ôçň ĹëëÜäďň"
   ],
   "sources": {
    "Greek Church": "robocza",
+   "Ĺęęëçóßá ôçň ĹëëÜäďň": "antena-13e",
    "Εκκλησία της Ελλάδος": "vhannibal"
   }
  },
@@ -4276,10 +4486,12 @@
  "0138:2648:00d5": {
   "names": [
    "BNT 3",
-   "БНТ 3"
+   "БНТ 3",
+   "ą˝Â 3"
   ],
   "sources": {
    "BNT 3": "robocza",
+   "ą˝Â 3": "antena-13e",
    "БНТ 3": "vhannibal"
   }
  },
@@ -4374,10 +4586,12 @@
  "013d:2648:00d5": {
   "names": [
    "Planeta HD",
-   "Планета HD"
+   "Планета HD",
+   "żŰĐÝŐâĐ HD"
   ],
   "sources": {
    "Planeta HD": "robocza",
+   "żŰĐÝŐâĐ HD": "antena-13e",
    "Планета HD": "vhannibal"
   }
  },
@@ -4416,10 +4630,12 @@
  "013f:157c:013e": {
   "names": [
    "Kanali Voulis",
-   "Βουλή"
+   "Βουλή",
+   "ÂďőëŢ"
   ],
   "sources": {
    "Kanali Voulis": "robocza",
+   "ÂďőëŢ": "antena-13e",
    "Βουλή": "vhannibal"
   }
  },
@@ -4615,6 +4831,22 @@
   "names": [],
   "sources": {}
  },
+ "0158:157c:013e": {
+  "names": [],
+  "sources": {}
+ },
+ "0159:157c:013e": {
+  "names": [],
+  "sources": {}
+ },
+ "015d:157c:013e": {
+  "names": [
+   "Cobalt Data"
+  ],
+  "sources": {
+   "Cobalt Data": "antena-13e"
+  }
+ },
  "015f:1c84:013e": {
   "names": [
    "Discovery Channel",
@@ -4689,6 +4921,14 @@
   "sources": {
    "OPEN BEYOND HD": "vhannibal",
    "Open Beyond TV": "robocza"
+  }
+ },
+ "0167:1c84:013e": {
+  "names": [
+   "Cobalt Data"
+  ],
+  "sources": {
+   "Cobalt Data": "antena-13e"
   }
  },
  "0168:157c:013e": {
@@ -4791,9 +5031,11 @@
  },
  "0174:1c84:013e": {
   "names": [
-   "ΣΤΟ ΚΟΚΚΙΝΟ 105,5"
+   "ΣΤΟ ΚΟΚΚΙΝΟ 105,5",
+   "ÓÔĎ ĘĎĘĘÉÍĎ 105,5"
   ],
   "sources": {
+   "ÓÔĎ ĘĎĘĘÉÍĎ 105,5": "antena-13e",
    "ΣΤΟ ΚΟΚΚΙΝΟ 105,5": "vhannibal"
   }
  },
@@ -4807,9 +5049,11 @@
  },
  "0176:1c84:013e": {
   "names": [
-   "ΠΑΡΑΠΟΛΙΤΙΚΑ FM 90,1"
+   "ΠΑΡΑΠΟΛΙΤΙΚΑ FM 90,1",
+   "ĐÁŃÁĐĎËÉÔÉĘÁ FM 90,1"
   ],
   "sources": {
+   "ĐÁŃÁĐĎËÉÔÉĘÁ FM 90,1": "antena-13e",
    "ΠΑΡΑΠΟΛΙΤΙΚΑ FM 90,1": "vhannibal"
   }
  },
@@ -4834,10 +5078,12 @@
  "017a:1c84:013e": {
   "names": [
    "EPT 1 HD",
-   "ΕΡΤ1 HD"
+   "ΕΡΤ1 HD",
+   "ĹŃÔ1 HD"
   ],
   "sources": {
    "EPT 1 HD": "robocza",
+   "ĹŃÔ1 HD": "antena-13e",
    "ΕΡΤ1 HD": "vhannibal"
   }
  },
@@ -4898,10 +5144,12 @@
  "0185:1c84:013e": {
   "names": [
    "ERT 2 Sport HD",
-   "ΕΡΤ2 ΣΠΟΡ"
+   "ΕΡΤ2 ΣΠΟΡ",
+   "ĹŃÔ2 ÓĐĎŃ"
   ],
   "sources": {
    "ERT 2 Sport HD": "robocza",
+   "ĹŃÔ2 ÓĐĎŃ": "antena-13e",
    "ΕΡΤ2 ΣΠΟΡ": "vhannibal"
   }
  },
@@ -5155,12 +5403,22 @@
    "P_TEST": "vhannibal"
   }
  },
+ "01ae:1518:013e": {
+  "names": [
+   "Cobalt Data"
+  ],
+  "sources": {
+   "Cobalt Data": "antena-13e"
+  }
+ },
  "01f5:0384:013e": {
   "names": [
    "Iran Inter. HD",
-   "Iran International HD"
+   "Iran International HD",
+   "Iran Int HD"
   ],
   "sources": {
+   "Iran Int HD": "antena-canalplus",
    "Iran Inter. HD": "robocza",
    "Iran International HD": "vhannibal"
   }
@@ -5196,11 +5454,13 @@
  "01fa:0384:013e": {
   "names": [
    "Rudaw HD",
-   "RUDAW HD"
+   "RUDAW HD",
+   "Rudaw HD."
   ],
   "sources": {
    "RUDAW HD": "vhannibal",
-   "Rudaw HD": "robocza"
+   "Rudaw HD": "robocza",
+   "Rudaw HD.": "antena-canalplus"
   }
  },
  "01fb:0384:013e": {
@@ -5213,9 +5473,11 @@
  },
  "01fc:0384:013e": {
   "names": [
-   "Kurdistan 24 HD"
+   "Kurdistan 24 HD",
+   "Kurdistan 24"
   ],
   "sources": {
+   "Kurdistan 24": "antena-polsat",
    "Kurdistan 24 HD": "robocza"
   }
  },
@@ -5235,12 +5497,24 @@
    "Vilayet TV": "robocza"
   }
  },
+ "0201:0384:013e": {
+  "names": [
+   "Radionorba TV"
+  ],
+  "sources": {
+   "Radionorba TV": "antena-polsat"
+  }
+ },
  "0202:0384:013e": {
   "names": [
    "RTL 102.5 TV HD",
-   "RTL 102.5 HD"
+   "RTL 102.5 HD",
+   "RTL 102,5 HD",
+   "102.5 HIT CH"
   ],
   "sources": {
+   "102.5 HIT CH": "antena-polsat",
+   "RTL 102,5 HD": "antena-canalplus",
    "RTL 102.5 HD": "vhannibal",
    "RTL 102.5 TV HD": "robocza"
   }
@@ -5248,29 +5522,35 @@
  "0203:0384:013e": {
   "names": [
    "Radio Freccia HD",
-   "RADIOFRECCIA HD"
+   "RADIOFRECCIA HD",
+   "RadioFreccia HD"
   ],
   "sources": {
    "RADIOFRECCIA HD": "vhannibal",
-   "Radio Freccia HD": "robocza"
+   "Radio Freccia HD": "robocza",
+   "RadioFreccia HD": "antena-canalplus"
   }
  },
  "0204:0384:013e": {
   "names": [
    "Zeta TV HD",
-   "RADIO ZETA HD"
+   "RADIO ZETA HD",
+   "Radio Zeta HD"
   ],
   "sources": {
    "RADIO ZETA HD": "vhannibal",
+   "Radio Zeta HD": "antena-canalplus",
    "Zeta TV HD": "robocza"
   }
  },
  "0205:0384:013e": {
   "names": [
    "RTL 102.5 Caliente",
-   "RTL 102.5 CALIENTE"
+   "RTL 102.5 CALIENTE",
+   "RTL 102,5 CALIENTE"
   ],
   "sources": {
+   "RTL 102,5 CALIENTE": "antena-canalplus",
    "RTL 102.5 CALIENTE": "vhannibal",
    "RTL 102.5 Caliente": "robocza"
   }
@@ -5294,11 +5574,13 @@
  "0215:0384:013e": {
   "names": [
    "NHK World Japan HD",
-   "NHK WORLD-JAPAN"
+   "NHK WORLD-JAPAN",
+   "NHK World TV"
   ],
   "sources": {
    "NHK WORLD-JAPAN": "vhannibal",
-   "NHK World Japan HD": "robocza"
+   "NHK World Japan HD": "robocza",
+   "NHK World TV": "antena-polsat"
   }
  },
  "0259:251c:00d5": {
@@ -5433,6 +5715,30 @@
    "Cobalt Data": "vhannibal"
   }
  },
+ "0293:0005:0085": {
+  "names": [
+   "Handystar TV"
+  ],
+  "sources": {
+   "Handystar TV": "antena-canalplus"
+  }
+ },
+ "0295:0021:0085": {
+  "names": [
+   "AstroTV"
+  ],
+  "sources": {
+   "AstroTV": "antena-canalplus"
+  }
+ },
+ "0296:0005:0085": {
+  "names": [
+   "1-2-3.tv"
+  ],
+  "sources": {
+   "1-2-3.tv": "antena-canalplus"
+  }
+ },
  "02bd:02bc:013e": {
   "names": [
    "Eurosport 1 Inter. HD",
@@ -5487,17 +5793,21 @@
  },
  "02c1:1b58:013e": {
   "names": [
-   "Al Jazeera Documentary"
+   "Al Jazeera Documentary",
+   "Al Jazeera Doc"
   ],
   "sources": {
+   "Al Jazeera Doc": "antena-canalplus",
    "Al Jazeera Documentary": "robocza"
   }
  },
  "02c2:1b58:013e": {
   "names": [
-   "Al Jazeera Mubasher"
+   "Al Jazeera Mubasher",
+   "Al Jazeera Mub"
   ],
   "sources": {
+   "Al Jazeera Mub": "antena-canalplus",
    "Al Jazeera Mubasher": "robocza"
   }
  },
@@ -5557,9 +5867,11 @@
  },
  "02c9:1b58:013e": {
   "names": [
-   "RTP International"
+   "RTP International",
+   "RTP Internacional"
   ],
   "sources": {
+   "RTP Internacional": "antena-polsat",
    "RTP International": "robocza"
   }
  },
@@ -5625,10 +5937,12 @@
  },
  "02e4:1b58:013e": {
   "names": [
-   "R. Italia S.m.i."
+   "R. Italia S.m.i.",
+   "Radio Italia Smi"
   ],
   "sources": {
-   "R. Italia S.m.i.": "robocza"
+   "R. Italia S.m.i.": "robocza",
+   "Radio Italia Smi": "antena-canalplus"
   }
  },
  "02e6:1b58:013e": {
@@ -5681,11 +5995,21 @@
    "Radio Radicale": "robocza"
   }
  },
- "02fe:1b58:013e": {
+ "02fc:0005:0085": {
   "names": [
-   "DimSuono Soft MI"
+   "Anixe TV"
   ],
   "sources": {
+   "Anixe TV": "antena-canalplus"
+  }
+ },
+ "02fe:1b58:013e": {
+  "names": [
+   "DimSuono Soft MI",
+   "DimSuono Soft  MI"
+  ],
+  "sources": {
+   "DimSuono Soft  MI": "antena-13e",
    "DimSuono Soft MI": "robocza"
   }
  },
@@ -5705,6 +6029,30 @@
    "Discoradio": "robocza"
   }
  },
+ "0301:0007:0085": {
+  "names": [
+   "Channel 21"
+  ],
+  "sources": {
+   "Channel 21": "antena-canalplus"
+  }
+ },
+ "0304:0005:0085": {
+  "names": [
+   "TLC"
+  ],
+  "sources": {
+   "TLC": "antena-canalplus"
+  }
+ },
+ "0308:0005:0085": {
+  "names": [
+   "Sixx"
+  ],
+  "sources": {
+   "Sixx": "antena-canalplus"
+  }
+ },
  "030f:0001:0001": {
   "names": [
    "Telesur HD"
@@ -5716,9 +6064,11 @@
  "030f:1f40:013e": {
   "names": [
    "Telesur HD",
-   "Telesur SD"
+   "Telesur SD",
+   "Telesur"
   ],
   "sources": {
+   "Telesur": "antena-canalplus",
    "Telesur HD": "vhannibal",
    "Telesur SD": "bzyk83"
   }
@@ -5745,9 +6095,11 @@
  },
  "031e:3bc4:013e": {
   "names": [
-   "Qatar TV HD"
+   "Qatar TV HD",
+   "Qatar TV"
   ],
   "sources": {
+   "Qatar TV": "antena-canalplus",
    "Qatar TV HD": "robocza"
   }
  },
@@ -5825,35 +6177,47 @@
  },
  "0323:3bc4:013e": {
   "names": [
-   "TRT World HD"
+   "TRT World HD",
+   "TRT Turk"
   ],
   "sources": {
+   "TRT Turk": "antena-polsat",
    "TRT World HD": "robocza"
   }
  },
  "0326:3bc4:013e": {
   "names": [
    "Bahrain TV HD",
-   "BAHRAIN TV"
+   "BAHRAIN TV",
+   "Bahrain TV"
   ],
   "sources": {
    "BAHRAIN TV": "vhannibal",
+   "Bahrain TV": "antena-canalplus",
    "Bahrain TV HD": "robocza"
   }
  },
  "0327:3bc4:013e": {
   "names": [
-   "France 24 HD (en Francais)"
+   "France 24 HD (en Francais)",
+   "FRANCE 24 FRA.",
+   "France24"
   ],
   "sources": {
-   "France 24 HD (en Francais)": "robocza"
+   "FRANCE 24 FRA.": "antena-canalplus",
+   "France 24 HD (en Francais)": "robocza",
+   "France24": "antena-polsat"
   }
  },
  "0328:3bc4:013e": {
   "names": [
-   "France 24 HD (in English)"
+   "France 24 HD (in English)",
+   "FRANCE 24 ENG.",
+   "France 24"
   ],
   "sources": {
+   "FRANCE 24 ENG.": "antena-canalplus",
+   "France 24": "antena-polsat",
    "France 24 HD (in English)": "robocza"
   }
  },
@@ -5867,10 +6231,12 @@
  },
  "0367:3c28:013e": {
   "names": [
-   "CCTV 4E"
+   "CCTV 4E",
+   "CCTV-4"
   ],
   "sources": {
-   "CCTV 4E": "vhannibal"
+   "CCTV 4E": "vhannibal",
+   "CCTV-4": "antena-canalplus"
   }
  },
  "0368:001a:0888": {
@@ -5969,6 +6335,14 @@
    "CGTN A": "vhannibal"
   }
  },
+ "0384:0021:0085": {
+  "names": [
+   "Sport 1"
+  ],
+  "sources": {
+   "Sport 1": "antena-canalplus"
+  }
+ },
  "0388:2134:013e": {
   "names": [
    "Noor Dubai Radio"
@@ -6034,18 +6408,22 @@
  "0392:2134:013e": {
   "names": [
    "Jordan TV HD",
-   "JORDAN TV"
+   "JORDAN TV",
+   "Jordan Satellite Channel"
   ],
   "sources": {
    "JORDAN TV": "vhannibal",
+   "Jordan Satellite Channel": "antena-canalplus",
    "Jordan TV HD": "robocza"
   }
  },
  "0393:2134:013e": {
   "names": [
-   "Jordan R1"
+   "Jordan R1",
+   "JORDAN R1"
   ],
   "sources": {
+   "JORDAN R1": "antena-canalplus",
    "Jordan R1": "vhannibal"
   }
  },
@@ -6062,18 +6440,22 @@
  "0395:2134:013e": {
   "names": [
    "Kuwait TV 1 HD",
-   "Kuwait TV1 HD"
+   "Kuwait TV1 HD",
+   "Kuwait TV HD"
   ],
   "sources": {
    "Kuwait TV 1 HD": "robocza",
+   "Kuwait TV HD": "antena-canalplus",
    "Kuwait TV1 HD": "vhannibal"
   }
  },
  "0396:2134:013e": {
   "names": [
-   "Kuwait Radio 1"
+   "Kuwait Radio 1",
+   "Kuwait  Radio 1"
   ],
   "sources": {
+   "Kuwait  Radio 1": "antena-13e",
    "Kuwait Radio 1": "vhannibal"
   }
  },
@@ -6088,11 +6470,13 @@
  "0398:2134:013e": {
   "names": [
    "Oman TV HD",
-   "OMAN TV HD"
+   "OMAN TV HD",
+   "Oman TV Satellite"
   ],
   "sources": {
    "OMAN TV HD": "vhannibal",
-   "Oman TV HD": "robocza"
+   "Oman TV HD": "robocza",
+   "Oman TV Satellite": "antena-canalplus"
   }
  },
  "0399:2134:013e": {
@@ -6200,18 +6584,22 @@
  "04b5:23f0:013e": {
   "names": [
    "Saudi TV HD",
-   "SAUDI TV HD"
+   "SAUDI TV HD",
+   "Saudi TV 1 HD"
   ],
   "sources": {
    "SAUDI TV HD": "vhannibal",
+   "Saudi TV 1 HD": "antena-canalplus",
    "Saudi TV HD": "robocza"
   }
  },
  "04b9:23f0:013e": {
   "names": [
-   "HotBird 4K1"
+   "HotBird 4K1",
+   "HOTBIRD 4K1"
   ],
   "sources": {
+   "HOTBIRD 4K1": "antena-polsat",
    "HotBird 4K1": "robocza"
   }
  },
@@ -6226,31 +6614,37 @@
  "0516:2e7c:013f": {
   "names": [
    "France 2",
-   "FRANCE 2"
+   "FRANCE 2",
+   "France2"
   ],
   "sources": {
    "FRANCE 2": "vhannibal",
-   "France 2": "robocza"
+   "France 2": "robocza",
+   "France2": "antena-canalplus"
   }
  },
  "0517:2e7c:013f": {
   "names": [
    "France 3",
-   "FRANCE 3"
+   "FRANCE 3",
+   "France3"
   ],
   "sources": {
    "FRANCE 3": "vhannibal",
-   "France 3": "robocza"
+   "France 3": "robocza",
+   "France3": "antena-canalplus"
   }
  },
  "0519:2e7c:013f": {
   "names": [
    "France 5",
-   "FRANCE 5"
+   "FRANCE 5",
+   "France5"
   ],
   "sources": {
    "FRANCE 5": "vhannibal",
-   "France 5": "robocza"
+   "France 5": "robocza",
+   "France5": "antena-canalplus"
   }
  },
  "051a:2e7c:013f": {
@@ -6261,14 +6655,24 @@
    "M6": "robocza"
   }
  },
+ "051b:2e7c:013e": {
+  "names": [
+   "Arte HD"
+  ],
+  "sources": {
+   "Arte HD": "antena-polsat"
+  }
+ },
  "051b:2e7c:013f": {
   "names": [
    "Arte",
-   "ARTE"
+   "ARTE",
+   "arte HD"
   ],
   "sources": {
    "ARTE": "vhannibal",
-   "Arte": "robocza"
+   "Arte": "robocza",
+   "arte HD": "antena-canalplus"
   }
  },
  "051c:2e7c:013f": {
@@ -6324,11 +6728,13 @@
  "0522:2e7c:013f": {
   "names": [
    "France 4",
-   "FRANCE 4"
+   "FRANCE 4",
+   "France4"
   ],
   "sources": {
    "FRANCE 4": "vhannibal",
-   "France 4": "robocza"
+   "France 4": "robocza",
+   "France4": "antena-canalplus"
   }
  },
  "0524:2e7c:013f": {
@@ -6698,11 +7104,13 @@
  "064d:2454:013e": {
   "names": [
    "ACI SportTV",
-   "ACISPORT TV"
+   "ACISPORT TV",
+   "ACI_sportTV"
   ],
   "sources": {
    "ACI SportTV": "robocza",
-   "ACISPORT TV": "vhannibal"
+   "ACISPORT TV": "vhannibal",
+   "ACI_sportTV": "antena-canalplus"
   }
  },
  "0653:2454:013e": {
@@ -6778,11 +7186,13 @@
  "06a6:3138:013e": {
   "names": [
    "Algerie 4",
-   "TV TAMAZIGHT"
+   "TV TAMAZIGHT",
+   "TV Tamazight"
   ],
   "sources": {
    "Algerie 4": "robocza",
-   "TV TAMAZIGHT": "vhannibal"
+   "TV TAMAZIGHT": "vhannibal",
+   "TV Tamazight": "antena-canalplus"
   }
  },
  "06a7:3138:013e": {
@@ -6806,9 +7216,13 @@
  "06aa:3138:013e": {
   "names": [
    "CGTN News",
-   "CGTN"
+   "CGTN",
+   "CCTV News",
+   "CCTV News English"
   ],
   "sources": {
+   "CCTV News": "antena-canalplus",
+   "CCTV News English": "antena-polsat",
    "CGTN": "vhannibal",
    "CGTN News": "robocza"
   }
@@ -6983,6 +7397,22 @@
    "WRN Sawt Al Alam": "vhannibal"
   }
  },
+ "0701:0005:0085": {
+  "names": [
+   "Disney Channel"
+  ],
+  "sources": {
+   "Disney Channel": "antena-canalplus"
+  }
+ },
+ "0702:0005:0085": {
+  "names": [
+   "QVC"
+  ],
+  "sources": {
+   "QVC": "antena-canalplus"
+  }
+ },
  "0709:32c8:013e": {
   "names": [
    "Polsat Sport Premium 1"
@@ -7042,9 +7472,11 @@
  "07d4:22c4:013e": {
   "names": [
    "Vatican Media",
-   "Vatican Media Europa"
+   "Vatican Media Europa",
+   "Telepace HD"
   ],
   "sources": {
+   "Telepace HD": "antena-polsat",
    "Vatican Media": "robocza",
    "Vatican Media Europa": "vhannibal"
   }
@@ -7075,10 +7507,12 @@
  },
  "07d6:22c4:013e": {
   "names": [
-   "BBC Brit"
+   "BBC Brit",
+   "BBC Brit HD"
   ],
   "sources": {
-   "BBC Brit": "robocza"
+   "BBC Brit": "robocza",
+   "BBC Brit HD": "antena-canalplus"
   }
  },
  "07d9:22c4:0071": {
@@ -7092,11 +7526,13 @@
  "07d9:22c4:013e": {
   "names": [
    "BBC CBeebies",
-   "BBC Cbeebies"
+   "BBC Cbeebies",
+   "Cbeebies"
   ],
   "sources": {
    "BBC CBeebies": "robocza",
-   "BBC Cbeebies": "vhannibal"
+   "BBC Cbeebies": "vhannibal",
+   "Cbeebies": "antena-canalplus"
   }
  },
  "07db:22c4:0071": {
@@ -7133,18 +7569,22 @@
  },
  "07e0:22c4:013e": {
   "names": [
-   "BBC Brit"
+   "BBC Brit",
+   "BBC Brit HD"
   ],
   "sources": {
-   "BBC Brit": "robocza"
+   "BBC Brit": "robocza",
+   "BBC Brit HD": "antena-polsat"
   }
  },
  "07e3:22c4:013e": {
   "names": [
-   "BBC CBeebies"
+   "BBC CBeebies",
+   "BBC Cbeebies"
   ],
   "sources": {
-   "BBC CBeebies": "vhannibal"
+   "BBC CBeebies": "vhannibal",
+   "BBC Cbeebies": "antena-polsat"
   }
  },
  "07e5:22c4:013e": {
@@ -7157,10 +7597,12 @@
  },
  "07e6:22c4:013e": {
   "names": [
-   "BBC Brit"
+   "BBC Brit",
+   "BBC Brit HD"
   ],
   "sources": {
-   "BBC Brit": "vhannibal"
+   "BBC Brit": "vhannibal",
+   "BBC Brit HD": "antena-polsat"
   }
  },
  "0830:22c4:013e": {
@@ -7198,9 +7640,11 @@
  "089a:01f4:00fc": {
   "names": [
    "CBC Azerbaijan",
-   "CBC_Azerbaijan"
+   "CBC_Azerbaijan",
+   "CBC"
   ],
   "sources": {
+   "CBC": "antena-canalplus",
    "CBC Azerbaijan": "vhannibal",
    "CBC_Azerbaijan": "bzyk83"
   }
@@ -7345,14 +7789,32 @@
    "Love Nature 4K": "robocza"
   }
  },
+ "0bb8:16a8:fbff": {
+  "names": [
+   "PUSH REF SD 3000"
+  ],
+  "sources": {
+   "PUSH REF SD 3000": "antena-13e"
+  }
+ },
+ "0bb9:16a8:fbff": {
+  "names": [
+   "PUSH REF HD 3001"
+  ],
+  "sources": {
+   "PUSH REF HD 3001": "antena-13e"
+  }
+ },
  "0bea:20d0:013e": {
   "names": [
    "InUltra TV UHD",
-   "Insight TV UHD"
+   "Insight TV UHD",
+   "Inultra UHD"
   ],
   "sources": {
    "InUltra TV UHD": "robocza",
-   "Insight TV UHD": "vhannibal"
+   "Insight TV UHD": "vhannibal",
+   "Inultra UHD": "antena-polsat"
   }
  },
  "0c1d:1e78:0071": {
@@ -7507,10 +7969,12 @@
  },
  "0c30:1e78:0071": {
   "names": [
-   "CI Polsat HD"
+   "CI Polsat HD",
+   "Crime+Investigation Polsat HD"
   ],
   "sources": {
-   "CI Polsat HD": "robocza"
+   "CI Polsat HD": "robocza",
+   "Crime+Investigation Polsat HD": "antena-canalplus"
   }
  },
  "0c31:1e78:0071": {
@@ -7559,25 +8023,37 @@
  },
  "0d49:1450:013e": {
   "names": [
-   "Rai 1 HD"
+   "Rai 1 HD",
+   "Rai 1",
+   "RAI1"
   ],
   "sources": {
+   "RAI1": "antena-polsat",
+   "Rai 1": "antena-canalplus",
    "Rai 1 HD": "robocza"
   }
  },
  "0d4a:1450:013e": {
   "names": [
-   "Rai 2 HD"
+   "Rai 2 HD",
+   "Rai 2",
+   "RAI2"
   ],
   "sources": {
+   "RAI2": "antena-polsat",
+   "Rai 2": "antena-canalplus",
    "Rai 2 HD": "robocza"
   }
  },
  "0d4b:1450:013e": {
   "names": [
-   "Rai 3 HD"
+   "Rai 3 HD",
+   "Rai 3",
+   "RAI3"
   ],
   "sources": {
+   "RAI3": "antena-polsat",
+   "Rai 3": "antena-canalplus",
    "Rai 3 HD": "robocza"
   }
  },
@@ -7617,26 +8093,32 @@
  },
  "0d71:1450:013e": {
   "names": [
-   "Rai Radio 1"
+   "Rai Radio 1",
+   "Rai Radio1"
   ],
   "sources": {
-   "Rai Radio 1": "robocza"
+   "Rai Radio 1": "robocza",
+   "Rai Radio1": "antena-canalplus"
   }
  },
  "0d72:1450:013e": {
   "names": [
-   "Rai Radio 2"
+   "Rai Radio 2",
+   "Rai Radio2"
   ],
   "sources": {
-   "Rai Radio 2": "robocza"
+   "Rai Radio 2": "robocza",
+   "Rai Radio2": "antena-canalplus"
   }
  },
  "0d73:1450:013e": {
   "names": [
-   "Rai Radio 3"
+   "Rai Radio 3",
+   "Rai Radio3"
   ],
   "sources": {
-   "Rai Radio 3": "robocza"
+   "Rai Radio 3": "robocza",
+   "Rai Radio3": "antena-canalplus"
   }
  },
  "0dad:0001:0001": {
@@ -7649,10 +8131,12 @@
  },
  "0dad:1f40:013e": {
   "names": [
-   "TVE Internacional"
+   "TVE Internacional",
+   "TVE International"
   ],
   "sources": {
-   "TVE Internacional": "vhannibal"
+   "TVE Internacional": "vhannibal",
+   "TVE International": "antena-canalplus"
   }
  },
  "0dae:0001:0001": {
@@ -7666,11 +8150,13 @@
  "0dae:1f40:013e": {
   "names": [
    "24h",
-   "24H"
+   "24H",
+   "Canal 24 Horas"
   ],
   "sources": {
    "24H": "kingofsat",
-   "24h": "vhannibal"
+   "24h": "vhannibal",
+   "Canal 24 Horas": "antena-canalplus"
   }
  },
  "0db9:1a90:fbff": {
@@ -7981,12 +8467,76 @@
    "Connessione internet Primafila": "vhannibal"
   }
  },
+ "0e57:16a8:fbff": {
+  "names": [
+   "FGDL_5800"
+  ],
+  "sources": {
+   "FGDL_5800": "antena-13e"
+  }
+ },
+ "0e59:16a8:fbff": {
+  "names": [
+   "DL IKUSI EPG"
+  ],
+  "sources": {
+   "DL IKUSI EPG": "antena-13e"
+  }
+ },
+ "0e5a:16a8:fbff": {
+  "names": [
+   "BGDL_5800"
+  ],
+  "sources": {
+   "BGDL_5800": "antena-13e"
+  }
+ },
  "0e66:16a8:fbff": {
   "names": [
    "GFD Service"
   ],
   "sources": {
    "GFD Service": "vhannibal"
+  }
+ },
+ "0e67:16a8:fbff": {
+  "names": [
+   "BEM Service"
+  ],
+  "sources": {
+   "BEM Service": "antena-13e"
+  }
+ },
+ "0e6a:16a8:fbff": {
+  "names": [
+   "Fusion BGDL 3690"
+  ],
+  "sources": {
+   "Fusion BGDL 3690": "antena-13e"
+  }
+ },
+ "0e6d:16a8:fbff": {
+  "names": [
+   "TMS Service"
+  ],
+  "sources": {
+   "TMS Service": "antena-13e"
+  }
+ },
+ "0e6e:16a8:fbff": {
+  "names": [
+   "AdSmart Metadata"
+  ],
+  "sources": {
+   "AdSmart Metadata": "antena-13e"
+  }
+ },
+ "0e6f:16a8:fbff": {
+  "names": [
+   "BDL Service"
+  ],
+  "sources": {
+   "BDL Service": "antena-13e"
   }
  },
  "0e70:16a8:fbff": {
@@ -8035,6 +8585,10 @@
    "Sky Sport Italia": "robocza"
   }
  },
+ "0f66:16a8:fbff": {
+  "names": [],
+  "sources": {}
+ },
  "0f6f:2008:fbff": {
   "names": [
    "Sky Sport Italia",
@@ -8069,6 +8623,14 @@
   ],
   "sources": {
    "Sky Cinema Restart": "robocza"
+  }
+ },
+ "1005:0451:0035": {
+  "names": [
+   "BVN"
+  ],
+  "sources": {
+   "BVN": "antena-canalplus"
   }
  },
  "1016:15e0:fbff": {
@@ -8115,6 +8677,14 @@
   "sources": {
    "Classica Italy": "robocza",
    "Sky Classica": "vhannibal"
+  }
+ },
+ "105e:1a90:fbff": {
+  "names": [
+   "Fusion BGDL 4190"
+  ],
+  "sources": {
+   "Fusion BGDL 4190": "antena-13e"
   }
  },
  "1063:1a90:fbff": {
@@ -8181,12 +8751,44 @@
    "Sky Sport Italia": "robocza"
   }
  },
+ "1090:03ee:0001": {
+  "names": [
+   "TV TRWAM"
+  ],
+  "sources": {
+   "TV TRWAM": "antena-canalplus"
+  }
+ },
+ "1091:03ee:0001": {
+  "names": [
+   "Radio Maryja"
+  ],
+  "sources": {
+   "Radio Maryja": "antena-canalplus"
+  }
+ },
  "1092:2008:fbff": {
   "names": [
    "Calcio Overlay HD"
   ],
   "sources": {
    "Calcio Overlay HD": "robocza"
+  }
+ },
+ "10c1:2008:fbff": {
+  "names": [
+   "Fusion Bootloader"
+  ],
+  "sources": {
+   "Fusion Bootloader": "antena-13e"
+  }
+ },
+ "10c4:2008:fbff": {
+  "names": [
+   "Fusion BGDL 4292"
+  ],
+  "sources": {
+   "Fusion BGDL 4292": "antena-13e"
   }
  },
  "10ca:2008:fbff": {
@@ -8220,19 +8822,23 @@
  "10df:03e8:013e": {
   "names": [
    "Historia PL",
-   "Historia Poland"
+   "Historia Poland",
+   "Discovery Historia"
   ],
   "sources": {
+   "Discovery Historia": "antena-canalplus",
    "Historia PL": "robocza",
    "Historia Poland": "vhannibal"
   }
  },
  "10e0:03e8:013e": {
   "names": [
-   "Discovery Life"
+   "Discovery Life",
+   "Discovery Life HD"
   ],
   "sources": {
-   "Discovery Life": "robocza"
+   "Discovery Life": "robocza",
+   "Discovery Life HD": "antena-canalplus"
   }
  },
  "10e1:03e8:013e": {
@@ -8272,9 +8878,11 @@
  "10e4:03e8:013e": {
   "names": [
    "Cartoonito HD",
-   "Cartoonito Poland HD"
+   "Cartoonito Poland HD",
+   "Cartoonito"
   ],
   "sources": {
+   "Cartoonito": "antena-canalplus",
    "Cartoonito HD": "robocza",
    "Cartoonito Poland HD": "vhannibal"
   }
@@ -8282,9 +8890,11 @@
  "10e5:03e8:013e": {
   "names": [
    "Cartoon Network HD",
-   "Cartoon Network Poland HD"
+   "Cartoon Network Poland HD",
+   "CARTOON Network HD"
   ],
   "sources": {
+   "CARTOON Network HD": "antena-canalplus",
    "Cartoon Network HD": "robocza",
    "Cartoon Network Poland HD": "vhannibal"
   }
@@ -8422,20 +9032,24 @@
  "113d:2af8:013e": {
   "names": [
    "Canal+ Domo HD",
-   "CANAL+ DOMO HD"
+   "CANAL+ DOMO HD",
+   "CANAL+ Domo HD"
   ],
   "sources": {
    "CANAL+ DOMO HD": "vhannibal",
+   "CANAL+ Domo HD": "antena-polsat",
    "Canal+ Domo HD": "robocza"
   }
  },
  "113e:2af8:013e": {
   "names": [
    "Canal+ Kuchnia",
-   "CANAL+ KUCHNIA"
+   "CANAL+ KUCHNIA",
+   "CANAL+ Kuchnia HD"
   ],
   "sources": {
    "CANAL+ KUCHNIA": "vhannibal",
+   "CANAL+ Kuchnia HD": "antena-polsat",
    "Canal+ Kuchnia": "robocza"
   }
  },
@@ -8460,10 +9074,12 @@
  "1141:2af8:013e": {
   "names": [
    "Private TV HD",
-   "Private HD"
+   "Private HD",
+   "Private TV"
   ],
   "sources": {
    "Private HD": "vhannibal",
+   "Private TV": "antena-polsat",
    "Private TV HD": "robocza"
   }
  },
@@ -8603,6 +9219,22 @@
    "Player": "robocza"
   }
  },
+ "118b:2af8:013e": {
+  "names": [
+   "GDATA"
+  ],
+  "sources": {
+   "GDATA": "antena-canalplus"
+  }
+ },
+ "118c:2af8:013e": {
+  "names": [
+   "STB GFR"
+  ],
+  "sources": {
+   "STB GFR": "antena-canalplus"
+  }
+ },
  "118f:2af8:013e": {
   "names": [
    "DATA"
@@ -8624,26 +9256,32 @@
  "11fb:2b5c:013e": {
   "names": [
    "TravelXP 4K",
-   "TRAVELXP 4K"
+   "TRAVELXP 4K",
+   "Travelxp 4K"
   ],
   "sources": {
    "TRAVELXP 4K": "kingofsat",
-   "TravelXP 4K": "robocza"
+   "TravelXP 4K": "robocza",
+   "Travelxp 4K": "antena-polsat"
   }
  },
  "11fc:2b5c:013e": {
   "names": [
-   "Museum 4K"
+   "Museum 4K",
+   "Museum TV 4K"
   ],
   "sources": {
-   "Museum 4K": "robocza"
+   "Museum 4K": "robocza",
+   "Museum TV 4K": "antena-polsat"
   }
  },
  "11fd:2b5c:013e": {
   "names": [
-   "MyZen 4K"
+   "MyZen 4K",
+   "MyZEN TV 4K"
   ],
   "sources": {
+   "MyZEN TV 4K": "antena-polsat",
    "MyZen 4K": "robocza"
   }
  },
@@ -8672,10 +9310,12 @@
  "1200:2b5c:013e": {
   "names": [
    "Daystar TV HD",
-   "DAYSTAR HD"
+   "DAYSTAR HD",
+   "Daystar HD"
   ],
   "sources": {
    "DAYSTAR HD": "vhannibal",
+   "Daystar HD": "antena-canalplus",
    "Daystar TV HD": "robocza"
   }
  },
@@ -8710,18 +9350,22 @@
  "1325:33f4:013e": {
   "names": [
    "KBS World HD",
-   "KBS WORLD"
+   "KBS WORLD",
+   "KBS World"
   ],
   "sources": {
    "KBS WORLD": "vhannibal",
+   "KBS World": "antena-polsat",
    "KBS World HD": "robocza"
   }
  },
  "1326:33f4:013e": {
   "names": [
-   "CNBC HD"
+   "CNBC HD",
+   "CNBC Europe"
   ],
   "sources": {
+   "CNBC Europe": "antena-polsat",
    "CNBC HD": "robocza"
   }
  },
@@ -8737,10 +9381,20 @@
  },
  "132e:33f4:013e": {
   "names": [
-   "Sender Neu Jerusalem"
+   "Sender Neu Jerusalem",
+   "S. Neu Jerusalem"
   ],
   "sources": {
+   "S. Neu Jerusalem": "antena-canalplus",
    "Sender Neu Jerusalem": "robocza"
+  }
+ },
+ "1332:03ef:0001": {
+  "names": [
+   "ServusTV HD Deu"
+  ],
+  "sources": {
+   "ServusTV HD Deu": "antena-canalplus"
   }
  },
  "134b:33f4:013e": {
@@ -8751,6 +9405,102 @@
   "sources": {
    "HADI TV 3": "vhannibal",
    "Hadi TV 3": "robocza"
+  }
+ },
+ "134c:03ef:0001": {
+  "names": [
+   "ORF RADIO OE1"
+  ],
+  "sources": {
+   "ORF RADIO OE1": "antena-canalplus"
+  }
+ },
+ "134d:03ef:0001": {
+  "names": [
+   "ORF RADIO FM4"
+  ],
+  "sources": {
+   "ORF RADIO FM4": "antena-canalplus"
+  }
+ },
+ "134e:03ef:0001": {
+  "names": [
+   "ORF RADIO WIEN"
+  ],
+  "sources": {
+   "ORF RADIO WIEN": "antena-canalplus"
+  }
+ },
+ "134f:03ef:0001": {
+  "names": [
+   "ORF RADIO NOE"
+  ],
+  "sources": {
+   "ORF RADIO NOE": "antena-canalplus"
+  }
+ },
+ "1350:03ef:0001": {
+  "names": [
+   "ORF RADIO B"
+  ],
+  "sources": {
+   "ORF RADIO B": "antena-canalplus"
+  }
+ },
+ "1351:03ef:0001": {
+  "names": [
+   "ORF RADIO OOE"
+  ],
+  "sources": {
+   "ORF RADIO OOE": "antena-canalplus"
+  }
+ },
+ "1352:03ef:0001": {
+  "names": [
+   "ORF RADIO S"
+  ],
+  "sources": {
+   "ORF RADIO S": "antena-canalplus"
+  }
+ },
+ "1353:03ef:0001": {
+  "names": [
+   "ORF RADIO T"
+  ],
+  "sources": {
+   "ORF RADIO T": "antena-canalplus"
+  }
+ },
+ "1354:03ef:0001": {
+  "names": [
+   "ORF RADIO V"
+  ],
+  "sources": {
+   "ORF RADIO V": "antena-canalplus"
+  }
+ },
+ "1355:03ef:0001": {
+  "names": [
+   "ORF RADIO STMK"
+  ],
+  "sources": {
+   "ORF RADIO STMK": "antena-canalplus"
+  }
+ },
+ "1356:03ef:0001": {
+  "names": [
+   "ORF RADIO K"
+  ],
+  "sources": {
+   "ORF RADIO K": "antena-canalplus"
+  }
+ },
+ "1357:03ef:0001": {
+  "names": [
+   "ORF RADIO OE1 DOLBY"
+  ],
+  "sources": {
+   "ORF RADIO OE1 DOLBY": "antena-canalplus"
   }
  },
  "135a:33f4:013e": {
@@ -8861,6 +9611,14 @@
    "SoloCalcio HD": "robocza"
   }
  },
+ "1389:03ea:0001": {
+  "names": [
+   "BBC World News"
+  ],
+  "sources": {
+   "BBC World News": "antena-canalplus"
+  }
+ },
  "1389:2710:00d5": {
   "names": [
    "TV 1"
@@ -8968,9 +9726,11 @@
  "1396:2710:00d5": {
   "names": [
    "Freedom",
-   "FREEДОМ"
+   "FREEДОМ",
+   "FREE´žź"
   ],
   "sources": {
+   "FREE´žź": "antena-13e",
    "FREEДОМ": "vhannibal",
    "Freedom": "robocza"
   }
@@ -9018,10 +9778,12 @@
  "139a:2710:00d5": {
   "names": [
    "BG+",
-   "БГ+"
+   "БГ+",
+   "ął+"
   ],
   "sources": {
    "BG+": "robocza",
+   "ął+": "antena-13e",
    "БГ+": "vhannibal"
   }
  },
@@ -9036,10 +9798,12 @@
  "139b:2710:00d5": {
   "names": [
    "Fen Folk TV",
-   "Фен Фолк"
+   "Фен Фолк",
+   "ÄŐÝ ÄŢŰÚ"
   ],
   "sources": {
    "Fen Folk TV": "robocza",
+   "ÄŐÝ ÄŢŰÚ": "antena-13e",
    "Фен Фолк": "vhannibal"
   }
  },
@@ -9065,6 +9829,14 @@
   ],
   "sources": {
    "BG Music Channel": "kingofsat"
+  }
+ },
+ "139d:03ea:0001": {
+  "names": [
+   "NHK World TV"
+  ],
+  "sources": {
+   "NHK World TV": "antena-canalplus"
   }
  },
  "139d:2710:00d5": {
@@ -9393,9 +10165,11 @@
  },
  "13f4:05dc:013e": {
   "names": [
-   "HBO2 HD"
+   "HBO2 HD",
+   "HBO 2 HD"
   ],
   "sources": {
+   "HBO 2 HD": "antena-polsat",
    "HBO2 HD": "robocza"
   }
  },
@@ -9437,9 +10211,11 @@
  },
  "13f9:05dc:013e": {
   "names": [
-   "HBO3 HD"
+   "HBO3 HD",
+   "HBO 3 HD"
   ],
   "sources": {
+   "HBO 3 HD": "antena-polsat",
    "HBO3 HD": "robocza"
   }
  },
@@ -9487,10 +10263,12 @@
  },
  "1401:05dc:013e": {
   "names": [
-   "AMC"
+   "AMC",
+   "AMC HD"
   ],
   "sources": {
-   "AMC": "robocza"
+   "AMC": "robocza",
+   "AMC HD": "antena-canalplus"
   }
  },
  "1403:05dc:013e": {
@@ -9544,21 +10322,25 @@
  "140f:05dc:013e": {
   "names": [
    "Nuta TV",
-   "NUTA TV"
+   "NUTA TV",
+   "NUTA.TV"
   ],
   "sources": {
    "NUTA TV": "vhannibal",
+   "NUTA.TV": "antena-canalplus",
    "Nuta TV": "robocza"
   }
  },
  "1410:05dc:013e": {
   "names": [
    "Power TV",
-   "POWER TV"
+   "POWER TV",
+   "Radio Zet"
   ],
   "sources": {
    "POWER TV": "vhannibal",
-   "Power TV": "robocza"
+   "Power TV": "robocza",
+   "Radio Zet": "antena-polsat"
   }
  },
  "1411:05dc:013e": {
@@ -9687,13 +10469,199 @@
    "DATA": "vhannibal"
   }
  },
+ "14bd:0407:0001": {
+  "names": [
+   "Shop LC"
+  ],
+  "sources": {
+   "Shop LC": "antena-canalplus"
+  }
+ },
+ "14be:0407:0001": {
+  "names": [
+   "SAT.1 Gold Osterreich"
+  ],
+  "sources": {
+   "SAT.1 Gold Osterreich": "antena-canalplus"
+  }
+ },
+ "14bf:0407:0001": {
+  "names": [
+   "Pro7 MAXX Austria"
+  ],
+  "sources": {
+   "Pro7 MAXX Austria": "antena-canalplus"
+  }
+ },
+ "14c0:0407:0001": {
+  "names": [
+   "Kabel 1 Doku Austria"
+  ],
+  "sources": {
+   "Kabel 1 Doku Austria": "antena-canalplus"
+  }
+ },
+ "1518:0455:0001": {
+  "names": [
+   "sonnenklar.TV HD"
+  ],
+  "sources": {
+   "sonnenklar.TV HD": "antena-canalplus"
+  }
+ },
+ "151b:0455:0001": {
+  "names": [
+   "Juwelo HD"
+  ],
+  "sources": {
+   "Juwelo HD": "antena-canalplus"
+  }
+ },
+ "151c:0455:0001": {
+  "names": [
+   "pearl.tv"
+  ],
+  "sources": {
+   "pearl.tv": "antena-canalplus"
+  }
+ },
+ "157d:041f:0001": {
+  "names": [
+   "HSE24 EXTRA HD"
+  ],
+  "sources": {
+   "HSE24 EXTRA HD": "antena-canalplus"
+  }
+ },
+ "157e:041f:0001": {
+  "names": [
+   "1-2-3.tv HD"
+  ],
+  "sources": {
+   "1-2-3.tv HD": "antena-canalplus"
+  }
+ },
+ "1580:041f:0001": {
+  "names": [
+   "QVC PLUS HD"
+  ],
+  "sources": {
+   "QVC PLUS HD": "antena-canalplus"
+  }
+ },
+ "1647:042c:0001": {
+  "names": [
+   "Cubavision International"
+  ],
+  "sources": {
+   "Cubavision International": "antena-canalplus"
+  }
+ },
+ "16a9:03ff:0001": {
+  "names": [
+   "munchen.tv HD"
+  ],
+  "sources": {
+   "munchen.tv HD": "antena-canalplus"
+  }
+ },
+ "16aa:03ff:0001": {
+  "names": [
+   "RFO"
+  ],
+  "sources": {
+   "RFO": "antena-canalplus"
+  }
+ },
+ "16ab:03ff:0001": {
+  "names": [
+   "a.tv HD"
+  ],
+  "sources": {
+   "a.tv HD": "antena-canalplus"
+  }
+ },
+ "16ac:03ff:0001": {
+  "names": [
+   "intv HD"
+  ],
+  "sources": {
+   "intv HD": "antena-canalplus"
+  }
+ },
+ "16af:03ff:0001": {
+  "names": [
+   "Niederbayern TV HD"
+  ],
+  "sources": {
+   "Niederbayern TV HD": "antena-canalplus"
+  }
+ },
+ "16b0:03ff:0001": {
+  "names": [
+   "TVA-OTV HD"
+  ],
+  "sources": {
+   "TVA-OTV HD": "antena-canalplus"
+  }
+ },
+ "16b1:03ff:0001": {
+  "names": [
+   "Franken Plus HD"
+  ],
+  "sources": {
+   "Franken Plus HD": "antena-canalplus"
+  }
+ },
+ "17d5:042a:0001": {
+  "names": [
+   "CNN Int."
+  ],
+  "sources": {
+   "CNN Int.": "antena-canalplus"
+  }
+ },
+ "18f4:03f4:0001": {
+  "names": [
+   "EURONEWS GERMAN"
+  ],
+  "sources": {
+   "EURONEWS GERMAN": "antena-canalplus"
+  }
+ },
+ "1af9:03fe:0001": {
+  "names": [
+   "France 24 Fra."
+  ],
+  "sources": {
+   "France 24 Fra.": "antena-canalplus"
+  }
+ },
+ "1afa:03fe:0001": {
+  "names": [
+   "France 24 Eng."
+  ],
+  "sources": {
+   "France 24 Eng.": "antena-canalplus"
+  }
+ },
+ "1b03:03fe:0001": {
+  "names": [
+   "TV5 MONDE EUROPE"
+  ],
+  "sources": {
+   "TV5 MONDE EUROPE": "antena-canalplus"
+  }
+ },
  "1bbd:17d4:013e": {
   "names": [
    "ERT News",
-   "ΕΡΤ NEWS"
+   "ΕΡΤ NEWS",
+   "ĹŃÔ NEWS"
   ],
   "sources": {
    "ERT News": "robocza",
+   "ĹŃÔ NEWS": "antena-13e",
    "ΕΡΤ NEWS": "vhannibal"
   }
  },
@@ -9837,6 +10805,14 @@
    "Cosmote Sport 6 HD": "robocza"
   }
  },
+ "1bcf:17d4:013e": {
+  "names": [
+   "Cobalt Data"
+  ],
+  "sources": {
+   "Cobalt Data": "antena-13e"
+  }
+ },
  "1bd0:17d4:013e": {
   "names": [
    "Novasportsextra4HD Cy"
@@ -9897,11 +10873,21 @@
    "Novacinema3HD Cy": "vhannibal"
   }
  },
- "1c22:1c20:013e": {
+ "1c20:0457:0001": {
   "names": [
-   "Tunisie Nationale"
+   "Bloomberg TV"
   ],
   "sources": {
+   "Bloomberg TV": "antena-canalplus"
+  }
+ },
+ "1c22:1c20:013e": {
+  "names": [
+   "Tunisie Nationale",
+   "Tunisia Nat 1"
+  ],
+  "sources": {
+   "Tunisia Nat 1": "antena-polsat",
    "Tunisie Nationale": "robocza"
   }
  },
@@ -9959,19 +10945,25 @@
  },
  "1c53:1c20:013e": {
   "names": [
-   "R Tunisie Internatio"
+   "R Tunisie Internatio",
+   "Tunezja Internationale",
+   "R Tunisie internatio"
   ],
   "sources": {
-   "R Tunisie Internatio": "vhannibal"
+   "R Tunisie Internatio": "vhannibal",
+   "R Tunisie internatio": "antena-13e",
+   "Tunezja Internationale": "antena-canalplus"
   }
  },
  "1c56:1c20:013e": {
   "names": [
    "SMTv San Marino HD",
-   "San Marino RTV HD"
+   "San Marino RTV HD",
+   "SMtv San Marino HD"
   ],
   "sources": {
    "SMTv San Marino HD": "robocza",
+   "SMtv San Marino HD": "antena-canalplus",
    "San Marino RTV HD": "vhannibal"
   }
  },
@@ -10053,6 +11045,14 @@
    "VOA Persian TV": "robocza"
   }
  },
+ "1c7a:0457:0001": {
+  "names": [
+   "Sky News"
+  ],
+  "sources": {
+   "Sky News": "antena-canalplus"
+  }
+ },
  "1c85:332c:013e": {
   "names": [
    "Daystar TV",
@@ -10074,11 +11074,15 @@
  "1c86:332c:013e": {
   "names": [
    "Bloomberg Europe",
-   "Bloomberg European TV"
+   "Bloomberg European TV",
+   "Bloomberg TV Europe",
+   "Bloomberg  European TV"
   ],
   "sources": {
+   "Bloomberg  European TV": "antena-polsat",
    "Bloomberg Europe": "robocza",
-   "Bloomberg European TV": "vhannibal"
+   "Bloomberg European TV": "vhannibal",
+   "Bloomberg TV Europe": "antena-canalplus"
   }
  },
  "1c87:1ce8:0071": {
@@ -10118,11 +11122,13 @@
  "1c8a:332c:013e": {
   "names": [
    "Al Jazeera English HD",
-   "Al Jazeera Eng HD"
+   "Al Jazeera Eng HD",
+   "Al Jazeera english"
   ],
   "sources": {
    "Al Jazeera Eng HD": "bzyk83",
-   "Al Jazeera English HD": "robocza"
+   "Al Jazeera English HD": "robocza",
+   "Al Jazeera english": "antena-polsat"
   }
  },
  "1c8b:1ce8:0071": {
@@ -10161,9 +11167,11 @@
  },
  "1c8d:1ce8:0071": {
   "names": [
-   "TV Okazje"
+   "TV Okazje",
+   "TV OKAZJE"
   ],
   "sources": {
+   "TV OKAZJE": "antena-canalplus",
    "TV Okazje": "robocza"
   }
  },
@@ -10331,10 +11339,12 @@
  },
  "1ca8:1ce8:0071": {
   "names": [
-   "RMF MAXX"
+   "RMF MAXX",
+   "RMF MAXXX"
   ],
   "sources": {
-   "RMF MAXX": "vhannibal"
+   "RMF MAXX": "vhannibal",
+   "RMF MAXXX": "antena-canalplus"
   }
  },
  "1caa:1ce8:0071": {
@@ -10398,9 +11408,11 @@
  "1cbe:1ce8:0071": {
   "names": [
    "Polsat News Polityka HD",
-   "Wydarzenia 24"
+   "Wydarzenia 24",
+   "Polsat News Polityka"
   ],
   "sources": {
+   "Polsat News Polityka": "antena-canalplus",
    "Polsat News Polityka HD": "robocza",
    "Wydarzenia 24": "bzyk83"
   }
@@ -10709,12 +11721,28 @@
    "Sky Sport Italia": "robocza"
   }
  },
+ "1e6e:15e0:fbff": {
+  "names": [
+   "Fusion BGDL 7790"
+  ],
+  "sources": {
+   "Fusion BGDL 7790": "antena-13e"
+  }
+ },
  "1e76:15e0:fbff": {
   "names": [
    "IEPG Data"
   ],
   "sources": {
    "IEPG Data": "vhannibal"
+  }
+ },
+ "1efb:0457:0001": {
+  "names": [
+   "RTL RADIO"
+  ],
+  "sources": {
+   "RTL RADIO": "antena-canalplus"
   }
  },
  "1fa7:19c8:fbff": {
@@ -10751,6 +11779,14 @@
    "Sky Primafila": "vhannibal"
   }
  },
+ "1fed:16a8:fbff": {
+  "names": [
+   "Fusion FGDL"
+  ],
+  "sources": {
+   "Fusion FGDL": "antena-13e"
+  }
+ },
  "213f:3070:013e": {
   "names": [
    "Rai YoYo HD"
@@ -10769,9 +11805,11 @@
  },
  "2146:3070:013e": {
   "names": [
-   "Rai Storia HD"
+   "Rai Storia HD",
+   "Rai Storia"
   ],
   "sources": {
+   "Rai Storia": "antena-canalplus",
    "Rai Storia HD": "robocza"
   }
  },
@@ -10785,9 +11823,11 @@
  },
  "2149:3070:013e": {
   "names": [
-   "Rai Scuola HD"
+   "Rai Scuola HD",
+   "Rai Scuola"
   ],
   "sources": {
+   "Rai Scuola": "antena-canalplus",
    "Rai Scuola HD": "robocza"
   }
  },
@@ -10802,11 +11842,13 @@
  "214b:3070:013e": {
   "names": [
    "Tivù la guida",
-   "tivù la guida"
+   "tivù la guida",
+   "tivů la guida"
   ],
   "sources": {
    "Tivù la guida": "robocza",
-   "tivù la guida": "vhannibal"
+   "tivù la guida": "vhannibal",
+   "tivů la guida": "antena-13e"
   }
  },
  "214c:3070:013e": {
@@ -10905,6 +11947,14 @@
    "Rai Radio Südtirol": "robocza"
   }
  },
+ "22c6:0434:0001": {
+  "names": [
+   "TV5 Monde FBS HD"
+  ],
+  "sources": {
+   "TV5 Monde FBS HD": "antena-canalplus"
+  }
+ },
  "232b:2328:013e": {
   "names": [
    "Ronahi TV"
@@ -10916,11 +11966,13 @@
  "232c:2328:013e": {
   "names": [
    "Jin TV",
-   "JIN TV"
+   "JIN TV",
+   "Med Music"
   ],
   "sources": {
    "JIN TV": "vhannibal",
-   "Jin TV": "robocza"
+   "Jin TV": "robocza",
+   "Med Music": "antena-canalplus"
   }
  },
  "232d:2328:013e": {
@@ -10959,6 +12011,14 @@
   "sources": {
    "JEK TV": "bzyk83",
    "Jek TV HD": "robocza"
+  }
+ },
+ "2331:0442:0001": {
+  "names": [
+   "LCI HD"
+  ],
+  "sources": {
+   "LCI HD": "antena-canalplus"
   }
  },
  "2331:2328:013e": {
@@ -11001,14 +12061,24 @@
    "Cira TV": "robocza"
   }
  },
+ "2336:0442:0001": {
+  "names": [
+   "Cnews HD"
+  ],
+  "sources": {
+   "Cnews HD": "antena-canalplus"
+  }
+ },
  "2336:2328:013e": {
   "names": [
    "Go-TV Channel",
-   "GO-TV CHANNEL"
+   "GO-TV CHANNEL",
+   "Paci Contemporary Channel"
   ],
   "sources": {
    "GO-TV CHANNEL": "vhannibal",
-   "Go-TV Channel": "robocza"
+   "Go-TV Channel": "robocza",
+   "Paci Contemporary Channel": "antena-canalplus"
   }
  },
  "2338:2328:013e": {
@@ -11025,12 +12095,14 @@
   "names": [
    "Al Malakoot Sat",
    "AL MALAKOOT SAT – THE KINGDOM SAT الملكوت سات",
-   "AL MALAKOOT SAT – THE KINGDOM SAT  الملكوت سات"
+   "AL MALAKOOT SAT – THE KINGDOM SAT  الملكوت سات",
+   "The Kingdom Sat"
   ],
   "sources": {
    "AL MALAKOOT SAT – THE KINGDOM SAT  الملكوت سات": "kingofsat",
    "AL MALAKOOT SAT – THE KINGDOM SAT الملكوت سات": "vhannibal",
-   "Al Malakoot Sat": "robocza"
+   "Al Malakoot Sat": "robocza",
+   "The Kingdom Sat": "antena-canalplus"
   }
  },
  "233b:2328:013e": {
@@ -11056,9 +12128,11 @@
  "233e:2328:013e": {
   "names": [
    "Euronews HD",
-   "Euronews English"
+   "Euronews English",
+   "EuroNews"
   ],
   "sources": {
+   "EuroNews": "antena-polsat",
    "Euronews English": "vhannibal",
    "Euronews HD": "robocza"
   }
@@ -11095,6 +12169,214 @@
   ],
   "sources": {
    "redpath": "vhannibal"
+  }
+ },
+ "23b4:0446:0001": {
+  "names": [
+   "FUN RADIO"
+  ],
+  "sources": {
+   "FUN RADIO": "antena-canalplus"
+  }
+ },
+ "23c1:0446:0001": {
+  "names": [
+   "LE MOUV'"
+  ],
+  "sources": {
+   "LE MOUV'": "antena-canalplus"
+  }
+ },
+ "23c2:0446:0001": {
+  "names": [
+   "FRANCE MUSIQUE"
+  ],
+  "sources": {
+   "FRANCE MUSIQUE": "antena-canalplus"
+  }
+ },
+ "23c3:0446:0001": {
+  "names": [
+   "FIP"
+  ],
+  "sources": {
+   "FIP": "antena-canalplus"
+  }
+ },
+ "23c4:0446:0001": {
+  "names": [
+   "FRANCE INFO"
+  ],
+  "sources": {
+   "FRANCE INFO": "antena-canalplus"
+  }
+ },
+ "23c5:0446:0001": {
+  "names": [
+   "FRANCE INTER"
+  ],
+  "sources": {
+   "FRANCE INTER": "antena-canalplus"
+  }
+ },
+ "23c7:0446:0001": {
+  "names": [
+   "FRANCE BLEU IDF"
+  ],
+  "sources": {
+   "FRANCE BLEU IDF": "antena-canalplus"
+  }
+ },
+ "23cb:0446:0001": {
+  "names": [
+   "RFI INT"
+  ],
+  "sources": {
+   "RFI INT": "antena-canalplus"
+  }
+ },
+ "23cc:0446:0001": {
+  "names": [
+   "RADIO CLASSIQUE"
+  ],
+  "sources": {
+   "RADIO CLASSIQUE": "antena-canalplus"
+  }
+ },
+ "23cd:0446:0001": {
+  "names": [
+   "RTL"
+  ],
+  "sources": {
+   "RTL": "antena-canalplus"
+  }
+ },
+ "23ce:0446:0001": {
+  "names": [
+   "EUROPE 1"
+  ],
+  "sources": {
+   "EUROPE 1": "antena-canalplus"
+  }
+ },
+ "23d0:0446:0001": {
+  "names": [
+   "RIRE & CHANSONS"
+  ],
+  "sources": {
+   "RIRE & CHANSONS": "antena-canalplus"
+  }
+ },
+ "23d7:0446:0001": {
+  "names": [
+   "TSF JAZZ"
+  ],
+  "sources": {
+   "TSF JAZZ": "antena-canalplus"
+  }
+ },
+ "23d9:0446:0001": {
+  "names": [
+   "JAZZ RADIO"
+  ],
+  "sources": {
+   "JAZZ RADIO": "antena-canalplus"
+  }
+ },
+ "23da:0446:0001": {
+  "names": [
+   "NOVA"
+  ],
+  "sources": {
+   "NOVA": "antena-canalplus"
+  }
+ },
+ "23db:0446:0001": {
+  "names": [
+   "RADIO FG"
+  ],
+  "sources": {
+   "RADIO FG": "antena-canalplus"
+  }
+ },
+ "23dc:0446:0001": {
+  "names": [
+   "CONTACT FM"
+  ],
+  "sources": {
+   "CONTACT FM": "antena-canalplus"
+  }
+ },
+ "23dd:0446:0001": {
+  "names": [
+   "NOSTALGIE"
+  ],
+  "sources": {
+   "NOSTALGIE": "antena-canalplus"
+  }
+ },
+ "23de:0446:0001": {
+  "names": [
+   "NRJ"
+  ],
+  "sources": {
+   "NRJ": "antena-canalplus"
+  }
+ },
+ "23df:0446:0001": {
+  "names": [
+   "RFM"
+  ],
+  "sources": {
+   "RFM": "antena-canalplus"
+  }
+ },
+ "23e0:0446:0001": {
+  "names": [
+   "Radio R101"
+  ],
+  "sources": {
+   "Radio R101": "antena-canalplus"
+  }
+ },
+ "23e1:0446:0001": {
+  "names": [
+   "CHERIE FM"
+  ],
+  "sources": {
+   "CHERIE FM": "antena-canalplus"
+  }
+ },
+ "23e2:0446:0001": {
+  "names": [
+   "RTL 2"
+  ],
+  "sources": {
+   "RTL 2": "antena-canalplus"
+  }
+ },
+ "23e3:0446:0001": {
+  "names": [
+   "SKYROCK"
+  ],
+  "sources": {
+   "SKYROCK": "antena-canalplus"
+  }
+ },
+ "23ee:0446:0001": {
+  "names": [
+   "BEUR FM"
+  ],
+  "sources": {
+   "BEUR FM": "antena-canalplus"
+  }
+ },
+ "245c:0440:0001": {
+  "names": [
+   "LCP HD"
+  ],
+  "sources": {
+   "LCP HD": "antena-canalplus"
   }
  },
  "2505:1838:fbff": {
@@ -11136,11 +12418,13 @@
  "2520:13ef:013e": {
   "names": [
    "Al Sharjah HD",
-   "AL SHARJAH HD"
+   "AL SHARJAH HD",
+   "Sharjah HD"
   ],
   "sources": {
    "AL SHARJAH HD": "vhannibal",
-   "Al Sharjah HD": "robocza"
+   "Al Sharjah HD": "robocza",
+   "Sharjah HD": "antena-canalplus"
   }
  },
  "2523:13ef:013e": {
@@ -11166,9 +12450,11 @@
  "2526:13ef:013e": {
   "names": [
    "Al Sharqiya HD",
-   "AL SHARQIYA HD"
+   "AL SHARQIYA HD",
+   "AL SHARQIYA"
   ],
   "sources": {
+   "AL SHARQIYA": "antena-canalplus",
    "AL SHARQIYA HD": "vhannibal",
    "Al Sharqiya HD": "robocza"
   }
@@ -11176,11 +12462,13 @@
  "2529:13ef:013e": {
   "names": [
    "Al Arabiya HD",
-   "AL Arabia HD"
+   "AL Arabia HD",
+   "Al-Arabiya"
   ],
   "sources": {
    "AL Arabia HD": "vhannibal",
-   "Al Arabiya HD": "robocza"
+   "Al Arabiya HD": "robocza",
+   "Al-Arabiya": "antena-canalplus"
   }
  },
  "252a:13ef:013e": {
@@ -11227,6 +12515,430 @@
    "AL SHARJAH RADIO": "vhannibal"
   }
  },
+ "2775:0409:0001": {
+  "names": [
+   "BILD HD"
+  ],
+  "sources": {
+   "BILD HD": "antena-canalplus"
+  }
+ },
+ "2776:0409:0001": {
+  "names": [
+   "Handystar TV HD"
+  ],
+  "sources": {
+   "Handystar TV HD": "antena-canalplus"
+  }
+ },
+ "2778:0409:0001": {
+  "names": [
+   "Channel 21"
+  ],
+  "sources": {
+   "Channel 21": "antena-canalplus"
+  }
+ },
+ "2779:0409:0001": {
+  "names": [
+   "QVC Beaty Style HD"
+  ],
+  "sources": {
+   "QVC Beaty Style HD": "antena-canalplus"
+  }
+ },
+ "283d:03fb:0001": {
+  "names": [
+   "Das Erste HD"
+  ],
+  "sources": {
+   "Das Erste HD": "antena-canalplus"
+  }
+ },
+ "283e:03fb:0001": {
+  "names": [
+   "ARTE HD"
+  ],
+  "sources": {
+   "ARTE HD": "antena-canalplus"
+  }
+ },
+ "283f:03fb:0001": {
+  "names": [
+   "SWR Baden-W. HD"
+  ],
+  "sources": {
+   "SWR Baden-W. HD": "antena-canalplus"
+  }
+ },
+ "2840:03fb:0001": {
+  "names": [
+   "SWR Rheinland-P HD"
+  ],
+  "sources": {
+   "SWR Rheinland-P HD": "antena-canalplus"
+  }
+ },
+ "2855:0401:0001": {
+  "names": [
+   "BR Sud HD"
+  ],
+  "sources": {
+   "BR Sud HD": "antena-canalplus"
+  }
+ },
+ "2856:0401:0001": {
+  "names": [
+   "BR Nord HD"
+  ],
+  "sources": {
+   "BR Nord HD": "antena-canalplus"
+  }
+ },
+ "2857:0401:0001": {
+  "names": [
+   "NDR FS NDS HD"
+  ],
+  "sources": {
+   "NDR FS NDS HD": "antena-canalplus"
+  }
+ },
+ "285b:0401:0001": {
+  "names": [
+   "phoenix HD"
+  ],
+  "sources": {
+   "phoenix HD": "antena-canalplus"
+  }
+ },
+ "286e:0425:0001": {
+  "names": [
+   "rbb Brandenburg HD"
+  ],
+  "sources": {
+   "rbb Brandenburg HD": "antena-canalplus"
+  }
+ },
+ "286f:0425:0001": {
+  "names": [
+   "rbb Berlin HD"
+  ],
+  "sources": {
+   "rbb Berlin HD": "antena-canalplus"
+  }
+ },
+ "2870:0425:0001": {
+  "names": [
+   "MDR Sachsen HD"
+  ],
+  "sources": {
+   "MDR Sachsen HD": "antena-canalplus"
+  }
+ },
+ "2871:0425:0001": {
+  "names": [
+   "MDR S-Anhalt HD"
+  ],
+  "sources": {
+   "MDR S-Anhalt HD": "antena-canalplus"
+  }
+ },
+ "2872:0425:0001": {
+  "names": [
+   "MDR Thuringen HD"
+  ],
+  "sources": {
+   "MDR Thuringen HD": "antena-canalplus"
+  }
+ },
+ "2873:0425:0001": {
+  "names": [
+   "hr-fernsehen HD"
+  ],
+  "sources": {
+   "hr-fernsehen HD": "antena-canalplus"
+  }
+ },
+ "2887:040f:0001": {
+  "names": [
+   "tagesschau24 HD"
+  ],
+  "sources": {
+   "tagesschau24 HD": "antena-canalplus"
+  }
+ },
+ "2888:040f:0001": {
+  "names": [
+   "ONE HD"
+  ],
+  "sources": {
+   "ONE HD": "antena-canalplus"
+  }
+ },
+ "2889:040f:0001": {
+  "names": [
+   "ARD Alpha"
+  ],
+  "sources": {
+   "ARD Alpha": "antena-canalplus"
+  }
+ },
+ "288a:040f:0001": {
+  "names": [
+   "SR Fernsehen"
+  ],
+  "sources": {
+   "SR Fernsehen": "antena-canalplus"
+  }
+ },
+ "28a0:040f:0001": {
+  "names": [
+   "Bayern 1"
+  ],
+  "sources": {
+   "Bayern 1": "antena-canalplus"
+  }
+ },
+ "28a1:040f:0001": {
+  "names": [
+   "Bayern 2"
+  ],
+  "sources": {
+   "Bayern 2": "antena-canalplus"
+  }
+ },
+ "28a2:040f:0001": {
+  "names": [
+   "Bayern 3"
+  ],
+  "sources": {
+   "Bayern 3": "antena-canalplus"
+  }
+ },
+ "28a3:040f:0001": {
+  "names": [
+   "BR-Klassik"
+  ],
+  "sources": {
+   "BR-Klassik": "antena-canalplus"
+  }
+ },
+ "28ac:040f:0001": {
+  "names": [
+   "NDR 2 NDS"
+  ],
+  "sources": {
+   "NDR 2 NDS": "antena-canalplus"
+  }
+ },
+ "28ad:040f:0001": {
+  "names": [
+   "NDR Kultur"
+  ],
+  "sources": {
+   "NDR Kultur": "antena-canalplus"
+  }
+ },
+ "28ae:040f:0001": {
+  "names": [
+   "NDR Info NDS"
+  ],
+  "sources": {
+   "NDR Info NDS": "antena-canalplus"
+  }
+ },
+ "28af:040f:0001": {
+  "names": [
+   "N-JOY"
+  ],
+  "sources": {
+   "N-JOY": "antena-canalplus"
+  }
+ },
+ "28b0:040f:0001": {
+  "names": [
+   "NDR 90,3"
+  ],
+  "sources": {
+   "NDR 90,3": "antena-canalplus"
+  }
+ },
+ "28c0:040f:0001": {
+  "names": [
+   "SR 1 Europawelle"
+  ],
+  "sources": {
+   "SR 1 Europawelle": "antena-canalplus"
+  }
+ },
+ "28ca:040f:0001": {
+  "names": [
+   "SWR2"
+  ],
+  "sources": {
+   "SWR2": "antena-canalplus"
+  }
+ },
+ "28cf:040f:0001": {
+  "names": [
+   "SWR Aktuell"
+  ],
+  "sources": {
+   "SWR Aktuell": "antena-canalplus"
+  }
+ },
+ "28d5:040f:0001": {
+  "names": [
+   "WDR 3"
+  ],
+  "sources": {
+   "WDR 3": "antena-canalplus"
+  }
+ },
+ "28d7:040f:0001": {
+  "names": [
+   "WDR 5"
+  ],
+  "sources": {
+   "WDR 5": "antena-canalplus"
+  }
+ },
+ "28d8:040f:0001": {
+  "names": [
+   "COSMO"
+  ],
+  "sources": {
+   "COSMO": "antena-canalplus"
+  }
+ },
+ "28e1:0425:0001": {
+  "names": [
+   "hr1"
+  ],
+  "sources": {
+   "hr1": "antena-canalplus"
+  }
+ },
+ "28e2:0425:0001": {
+  "names": [
+   "hr2"
+  ],
+  "sources": {
+   "hr2": "antena-canalplus"
+  }
+ },
+ "28e3:0425:0001": {
+  "names": [
+   "hr3"
+  ],
+  "sources": {
+   "hr3": "antena-canalplus"
+  }
+ },
+ "28e4:0425:0001": {
+  "names": [
+   "hr4"
+  ],
+  "sources": {
+   "hr4": "antena-canalplus"
+  }
+ },
+ "28e5:0425:0001": {
+  "names": [
+   "YOU FM"
+  ],
+  "sources": {
+   "YOU FM": "antena-canalplus"
+  }
+ },
+ "28e6:0425:0001": {
+  "names": [
+   "hr-info"
+  ],
+  "sources": {
+   "hr-info": "antena-canalplus"
+  }
+ },
+ "28ea:0425:0001": {
+  "names": [
+   "MDR1 SACHSEN DD"
+  ],
+  "sources": {
+   "MDR1 SACHSEN DD": "antena-canalplus"
+  }
+ },
+ "28eb:0425:0001": {
+  "names": [
+   "MDR1 S-ANHALT"
+  ],
+  "sources": {
+   "MDR1 S-ANHALT": "antena-canalplus"
+  }
+ },
+ "28ec:0425:0001": {
+  "names": [
+   "MDR1 THUR Mitte-W"
+  ],
+  "sources": {
+   "MDR1 THUR Mitte-W": "antena-canalplus"
+  }
+ },
+ "28ed:0425:0001": {
+  "names": [
+   "MDR KULTUR"
+  ],
+  "sources": {
+   "MDR KULTUR": "antena-canalplus"
+  }
+ },
+ "28ee:0425:0001": {
+  "names": [
+   "MDR JUMP"
+  ],
+  "sources": {
+   "MDR JUMP": "antena-canalplus"
+  }
+ },
+ "28ef:0425:0001": {
+  "names": [
+   "MDR SPUTNIK"
+  ],
+  "sources": {
+   "MDR SPUTNIK": "antena-canalplus"
+  }
+ },
+ "28f0:0425:0001": {
+  "names": [
+   "MDR AKTUELL"
+  ],
+  "sources": {
+   "MDR AKTUELL": "antena-canalplus"
+  }
+ },
+ "28f1:0425:0001": {
+  "names": [
+   "MDR KLASSIK"
+  ],
+  "sources": {
+   "MDR KLASSIK": "antena-canalplus"
+  }
+ },
+ "28f7:0425:0001": {
+  "names": [
+   "rbb 88.8"
+  ],
+  "sources": {
+   "rbb 88.8": "antena-canalplus"
+  }
+ },
+ "28f9:0425:0001": {
+  "names": [
+   "Fritz"
+  ],
+  "sources": {
+   "Fritz": "antena-canalplus"
+  }
+ },
  "2907:1edc:0071": {
   "names": [
    "National Geo People HD",
@@ -11249,18 +12961,22 @@
  },
  "2909:1edc:0071": {
   "names": [
-   "Eska Rock HD"
+   "Eska Rock HD",
+   "ESKA ROCK TV HD"
   ],
   "sources": {
+   "ESKA ROCK TV HD": "antena-canalplus",
    "Eska Rock HD": "robocza"
   }
  },
  "290a:1edc:0071": {
   "names": [
    "Extreme Sport HD",
-   "Extreme Sports HD"
+   "Extreme Sports HD",
+   "Extreme Channel"
   ],
   "sources": {
+   "Extreme Channel": "antena-canalplus",
    "Extreme Sport HD": "robocza",
    "Extreme Sports HD": "vhannibal"
   }
@@ -11277,18 +12993,22 @@
  },
  "290c:1edc:0071": {
   "names": [
-   "Wydarzenia 24 HD"
+   "Wydarzenia 24 HD",
+   "Wydarzenia 24"
   ],
   "sources": {
+   "Wydarzenia 24": "antena-canalplus",
    "Wydarzenia 24 HD": "robocza"
   }
  },
  "290d:1edc:0071": {
   "names": [
    "Eska Extra HD",
-   "Eska TV Extra HD"
+   "Eska TV Extra HD",
+   "ESKA TV EXTRA HD"
   ],
   "sources": {
+   "ESKA TV EXTRA HD": "antena-canalplus",
    "Eska Extra HD": "robocza",
    "Eska TV Extra HD": "vhannibal"
   }
@@ -11314,9 +13034,11 @@
  "2910:1edc:0071": {
   "names": [
    "VOX Music TV HD",
-   "Vox Music TV HD"
+   "Vox Music TV HD",
+   "VOX MUSIC TV HD"
   ],
   "sources": {
+   "VOX MUSIC TV HD": "antena-canalplus",
    "VOX Music TV HD": "robocza",
    "Vox Music TV HD": "vhannibal"
   }
@@ -11339,9 +13061,11 @@
  },
  "2914:1edc:0071": {
   "names": [
-   "Mango"
+   "Mango",
+   "MANGO"
   ],
   "sources": {
+   "MANGO": "antena-canalplus",
    "Mango": "robocza"
   }
  },
@@ -11403,6 +13127,30 @@
   ],
   "sources": {
    "PPV Bundle2": "vhannibal"
+  }
+ },
+ "2aef:1838:fbff": {
+  "names": [
+   "Fusion BGDL 10991"
+  ],
+  "sources": {
+   "Fusion BGDL 10991": "antena-13e"
+  }
+ },
+ "2af0:1838:fbff": {
+  "names": [
+   "Dl622"
+  ],
+  "sources": {
+   "Dl622": "antena-13e"
+  }
+ },
+ "2af5:1838:fbff": {
+  "names": [
+   "Dl621"
+  ],
+  "sources": {
+   "Dl621": "antena-13e"
   }
  },
  "2af7:1838:fbff": {
@@ -11481,6 +13229,14 @@
    "Sky Cinema Suspense": "robocza"
   }
  },
+ "2b39:2260:fbff": {
+  "names": [
+   "SDMS Service1"
+  ],
+  "sources": {
+   "SDMS Service1": "antena-13e"
+  }
+ },
  "2b3b:2260:fbff": {
   "names": [
    "SDMS Service2"
@@ -11505,6 +13261,22 @@
    "Sky Arte": "vhannibal"
   }
  },
+ "2b52:1900:fbff": {
+  "names": [
+   "Fusion BGDL 11090"
+  ],
+  "sources": {
+   "Fusion BGDL 11090": "antena-13e"
+  }
+ },
+ "2b55:1900:fbff": {
+  "names": [
+   "Dl641"
+  ],
+  "sources": {
+   "Dl641": "antena-13e"
+  }
+ },
  "2b57:1900:fbff": {
   "names": [
    "IEPG Data"
@@ -11513,12 +13285,76 @@
    "IEPG Data": "vhannibal"
   }
  },
+ "2b66:03f3:0001": {
+  "names": [
+   "ZDF HD"
+  ],
+  "sources": {
+   "ZDF HD": "antena-canalplus"
+  }
+ },
+ "2b7a:03f3:0001": {
+  "names": [
+   "zdf_neo HD"
+  ],
+  "sources": {
+   "zdf_neo HD": "antena-canalplus"
+  }
+ },
+ "2b8e:03f2:0001": {
+  "names": [
+   "3sat HD"
+  ],
+  "sources": {
+   "3sat HD": "antena-canalplus"
+  }
+ },
+ "2b98:03f2:0001": {
+  "names": [
+   "KiKA HD"
+  ],
+  "sources": {
+   "KiKA HD": "antena-canalplus"
+  }
+ },
  "2b9e:19c8:fbff": {
   "names": [
    "Info2"
   ],
   "sources": {
    "Info2": "vhannibal"
+  }
+ },
+ "2ba2:03f2:0001": {
+  "names": [
+   "ZDFinfo HD"
+  ],
+  "sources": {
+   "ZDFinfo HD": "antena-canalplus"
+  }
+ },
+ "2bb6:19c8:fbff": {
+  "names": [
+   "Fusion BGDL 11190"
+  ],
+  "sources": {
+   "Fusion BGDL 11190": "antena-13e"
+  }
+ },
+ "2bbc:19c8:fbff": {
+  "names": [
+   "DL IKUSI MI"
+  ],
+  "sources": {
+   "DL IKUSI MI": "antena-13e"
+  }
+ },
+ "2bbd:19c8:fbff": {
+  "names": [
+   "BGDL_6600"
+  ],
+  "sources": {
+   "BGDL_6600": "antena-13e"
   }
  },
  "2bbf:19c8:fbff": {
@@ -11669,6 +13505,10 @@
    "Sky Sport Italia": "robocza"
   }
  },
+ "2d68:16a8:fbff": {
+  "names": [],
+  "sources": {}
+ },
  "2d6c:1900:fbff": {
   "names": [
    "Sky Sport 4k Italia",
@@ -11697,6 +13537,22 @@
   "sources": {
    "Sky Investigation": "vhannibal",
    "Sky Investigation HD": "robocza"
+  }
+ },
+ "2daa:2260:fbff": {
+  "names": [
+   "Fusion BGDL 11690"
+  ],
+  "sources": {
+   "Fusion BGDL 11690": "antena-13e"
+  }
+ },
+ "2dae:2260:fbff": {
+  "names": [
+   "Dl821"
+  ],
+  "sources": {
+   "Dl821": "antena-13e"
   }
  },
  "2daf:2008:fbff": {
@@ -11741,6 +13597,78 @@
    "Sky Nature": "robocza"
   }
  },
+ "2ee3:0441:0001": {
+  "names": [
+   "RTL Television"
+  ],
+  "sources": {
+   "RTL Television": "antena-canalplus"
+  }
+ },
+ "2ef4:0441:0001": {
+  "names": [
+   "RTL2"
+  ],
+  "sources": {
+   "RTL2": "antena-canalplus"
+  }
+ },
+ "2efe:0441:0001": {
+  "names": [
+   "TOGGO plus"
+  ],
+  "sources": {
+   "TOGGO plus": "antena-canalplus"
+  }
+ },
+ "2f08:0441:0001": {
+  "names": [
+   "SUPER RTL"
+  ],
+  "sources": {
+   "SUPER RTL": "antena-canalplus"
+  }
+ },
+ "2f1c:0441:0001": {
+  "names": [
+   "VOX"
+  ],
+  "sources": {
+   "VOX": "antena-canalplus"
+  }
+ },
+ "2f1d:0441:0001": {
+  "names": [
+   "RTLNITRO"
+  ],
+  "sources": {
+   "RTLNITRO": "antena-canalplus"
+  }
+ },
+ "2f30:0441:0001": {
+  "names": [
+   "RTL Plus"
+  ],
+  "sources": {
+   "RTL Plus": "antena-canalplus"
+  }
+ },
+ "2f3a:0441:0001": {
+  "names": [
+   "n-tv"
+  ],
+  "sources": {
+   "n-tv": "antena-canalplus"
+  }
+ },
+ "2f69:0454:0001": {
+  "names": [
+   "Canal Algerie 2"
+  ],
+  "sources": {
+   "Canal Algerie 2": "antena-canalplus"
+  }
+ },
  "2fc4:2260:fbff": {
   "names": [
    "Gambero Rosso HD"
@@ -11757,21 +13685,33 @@
    "Gambero Rosso HD": "vhannibal"
   }
  },
- "32cb:0190:013e": {
+ "313c:0459:0001": {
   "names": [
-   "Ale Kino+ HD"
+   "Deutsches Musik"
   ],
   "sources": {
-   "Ale Kino+ HD": "robocza"
+   "Deutsches Musik": "antena-canalplus"
+  }
+ },
+ "32cb:0190:013e": {
+  "names": [
+   "Ale Kino+ HD",
+   "Ale kino+ HD"
+  ],
+  "sources": {
+   "Ale Kino+ HD": "robocza",
+   "Ale kino+ HD": "antena-canalplus"
   }
  },
  "32cd:0190:013e": {
   "names": [
    "Canal+ Now",
-   "CANAL+ NOW"
+   "CANAL+ NOW",
+   "CANAL+ Now HD"
   ],
   "sources": {
    "CANAL+ NOW": "vhannibal",
+   "CANAL+ Now HD": "antena-canalplus",
    "Canal+ Now": "robocza"
   }
  },
@@ -11787,9 +13727,11 @@
  },
  "32d7:0190:013e": {
   "names": [
-   "TVP Kultura HD"
+   "TVP Kultura HD",
+   "TVP Kultura"
   ],
   "sources": {
+   "TVP Kultura": "antena-polsat",
    "TVP Kultura HD": "robocza"
   }
  },
@@ -11834,11 +13776,13 @@
  "32df:0190:013e": {
   "names": [
    "National Geo HD",
-   "NATIONAL GEO HD"
+   "NATIONAL GEO HD",
+   "National Geographic HD"
   ],
   "sources": {
    "NATIONAL GEO HD": "vhannibal",
-   "National Geo HD": "robocza"
+   "National Geo HD": "robocza",
+   "National Geographic HD": "antena-canalplus"
   }
  },
  "32e0:0190:013e": {
@@ -11885,6 +13829,14 @@
    "CANAL+ PREMIUM HD": "vhannibal"
   }
  },
+ "32f8:0190:013e": {
+  "names": [],
+  "sources": {}
+ },
+ "32f9:0190:013e": {
+  "names": [],
+  "sources": {}
+ },
  "32fa:0190:013e": {
   "names": [
    "CANAL+ PREMIUM HD"
@@ -11903,10 +13855,12 @@
  },
  "32fd:0190:013e": {
   "names": [
-   "Ale Kino+ HD"
+   "Ale Kino+ HD",
+   "Ale kino+ HD"
   ],
   "sources": {
-   "Ale Kino+ HD": "vhannibal"
+   "Ale Kino+ HD": "vhannibal",
+   "Ale kino+ HD": "antena-canalplus"
   }
  },
  "32fe:0190:013e": {
@@ -12006,10 +13960,12 @@
  "331b:0190:013e": {
   "names": [
    "National Geo HD.",
-   "Ale Kino+ HD"
+   "Ale Kino+ HD",
+   "Ale kino+ HD"
   ],
   "sources": {
    "Ale Kino+ HD": "vhannibal",
+   "Ale kino+ HD": "antena-canalplus",
    "National Geo HD.": "robocza"
   }
  },
@@ -12037,12 +13993,36 @@
    "CANAL+ NOW": "bzyk83"
   }
  },
- "332d:1388:013e": {
+ "3329:0190:013e": {
   "names": [
-   "DW English HD"
+   "DATA DSIW74"
   ],
   "sources": {
-   "DW English HD": "robocza"
+   "DATA DSIW74": "antena-13e"
+  }
+ },
+ "332a:0190:013e": {
+  "names": [],
+  "sources": {}
+ },
+ "332b:0190:013e": {
+  "names": [
+   "DATA"
+  ],
+  "sources": {
+   "DATA": "antena-13e"
+  }
+ },
+ "332d:1388:013e": {
+  "names": [
+   "DW English HD",
+   "DW - TV Europe HD",
+   "DW-TV"
+  ],
+  "sources": {
+   "DW - TV Europe HD": "antena-canalplus",
+   "DW English HD": "robocza",
+   "DW-TV": "antena-polsat"
   }
  },
  "332e:1388:013e": {
@@ -12051,6 +14031,14 @@
   ],
   "sources": {
    "BBC Arabic HD": "robocza"
+  }
+ },
+ "332f:045b:0001": {
+  "names": [
+   "Welt der Wunder"
+  ],
+  "sources": {
+   "Welt der Wunder": "antena-canalplus"
   }
  },
  "332f:1388:013e": {
@@ -12063,12 +14051,22 @@
    "BBC Persian HD": "vhannibal"
   }
  },
+ "3330:045b:0001": {
+  "names": [
+   "L-TV/TVM"
+  ],
+  "sources": {
+   "L-TV/TVM": "antena-canalplus"
+  }
+ },
  "3330:1388:013e": {
   "names": [
    "BBC News HD",
-   "BBC News Europe"
+   "BBC News Europe",
+   "BBC News"
   ],
   "sources": {
+   "BBC News": "antena-canalplus",
    "BBC News Europe": "vhannibal",
    "BBC News HD": "robocza"
   }
@@ -12083,6 +14081,14 @@
    "TV5MONDE EUROPE": "vhannibal"
   }
  },
+ "3332:045b:0001": {
+  "names": [
+   "Shop LC"
+  ],
+  "sources": {
+   "Shop LC": "antena-canalplus"
+  }
+ },
  "3332:1388:013e": {
   "names": [
    "Arirang TV HD",
@@ -12093,12 +14099,38 @@
    "Arirang TV HD": "robocza"
   }
  },
- "3333:3390:0071": {
+ "3333:045b:0001": {
   "names": [
-   "Polsat News 2 HD"
+   "Visit-X TV"
   ],
   "sources": {
+   "Visit-X TV": "antena-canalplus"
+  }
+ },
+ "3333:3390:0071": {
+  "names": [
+   "Polsat News 2 HD",
+   "Polsat News 2"
+  ],
+  "sources": {
+   "Polsat News 2": "antena-canalplus",
    "Polsat News 2 HD": "robocza"
+  }
+ },
+ "3336:045b:0001": {
+  "names": [
+   "Servus TV"
+  ],
+  "sources": {
+   "Servus TV": "antena-canalplus"
+  }
+ },
+ "3339:045b:0001": {
+  "names": [
+   "L TV"
+  ],
+  "sources": {
+   "L TV": "antena-canalplus"
   }
  },
  "3341:1388:013e": {
@@ -12167,10 +14199,12 @@
  },
  "3348:1388:013e": {
   "names": [
-   "BBC English (Europe)"
+   "BBC English (Europe)",
+   "BBC Europe"
   ],
   "sources": {
-   "BBC English (Europe)": "vhannibal"
+   "BBC English (Europe)": "vhannibal",
+   "BBC Europe": "antena-canalplus"
   }
  },
  "3349:1388:013e": {
@@ -12183,9 +14217,11 @@
  },
  "334a:1388:013e": {
   "names": [
-   "RFI Francais"
+   "RFI Francais",
+   "RFI"
   ],
   "sources": {
+   "RFI": "antena-canalplus",
    "RFI Francais": "robocza"
   }
  },
@@ -12267,12 +14303,28 @@
    "Polsat News 2 HD": "vhannibal"
   }
  },
+ "3354:045b:0001": {
+  "names": [
+   "Radio Maria A"
+  ],
+  "sources": {
+   "Radio Maria A": "antena-canalplus"
+  }
+ },
  "3354:1388:013e": {
   "names": [
    "RFI Erevan"
   ],
   "sources": {
    "RFI Erevan": "vhannibal"
+  }
+ },
+ "3355:045b:0001": {
+  "names": [
+   "TV1 OOE"
+  ],
+  "sources": {
+   "TV1 OOE": "antena-canalplus"
   }
  },
  "3355:1388:013e": {
@@ -12301,9 +14353,11 @@
  },
  "3358:1388:013e": {
   "names": [
-   "RFI Test HB"
+   "RFI Test HB",
+   "RFI Persian"
   ],
   "sources": {
+   "RFI Persian": "antena-canalplus",
    "RFI Test HB": "bzyk83"
   }
  },
@@ -12419,6 +14473,14 @@
    "Polsat Cafe HD": "vhannibal"
   }
  },
+ "33a8:03eb:0001": {
+  "names": [
+   "Bibel TV HD"
+  ],
+  "sources": {
+   "Bibel TV HD": "antena-canalplus"
+  }
+ },
  "33a8:3390:0071": {
   "names": [
    "Polsat Film HD"
@@ -12443,12 +14505,28 @@
    "Polsat 2 HD": "vhannibal"
   }
  },
+ "33ab:03eb:0001": {
+  "names": [
+   "HOPE Channel HD"
+  ],
+  "sources": {
+   "HOPE Channel HD": "antena-canalplus"
+  }
+ },
  "33ab:3390:0071": {
   "names": [
    "Super Polsat HD"
   ],
   "sources": {
    "Super Polsat HD": "vhannibal"
+  }
+ },
+ "33ad:03eb:0001": {
+  "names": [
+   "RTL up Austria"
+  ],
+  "sources": {
+   "RTL up Austria": "antena-canalplus"
   }
  },
  "33b1:3390:0071": {
@@ -12579,6 +14657,30 @@
    "Polsat News HD": "vhannibal"
   }
  },
+ "3400:03ed:0001": {
+  "names": [
+   "R9 Österreich HD"
+  ],
+  "sources": {
+   "R9 Österreich HD": "antena-canalplus"
+  }
+ },
+ "3402:03ed:0001": {
+  "names": [
+   "oe24.TV"
+  ],
+  "sources": {
+   "oe24.TV": "antena-canalplus"
+  }
+ },
+ "3405:03ed:0001": {
+  "names": [
+   "Melodie Express"
+  ],
+  "sources": {
+   "Melodie Express": "antena-canalplus"
+  }
+ },
  "3779:044c:013e": {
   "names": [
    "Canal+ Film HD"
@@ -12618,10 +14720,12 @@
  "3784:044c:013e": {
   "names": [
    "Kino Polska HD",
-   "KINO POLSKA HD"
+   "KINO POLSKA HD",
+   "Kino Polska"
   ],
   "sources": {
    "KINO POLSKA HD": "vhannibal",
+   "Kino Polska": "antena-polsat",
    "Kino Polska HD": "robocza"
   }
  },
@@ -12638,9 +14742,11 @@
  "3786:044c:013e": {
   "names": [
    "FilmBox+ action",
-   "FILMBOX+ action"
+   "FILMBOX+ action",
+   "FILMBOX+ Action"
   ],
   "sources": {
+   "FILMBOX+ Action": "antena-polsat",
    "FILMBOX+ action": "vhannibal",
    "FilmBox+ action": "robocza"
   }
@@ -12648,9 +14754,11 @@
  "3787:044c:013e": {
   "names": [
    "FilmBox+ emotion",
-   "FILMBOX+ emotion"
+   "FILMBOX+ emotion",
+   "FILMBOX+ Emotion"
   ],
   "sources": {
+   "FILMBOX+ Emotion": "antena-polsat",
    "FILMBOX+ emotion": "vhannibal",
    "FilmBox+ emotion": "robocza"
   }
@@ -12658,9 +14766,11 @@
  "3788:044c:013e": {
   "names": [
    "FilmBox+ comedy",
-   "FILMBOX+ comedy"
+   "FILMBOX+ comedy",
+   "FILMBOX+ Comedy"
   ],
   "sources": {
+   "FILMBOX+ Comedy": "antena-polsat",
    "FILMBOX+ comedy": "vhannibal",
    "FilmBox+ comedy": "robocza"
   }
@@ -12668,9 +14778,11 @@
  "3789:044c:013e": {
   "names": [
    "FilmBox+ hits",
-   "FILMBOX+ hits"
+   "FILMBOX+ hits",
+   "FILMBOX+ Hits"
   ],
   "sources": {
+   "FILMBOX+ Hits": "antena-polsat",
    "FILMBOX+ hits": "vhannibal",
    "FilmBox+ hits": "robocza"
   }
@@ -12678,9 +14790,11 @@
  "378a:044c:013e": {
   "names": [
    "FilmBox+ one",
-   "FILMBOX+ one"
+   "FILMBOX+ one",
+   "FILMBOX+ One"
   ],
   "sources": {
+   "FILMBOX+ One": "antena-polsat",
    "FILMBOX+ one": "vhannibal",
    "FilmBox+ one": "robocza"
   }
@@ -12867,10 +14981,12 @@
  },
  "37b6:044c:013e": {
   "names": [
-   "KINO POLSKA HD"
+   "KINO POLSKA HD",
+   "Kino Polska HD"
   ],
   "sources": {
-   "KINO POLSKA HD": "vhannibal"
+   "KINO POLSKA HD": "vhannibal",
+   "Kino Polska HD": "antena-canalplus"
   }
  },
  "37bc:044c:013e": {
@@ -12883,11 +14999,21 @@
  },
  "37c8:044c:013e": {
   "names": [
-   "11411H SID 0x37c8"
+   "11411H SID 0x37c8",
+   "SERWISY INT."
   ],
   "sources": {
-   "11411H SID 0x37c8": "vhannibal"
+   "11411H SID 0x37c8": "vhannibal",
+   "SERWISY INT.": "antena-canalplus"
   }
+ },
+ "37cd:044c:013e": {
+  "names": [],
+  "sources": {}
+ },
+ "37db:044c:013e": {
+  "names": [],
+  "sources": {}
  },
  "38d0:19c8:fbff": {
   "names": [
@@ -12948,9 +15074,11 @@
  "39d9:1fa4:013e": {
   "names": [
    "Sonlife TV",
-   "Sonlife"
+   "Sonlife",
+   "SonLife"
   ],
   "sources": {
+   "SonLife": "antena-canalplus",
    "Sonlife": "vhannibal",
    "Sonlife TV": "robocza"
   }
@@ -12982,18 +15110,22 @@
  "3a9a:0514:013e": {
   "names": [
    "Novelas+",
-   "NOVELAS+"
+   "NOVELAS+",
+   "Novelas+ HD"
   ],
   "sources": {
    "NOVELAS+": "vhannibal",
-   "Novelas+": "robocza"
+   "Novelas+": "robocza",
+   "Novelas+ HD": "antena-polsat"
   }
  },
  "3a9b:0514:013e": {
   "names": [
-   "teleTOON+ HD"
+   "teleTOON+ HD",
+   "TeleTOON+ HD"
   ],
   "sources": {
+   "TeleTOON+ HD": "antena-polsat",
    "teleTOON+ HD": "robocza"
   }
  },
@@ -13097,10 +15229,28 @@
  },
  "3abe:0514:013e": {
   "names": [
-   "Romance TV"
+   "Romance TV",
+   "Romance TV HD"
   ],
   "sources": {
-   "Romance TV": "robocza"
+   "Romance TV": "robocza",
+   "Romance TV HD": "antena-canalplus"
+  }
+ },
+ "3ac9:0514:013e": {
+  "names": [
+   "Data"
+  ],
+  "sources": {
+   "Data": "antena-13e"
+  }
+ },
+ "3aca:0514:013e": {
+  "names": [
+   "Upload"
+  ],
+  "sources": {
+   "Upload": "antena-13e"
   }
  },
  "3acb:0514:013e": {
@@ -13173,6 +15323,14 @@
   "sources": {
    "CANAL+ SPORT 4 HD": "vhannibal",
    "Canal+ Sport 4 HD": "robocza"
+  }
+ },
+ "3ad4:0514:013e": {
+  "names": [
+   "Faktura"
+  ],
+  "sources": {
+   "Faktura": "antena-13e"
   }
  },
  "3ad6:0514:013e": {
@@ -13358,19 +15516,23 @@
  "3b6a:012c:013e": {
   "names": [
    "Science Poland HD",
-   "Discovery Science"
+   "Discovery Science",
+   "Discovery Science HD"
   ],
   "sources": {
    "Discovery Science": "bzyk83",
+   "Discovery Science HD": "antena-canalplus",
    "Science Poland HD": "robocza"
   }
  },
  "3b6b:012c:013e": {
   "names": [
    "DTX HD",
-   "Turbo Xtra Poland HD"
+   "Turbo Xtra Poland HD",
+   "DTX"
   ],
   "sources": {
+   "DTX": "antena-canalplus",
    "DTX HD": "robocza",
    "Turbo Xtra Poland HD": "vhannibal"
   }
@@ -13387,9 +15549,13 @@
  },
  "3b6d:012c:013e": {
   "names": [
-   "CNNI EMEA HD"
+   "CNNI EMEA HD",
+   "CNN HD",
+   "CNN Europe HD"
   ],
   "sources": {
+   "CNN Europe HD": "antena-polsat",
+   "CNN HD": "antena-canalplus",
    "CNNI EMEA HD": "robocza"
   }
  },
@@ -13607,6 +15773,14 @@
    "Novasports3HD": "vhannibal"
   }
  },
+ "3cb4:1bbc:013e": {
+  "names": [
+   "Cobalt Data"
+  ],
+  "sources": {
+   "Cobalt Data": "antena-13e"
+  }
+ },
  "3d55:2c88:013e": {
   "names": [
    "Canal+ 1 Premium HD",
@@ -13729,25 +15903,31 @@
  },
  "3d69:2c88:013e": {
   "names": [
-   "Eleven Sports 1 HD"
+   "Eleven Sports 1 HD",
+   "Eleven Sports 1"
   ],
   "sources": {
+   "Eleven Sports 1": "antena-polsat",
    "Eleven Sports 1 HD": "robocza"
   }
  },
  "3d6a:2c88:013e": {
   "names": [
-   "Eleven Sports 2 HD"
+   "Eleven Sports 2 HD",
+   "Eleven Sports 2"
   ],
   "sources": {
+   "Eleven Sports 2": "antena-polsat",
    "Eleven Sports 2 HD": "robocza"
   }
  },
  "3d6b:2c88:013e": {
   "names": [
-   "Eleven Sports 3 HD"
+   "Eleven Sports 3 HD",
+   "Eleven Sports 3"
   ],
   "sources": {
+   "Eleven Sports 3": "antena-polsat",
    "Eleven Sports 3 HD": "robocza"
   }
  },
@@ -13811,10 +15991,12 @@
  },
  "3dae:2c88:013e": {
   "names": [
-   "10796V SID 0x3dae"
+   "10796V SID 0x3dae",
+   "TV RACHUNEK"
   ],
   "sources": {
-   "10796V SID 0x3dae": "vhannibal"
+   "10796V SID 0x3dae": "vhannibal",
+   "TV RACHUNEK": "antena-canalplus"
   }
  },
  "3db5:2c88:013e": {
@@ -13919,17 +16101,21 @@
  },
  "3dd3:0640:013e": {
   "names": [
-   "TVN 7 HD"
+   "TVN 7 HD",
+   "TVN7 HD"
   ],
   "sources": {
-   "TVN 7 HD": "robocza"
+   "TVN 7 HD": "robocza",
+   "TVN7 HD": "antena-polsat"
   }
  },
  "3dd4:0640:013e": {
   "names": [
-   "Metro HD"
+   "Metro HD",
+   "Metro"
   ],
   "sources": {
+   "Metro": "antena-canalplus",
    "Metro HD": "robocza"
   }
  },
@@ -13954,10 +16140,12 @@
  "3dd6:0640:013e": {
   "names": [
    "TVN Fabuła",
-   "TVN Fabula"
+   "TVN Fabula",
+   "TVN Fabula HD"
   ],
   "sources": {
    "TVN Fabula": "vhannibal",
+   "TVN Fabula HD": "antena-canalplus",
    "TVN Fabuła": "robocza"
   }
  },
@@ -14007,17 +16195,21 @@
  },
  "3dea:0640:013e": {
   "names": [
-   "TVN HD_"
+   "TVN HD_",
+   "TVN HD"
   ],
   "sources": {
+   "TVN HD": "antena-polsat",
    "TVN HD_": "robocza"
   }
  },
  "3deb:0640:013e": {
   "names": [
-   "TVN 7 HD_"
+   "TVN 7 HD_",
+   "TVN 7 HD"
   ],
   "sources": {
+   "TVN 7 HD": "antena-polsat",
    "TVN 7 HD_": "robocza"
   }
  },
@@ -14031,9 +16223,11 @@
  },
  "3ded:0640:013e": {
   "names": [
-   "TVN 24 HD_"
+   "TVN 24 HD_",
+   "TVN 24 HD"
   ],
   "sources": {
+   "TVN 24 HD": "antena-canalplus",
    "TVN 24 HD_": "vhannibal"
   }
  },
@@ -14047,10 +16241,12 @@
  },
  "3e1d:2ee0:013e": {
   "names": [
-   "Sundance HD"
+   "Sundance HD",
+   "Sundance TV HD"
   ],
   "sources": {
-   "Sundance HD": "robocza"
+   "Sundance HD": "robocza",
+   "Sundance TV HD": "antena-canalplus"
   }
  },
  "3e1e:2ee0:0071": {
@@ -14063,10 +16259,12 @@
  },
  "3e1e:2ee0:013e": {
   "names": [
-   "E! Entertainment"
+   "E! Entertainment",
+   "E! Entertainment HD"
   ],
   "sources": {
-   "E! Entertainment": "robocza"
+   "E! Entertainment": "robocza",
+   "E! Entertainment HD": "antena-canalplus"
   }
  },
  "3e1f:2ee0:013e": {
@@ -14087,9 +16285,11 @@
  },
  "3e20:2ee0:013e": {
   "names": [
-   "SciFi HD"
+   "SciFi HD",
+   "Sci fi HD"
   ],
   "sources": {
+   "Sci fi HD": "antena-canalplus",
    "SciFi HD": "robocza"
   }
  },
@@ -14113,9 +16313,11 @@
  },
  "3e22:2ee0:013e": {
   "names": [
-   "History 2 HD"
+   "History 2 HD",
+   "HISTORY 2 HD"
   ],
   "sources": {
+   "HISTORY 2 HD": "antena-canalplus",
    "History 2 HD": "robocza"
   }
  },
@@ -14137,9 +16339,11 @@
  },
  "3e24:2ee0:013e": {
   "names": [
-   "Fightbox HD"
+   "Fightbox HD",
+   "FightBox HD"
   ],
   "sources": {
+   "FightBox HD": "antena-canalplus",
    "Fightbox HD": "robocza"
   }
  },
@@ -14233,21 +16437,33 @@
    "13 Ulica HD": "vhannibal"
   }
  },
+ "3e4e:2ee0:013e": {
+  "names": [
+   "B"
+  ],
+  "sources": {
+   "B": "antena-polsat"
+  }
+ },
  "4206:2f44:013e": {
   "names": [
    "Dorcel TV HD",
-   "DORCEL TV HD"
+   "DORCEL TV HD",
+   "Dorcel TV"
   ],
   "sources": {
    "DORCEL TV HD": "vhannibal",
+   "Dorcel TV": "antena-canalplus",
    "Dorcel TV HD": "robocza"
   }
  },
  "421a:3db8:013e": {
   "names": [
-   "TRM h24"
+   "TRM h24",
+   "TRM Network"
   ],
   "sources": {
+   "TRM Network": "antena-canalplus",
    "TRM h24": "robocza"
   }
  },
@@ -14255,9 +16471,11 @@
   "names": [
    "Freedom",
    "UATV",
-   "UA-TV"
+   "UA-TV",
+   "FREEDOM"
   ],
   "sources": {
+   "FREEDOM": "antena-canalplus",
    "Freedom": "robocza",
    "UA-TV": "bzyk83",
    "UATV": "vhannibal"
@@ -14265,34 +16483,50 @@
  },
  "4224:3db8:013e": {
   "names": [
-   "Redlight HD"
+   "Redlight HD",
+   "Red Light HD"
   ],
   "sources": {
+   "Red Light HD": "antena-polsat",
    "Redlight HD": "robocza"
+  }
+ },
+ "4227:3db8:013e": {
+  "names": [
+   "OTA TV Sat"
+  ],
+  "sources": {
+   "OTA TV Sat": "antena-13e"
   }
  },
  "422b:2f44:013e": {
   "names": [
-   "Mezzo SD"
+   "Mezzo SD",
+   "Mezzo"
   ],
   "sources": {
+   "Mezzo": "antena-canalplus",
    "Mezzo SD": "robocza"
   }
  },
  "422c:2f44:013e": {
   "names": [
-   "Brazzers HD"
+   "Brazzers HD",
+   "Brazzers TV"
   ],
   "sources": {
-   "Brazzers HD": "robocza"
+   "Brazzers HD": "robocza",
+   "Brazzers TV": "antena-polsat"
   }
  },
  "422d:2f44:013e": {
   "names": [
-   "Class TV Moda"
+   "Class TV Moda",
+   "TV Moda"
   ],
   "sources": {
-   "Class TV Moda": "robocza"
+   "Class TV Moda": "robocza",
+   "TV Moda": "antena-polsat"
   }
  },
  "422e:2f44:013e": {
@@ -14332,9 +16566,11 @@
  "4232:2f44:013e": {
   "names": [
    "Dla Ciebie",
-   "Dlia Ciebie"
+   "Dlia Ciebie",
+   "CTV - DLA CIEBIE"
   ],
   "sources": {
+   "CTV - DLA CIEBIE": "antena-canalplus",
    "Dla Ciebie": "robocza",
    "Dlia Ciebie": "vhannibal"
   }
@@ -14384,19 +16620,25 @@
  "4238:3db8:013e": {
   "names": [
    "Padre Pio TV",
-   "Padre Pio Tv"
+   "Padre Pio Tv",
+   "Tele Padre Pio"
   ],
   "sources": {
    "Padre Pio TV": "robocza",
-   "Padre Pio Tv": "vhannibal"
+   "Padre Pio Tv": "vhannibal",
+   "Tele Padre Pio": "antena-polsat"
   }
  },
  "4239:2f44:013e": {
   "names": [
-   "TVP Polonia"
+   "TVP Polonia",
+   "TVP Polonia HD",
+   "TVP POLONIA"
   ],
   "sources": {
-   "TVP Polonia": "robocza"
+   "TVP POLONIA": "antena-polsat",
+   "TVP Polonia": "robocza",
+   "TVP Polonia HD": "antena-canalplus"
   }
  },
  "423a:2f44:013e": {
@@ -14418,11 +16660,15 @@
  "423b:3db8:013e": {
   "names": [
    "Tele 5",
-   "TELE 5"
+   "TELE 5",
+   "Tele5",
+   "TELE5"
   ],
   "sources": {
    "TELE 5": "vhannibal",
-   "Tele 5": "robocza"
+   "TELE5": "antena-polsat",
+   "Tele 5": "robocza",
+   "Tele5": "antena-canalplus"
   }
  },
  "423c:3db8:0071": {
@@ -14435,9 +16681,11 @@
  },
  "423c:3db8:013e": {
   "names": [
-   "Polonia 1"
+   "Polonia 1",
+   "P1"
   ],
   "sources": {
+   "P1": "antena-polsat",
    "Polonia 1": "robocza"
   }
  },
@@ -14469,9 +16717,11 @@
  },
  "423f:3db8:013e": {
   "names": [
-   "Novela Tv V1"
+   "Novela Tv V1",
+   "Novela TV"
   ],
   "sources": {
+   "Novela TV": "antena-polsat",
    "Novela Tv V1": "vhannibal"
   }
  },
@@ -14496,29 +16746,35 @@
  "4241:3db8:013e": {
   "names": [
    "TVR Inter HB",
-   "TVR International HB"
+   "TVR International HB",
+   "TVR International"
   ],
   "sources": {
    "TVR Inter HB": "robocza",
+   "TVR International": "antena-canalplus",
    "TVR International HB": "vhannibal"
   }
  },
  "4242:3db8:013e": {
   "names": [
-   "Radio Italia Tv HD"
+   "Radio Italia Tv HD",
+   "Radio Italia TV HD"
   ],
   "sources": {
+   "Radio Italia TV HD": "antena-canalplus",
    "Radio Italia Tv HD": "robocza"
   }
  },
  "4243:3db8:013e": {
   "names": [
    "EquTV",
-   "EQUtv"
+   "EQUtv",
+   "Unire Sat HD"
   ],
   "sources": {
    "EQUtv": "vhannibal",
-   "EquTV": "robocza"
+   "EquTV": "robocza",
+   "Unire Sat HD": "antena-canalplus"
   }
  },
  "4244:3db8:013e": {
@@ -14540,11 +16796,13 @@
  "4246:3db8:013e": {
   "names": [
    "Radio Italia Live TV HD",
-   "Radio Italia Live"
+   "Radio Italia Live",
+   "Radio Italia Trend TV HD"
   ],
   "sources": {
    "Radio Italia Live": "vhannibal",
-   "Radio Italia Live TV HD": "robocza"
+   "Radio Italia Live TV HD": "robocza",
+   "Radio Italia Trend TV HD": "antena-canalplus"
   }
  },
  "424b:3db8:013e": {
@@ -14568,19 +16826,25 @@
  "4250:3db8:013e": {
   "names": [
    "Radio Kiss Kiss TV HD",
-   "Radio Kiss Kiss Tv"
+   "Radio Kiss Kiss Tv",
+   "Radio Kiss Kiss TV"
   ],
   "sources": {
+   "Radio Kiss Kiss TV": "antena-canalplus",
    "Radio Kiss Kiss TV HD": "robocza",
    "Radio Kiss Kiss Tv": "vhannibal"
   }
  },
  "4251:3db8:013e": {
   "names": [
-   "RDS Social TV"
+   "RDS Social TV",
+   "RDS TV",
+   "RDS  Social TV"
   ],
   "sources": {
-   "RDS Social TV": "robocza"
+   "RDS  Social TV": "antena-13e",
+   "RDS Social TV": "robocza",
+   "RDS TV": "antena-canalplus"
   }
  },
  "4253:3db8:013e": {
@@ -14812,10 +17076,12 @@
  "428a:2bc0:013e": {
   "names": [
    "FilmBox+ festival",
-   "FILMBOX+ Festival"
+   "FILMBOX+ Festival",
+   "FILMBOX+ festival"
   ],
   "sources": {
    "FILMBOX+ Festival": "vhannibal",
+   "FILMBOX+ festival": "antena-canalplus",
    "FilmBox+ festival": "robocza"
   }
  },
@@ -14830,18 +17096,22 @@
  "428d:2bc0:013e": {
   "names": [
    "4Fun TV",
-   "4Fun.TV"
+   "4Fun.TV",
+   "4 FUN.TV"
   ],
   "sources": {
+   "4 FUN.TV": "antena-canalplus",
    "4Fun TV": "robocza",
    "4Fun.TV": "vhannibal"
   }
  },
  "428e:2bc0:013e": {
   "names": [
-   "4Fun Kids"
+   "4Fun Kids",
+   "4 FUN KIDS"
   ],
   "sources": {
+   "4 FUN KIDS": "antena-canalplus",
    "4Fun Kids": "robocza"
   }
  },
@@ -14855,9 +17125,11 @@
  },
  "428f:2bc0:013e": {
   "names": [
-   "4Fun Dance"
+   "4Fun Dance",
+   "4 FUN DANCE"
   ],
   "sources": {
+   "4 FUN DANCE": "antena-canalplus",
    "4Fun Dance": "robocza"
   }
  },
@@ -14871,10 +17143,12 @@
  },
  "4290:2bc0:013e": {
   "names": [
-   "Viasat Epic Drama"
+   "Viasat Epic Drama",
+   "Viasat Epic Drama HD"
   ],
   "sources": {
-   "Viasat Epic Drama": "robocza"
+   "Viasat Epic Drama": "robocza",
+   "Viasat Epic Drama HD": "antena-canalplus"
   }
  },
  "4291:2bc0:0071": {
@@ -14929,49 +17203,61 @@
  },
  "429a:2bc0:013e": {
   "names": [
-   "Polo TV"
+   "Polo TV",
+   "Polo TV HD"
   ],
   "sources": {
-   "Polo TV": "robocza"
+   "Polo TV": "robocza",
+   "Polo TV HD": "antena-canalplus"
   }
  },
  "429c:2bc0:013e": {
   "names": [
-   "Eska TV HD"
+   "Eska TV HD",
+   "ESKA TV HD"
   ],
   "sources": {
+   "ESKA TV HD": "antena-canalplus",
    "Eska TV HD": "robocza"
   }
  },
  "429d:2bc0:013e": {
   "names": [
-   "Fokus TV HD"
+   "Fokus TV HD",
+   "FOKUS TV HD"
   ],
   "sources": {
+   "FOKUS TV HD": "antena-canalplus",
    "Fokus TV HD": "robocza"
   }
  },
  "429e:2bc0:013e": {
   "names": [
-   "Nowa TV"
+   "Nowa TV",
+   "Nowa TV HD"
   ],
   "sources": {
-   "Nowa TV": "robocza"
+   "Nowa TV": "robocza",
+   "Nowa TV HD": "antena-canalplus"
   }
  },
  "42c2:2bc0:013e": {
   "names": [
-   "Polo TV"
+   "Polo TV",
+   "Polo TV HD"
   ],
   "sources": {
-   "Polo TV": "vhannibal"
+   "Polo TV": "vhannibal",
+   "Polo TV HD": "antena-canalplus"
   }
  },
  "42c5:2bc0:013e": {
   "names": [
-   "Fokus TV HD"
+   "Fokus TV HD",
+   "FOKUS TV HD"
   ],
   "sources": {
+   "FOKUS TV HD": "antena-canalplus",
    "Fokus TV HD": "vhannibal"
   }
  },
@@ -15023,9 +17309,11 @@
  },
  "4336:300c:013e": {
   "names": [
-   "SRF info HD"
+   "SRF info HD",
+   "SF Info HD"
   ],
   "sources": {
+   "SF Info HD": "antena-canalplus",
    "SRF info HD": "robocza"
   }
  },
@@ -15096,10 +17384,12 @@
  "434b:300c:013e": {
   "names": [
    "RTS-1ere",
-   "RTS Première"
+   "RTS Première",
+   "RTS Premičre"
   ],
   "sources": {
    "RTS Première": "vhannibal",
+   "RTS Premičre": "antena-13e",
    "RTS-1ere": "robocza"
   }
  },
@@ -15261,6 +17551,78 @@
    "Swiss Classica": "robocza"
   }
  },
+ "445c:0453:0001": {
+  "names": [
+   "SAT.1"
+  ],
+  "sources": {
+   "SAT.1": "antena-canalplus"
+  }
+ },
+ "445d:0453:0001": {
+  "names": [
+   "ProSieben"
+  ],
+  "sources": {
+   "ProSieben": "antena-canalplus"
+  }
+ },
+ "445e:0453:0001": {
+  "names": [
+   "kabel eins"
+  ],
+  "sources": {
+   "kabel eins": "antena-canalplus"
+  }
+ },
+ "445f:0453:0001": {
+  "names": [
+   "WELT"
+  ],
+  "sources": {
+   "WELT": "antena-canalplus"
+  }
+ },
+ "4460:0453:0001": {
+  "names": [
+   "SAT 1 Gold"
+  ],
+  "sources": {
+   "SAT 1 Gold": "antena-canalplus"
+  }
+ },
+ "4461:0453:0001": {
+  "names": [
+   "ProSieben MAXX"
+  ],
+  "sources": {
+   "ProSieben MAXX": "antena-canalplus"
+  }
+ },
+ "4463:0453:0001": {
+  "names": [
+   "SAT.1 Bayern"
+  ],
+  "sources": {
+   "SAT.1 Bayern": "antena-canalplus"
+  }
+ },
+ "4464:0453:0001": {
+  "names": [
+   "SAT.1 NRW"
+  ],
+  "sources": {
+   "SAT.1 NRW": "antena-canalplus"
+  }
+ },
+ "4465:0453:0001": {
+  "names": [
+   "kabel eins doku"
+  ],
+  "sources": {
+   "kabel eins doku": "antena-canalplus"
+  }
+ },
  "4526:1db0:013e": {
   "names": [
    "DVB-NIP-01"
@@ -15271,25 +17633,31 @@
  },
  "452f:30d4:013e": {
   "names": [
-   "Rai News 24 HD"
+   "Rai News 24 HD",
+   "Rai News 24"
   ],
   "sources": {
+   "Rai News 24": "antena-canalplus",
    "Rai News 24 HD": "robocza"
   }
  },
  "4530:30d4:013e": {
   "names": [
-   "Rai Gulp HD"
+   "Rai Gulp HD",
+   "Rai Gulp"
   ],
   "sources": {
+   "Rai Gulp": "antena-polsat",
    "Rai Gulp HD": "robocza"
   }
  },
  "4532:30d4:013e": {
   "names": [
-   "Rai Sport HD"
+   "Rai Sport HD",
+   "RAI Sport"
   ],
   "sources": {
+   "RAI Sport": "antena-canalplus",
    "Rai Sport HD": "robocza"
   }
  },
@@ -15312,11 +17680,21 @@
  "4536:30d4:013e": {
   "names": [
    "Uninettuno University TV",
-   "UNINETTUNO UNIVERSITY TV"
+   "UNINETTUNO UNIVERSITY TV",
+   "RaiNettunoSat1"
   ],
   "sources": {
+   "RaiNettunoSat1": "antena-polsat",
    "UNINETTUNO UNIVERSITY TV": "vhannibal",
    "Uninettuno University TV": "robocza"
+  }
+ },
+ "4537:0514:013e": {
+  "names": [
+   "nPVR"
+  ],
+  "sources": {
+   "nPVR": "antena-polsat"
   }
  },
  "4543:30d4:013e": {
@@ -15503,6 +17881,302 @@
   ],
   "sources": {
    "Rai 3 TGR Lazio": "robocza"
+  }
+ },
+ "4e22:043a:0001": {
+  "names": [
+   "ProSieben A"
+  ],
+  "sources": {
+   "ProSieben A": "antena-canalplus"
+  }
+ },
+ "4e24:043a:0001": {
+  "names": [
+   "Kabel 1 Austria"
+  ],
+  "sources": {
+   "Kabel 1 Austria": "antena-canalplus"
+  }
+ },
+ "4e25:043a:0001": {
+  "names": [
+   "SAT.1 A"
+  ],
+  "sources": {
+   "SAT.1 A": "antena-canalplus"
+  }
+ },
+ "526c:041d:0001": {
+  "names": [
+   "Anixe HD"
+  ],
+  "sources": {
+   "Anixe HD": "antena-canalplus"
+  }
+ },
+ "526f:041d:0001": {
+  "names": [
+   "QVC Deutschland"
+  ],
+  "sources": {
+   "QVC Deutschland": "antena-canalplus"
+  }
+ },
+ "5270:041d:0001": {
+  "names": [
+   "HSE24"
+  ],
+  "sources": {
+   "HSE24": "antena-canalplus"
+  }
+ },
+ "6dcb:044d:0001": {
+  "names": [
+   "TELRGOLD"
+  ],
+  "sources": {
+   "TELRGOLD": "antena-canalplus"
+  }
+ },
+ "6e2d:0431:0001": {
+  "names": [
+   "Xplore"
+  ],
+  "sources": {
+   "Xplore": "antena-canalplus"
+  }
+ },
+ "6e40:0431:0001": {
+  "names": [
+   "One Terra"
+  ],
+  "sources": {
+   "One Terra": "antena-canalplus"
+  }
+ },
+ "6e41:0431:0001": {
+  "names": [
+   "Deluxe Rap"
+  ],
+  "sources": {
+   "Deluxe Rap": "antena-canalplus"
+  }
+ },
+ "6e42:0431:0001": {
+  "names": [
+   "Deluxe Dance by Kontor"
+  ],
+  "sources": {
+   "Deluxe Dance by Kontor": "antena-canalplus"
+  }
+ },
+ "6e43:0431:0001": {
+  "names": [
+   "Just Cooking"
+  ],
+  "sources": {
+   "Just Cooking": "antena-canalplus"
+  }
+ },
+ "6e44:0431:0001": {
+  "names": [
+   "Just Fishing"
+  ],
+  "sources": {
+   "Just Fishing": "antena-canalplus"
+  }
+ },
+ "6e45:0431:0001": {
+  "names": [
+   "Hohenrausch"
+  ],
+  "sources": {
+   "Hohenrausch": "antena-canalplus"
+  }
+ },
+ "6e46:0431:0001": {
+  "names": [
+   "Crime Time"
+  ],
+  "sources": {
+   "Crime Time": "antena-canalplus"
+  }
+ },
+ "6e47:0431:0001": {
+  "names": [
+   "SERIEN+"
+  ],
+  "sources": {
+   "SERIEN+": "antena-canalplus"
+  }
+ },
+ "6eac:03fd:0001": {
+  "names": [
+   "WDR HD Koln"
+  ],
+  "sources": {
+   "WDR HD Koln": "antena-canalplus"
+  }
+ },
+ "6ead:03fd:0001": {
+  "names": [
+   "WDR Aachen"
+  ],
+  "sources": {
+   "WDR Aachen": "antena-canalplus"
+  }
+ },
+ "6eae:03fd:0001": {
+  "names": [
+   "WDR Bielefeld"
+  ],
+  "sources": {
+   "WDR Bielefeld": "antena-canalplus"
+  }
+ },
+ "6eaf:03fd:0001": {
+  "names": [
+   "WDR Bonn"
+  ],
+  "sources": {
+   "WDR Bonn": "antena-canalplus"
+  }
+ },
+ "6eb0:03fd:0001": {
+  "names": [
+   "WDR Dortmund"
+  ],
+  "sources": {
+   "WDR Dortmund": "antena-canalplus"
+  }
+ },
+ "6eb1:03fd:0001": {
+  "names": [
+   "WDR Duisburg"
+  ],
+  "sources": {
+   "WDR Duisburg": "antena-canalplus"
+  }
+ },
+ "6eb2:03fd:0001": {
+  "names": [
+   "WDR Düsseldorf"
+  ],
+  "sources": {
+   "WDR Düsseldorf": "antena-canalplus"
+  }
+ },
+ "6eb3:03fd:0001": {
+  "names": [
+   "WDR Essen"
+  ],
+  "sources": {
+   "WDR Essen": "antena-canalplus"
+  }
+ },
+ "6eb4:03fd:0001": {
+  "names": [
+   "WDR Münster"
+  ],
+  "sources": {
+   "WDR Münster": "antena-canalplus"
+  }
+ },
+ "6eb6:03fd:0001": {
+  "names": [
+   "WDR Wuppertal"
+  ],
+  "sources": {
+   "WDR Wuppertal": "antena-canalplus"
+  }
+ },
+ "7004:0436:0001": {
+  "names": [
+   "Comedy Central Germany"
+  ],
+  "sources": {
+   "Comedy Central Germany": "antena-canalplus"
+  }
+ },
+ "7006:0436:0001": {
+  "names": [
+   "MTV Germany"
+  ],
+  "sources": {
+   "MTV Germany": "antena-canalplus"
+  }
+ },
+ "7008:0436:0001": {
+  "names": [
+   "NICK"
+  ],
+  "sources": {
+   "NICK": "antena-canalplus"
+  }
+ },
+ "7080:0443:0001": {
+  "names": [
+   "RTL Austria"
+  ],
+  "sources": {
+   "RTL Austria": "antena-canalplus"
+  }
+ },
+ "7085:0443:0001": {
+  "names": [
+   "VOX Austria"
+  ],
+  "sources": {
+   "VOX Austria": "antena-canalplus"
+  }
+ },
+ "708a:0443:0001": {
+  "names": [
+   "RTL2 Austria"
+  ],
+  "sources": {
+   "RTL2 Austria": "antena-canalplus"
+  }
+ },
+ "708f:0443:0001": {
+  "names": [
+   "Super RTL A"
+  ],
+  "sources": {
+   "Super RTL A": "antena-canalplus"
+  }
+ },
+ "7729:0416:0001": {
+  "names": [
+   "Canal Sur Andalucia"
+  ],
+  "sources": {
+   "Canal Sur Andalucia": "antena-canalplus"
+  }
+ },
+ "79e0:0443:0001": {
+  "names": [
+   "Eurosport"
+  ],
+  "sources": {
+   "Eurosport": "antena-canalplus"
+  }
+ },
+ "79ea:0443:0001": {
+  "names": [
+   "HSE24 Extra"
+  ],
+  "sources": {
+   "HSE24 Extra": "antena-canalplus"
+  }
+ },
+ "7a49:0410:0001": {
+  "names": [
+   "Telesur HD"
+  ],
+  "sources": {
+   "Telesur HD": "antena-canalplus"
   }
  }
 }
