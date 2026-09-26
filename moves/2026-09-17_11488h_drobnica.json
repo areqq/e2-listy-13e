@@ -1,0 +1,39 @@
+{
+  "_opis": "5 kanalow zeszlo z 11488 H (05DC) na 10796 V (2C88): kopie rownolegle wg KingOfSat z 02-03.09.2026, potwierdzone pelnym skanem 13E z 13.09 (obie emisje zywe) i skanami operatorskimi z 17.09 (nowe SID-y weszly do BAT). Kierunek odwrotny do fali 060926 - operator wymienia sie pojemnoscia miedzy TP, nie opróznia 10796 V. Typ uslugi 1 (SD) po obu stronach wg SDT.",
+  "add_services": [
+    {"sid": "3D6E", "tsid": "2C88", "type": 1, "name": "StudioMed TV", "provider": "Canal+"},
+    {"sid": "3D75", "tsid": "2C88", "type": 1, "name": "Home TV", "provider": "Canal+"},
+    {"sid": "3D76", "tsid": "2C88", "type": 1, "name": "Nuta Gold", "provider": "Canal+"},
+    {"sid": "3D77", "tsid": "2C88", "type": 1, "name": "Nuta TV", "provider": "Canal+"},
+    {"sid": "3D78", "tsid": "2C88", "type": 1, "name": "Power TV", "provider": "Canal+"}
+  ],
+  "targets": [
+    {"bouquet": "userbouquet.dbe00.tv",
+     "moves": [
+       {"name": "Home TV",      "old_sid": "140D", "old_tsid": "05DC", "new_sid": "3D75", "new_tsid": "2C88"},
+       {"name": "StudioMed TV", "old_sid": "13FB", "old_tsid": "05DC", "new_sid": "3D6E", "new_tsid": "2C88"},
+       {"name": "Power TV",     "old_sid": "1410", "old_tsid": "05DC", "new_sid": "3D78", "new_tsid": "2C88"},
+       {"name": "Nuta Gold",    "old_sid": "140E", "old_tsid": "05DC", "new_sid": "3D76", "new_tsid": "2C88"},
+       {"name": "Nuta TV",      "old_sid": "140F", "old_tsid": "05DC", "new_sid": "3D77", "new_tsid": "2C88"}
+     ]},
+    {"bouquet": "userbouquet.dbe04.tv",
+     "moves": [
+       {"name": "Nuta Gold",    "old_sid": "140E", "old_tsid": "05DC", "new_sid": "3D76", "new_tsid": "2C88"},
+       {"name": "Nuta TV",      "old_sid": "140F", "old_tsid": "05DC", "new_sid": "3D77", "new_tsid": "2C88"},
+       {"name": "Power TV",     "old_sid": "1410", "old_tsid": "05DC", "new_sid": "3D78", "new_tsid": "2C88"}
+     ]},
+    {"bouquet": "userbouquet.dbe0b.tv",
+     "moves": [
+       {"name": "Power TV",     "old_sid": "1410", "old_tsid": "05DC", "new_sid": "3D78", "new_tsid": "2C88"},
+       {"name": "Home TV",      "old_sid": "140D", "old_tsid": "05DC", "new_sid": "3D75", "new_tsid": "2C88"},
+       {"name": "StudioMed TV", "old_sid": "13FB", "old_tsid": "05DC", "new_sid": "3D6E", "new_tsid": "2C88"}
+     ]},
+    {"bouquet": "userbouquet.dbe25.tv",
+     "moves": [
+       {"name": "Home TV",      "old_sid": "140D", "old_tsid": "05DC", "new_sid": "3D75", "new_tsid": "2C88"},
+       {"name": "Power TV",     "old_sid": "1410", "old_tsid": "05DC", "new_sid": "3D78", "new_tsid": "2C88"},
+       {"name": "Nuta Gold",    "old_sid": "140E", "old_tsid": "05DC", "new_sid": "3D76", "new_tsid": "2C88"},
+       {"name": "Nuta TV",      "old_sid": "140F", "old_tsid": "05DC", "new_sid": "3D77", "new_tsid": "2C88"}
+     ]}
+  ]
+}

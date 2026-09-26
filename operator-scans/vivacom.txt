@@ -1,0 +1,483 @@
+L 1 0067:251C:00D5 visible=1 src=bat
+L 10 0020:2580:00D5 visible=1 src=bat
+L 100 0147:2648:00D5 visible=1 src=bat
+L 101 0146:2648:00D5 visible=1 src=bat
+L 102 00D5:2648:00D5 visible=1 src=bat
+L 103 00DB:25E4:00D5 visible=1 src=bat
+L 104 0087:251C:00D5 visible=1 src=bat
+L 105 13B2:2710:00D5 visible=1 src=bat
+L 106 1390:2710:00D5 visible=1 src=bat
+L 108 13A6:2710:00D5 visible=1 src=bat
+L 109 138D:2710:00D5 visible=1 src=bat
+L 11 0075:251C:00D5 visible=1 src=bat
+L 111 010C:25E4:00D5 visible=1 src=bat
+L 112 13AE:2710:00D5 visible=1 src=bat
+L 113 13AF:2710:00D5 visible=1 src=bat
+L 114 13B0:2710:00D5 visible=1 src=bat
+L 115 138C:2710:00D5 visible=1 src=bat
+L 116 13B1:2710:00D5 visible=1 src=bat
+L 117 013D:2648:00D5 visible=1 src=bat
+L 119 00F5:25E4:00D5 visible=1 src=bat
+L 12 0022:2580:00D5 visible=1 src=bat
+L 120 006F:251C:00D5 visible=1 src=bat
+L 121 006A:25E4:00D5 visible=1 src=bat
+L 122 0136:25E4:00D5 visible=1 src=bat
+L 123 13A1:2710:00D5 visible=1 src=bat
+L 124 00D1:25E4:00D5 visible=1 src=bat
+L 125 00D3:25E4:00D5 visible=1 src=bat
+L 126 010F:25E4:00D5 visible=1 src=bat
+L 127 00CC:25E4:00D5 visible=1 src=bat
+L 128 139B:2710:00D5 visible=1 src=bat
+L 129 139C:2710:00D5 visible=1 src=bat
+L 13 138F:2710:00D5 visible=1 src=bat
+L 130 0008:2580:00D5 visible=1 src=bat
+L 131 010A:25E4:00D5 visible=1 src=bat
+L 132 010B:25E4:00D5 visible=1 src=bat
+L 133 00ED:25E4:00D5 visible=1 src=bat
+L 135 13AA:2710:00D5 visible=1 src=bat
+L 137 00F0:25E4:00D5 visible=1 src=bat
+L 138 001A:2580:00D5 visible=1 src=bat
+L 14 025B:251C:00D5 visible=1 src=bat
+L 141 00F8:25E4:00D5 visible=1 src=bat
+L 142 13B3:2710:00D5 visible=1 src=bat
+L 143 013C:2648:00D5 visible=1 src=bat
+L 144 013B:2648:00D5 visible=1 src=bat
+L 145 00DF:25E4:00D5 visible=1 src=bat
+L 146 00D4:25E4:00D5 visible=1 src=bat
+L 147 0079:251C:00D5 visible=1 src=bat
+L 148 0078:251C:00D5 visible=1 src=bat
+L 149 010D:25E4:00D5 visible=1 src=bat
+L 15 025A:251C:00D5 visible=1 src=bat
+L 150 0071:251C:00D5 visible=1 src=bat
+L 151 012E:25E4:00D5 visible=1 src=bat
+L 152 0131:2648:00D5 visible=1 src=bat
+L 153 008C:251C:00D5 visible=1 src=bat
+L 154 139F:2710:00D5 visible=1 src=bat
+L 155 1394:2710:00D5 visible=1 src=bat
+L 156 139E:2710:00D5 visible=1 src=bat
+L 157 0065:251C:00D5 visible=1 src=bat
+L 158 0137:2648:00D5 visible=1 src=bat
+L 159 13A3:2710:00D5 visible=1 src=bat
+L 16 0259:251C:00D5 visible=1 src=bat
+L 160 00D6:25E4:00D5 visible=1 src=bat
+L 161 13B5:2710:00D5 visible=1 src=bat
+L 162 0001:2580:00D5 visible=1 src=bat
+L 163 0033:2580:00D5 visible=1 src=bat
+L 164 0007:2580:00D5 visible=1 src=bat
+L 165 0010:2580:00D5 visible=1 src=bat
+L 166 13AB:2710:00D5 visible=1 src=bat
+L 167 139D:2710:00D5 visible=1 src=bat
+L 168 13A0:2710:00D5 visible=1 src=bat
+L 169 0110:25E4:00D5 visible=1 src=bat
+L 17 0072:251C:00D5 visible=1 src=bat
+L 170 13A8:2710:00D5 visible=1 src=bat
+L 171 1397:2710:00D5 visible=1 src=bat
+L 172 007F:251C:00D5 visible=1 src=bat
+L 173 00CD:25E4:00D5 visible=1 src=bat
+L 174 0009:2580:00D5 visible=1 src=bat
+L 175 000A:2580:00D5 visible=1 src=bat
+L 176 000C:2580:00D5 visible=1 src=bat
+L 177 000F:2580:00D5 visible=1 src=bat
+L 178 000D:2580:00D5 visible=1 src=bat
+L 179 000E:2580:00D5 visible=1 src=bat
+L 18 0106:25E4:00D5 visible=1 src=bat
+L 180 000B:2580:00D5 visible=1 src=bat
+L 181 0017:2580:00D5 visible=1 src=bat
+L 182 003C:2580:00D5 visible=1 src=bat
+L 183 003D:2580:00D5 visible=1 src=bat
+L 184 0055:2580:00D5 visible=1 src=bat
+L 185 003E:2580:00D5 visible=1 src=bat
+L 186 002E:2580:00D5 visible=1 src=bat
+L 187 002F:2580:00D5 visible=1 src=bat
+L 188 003F:2580:00D5 visible=1 src=bat
+L 189 0051:2580:00D5 visible=1 src=bat
+L 19 014B:2648:00D5 visible=1 src=bat
+L 190 0052:2580:00D5 visible=1 src=bat
+L 191 0053:2580:00D5 visible=1 src=bat
+L 193 0013:2580:00D5 visible=1 src=bat
+L 194 0014:2580:00D5 visible=1 src=bat
+L 195 0032:2580:00D5 visible=1 src=bat
+L 196 0026:2580:00D5 visible=1 src=bat
+L 197 0025:2580:00D5 visible=1 src=bat
+L 198 0011:2580:00D5 visible=1 src=bat
+L 199 0012:2580:00D5 visible=1 src=bat
+L 2 013E:2648:00D5 visible=1 src=bat
+L 20 00E9:25E4:00D5 visible=1 src=bat
+L 21 00D7:25E4:00D5 visible=1 src=bat
+L 22 13AC:2710:00D5 visible=1 src=bat
+L 23 13AD:2710:00D5 visible=1 src=bat
+L 24 0139:2648:00D5 visible=1 src=bat
+L 25 138A:2710:00D5 visible=1 src=bat
+L 26 0140:2648:00D5 visible=1 src=bat
+L 27 00D0:25E4:00D5 visible=1 src=bat
+L 28 00D8:25E4:00D5 visible=1 src=bat
+L 29 0138:2648:00D5 visible=1 src=bat
+L 3 0034:2580:00D5 visible=1 src=bat
+L 30 00FA:25E4:00D5 visible=1 src=bat
+L 32 0130:2648:00D5 visible=1 src=bat
+L 33 014A:2648:00D5 visible=1 src=bat
+L 34 0145:2648:00D5 visible=1 src=bat
+L 35 00DE:2648:00D5 visible=1 src=bat
+L 37 00F1:25E4:00D5 visible=1 src=bat
+L 38 0086:251C:00D5 visible=1 src=bat
+L 39 00E3:25E4:00D5 visible=1 src=bat
+L 4 0092:251C:00D5 visible=1 src=bat
+L 40 008B:251C:00D5 visible=1 src=bat
+L 41 0006:2580:00D5 visible=1 src=bat
+L 42 0068:251C:00D5 visible=1 src=bat
+L 43 0015:2580:00D5 visible=1 src=bat
+L 44 0016:2580:00D5 visible=1 src=bat
+L 45 001C:2580:00D5 visible=1 src=bat
+L 46 00CB:25E4:00D5 visible=1 src=bat
+L 47 007B:25E4:00D5 visible=1 src=bat
+L 48 13B4:2710:00D5 visible=1 src=bat
+L 49 00E5:251C:00D5 visible=1 src=bat
+L 5 0003:2580:00D5 visible=1 src=bat
+L 50 00E6:251C:00D5 visible=1 src=bat
+L 51 00E0:25E4:00D5 visible=1 src=bat
+L 52 00E2:251C:00D5 visible=1 src=bat
+L 53 0105:25E4:00D5 visible=1 src=bat
+L 54 007E:251C:00D5 visible=1 src=bat
+L 55 007A:251C:00D5 visible=1 src=bat
+L 56 00CA:25E4:00D5 visible=1 src=bat
+L 57 13A9:2710:00D5 visible=1 src=bat
+L 58 0134:2648:00D5 visible=1 src=bat
+L 59 0135:2648:00D5 visible=1 src=bat
+L 6 0004:2580:00D5 visible=1 src=bat
+L 60 0076:25E4:00D5 visible=1 src=bat
+L 61 0093:251C:00D5 visible=1 src=bat
+L 62 0094:251C:00D5 visible=1 src=bat
+L 63 00E1:25E4:00D5 visible=1 src=bat
+L 64 00F7:25E4:00D5 visible=1 src=bat
+L 65 00DC:25E4:00D5 visible=1 src=bat
+L 66 1398:2710:00D5 visible=1 src=bat
+L 67 13A4:2710:00D5 visible=1 src=bat
+L 68 0082:251C:00D5 visible=1 src=bat
+L 69 0080:251C:00D5 visible=1 src=bat
+L 7 013F:2648:00D5 visible=1 src=bat
+L 70 00C9:25E4:00D5 visible=1 src=bat
+L 71 0104:25E4:00D5 visible=1 src=bat
+L 72 00E4:25E4:00D5 visible=1 src=bat
+L 73 010E:25E4:00D5 visible=1 src=bat
+L 74 0083:251C:00D5 visible=1 src=bat
+L 75 00E8:25E4:00D5 visible=1 src=bat
+L 76 0095:251C:00D5 visible=1 src=bat
+L 77 1392:2710:00D5 visible=1 src=bat
+L 78 00D2:25E4:00D5 visible=1 src=bat
+L 79 139A:2710:00D5 visible=1 src=bat
+L 8 0074:251C:00D5 visible=1 src=bat
+L 80 1389:2710:00D5 visible=1 src=bat
+L 81 0023:2580:00D5 visible=1 src=bat
+L 82 0109:25E4:00D5 visible=1 src=bat
+L 83 001D:2580:00D5 visible=1 src=bat
+L 84 002B:2580:00D5 visible=1 src=bat
+L 85 00C8:25E4:00D5 visible=1 src=bat
+L 86 0029:2580:00D5 visible=1 src=bat
+L 87 00EA:25E4:00D5 visible=1 src=bat
+L 88 0021:2580:00D5 visible=1 src=bat
+L 89 138B:2710:00D5 visible=1 src=bat
+L 9 0088:251C:00D5 visible=1 src=bat
+L 90 008D:251C:00D5 visible=1 src=bat
+L 91 1396:2710:00D5 visible=1 src=bat
+L 93 1393:2710:00D5 visible=1 src=bat
+L 94 13A5:2710:00D5 visible=1 src=bat
+L 98 008E:251C:00D5 visible=1 src=bat
+S 0001:2580:00D5 type=1 ca=1 "bTV" "VIVACOM"
+S 0002:2580:00D5 type=1 ca=1 "NOVA" "VIVACOM"
+S 0003:2580:00D5 type=1 ca=1 "bTV Comedy" "VIVACOM"
+S 0004:2580:00D5 type=1 ca=1 "bTV Cinema" "VIVACOM"
+S 0005:2580:00D5 type=25 ca=1 "NOVA HD" "VIVACOM"
+S 0006:2580:00D5 type=1 ca=1 "bTV Story" "VIVACOM"
+S 0007:2580:00D5 type=1 ca=1 "bTV Action" "VIVACOM"
+S 0008:2580:00D5 type=1 ca=0 "CITY TV" "VIVACOM"
+S 0009:2580:00D5 type=2 ca=0 "RADIO 1" "VIVACOM"
+S 000A:2580:00D5 type=2 ca=0 "BG RADIO" "VIVACOM"
+S 000B:2580:00D5 type=2 ca=0 "RADIO CITY" "VIVACOM"
+S 000C:2580:00D5 type=2 ca=0 "ENERGY" "VIVACOM"
+S 000D:2580:00D5 type=2 ca=0 "VERONIKA" "VIVACOM"
+S 000E:2580:00D5 type=2 ca=0 "RADIO 1 ROCK" "VIVACOM"
+S 000F:2580:00D5 type=2 ca=0 "Avtoradio" "VIVACOM"
+S 0010:2580:00D5 type=1 ca=1 "RING" "VIVACOM"
+S 0011:2580:00D5 type=2 ca=0 "Radio Focus Sofia" "VIVACOM"
+S 0012:2580:00D5 type=2 ca=0 "Radio Focus Pirin" "VIVACOM"
+S 0013:2580:00D5 type=2 ca=0 "BNR HORIZONT" "VIVACOM"
+S 0014:2580:00D5 type=2 ca=0 "BNR HR. BOTEV" "VIVACOM"
+S 0015:2580:00D5 type=1 ca=1 "STAR Life" "VIVACOM"
+S 0016:2580:00D5 type=1 ca=1 "STAR Crime" "VIVACOM"
+S 0017:2580:00D5 type=2 ca=0 "Darik radio" "VIVACOM"
+S 0018:2580:00D5 type=2 ca=0 "Darik Plovdiv" "VIVACOM"
+S 0019:2580:00D5 type=2 ca=0 "Darik Burgas" "VIVACOM"
+S 001A:2580:00D5 type=1 ca=0 "Test" "Vivacom"
+S 001B:2580:00D5 type=2 ca=0 "BNR Kardzali" "VIVACOM"
+S 001C:2580:00D5 type=1 ca=1 "24 Kitchen" "VIVACOM"
+S 001D:2580:00D5 type=1 ca=1 "Telenews" "VIVACOM"
+S 001E:2580:00D5 type=2 ca=0 "BG on Air" "VIVACOM"
+S 001F:2580:00D5 type=2 ca=0 "bTV Radio" "VIVACOM"
+S 0020:2580:00D5 type=1 ca=0 "STAR Channel" "VIVACOM"
+S 0021:2580:00D5 type=1 ca=1 "BNT 4" "VIVACOM"
+S 0022:2580:00D5 type=1 ca=1 "Bulgaria On Air" "VIVACOM"
+S 0023:2580:00D5 type=22 ca=1 "Bloomberg BG" "VIVACOM"
+S 0024:2580:00D5 type=1 ca=1 "Nat Geo" "VIVACOM"
+S 0025:2580:00D5 type=2 ca=0 "BNR Burgas" "VIVACOM"
+S 0026:2580:00D5 type=2 ca=0 "BNR Vidin" "VIVACOM"
+S 0027:2580:00D5 type=2 ca=0 "BNR St. Zagora" "VIVACOM"
+S 0028:2580:00D5 type=2 ca=0 "BNR Varna" "VIVACOM"
+S 0029:2580:00D5 type=1 ca=1 "PPTV" "VIVACOM"
+S 002A:2580:00D5 type=1 ca=1 "NG Wild" "VIVACOM"
+S 002B:2580:00D5 type=1 ca=1 "BHTV" "VIVACOM"
+S 002C:2580:00D5 type=2 ca=0 "BNR Horizont +T" "VIVACOM"
+S 002D:2580:00D5 type=2 ca=0 "BNR Plovdiv" "VIVACOM"
+S 002E:2580:00D5 type=2 ca=0 "Radio Fresh" "VIVACOM"
+S 002F:2580:00D5 type=2 ca=0 "Radio FM+" "VIVACOM"
+S 0030:2580:00D5 type=2 ca=0 "BNR Blagoevgrad" "VIVACOM"
+S 0031:2580:00D5 type=2 ca=0 "BNR Shumen" "VIVACOM"
+S 0032:2580:00D5 type=2 ca=0 "BNR Sofia" "VIVACOM"
+S 0033:2580:00D5 type=1 ca=0 "NOVA" "VIVACOM"
+S 0034:2580:00D5 type=25 ca=0 "NOVA HD" "VIVACOM"
+S 0035:2580:00D5 type=2 ca=0 "ENERGY 2" "VIVACOM"
+S 0036:2580:00D5 type=2 ca=0 "ENERGY 3" "VIVACOM"
+S 003B:2580:00D5 type=2 ca=0 "Radio Focus VT" "VIVACOM"
+S 003C:2580:00D5 type=2 ca=0 "Radio Vitosha E" "VIVACOM"
+S 003D:2580:00D5 type=2 ca=0 "Radio The Voice" "VIVACOM"
+S 003E:2580:00D5 type=2 ca=0 "Radio Veselina S" "VIVACOM"
+S 003F:2580:00D5 type=2 ca=0 "Radio Magic FM" "VIVACOM"
+S 0040:2580:00D5 type=2 ca=0 " N-JOY Reg 1" "VIVACOM"
+S 0041:2580:00D5 type=2 ca=0 "N-JOY Reg 2" "VIVACOM"
+S 0042:2580:00D5 type=2 ca=0 "Darik Sofia" "VIVACOM"
+S 0043:2580:00D5 type=2 ca=0 "Nova News" "VIVACOM"
+S 0044:2580:00D5 type=2 ca=0 "Start FM" "VIVACOM"
+S 0045:2580:00D5 type=2 ca=0 "Test Signal" "VIVACOM"
+S 0047:2580:00D5 type=2 ca=0 "FM+ K" "VIVACOM"
+S 0048:2580:00D5 type=2 ca=0 "Fresh K" "VIVACOM"
+S 0049:2580:00D5 type=2 ca=0 "ZRock K" "VIVACOM"
+S 004A:2580:00D5 type=2 ca=0 "Veronika K" "VIVACOM"
+S 004B:2580:00D5 type=2 ca=0 "Radio Nova K" "VIVACOM"
+S 004C:2580:00D5 type=2 ca=0 "Radio Focus Burgas" "VIVACOM"
+S 004D:2580:00D5 type=2 ca=0 "Radio Focus Varna" "VIVACOM"
+S 004E:2580:00D5 type=2 ca=0 "Radio Focus NE" "VIVACOM"
+S 004F:2580:00D5 type=2 ca=0 "Radio Focus Rodopi" "VIVACOM"
+S 0051:2580:00D5 type=2 ca=0 "Jazz FM" "VIVACOM"
+S 0052:2580:00D5 type=2 ca=0 "RNE" "VIVACOM"
+S 0053:2580:00D5 type=2 ca=0 " bTV Radio Sofia" "VIVACOM"
+S 0054:2580:00D5 type=2 ca=0 "N-JOY Sofia" "VIVACOM"
+S 0055:2580:00D5 type=2 ca=0 "Z-Rock" "VIVACOM"
+S 0056:2580:00D5 type=2 ca=0 "Darik Varna" "VIVACOM"
+S 0058:2580:00D5 type=2 ca=0 "Darik Ruse" "VIVACOM"
+S 0059:2580:00D5 type=2 ca=0 "Darik Vratza" "VIVACOM"
+S 005A:2580:00D5 type=2 ca=0 "Radio Melody" "VIVACOM"
+S 005B:2580:00D5 type=2 ca=0 "Radio Vitosha W" "VIVACOM"
+S 005C:2580:00D5 type=2 ca=0 "Radio Veselina N" "VIVACOM"
+S 005D:2580:00D5 type=2 ca=0 "Radio Veselina W" "VIVACOM"
+S 005E:2580:00D5 type=2 ca=0 "Radio Veselina E" "VIVACOM"
+S 0065:251C:00D5 type=22 ca=1 "Travel Channel" "VIVACOM"
+S 0067:251C:00D5 type=25 ca=1 "БНТ1 HD" "VIVACOM"
+S 0068:251C:00D5 type=22 ca=1 "dizi" "VIVACOM"
+S 006A:25E4:00D5 type=22 ca=1 "DSTV" "VIVACOM"
+S 006F:251C:00D5 type=22 ca=1 "Balkanika" "VIVACOM"
+S 0071:251C:00D5 type=22 ca=1 "ID" "VIVACOM"
+S 0072:251C:00D5 type=22 ca=1 "БНТ 2" "VIVACOM"
+S 0074:251C:00D5 type=25 ca=1 "Диема HD" "VIVACOM"
+S 0075:251C:00D5 type=25 ca=1 "Диема Фемили HD" "VIVACOM"
+S 0076:25E4:00D5 type=22 ca=1 "AMC" "VIVACOM"
+S 0078:251C:00D5 type=22 ca=1 "Viasat Explore" "VIVACOM"
+S 0079:251C:00D5 type=22 ca=1 "Viasat History" "VIVACOM"
+S 007A:251C:00D5 type=22 ca=1 "Epic Drama" "VIVACOM"
+S 007B:25E4:00D5 type=22 ca=1 "TLC" "VIVACOM"
+S 007E:251C:00D5 type=22 ca=1 "Viasat Kino" "VIVACOM"
+S 007F:251C:00D5 type=22 ca=1 "Hustler" "VIVACOM"
+S 0080:251C:00D5 type=22 ca=1 "Nickelodeon" "VIVACOM"
+S 0082:251C:00D5 type=22 ca=1 "Disney" "VIVACOM"
+S 0083:251C:00D5 type=22 ca=1 "Disney Junior" "VIVACOM"
+S 0086:251C:00D5 type=22 ca=1 "Ловно-рибарски клуб" "VIVACOM"
+S 0087:251C:00D5 type=22 ca=0 "Dom Kino Premium" "VIVACOM"
+S 0088:251C:00D5 type=25 ca=1 "Kino Nova HD" "VIVACOM"
+S 008B:251C:00D5 type=22 ca=1 "Chasse & Peche" "VIVACOM"
+S 008C:251C:00D5 type=22 ca=1 "H2" "VIVACOM"
+S 008D:251C:00D5 type=22 ca=1 "DW" "VIVACOM"
+S 008E:251C:00D5 type=22 ca=1 "Perets Int." "VIVACOM"
+S 0092:251C:00D5 type=25 ca=1 "Nova News HD" "VIVACOM"
+S 0093:251C:00D5 type=22 ca=1 "CineStar 1" "VIVACOM"
+S 0094:251C:00D5 type=22 ca=1 "CineStar A&T" "VIVACOM"
+S 0095:251C:00D5 type=22 ca=1 "Super Toons" "VIVACOM"
+S 00C8:25E4:00D5 type=22 ca=1 "Agro TV" "VIVACOM"
+S 00C9:25E4:00D5 type=22 ca=1 "Cartoon network" "VIVACOM"
+S 00CA:25E4:00D5 type=22 ca=1 "FILMBOX+ love&crime" "VIVACOM"
+S 00CB:25E4:00D5 type=22 ca=1 "Food Network" "VIVACOM"
+S 00CC:25E4:00D5 type=22 ca=1 "Тянков Фолк" "VIVACOM"
+S 00CD:25E4:00D5 type=22 ca=1 "Fantazzy" "VIVACOM"
+S 00D0:25E4:00D5 type=22 ca=1 "Nova Sport" "VIVACOM"
+S 00D1:25E4:00D5 type=22 ca=1 "Планета Фолк" "VIVACOM"
+S 00D2:25E4:00D5 type=22 ca=1 "7/8 TV" "VIVACOM"
+S 00D3:25E4:00D5 type=22 ca=1 "Фолклор ТВ" "VIVACOM"
+S 00D4:25E4:00D5 type=22 ca=1 "Viasat Nature" "VIVACOM"
+S 00D5:2648:00D5 type=22 ca=1 "Russian Travel Guide Int" "VIVACOM"
+S 00D6:25E4:00D5 type=22 ca=1 "Без Багаж" "VIVACOM"
+S 00D7:25E4:00D5 type=22 ca=1 "Eurosport 2" "VIVACOM"
+S 00D8:25E4:00D5 type=22 ca=1 "NKTV Evrokom" "VIVACOM"
+S 00DB:25E4:00D5 type=22 ca=1 "TV1000 RKG" "VIVACOM"
+S 00DC:25E4:00D5 type=22 ca=1 "Nostalgia" "VIVACOM"
+S 00DE:2648:00D5 type=22 ca=1 "FightKlub" "VIVACOM"
+S 00DF:25E4:00D5 type=22 ca=1 "Animal Planet" "VIVACOM"
+S 00E0:25E4:00D5 type=22 ca=1 "HBO 3" "VIVACOM"
+S 00E1:25E4:00D5 type=22 ca=1 "Pickbox TV" "VIVACOM"
+S 00E2:251C:00D5 type=22 ca=1 "Cinemax" "VIVACOM"
+S 00E3:25E4:00D5 type=22 ca=1 "Ribalka i Ohota" "VIVACOM"
+S 00E4:25E4:00D5 type=22 ca=1 "Cartoonito" "VIVACOM"
+S 00E5:251C:00D5 type=22 ca=1 "HBO" "VIVACOM"
+S 00E6:251C:00D5 type=22 ca=1 "HBO 2" "VIVACOM"
+S 00E8:25E4:00D5 type=22 ca=1 "Baby TV" "VIVACOM"
+S 00E9:25E4:00D5 type=22 ca=1 "Eurosport 1" "VIVACOM"
+S 00EA:25E4:00D5 type=22 ca=1 "СКАТ" "VIVACOM"
+S 00ED:25E4:00D5 type=22 ca=1 "Box TV" "VIVACOM"
+S 00F0:25E4:00D5 type=22 ca=1 "MTV" "VIVACOM"
+S 00F1:25E4:00D5 type=22 ca=1 "AMS" "VIVACOM"
+S 00F5:25E4:00D5 type=22 ca=1 "Fen TV" "VIVACOM"
+S 00F7:25E4:00D5 type=22 ca=1 "MovieSTAR" "VIVACOM"
+S 00F8:25E4:00D5 type=22 ca=1 "Marquee TV" "VIVACOM"
+S 00FA:25E4:00D5 type=22 ca=1 "Kanal 3" "VIVACOM"
+S 0104:25E4:00D5 type=22 ca=1 "E-Kids" "VIVACOM"
+S 0105:25E4:00D5 type=22 ca=1 "Cinemax 2" "VIVACOM"
+S 0106:25E4:00D5 type=22 ca=1 "Euronews Bulgaria" "VIVACOM"
+S 0109:25E4:00D5 type=22 ca=1 "България 24" "VIVACOM"
+S 010A:25E4:00D5 type=22 ca=1 "The Voice" "VIVACOM"
+S 010B:25E4:00D5 type=22 ca=1 "Magic TV" "VIVACOM"
+S 010C:25E4:00D5 type=22 ca=1 "TV8 Int." "VIVACOM"
+S 010D:25E4:00D5 type=25 ca=1 "History HD" "VIVACOM"
+S 010E:25E4:00D5 type=22 ca=1 "Nicktoons" "VIVACOM"
+S 010F:25E4:00D5 type=22 ca=1 "Rodina TV" "VIVACOM"
+S 0110:25E4:00D5 type=22 ca=1 "Vivid TV" "VIVACOM"
+S 012E:25E4:00D5 type=22 ca=1 "CI Network" "VIVACOM"
+S 0130:2648:00D5 type=25 ca=1 "Diema Sport HD" "VIVACOM"
+S 0131:2648:00D5 type=22 ca=1 "Viasat True Crime" "VIVACOM"
+S 0134:2648:00D5 type=22 ca=1 "SkyShowtime 1" "VIVACOM"
+S 0135:2648:00D5 type=22 ca=1 "SkyShowtime 2" "VIVACOM"
+S 0136:25E4:00D5 type=22 ca=1 "DM Sat" "VIVACOM"
+S 0137:2648:00D5 type=25 ca=1 "HGTV HD" "VIVACOM"
+S 0138:2648:00D5 type=22 ca=1 "БНТ 3" "VIVACOM"
+S 0139:2648:00D5 type=25 ca=1 "MAX Sport 3 HD" "VIVACOM"
+S 013B:2648:00D5 type=25 ca=1 "NG Wild HD" "VIVACOM"
+S 013C:2648:00D5 type=25 ca=1 "Nat Geo HD" "VIVACOM"
+S 013D:2648:00D5 type=25 ca=1 "Планета HD" "VIVACOM"
+S 013E:2648:00D5 type=25 ca=1 "bTV HD" "VIVACOM"
+S 013F:2648:00D5 type=25 ca=1 "bTV Action HD" "VIVACOM"
+S 0140:2648:00D5 type=25 ca=1 "RING HD" "VIVACOM"
+S 0145:2648:00D5 type=25 ca=1 "Diema Sport 3 HD" "VIVACOM"
+S 0146:2648:00D5 type=22 ca=1 "Domashniy" "VIVACOM"
+S 0147:2648:00D5 type=22 ca=1 "CTC Kids" "VIVACOM"
+S 014A:2648:00D5 type=25 ca=1 "Diema Sport 2 HD" "VIVACOM"
+S 014B:2648:00D5 type=25 ca=1 "MAX One HD" "VIVACOM"
+S 0161:1C84:013E type=1 ca=0 "ERT World Europe" "Nova"
+S 0180:1C84:013E type=1 ca=0 "Kanali Voulis" "Nova"
+S 0215:0384:013E type=25 ca=0 "NHK World HD" ""
+S 0259:251C:00D5 type=22 ca=1 "Arena Life" "VIVACOM"
+S 025A:251C:00D5 type=22 ca=1 "Arena Comedy" "VIVACOM"
+S 025B:251C:00D5 type=25 ca=1 "Arena Action HD" "VIVACOM"
+S 030F:1F40:013E type=1 ca=0 "Telesur HD" "TSA"
+S 031E:3BC4:013E type=1 ca=0 "Qatar TV HD" "GLOBECAST"
+S 031F:3BC4:013E type=1 ca=0 "TRT Arabi HD" "GLOBECAST"
+S 0321:3BC4:013E type=1 ca=0 "Euronews HD" "GLOBECAST"
+S 0323:3BC4:013E type=1 ca=0 "TRT World HD" "GLOBECAST"
+S 0326:3BC4:013E type=1 ca=0 "Bahrain TV" "GLOBECAST"
+S 0327:3BC4:013E type=1 ca=0 "France 24 HD (en Francais)" "GLOBECAST"
+S 0328:3BC4:013E type=1 ca=0 "France 24 HD (in English)" "GLOBECAST"
+S 03F2:251C:00D5 type=128 ca=1 "Ird HiSi" "VIVACOM"
+S 03F3:251C:00D5 type=128 ca=1 "Ird ALI" "VIVACOM"
+S 03F4:251C:00D5 type=128 ca=1 "EON" "VIVACOM"
+S 05DD:0321:013E type=1 ca=0 "World Poker Tour" "MuxIP"
+S 05DE:0321:013E type=1 ca=0 "Outdoor Channel" "MuxIP"
+S 05DF:0321:013E type=1 ca=0 "Cricket Gold" "MuxIP"
+S 05E0:0321:013E type=1 ca=0 "Triton Poker Series" "MuxIP"
+S 05E1:0321:013E type=1 ca=0 "One America News" "MuxIP"
+S 05E2:0321:013E type=1 ca=0 "AFV Americas Funniest" "MuxIP"
+S 05E3:0321:013E type=1 ca=0 "Sports First" "MuxIP"
+S 05E4:0321:013E type=1 ca=0 "Bare Knuckles" "MuxIP"
+S 05E5:0321:013E type=1 ca=0 "MVMT" "MuxIP"
+S 05E6:0321:013E type=1 ca=0 "AWE" "MuxIP"
+S 06A5:3138:013E type=1 ca=0 "AlgТerie 5" "GLOBECAST"
+S 06A6:3138:013E type=1 ca=0 "AlgТerie 4" "GLOBECAST"
+S 06A7:3138:013E type=1 ca=0 "TNT international" "GLOBECAST"
+S 06AA:3138:013E type=1 ca=0 "CGTN" "GLOBECAST"
+S 06AB:3138:013E type=1 ca=0 "TV Rus" "GLOBECAST"
+S 06AC:3138:013E type=1 ca=0 "TVRUS Plus" "GLOBECAST"
+S 06B0:3138:013E type=1 ca=0 "Just TV" "GLOBECAST"
+S 06B1:3138:013E type=1 ca=0 "RTVi Europe" "GLOBECAST"
+S 06B6:3138:013E type=1 ca=0 "TV 8 Russia" "GLOBECAST"
+S 06B9:3138:013E type=1 ca=0 "Eko-TV" "GLOBECAST"
+S 06BA:3138:013E type=1 ca=0 "Milady Television" "GLOBECAST"
+S 06BB:3138:013E type=1 ca=0 "Natali" "GLOBECAST"
+S 06BC:3138:013E type=1 ca=0 "Provence" "GLOBECAST"
+S 06BD:3138:013E type=1 ca=0 "Karavan TV" "GLOBECAST"
+S 0D49:1450:013E type=1 ca=0 "Rai 1 HD" "RAI"
+S 0D4A:1450:013E type=1 ca=0 "Rai 2 HD" "RAI"
+S 0D4B:1450:013E type=1 ca=0 "Rai 3 HD" "RAI"
+S 0D50:1450:013E type=1 ca=0 "Senato italiano" "RAI"
+S 0DAD:1F40:013E type=1 ca=0 "TVE Internacional HD" "TSA"
+S 0DAE:1F40:013E type=1 ca=0 "24 Horas HD" "TSA"
+S 0E83:3200:013E type=1 ca=0 "TVP Polonia" "MB Satellite"
+S 0E88:3200:013E type=1 ca=0 "MC EU" "MB Satellite"
+S 0E8D:3200:013E type=1 ca=0 "Jin TV" "MB Satellite"
+S 0E92:3200:013E type=1 ca=0 "Can TV" "MB Satellite"
+S 1135:2AF8:013E type=1 ca=0 "TVS - TV Silesia" "CANAL+"
+S 1139:2AF8:013E type=1 ca=0 "TVP Info HD" "CANAL+"
+S 114D:2AF8:013E type=1 ca=0 "Antena" "CANAL+"
+S 114F:2AF8:013E type=1 ca=0 "Nuta Gold" "CANAL+"
+S 1150:2AF8:013E type=1 ca=0 "Nuta TV" "CANAL+"
+S 1151:2AF8:013E type=1 ca=0 "Power TV" "CANAL+"
+S 1152:2AF8:013E type=1 ca=0 "Szlagier TV" "CANAL+"
+S 1153:2AF8:013E type=1 ca=0 "TVC Polska" "CANAL+"
+S 1155:2AF8:013E type=1 ca=0 "TVC Super" "CANAL+"
+S 1389:2710:00D5 type=22 ca=1 "TV 1" "VIVACOM"
+S 138A:2710:00D5 type=25 ca=1 "MAX Sport 4 HD" "VIVACOM"
+S 138B:2710:00D5 type=22 ca=1 "CNN" "VIVACOM"
+S 138C:2710:00D5 type=22 ca=1 "BeIN Movies Turk" "VIVACOM"
+S 138D:2710:00D5 type=22 ca=1 "Show Turk" "VIVACOM"
+S 138F:2710:00D5 type=25 ca=1 "VIVACOM Arena HD" "VIVACOM"
+S 1390:2710:00D5 type=22 ca=1 "Mediaset" "VIVACOM"
+S 1392:2710:00D5 type=22 ca=1 "Nick Junior" "VIVACOM"
+S 1393:2710:00D5 type=22 ca=1 "Da Vinci" "VIVACOM"
+S 1394:2710:00D5 type=22 ca=1 "English Club" "VIVACOM"
+S 1396:2710:00D5 type=22 ca=1 "FREEДОМ" "VIVACOM"
+S 1397:2710:00D5 type=22 ca=1 "XY Plus" "VIVACOM"
+S 1398:2710:00D5 type=22 ca=1 "Cine TV Plus" "VIVACOM"
+S 139A:2710:00D5 type=22 ca=1 "БГ+" "VIVACOM"
+S 139B:2710:00D5 type=22 ca=1 "Фен Фолк" "VIVACOM"
+S 139C:2710:00D5 type=22 ca=1 "BG Music Channel" "VIVACOM"
+S 139D:2710:00D5 type=22 ca=1 "BBC Earth" "VIVACOM"
+S 139E:2710:00D5 type=22 ca=1 "Travel TV" "VIVACOM"
+S 139F:2710:00D5 type=22 ca=1 "Code Health" "VIVACOM"
+S 13A0:2710:00D5 type=22 ca=1 "Dorcel TV" "VIVACOM"
+S 13A1:2710:00D5 type=22 ca=1 "Hitmix" "VIVACOM"
+S 13A3:2710:00D5 type=22 ca=1 "WNESS TV" "VIVACOM"
+S 13A4:2710:00D5 type=22 ca=1 "FILMBOX+ emotion" "VIVACOM"
+S 13A5:2710:00D5 type=22 ca=1 "Love Nature" "VIVACOM"
+S 13A6:2710:00D5 type=22 ca=1 "Antena 3" "VIVACOM"
+S 13A8:2710:00D5 type=22 ca=1 "Private TV" "VIVACOM"
+S 13A9:2710:00D5 type=22 ca=1 "FILMBOX+ one" "VIVACOM"
+S 13AA:2710:00D5 type=22 ca=1 "TV 21" "VIVACOM"
+S 13AB:2710:00D5 type=22 ca=1 "RTL" "VIVACOM"
+S 13AC:2710:00D5 type=25 ca=1 "MAX Sport 1 HD" "VIVACOM"
+S 13AD:2710:00D5 type=25 ca=1 "MAX Sport 2 HD" "VIVACOM"
+S 13AE:2710:00D5 type=22 ca=1 "KANAL 7 Avrupa" "VIVACOM"
+S 13AF:2710:00D5 type=22 ca=1 "Show Max" "VIVACOM"
+S 13B0:2710:00D5 type=22 ca=1 "HABERTURK" "VIVACOM"
+S 13B1:2710:00D5 type=22 ca=1 "Yaban TV" "VIVACOM"
+S 13B2:2710:00D5 type=22 ca=1 "Current Time" "VIVACOM"
+S 13B3:2710:00D5 type=22 ca=1 "Discovery Channel" "VIVACOM"
+S 13B4:2710:00D5 type=22 ca=1 "Mate Kitchen" "VIVACOM"
+S 13B5:2710:00D5 type=22 ca=0 "Daystar" "VIVACOM"
+S 1C85:332C:013E type=1 ca=0 "Daystar TV Network" "Religious"
+S 1C8A:332C:013E type=1 ca=0 "Al Jazzera English HD " "Globecast"
+S 332D:1388:013E type=1 ca=0 "DW English HD" "GLOBECAST"
+S 332E:1388:013E type=1 ca=0 "BBC Arabic HD" "GLOBECAST"
+S 332F:1388:013E type=1 ca=0 "BBC Persian HD" "GLOBECAST"
+S 3330:1388:013E type=1 ca=0 "BBC News" "GLOBECAST"
+S 3331:1388:013E type=1 ca=0 "TV5 Monde" "GLOBECAST"
+S 3332:1388:013E type=1 ca=0 "Arirang TV HD" "GLOBECAST"
+S 452F:30D4:013E type=1 ca=0 "Rai News 24 HD" "RAI"
+S 4530:30D4:013E type=1 ca=0 "Rai Gulp HD" "RAI"
+S 4536:30D4:013E type=1 ca=0 "Uninettuno University TV" "RAI"
+T 251C:00D5 freq=12616000 pol=H sr=30000000 fec=4 sys=S2 pos=130E mod=2
+T 2580:00D5 freq=12635000 pol=V sr=30000000 fec=4 sys=S2 pos=130E mod=2
+T 25E4:00D5 freq=12654100 pol=H sr=30000000 fec=4 sys=S2 pos=130E mod=2
+T 2648:00D5 freq=12673280 pol=V sr=30000000 fec=4 sys=S2 pos=130E mod=2
+T 2710:00D5 freq=12713280 pol=V sr=30000000 fec=4 sys=S2 pos=130E mod=2

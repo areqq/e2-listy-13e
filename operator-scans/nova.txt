@@ -1,0 +1,494 @@
+L 100 013F:157C:013E visible=1 src=bat
+L 101 017A:1C84:013E visible=1 src=bat
+L 102 0185:1C84:013E visible=1 src=bat
+L 103 0183:1C84:013E visible=1 src=bat
+L 104 1BBD:17D4:013E visible=1 src=bat
+L 105 0151:157C:013E visible=1 src=bat
+L 106 3C91:1BBC:013E visible=1 src=bat
+L 107 013E:157C:013E visible=1 src=bat
+L 108 0134:157C:013E visible=1 src=bat
+L 109 0166:1C84:013E visible=1 src=bat
+L 110 017F:1C84:013E visible=1 src=bat
+L 112 0149:157C:013E visible=1 src=bat
+L 113 1BC5:17D4:013E visible=1 src=bat
+L 114 0170:1C84:013E visible=1 src=bat
+L 116 1BC4:17D4:013E visible=1 src=bat
+L 117 019B:1518:013E visible=1 src=bat
+L 118 1BC9:17D4:013E visible=1 src=bat
+L 120 0160:1C84:013E visible=1 src=bat
+L 201 3C95:1BBC:013E visible=1 src=bat
+L 202 1BCA:17D4:013E visible=1 src=bat
+L 203 1BC2:17D4:013E visible=1 src=bat
+L 204 016E:1C84:013E visible=1 src=bat
+L 230 0259:2774:013E visible=1 src=bat
+L 231 025A:2774:013E visible=1 src=bat
+L 240 1BC8:17D4:013E visible=1 src=bat
+L 300 01A4:1518:013E visible=1 src=bat
+L 301 0197:1518:013E visible=1 src=bat
+L 302 3C90:1BBC:013E visible=1 src=bat
+L 303 3CA0:1BBC:013E visible=1 src=bat
+L 304 0162:1C84:013E visible=1 src=bat
+L 305 01A0:1518:013E visible=1 src=bat
+L 306 0199:1518:013E visible=1 src=bat
+L 310 019F:1518:013E visible=1 src=bat
+L 311 0169:1C84:013E visible=1 src=bat
+L 312 0198:1518:013E visible=1 src=bat
+L 313 017D:1C84:013E visible=1 src=bat
+L 314 1BBE:17D4:013E visible=1 src=bat
+L 320 0193:1518:013E visible=1 src=bat
+L 321 012F:157C:013E visible=1 src=bat
+L 322 0130:157C:013E visible=1 src=bat
+L 323 012E:157C:013E visible=1 src=bat
+L 324 013A:157C:013E visible=1 src=bat
+L 325 3C9D:1BBC:013E visible=1 src=bat
+L 326 1BD3:17D4:013E visible=1 src=bat
+L 327 0165:1C84:013E visible=1 src=bat
+L 328 1BCB:17D4:013E visible=1 src=bat
+L 329 1BCC:17D4:013E visible=1 src=bat
+L 330 1BCE:17D4:013E visible=1 src=bat
+L 331 3C93:1BBC:013E visible=1 src=bat
+L 332 3C94:1BBC:013E visible=1 src=bat
+L 333 3C96:1BBC:013E visible=1 src=bat
+L 340 02EF:02BC:013E visible=1 src=bat
+L 341 02F2:02BC:013E visible=1 src=bat
+L 350 025D:2774:013E visible=1 src=bat
+L 400 025F:2774:013E visible=1 src=bat
+L 401 0195:1518:013E visible=1 src=bat
+L 405 015F:1C84:013E visible=1 src=bat
+L 406 01A2:1518:013E visible=1 src=bat
+L 407 0261:2774:013E visible=1 src=bat
+L 408 0262:2774:013E visible=1 src=bat
+L 409 1BBF:17D4:013E visible=1 src=bat
+L 410 0260:2774:013E visible=1 src=bat
+L 411 016A:1C84:013E visible=1 src=bat
+L 412 025E:2774:013E visible=1 src=bat
+L 415 0194:1518:013E visible=1 src=bat
+L 430 0369:3C28:013E visible=1 src=bat
+L 500 01A1:1518:013E visible=1 src=bat
+L 505 1BD2:17D4:013E visible=1 src=bat
+L 506 019E:1518:013E visible=1 src=bat
+L 507 0172:1C84:013E visible=1 src=bat
+L 508 3C8F:1BBC:013E visible=1 src=bat
+L 510 019D:1518:013E visible=1 src=bat
+L 511 1BC0:17D4:013E visible=1 src=bat
+L 512 01A7:1518:013E visible=1 src=bat
+L 550 3C92:1BBC:013E visible=1 src=bat
+L 555 3C97:1BBC:013E visible=1 src=bat
+L 560 3C9A:1BBC:013E visible=1 src=bat
+L 580 025B:2774:013E visible=1 src=bat
+L 600 013B:157C:013E visible=1 src=bat
+L 602 0179:1C84:013E visible=1 src=bat
+L 603 0191:1518:013E visible=1 src=bat
+L 604 0192:1518:013E visible=1 src=bat
+L 610 025C:2774:013E visible=1 src=bat
+L 611 3C9E:1BBC:013E visible=1 src=bat
+L 7000 0135:157C:013E visible=1 src=bat
+L 7001 0138:157C:013E visible=1 src=bat
+L 7002 0137:157C:013E visible=1 src=bat
+L 7003 0136:157C:013E visible=1 src=bat
+L 7004 1BCD:17D4:013E visible=1 src=bat
+L 7005 016C:1C84:013E visible=1 src=bat
+L 7006 0174:1C84:013E visible=1 src=bat
+L 7007 0176:1C84:013E visible=1 src=bat
+L 7008 017B:1C84:013E visible=1 src=bat
+L 7009 013C:157C:013E visible=1 src=bat
+L 701 0139:157C:013E visible=1 src=bat
+L 702 0175:1C84:013E visible=1 src=bat
+L 703 016B:1C84:013E visible=1 src=bat
+L 704 3C9F:1BBC:013E visible=1 src=bat
+L 705 3C98:1BBC:013E visible=1 src=bat
+L 7095 334A:1388:013E visible=1 src=bat
+L 800 3C9C:1BBC:013E visible=1 src=bat
+L 802 3B6D:012C:013E visible=1 src=bat
+L 803 332D:1388:013E visible=1 src=bat
+L 805 1C86:332C:013E visible=1 src=bat
+L 807 0328:3BC4:013E visible=1 src=bat
+L 810 0368:3C28:013E visible=1 src=bat
+L 811 233E:2328:013E visible=1 src=bat
+L 817 1C8A:332C:013E visible=1 src=bat
+L 819 3332:1388:013E visible=1 src=bat
+L 820 421C:2F44:013E visible=1 src=bat
+L 830 0327:3BC4:013E visible=1 src=bat
+L 831 3331:1388:013E visible=1 src=bat
+L 840 233F:2328:013E visible=1 src=bat
+L 850 0641:2454:013E visible=1 src=bat
+L 900 114A:2AF8:013E visible=1 src=bat
+L 901 1BC1:17D4:013E visible=1 src=bat
+L 904 114B:2AF8:013E visible=1 src=bat
+L 905 4230:2F44:013E visible=1 src=bat
+L 906 1148:2AF8:013E visible=1 src=bat
+L 907 0263:2774:013E visible=1 src=bat
+L 908 4224:3DB8:013E visible=1 src=bat
+L 909 1BD4:17D4:013E visible=1 src=bat
+S 0001:1964:013E type=1 ca=1 "MTV Live HD" "NETMED"
+S 0001:3200:013E type=1 ca=1 "MTV Live HD" "NetMed"
+S 0003:0578:013E type=1 ca=0 "Cyprus Sat" "Cyprus"
+S 0003:3D54:013E type=1 ca=0 "Bloomberg" "NetMed"
+S 0007:0578:013E type=1 ca=0 "World Fashion" "NetMed"
+S 0007:3D54:013E type=1 ca=0 "Quantum 24" "Bloomberg"
+S 0018:0578:013E type=1 ca=0 "i24 News English" "NetMed"
+S 0019:0578:013E type=1 ca=0 "i24 News Arabic" "NetMed"
+S 0019:3200:013E type=1 ca=0 "VIVA Polska" "TS 12800"
+S 001B:3200:013E type=1 ca=1 "VH1" "VIACOM"
+S 0067:1E14:013E type=1 ca=0 "FASHION" "CFI MCM"
+S 0069:1E14:013E type=1 ca=1 "Mezzo" "CFI"
+S 006A:1E14:013E type=1 ca=0 "Canal Horizons" "CFI"
+S 006B:1E14:013E type=1 ca=0 "ADJARA TV" "GCP/HB3N2"
+S 0070:1E14:013E type=1 ca=0 "FOXlife" "Globecast"
+S 00BE:1E14:013E type=3 ca=0 "Res HB-77" "CFI"
+S 012E:157C:013E type=1 ca=1 "MagentaSport3League" "NOVA"
+S 012F:157C:013E type=1 ca=1 "MagentaSport1League" "NOVA"
+S 0130:157C:013E type=1 ca=1 "MagentaSport2League" "NOVA"
+S 0134:157C:013E type=1 ca=1 "ANT1 HD" "NOVA"
+S 0135:157C:013E type=2 ca=1 "Love Radio" "NOVA"
+S 0136:157C:013E type=2 ca=0 "≈ÍÍÎÁÛﬂ· ÙÁÚ ≈ÎÎ‹‰ÔÚ" "NOVA"
+S 0137:157C:013E type=2 ca=1 "Skai Radio" "NOVA"
+S 0138:157C:013E type=2 ca=1 "Melodi Radio" "NOVA"
+S 0139:157C:013E type=1 ca=0 "ERT COSMOS" "NOVA"
+S 013A:157C:013E type=1 ca=1 "MagentaSport4League" "NOVA"
+S 013B:157C:013E type=1 ca=1 "nova MAD GREEKZ" "NOVA"
+S 013C:157C:013E type=2 ca=0 "VOICE OF GREECE" "NOVA"
+S 013E:157C:013E type=1 ca=1 "MEGA HD" "NOVA"
+S 013F:157C:013E type=1 ca=0 "¬ÔıÎﬁ" "NOVA"
+S 0143:157C:013E type=1 ca=1 "Novasports5HD" "NOVA"
+S 0145:157C:013E type=1 ca=1 "M1_SID325" "NOVA"
+S 0147:157C:013E type=1 ca=1 "M1_SID327" "NOVA"
+S 0148:157C:013E type=1 ca=1 "Novasports5HD Cy" "NOVA"
+S 0149:157C:013E type=1 ca=1 "MAK TV HD" "NOVA"
+S 014B:157C:013E type=1 ca=1 "Novasports3HD Cy" "NOVA"
+S 014C:157C:013E type=1 ca=1 "M1_SID332 Cy" "NOVA"
+S 0150:157C:013E type=1 ca=1 "Novasports3HD" "NOVA"
+S 0151:157C:013E type=1 ca=1 "ALPHA HD" "NOVA"
+S 0153:157C:013E type=128 ca=0 "" ""
+S 0154:157C:013E type=128 ca=0 "" ""
+S 0155:157C:013E type=128 ca=0 "" ""
+S 0156:157C:013E type=128 ca=0 "" ""
+S 0157:157C:013E type=128 ca=0 "" ""
+S 0158:157C:013E type=12 ca=0 "" ""
+S 0159:157C:013E type=12 ca=0 "" ""
+S 015D:157C:013E type=152 ca=0 "Cobalt Data" "NOVA"
+S 015F:1C84:013E type=1 ca=1 "Discovery HD" "NOVA"
+S 0160:1C84:013E type=1 ca=1 "Naftemporiki TV HD" "NOVA"
+S 0161:1C84:013E type=1 ca=0 "SID_353" "NOVA"
+S 0162:1C84:013E type=1 ca=1 "Novasports4HD" "NOVA"
+S 0163:1C84:013E type=1 ca=1 "Novasports4HD Cy" "NOVA"
+S 0164:1C84:013E type=1 ca=1 "SID_356" "NOVA"
+S 0165:1C84:013E type=1 ca=1 "MagentaSport3" "NOVA"
+S 0166:1C84:013E type=1 ca=1 "OPEN BEYOND HD" "NOVA"
+S 0167:1C84:013E type=152 ca=0 "Cobalt Data" "NOVA"
+S 0168:157C:013E type=1 ca=1 "BNT 4" "NOVA"
+S 0169:1C84:013E type=1 ca=1 "Novasportsextra1HD" "NOVA"
+S 016A:1C84:013E type=1 ca=1 "The HISTORY Channel HD" "NOVA"
+S 016B:1C84:013E type=1 ca=1 "Kontra Channel" "NOVA"
+S 016C:1C84:013E type=2 ca=1 "REAL FM" "NOVA"
+S 016D:1C84:013E type=2 ca=0 "VOICE OF GREECE" "NOVA"
+S 016E:1C84:013E type=1 ca=1 "Novacinema4HD" "NOVA"
+S 016F:1C84:013E type=1 ca=1 "Novacinema4HD Cy" "NOVA"
+S 0170:1C84:013E type=1 ca=1 "NOVALIFE HD" "NOVA"
+S 0171:1C84:013E type=1 ca=1 "NOVALIFE Cy" "NOVA"
+S 0172:1C84:013E type=1 ca=1 "Da Vinci HD" "NOVA"
+S 0174:1C84:013E type=2 ca=1 "”‘œ  œ  …Õœ 105,5" "NOVA"
+S 0175:1C84:013E type=1 ca=1 "Action24" "NOVA"
+S 0176:1C84:013E type=2 ca=1 "–¡—¡–œÀ…‘… ¡ FM 90,1" "NOVA"
+S 0178:1C84:013E type=1 ca=1 "Novasportsextra3HD Cy" "NOVA"
+S 0179:1C84:013E type=1 ca=1 "MAD T.V" "NOVA"
+S 017A:1C84:013E type=1 ca=1 "≈—‘1 HD" "NOVA"
+S 017B:1C84:013E type=2 ca=1 "SPORT FM 94,6" "NOVA"
+S 017D:1C84:013E type=1 ca=1 "Novasportsextra3HD" "NOVA"
+S 017F:1C84:013E type=1 ca=1 "SKAI HD" "NOVA"
+S 0180:1C84:013E type=1 ca=0 "M2_SID384" "NOVA"
+S 0182:1C84:013E type=1 ca=1 "Nickelodeon" "NOVA"
+S 0183:1C84:013E type=1 ca=1 "EPT3 HD" "NOVA"
+S 0185:1C84:013E type=1 ca=1 "≈—‘2 ”–œ—" "NOVA"
+S 0186:1C84:013E type=1 ca=1 "Da Vinci HD UG" "NOVA"
+S 018A:1C84:013E type=1 ca=1 "Novasportsextra1HD Cy" "NOVA"
+S 018B:1E14:013E type=1 ca=1 "Terrestrial1" "NetMed"
+S 018C:1E14:013E type=1 ca=1 "Terrestrial2" "NetMed"
+S 018D:1E14:013E type=1 ca=0 "Terrestrial3" "NetMed"
+S 018E:1E14:013E type=1 ca=0 "Terrestrial4" "NetMed"
+S 018F:1E14:013E type=1 ca=1 "Terrestrial5" "NetMed"
+S 0191:1518:013E type=1 ca=1 "MAD VIBES HD" "NOVA"
+S 0192:1518:013E type=1 ca=1 "MAD REWIND HD" "NOVA"
+S 0193:1518:013E type=1 ca=1 "MagentaSportHighlights" "NOVA"
+S 0194:1518:013E type=1 ca=1 "Travel Channel HD" "NOVA"
+S 0195:1518:013E type=1 ca=1 "Nat Geo Wild HD" "NOVA"
+S 0196:1518:013E type=1 ca=1 "MTV" "NOVA"
+S 0197:1518:013E type=1 ca=1 "Novasports1HD" "NOVA"
+S 0198:1518:013E type=1 ca=1 "Novasportsextra2HD" "NOVA"
+S 0199:1518:013E type=1 ca=1 "Novasports6HD" "NOVA"
+S 019A:1518:013E type=1 ca=1 "Novasports6HD CY" "NOVA"
+S 019B:1518:013E type=1 ca=1 "Novasports Start HD" "NOVA"
+S 019C:1518:013E type=1 ca=1 "Novasports Start HD CY" "NOVA"
+S 019D:1518:013E type=1 ca=1 "IDJ Kids HD" "NOVA"
+S 019E:1518:013E type=1 ca=1 "Disney Junior" "NOVA"
+S 019F:1518:013E type=1 ca=1 "Novasports Premier League" "NOVA"
+S 01A0:1518:013E type=1 ca=1 "Novasports5HD" "NOVA"
+S 01A1:1518:013E type=1 ca=1 "Disney Channel" "NOVA"
+S 01A2:1518:013E type=1 ca=1 "Animal Planet HD" "NOVA"
+S 01A3:1518:013E type=1 ca=1 "Disney Channel" "NOVA"
+S 01A4:1518:013E type=1 ca=1 "Novasports Prime HD" "NOVA"
+S 01A5:1518:013E type=1 ca=1 "Novasports Prime HD CY" "NOVA"
+S 01A6:1518:013E type=1 ca=1 "Novasports5HD Cy" "NOVA"
+S 01A7:1518:013E type=1 ca=1 "SMILE TV" "NOVA"
+S 01A8:1518:013E type=1 ca=1 "Novasportsextra2HD Cy" "NOVA"
+S 01A9:1518:013E type=1 ca=1 "P_TEST" "NOVA"
+S 01AE:1518:013E type=152 ca=0 "Cobalt Data" "NOVA"
+S 01E0:1964:013E type=1 ca=0 "Press TV" "Netmed"
+S 020F:0384:013E type=1 ca=1 "PINKO TV" "NETMED"
+S 0215:0384:013E type=1 ca=0 "NHK WORLD-JAPAN" "Globecast"
+S 0259:2774:013E type=1 ca=1 "FX Life HD" "NOVA"
+S 025A:2774:013E type=1 ca=1 "FX HD" "NOVA"
+S 025B:2774:013E type=1 ca=1 "MyZen TV HD" "NOVA"
+S 025B:3C8C:013E type=1 ca=0 "tv.nrw" "DEUTSCHE TELECOM"
+S 025C:2774:013E type=1 ca=1 "NR1 HD" "NOVA"
+S 025D:2774:013E type=1 ca=0 "INPLUS" "NOVA"
+S 025E:2774:013E type=1 ca=0 "Crime+Investigation" "NOVA"
+S 025E:3C8C:013E type=1 ca=0 "ARD Das Erste" "DEUTSCHE TELECOM"
+S 025F:2774:013E type=1 ca=1 "National Geographic HD" "NOVA"
+S 025F:319C:013E type=1 ca=0 "DW" "NETMED"
+S 025F:3C8C:013E type=1 ca=0 "Deutsche Welle TV" "DEUTSHE TELECOM"
+S 0260:2774:013E type=1 ca=0 "Viasat History HD" "NOVA"
+S 0261:2774:013E type=1 ca=1 "Viasat Nature HD" "NOVA"
+S 0262:2774:013E type=1 ca=1 "Viasat Explore HD" "NOVA"
+S 0262:3C8C:013E type=1 ca=0 "Super RTL A" "DEUSTCHE TELECOM"
+S 0263:2774:013E type=1 ca=1 "Vivid Red HD" "NOVA"
+S 0263:3C8C:013E type=1 ca=0 "Viva Polska" "DEUTSCHE TELECOM"
+S 0264:2774:013E type=1 ca=0 "TEST SERVICE 12" "NOVA"
+S 0276:2774:013E type=1 ca=0 "Cobalt Data" "NOVA"
+S 02BD:02BC:013E type=1 ca=1 "Eurosport 1 HD" "Discovery"
+S 02BE:02BC:013E type=1 ca=1 "Eurosport 2 HD" "Discovery"
+S 02C4:1B58:013E type=1 ca=0 "Al Jazeera" "TELESPAZIO"
+S 02CD:1B58:013E type=1 ca=0 "Coming Soon TV" "TELESPAZIO"
+S 02EF:02BC:013E type=1 ca=1 "Eurosport 1 HD" "Eurosport"
+S 02F2:02BC:013E type=1 ca=1 "Eurosport 2 HD" "Discovery"
+S 030E:1B58:013E type=1 ca=0 "RIK Sat" "NETMED"
+S 0313:1B58:013E type=1 ca=0 "TV Moda" "NETMED"
+S 0321:3BC4:013E type=1 ca=0 "Euronews English HD" "Netmed"
+S 0327:3BC4:013E type=1 ca=0 "France 24 HD (en Francais)" "NETMED"
+S 0328:3BC4:013E type=1 ca=0 "France 24 HD (in English)" "NETMED"
+S 0329:3BC4:013E type=1 ca=1 "CNNi HD" "GLOBECAST"
+S 0368:3C28:013E type=1 ca=0 "CGTN HD" "NetMed"
+S 0369:3C28:013E type=1 ca=0 "CGTN Documentary HD" "NOVA"
+S 044C:238C:013E type=1 ca=0 "FashionTV SD" "Eutelsat"
+S 051D:3D54:013E type=1 ca=0 "1309_15700_318" ""
+S 051E:3D54:013E type=1 ca=0 "1310_15700_318" ""
+S 052E:3D54:013E type=1 ca=1 "PINKO TV" "NETMED"
+S 0641:2454:013E type=1 ca=0 "Al Jazeera Arabic HD" "EUTELSAT"
+S 06A8:3138:013E type=1 ca=0 "Euronews Hungarian" "Globecast"
+S 06A9:3138:013E type=1 ca=0 "Euronews Russian" "Globecast"
+S 06AA:3138:013E type=1 ca=0 "CGTN" "Globecast"
+S 06B2:3138:013E type=1 ca=0 "Al Jazeera English" "Globecast"
+S 06B3:3138:013E type=1 ca=0 "Arirang World" "Globecast"
+S 07D1:2DB4:013E type=1 ca=0 "FashionTV HD" "NetMed"
+S 07E1:22C4:013E type=1 ca=0 "Euronews Italian" "NetMed"
+S 07E2:22C4:013E type=1 ca=0 "Euronews Greek" "NetMEd"
+S 0834:3D54:013E type=1 ca=0 "ERT Europe" "Bloomberg"
+S 088E:0578:013E type=1 ca=0 "Fashion TV" "NetMed"
+S 0898:3D54:013E type=1 ca=0 "HELLAS-HDTV" "Bloomberg"
+S 0BC2:20D0:013E type=1 ca=0 "FashionTV SD" "NetMed"
+S 0BC6:20D0:013E type=1 ca=0 "Euronews Russia" "NetMed"
+S 0BC7:20D0:013E type=1 ca=0 "Euronews Hungarian" "NetMed"
+S 0D49:1450:013E type=1 ca=0 "Rai Uno" "Rai"
+S 0D4A:1450:013E type=1 ca=0 "Rai Due" "Rai"
+S 0D4B:1450:013E type=1 ca=0 "Rai Tre" "Rai"
+S 1139:2AF8:013E type=1 ca=0 "TVP INFO HD" "CANAL Plus"
+S 1148:2AF8:013E type=1 ca=1 "HUSTLER HD" "M7"
+S 114A:2AF8:013E type=1 ca=1 "Blue Hustler" "M7"
+S 114B:2AF8:013E type=1 ca=1 "Private HD" "M7"
+S 1251:2B5C:013E type=1 ca=1 "Brazzers TV Europe" "NetMed"
+S 12A1:3458:013E type=1 ca=0 "World Fashion Channel" "netmed"
+S 12C1:1E14:013E type=1 ca=0 "Canal+" "CFI"
+S 132A:33F4:013E type=1 ca=0 "RIKSat HD" "Telespazio"
+S 134B:33F4:013E type=1 ca=0 "Kentron TV" "NETMED"
+S 1360:33F4:013E type=1 ca=1 "Private TV" "NetMed"
+S 1BBD:17D4:013E type=1 ca=1 "≈—‘ NEWS" "NOVA"
+S 1BBE:17D4:013E type=1 ca=1 "Novasportsextra4HD" "NOVA"
+S 1BBF:17D4:013E type=1 ca=1 "Viasat True Crime HD" "NOVA"
+S 1BC0:17D4:013E type=1 ca=1 "ducktv" "NOVA"
+S 1BC1:17D4:013E type=1 ca=1 "Adult Pack Info" "NOVA"
+S 1BC2:17D4:013E type=1 ca=1 "Novacinema3HD" "NOVA"
+S 1BC3:17D4:013E type=1 ca=1 "M3_SID7107" "NOVA"
+S 1BC4:17D4:013E type=1 ca=1 "Novasports News HD" "NOVA"
+S 1BC5:17D4:013E type=1 ca=1 "One Channel HD" "NOVA"
+S 1BC8:17D4:013E type=1 ca=1 "Viasat Epic Drama HD" "NOVA"
+S 1BC9:17D4:013E type=1 ca=1 "MEGA NEWS HD" "NOVA"
+S 1BCA:17D4:013E type=1 ca=1 "Novacinema2HD" "NOVA"
+S 1BCB:17D4:013E type=1 ca=1 "MagentaSport4" "NOVA"
+S 1BCC:17D4:013E type=1 ca=1 "MagentaSport5" "NOVA"
+S 1BCD:17D4:013E type=2 ca=1 "Mad Radio" "NOVA"
+S 1BCE:17D4:013E type=1 ca=1 "MagentaSport6" "NOVA"
+S 1BCF:17D4:013E type=152 ca=0 "Cobalt Data" "NOVA"
+S 1BD0:17D4:013E type=1 ca=1 "Novasportsextra4HD Cy" "NOVA"
+S 1BD1:17D4:013E type=1 ca=1 "M3_SID7121" "NOVA"
+S 1BD2:17D4:013E type=1 ca=1 "Cartoonito HD" "NOVA"
+S 1BD3:17D4:013E type=1 ca=1 "MagentaSport2" "NOVA"
+S 1BD4:17D4:013E type=1 ca=1 "Adult Pack Info" "NOVA"
+S 1BD5:17D4:013E type=1 ca=1 "Novacinema2HD Cy" "NOVA"
+S 1BD6:17D4:013E type=1 ca=1 "Novacinema3HD Cy" "NOVA"
+S 1C85:332C:013E type=1 ca=1 "13100_SID7301" "NetMed"
+S 1C86:332C:013E type=1 ca=0 "Bloomberg" "NetMed"
+S 1C8A:332C:013E type=1 ca=0 "Al Jazeera English" "Eutelsat"
+S 1C99:332C:013E type=1 ca=0 "TV5 FBS" "BT"
+S 1C9A:332C:013E type=1 ca=0 "TV5 Europe" "BT"
+S 1C9F:332C:013E type=1 ca=0 "NHK World" "NetMed"
+S 1D24:2FA8:013E type=1 ca=0 "Miracle TV" "Netmed"
+S 1D25:2FA8:013E type=1 ca=1 "BRAZZERS TV Europe" "Netmed"
+S 1D56:2F44:013E type=1 ca=1 "A TEST" "NetMed"
+S 1D77:2F44:013E type=12 ca=0 "IPE 3" "???"
+S 1F41:319C:013E type=1 ca=0 "RTL Television" "RTL"
+S 1F42:319C:013E type=1 ca=0 "VOX" "RTL"
+S 1F44:319C:013E type=1 ca=0 "RTL2 AUSTRIA" "RTL"
+S 1F47:319C:013E type=1 ca=0 "CNN Deutschland" "RTL"
+S 1F48:319C:013E type=1 ca=0 "NBC" "RTL"
+S 1F4B:319C:013E type=1 ca=0 "ZDF" "RTL"
+S 1F6C:319C:013E type=1 ca=0 "4" "Netmed"
+S 2009:24B8:013E type=1 ca=0 "Al Arabiy" "GlobeCast2"
+S 200A:24B8:013E type=1 ca=0 "KTO" "GlobeCast2"
+S 200C:24B8:013E type=1 ca=0 "BBC  WORLD" "GlobeCast2"
+S 200E:24B8:013E type=2 ca=0 "BBC English (Europe)" "NETMED"
+S 2011:24B8:013E type=1 ca=1 "CNNI" "GlobeCast2"
+S 2013:24B8:013E type=1 ca=1 "Euro News" "GlobeCast2"
+S 2015:24B8:013E type=1 ca=0 "JSTV1" "GlobeCast2"
+S 213F:3070:013E type=1 ca=0 "RAI 1" "Netmed"
+S 2140:3070:013E type=1 ca=0 "RAI 2" "NETMED"
+S 2141:3070:013E type=1 ca=0 "RAI 3" "NETMED"
+S 2144:3070:013E type=1 ca=0 "Rai News" "NETMED"
+S 233E:2328:013E type=1 ca=0 "Euronews English HD" "NOVA"
+S 233F:2328:013E type=1 ca=0 "Euronews Italian" "NOVA"
+S 2491:23F0:013E type=1 ca=1 "TEST" "EURO"
+S 2497:23F0:013E type=1 ca=1 "Test EUROESP2" "NetMed"
+S 2982:3D54:013E type=1 ca=0 "TV DISCO" "Netmed"
+S 2986:3D54:013E type=1 ca=0 "Music Box Russia" "Netmed"
+S 29D0:3CF0:013E type=1 ca=0 "RTL 102.5 TV" "Globecast1"
+S 29D3:3CF0:013E type=1 ca=0 "TV Romania" "Globecast1"
+S 29D6:3CF0:013E type=1 ca=0 "123 SAT" "Globecast1"
+S 29DB:1C20:013E type=1 ca=0 "Arirang World" "Eutelsat"
+S 29E5:3CF0:013E type=1 ca=1 "Mezzo" "NetMed"
+S 29E6:3CF0:013E type=1 ca=0 "ERT World Europe" "NETMED"
+S 32DD:0190:013E type=1 ca=0 "Test" "Test"
+S 32DF:0190:013E type=1 ca=1 "NAT" "NetMed"
+S 3315:0190:013E type=1 ca=1 "ESTESTHD" "NetMed"
+S 3317:0190:013E type=1 ca=1 "Eurosport 1 HD" "NetMed"
+S 332D:1388:013E type=1 ca=0 "DW English HD" "Globecast"
+S 3331:1388:013E type=1 ca=0 "TV5 Monde" "GLOBECAST"
+S 3332:1388:013E type=1 ca=0 "Arirang World HD" "Globecast"
+S 3334:1388:013E type=1 ca=0 "RIKSat HD" "NOVA"
+S 334A:1388:013E type=2 ca=0 "RFI Francais" "NOVA"
+S 34CE:3C28:013E type=1 ca=0 "RIK Sat" "NetMed"
+S 35C6:1388:013E type=1 ca=1 "CENTOXCENTO TV" "NetMed"
+S 35D8:1388:013E type=1 ca=1 "PINK O TV" "NetMed"
+S 35ED:00C8:013E type=1 ca=1 "ESP2 Greek" "RMB"
+S 35F3:00C8:013E type=1 ca=0 "World Fashion" "RMB"
+S 35F7:00C8:013E type=2 ca=0 "PEIRAIKI EKKLISIA" "RMB"
+S 3610:00C8:013E type=1 ca=1 "ESP Greek" "RMB"
+S 3611:00C8:013E type=1 ca=1 "ESP Cyprus" "RMB"
+S 3619:00C8:013E type=1 ca=0 "France 24 (en Francais)" "RMB"
+S 361A:00C8:013E type=1 ca=0 "France 24 (in English)" "RMB"
+S 3653:1388:013E type=2 ca=0 "13907_5000_318" ""
+S 3656:00C8:013E type=1 ca=1 "Dorcel T.V." "NETMED"
+S 3656:1FA4:013E type=1 ca=1 "Dorcel T.V." "Forthnet"
+S 3715:1E14:013E type=1 ca=0 "TestMZ" "UNAMED4"
+S 3785:044C:013E type=1 ca=0 "dummy" "NetMed"
+S 3786:044C:013E type=1 ca=1 "Dorcel TV" "NetMed"
+S 37A8:044C:013E type=1 ca=1 "HUSTLER HD" "CANAL+"
+S 37AA:044C:013E type=1 ca=1 "Blue Hustler" "CANAL+"
+S 37AB:044C:013E type=1 ca=1 "Private HD" "CANAL+"
+S 3912:32C8:013E type=1 ca=0 "CNBC PE Hot" "NetMed"
+S 391A:32C8:013E type=2 ca=0 "14618_13000_318" ""
+S 39DC:1FA4:013E type=1 ca=0 "World Fashion" "Eutelsat"
+S 39ED:1FA4:013E type=2 ca=0 "PEIRAIKI EKKLISIA" "Eutelsat"
+S 3AB8:0514:013E type=1 ca=1 "Dishdryve" "NetMed"
+S 3B65:012C:013E type=1 ca=1 "Nawidh" "NetMed"
+S 3B6D:012C:013E type=1 ca=1 "CNNi HD" "Warnder Bros.Discovery"
+S 3C8D:1BBC:013E type=1 ca=1 "Novacinema1HD Cy" "NOVA"
+S 3C8E:1BBC:013E type=1 ca=1 "NovasummerHD" "NOVA"
+S 3C8F:1BBC:013E type=1 ca=1 "BabyTV HD" "NOVA"
+S 3C90:1BBC:013E type=1 ca=1 "Novasports2HD" "NOVA"
+S 3C91:1BBC:013E type=1 ca=1 "STAR HD" "NOVA"
+S 3C92:1BBC:013E type=1 ca=1 "TLC HD" "NOVA"
+S 3C93:1BBC:013E type=1 ca=1 "MagentaSport7" "NOVA"
+S 3C94:1BBC:013E type=1 ca=1 "MagentaSport8" "NOVA"
+S 3C95:1BBC:013E type=1 ca=1 "Novacinema1HD" "NOVA"
+S 3C96:1BBC:013E type=1 ca=1 "MagentaSport9" "NOVA"
+S 3C97:1BBC:013E type=1 ca=1 "E! Entertainment HD" "NOVA"
+S 3C98:1BBC:013E type=1 ca=1 "ATTICA TV" "NOVA"
+S 3C99:1BBC:013E type=1 ca=1 "Novasports2HD Cy" "NOVA"
+S 3C9A:1BBC:013E type=1 ca=1 "Food Network HD" "NOVA"
+S 3C9B:1BBC:013E type=1 ca=1 "Novasports3HD Cy" "NOVA"
+S 3C9C:1BBC:013E type=1 ca=1 "Euronews Greek" "NOVA"
+S 3C9D:1BBC:013E type=1 ca=1 "MagentaSport1" "NOVA"
+S 3C9E:1BBC:013E type=1 ca=1 "Marquee TV HD" "NOVA"
+S 3C9F:1BBC:013E type=1 ca=1 "Blue Sky" "NOVA"
+S 3CA0:1BBC:013E type=1 ca=1 "Novasports3HD" "NOVA"
+S 3CB4:1BBC:013E type=152 ca=0 "Cobalt Data" "NOVA"
+S 4205:2F44:013E type=1 ca=1 "Dorcel TV HD" "NetMed"
+S 4206:2F44:013E type=1 ca=1 "Dorcel TV HD" "NOVA"
+S 4209:3DB8:013E type=1 ca=1 "PINKO TV" "NETMED"
+S 4219:3DB8:013E type=1 ca=0 "Extra 3" "NETMED"
+S 421C:2F44:013E type=1 ca=0 "FREEDOM" "Globecast"
+S 4224:3DB8:013E type=1 ca=1 "Redlight 3D-HD" "NetMed"
+S 4225:3DB8:013E type=1 ca=1 "HUSTLER HD-3D" "NetMed"
+S 4228:2F44:013E type=1 ca=1 "HUSTLER HD" "NETMED"
+S 4229:2F44:013E type=1 ca=1 "Blue Hustler" "M7"
+S 422A:2F44:013E type=1 ca=1 "Private HD" "Globecast"
+S 4230:2F44:013E type=1 ca=1 "Brazzers TV HD" "EUTELSAT-RMB"
+S 4258:2F44:013E type=1 ca=0 "90 NUMERI SAT" "netmed"
+S 4267:3DB8:013E type=1 ca=1 "Vivid Red HD" "NETMED"
+S 4280:2BC0:013E type=1 ca=1 "Davinci Learning" "NetMed"
+S 439D:2CEC:013E type=1 ca=1 "test_baby" "NetMed"
+S 43A3:2CEC:013E type=1 ca=0 "Fashion TV" "NETMED"
+S 43AC:2CEC:013E type=1 ca=0 "ERT World" "NETMED"
+S 44C1:0258:013E type=1 ca=0 "WeddingTV Italia" "NETMED"
+S 44DD:0258:013E type=1 ca=0 "Russia Today" "NetMed"
+S 44E3:0258:013E type=1 ca=0 "World Fashion Channel" "Netmed"
+T 00C8:013E freq=11240000 pol=V sr=27500000 fec=3 sys=S pos=130E mod=1
+T 012C:013E freq=11258000 pol=H sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 0190:013E freq=11278000 pol=V sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 0258:013E freq=11317000 pol=V sr=27500000 fec=3 sys=S pos=130E mod=1
+T 02BC:013E freq=11334000 pol=H sr=27500000 fec=3 sys=S2 pos=130W mod=2
+T 0384:013E freq=11373000 pol=H sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 044C:013E freq=11411050 pol=H sr=27500000 fec=4 sys=S2 pos=130E mod=2
+T 0514:013E freq=11449000 pol=V sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 0578:013E freq=11470760 pol=V sr=27500000 fec=4 sys=S pos=130E mod=1
+T 1388:013E freq=11727000 pol=V sr=29900000 fec=3 sys=S2 pos=130E mod=2
+T 1450:013E freq=11766000 pol=V sr=27500000 fec=2 sys=S pos=130E mod=1
+T 1518:013E freq=11804200 pol=V sr=30000000 fec=4 sys=S2 pos=130E mod=2
+T 157C:013E freq=11823000 pol=H sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 17D4:013E freq=11938000 pol=H sr=30000000 fec=4 sys=S2 pos=130E mod=2
+T 1964:013E freq=12015000 pol=H sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 1B58:013E freq=12111000 pol=V sr=27500000 fec=3 sys=S pos=130E mod=1
+T 1BBC:013E freq=12130260 pol=H sr=30000000 fec=4 sys=S2 pos=130E mod=2
+T 1C20:013E freq=12149000 pol=V sr=27500000 fec=3 sys=S pos=130E mod=1
+T 1C84:013E freq=12169000 pol=H sr=30000000 fec=4 sys=S2 pos=130E mod=2
+T 1E14:013E freq=12245000 pol=H sr=27500000 fec=3 sys=S pos=130E mod=1
+T 1FA4:013E freq=12322000 pol=H sr=27500000 fec=3 sys=S pos=130E mod=1
+T 20D0:013E freq=12380000 pol=V sr=30000000 fec=4 sys=S2 pos=130W mod=2
+T 22C4:013E freq=12476000 pol=H sr=29900000 fec=3 sys=S2 pos=130E mod=2
+T 2328:013E freq=12521000 pol=V sr=27500000 fec=2 sys=S2 pos=130E mod=2
+T 238C:013E freq=12539020 pol=H sr=30000000 fec=4 sys=S2 pos=130E mod=2
+T 23F0:013E freq=12500000 pol=V sr=27500000 fec=3 sys=S pos=130E mod=1
+T 2454:013E freq=12577000 pol=H sr=2750000 fec=3 sys=S2 pos=130E mod=2
+T 24B8:013E freq=12597000 pol=V sr=27500000 fec=3 sys=S pos=130E mod=1
+T 2774:013E freq=12730000 pol=H sr=30000000 fec=4 sys=S2 pos=130E mod=0
+T 2AF8:013E freq=10719000 pol=V sr=27500000 fec=4 sys=S2 pos=130E mod=2
+T 2B5C:013E freq=10722880 pol=H sr=29900000 fec=3 sys=S pos=130E mod=1
+T 2BC0:013E freq=10758000 pol=V sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 2CEC:013E freq=10815000 pol=H sr=27500000 fec=4 sys=S pos=130E mod=1
+T 2DB4:013E freq=10853000 pol=V sr=29900000 fec=2 sys=S2 pos=130E mod=2
+T 2EE0:013E freq=12731000 pol=H sr=30000000 fec=4 sys=S2 pos=130E mod=2
+T 2F44:013E freq=10930160 pol=H sr=30000000 fec=4 sys=S2 pos=130W mod=1
+T 2FA8:013E freq=10949000 pol=V sr=27500000 fec=3 sys=S pos=130E mod=1
+T 3070:013E freq=10992160 pol=V sr=27500000 fec=2 sys=S pos=130E mod=1
+T 3138:013E freq=11034000 pol=V sr=27500000 fec=3 sys=S pos=130E mod=1
+T 319C:013E freq=11054000 pol=H sr=27500000 fec=4 sys=S pos=130E mod=1
+T 3200:013E freq=11075000 pol=V sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 32C8:013E freq=11116600 pol=V sr=27500000 fec=3 sys=S pos=130W mod=1
+T 332C:013E freq=11137000 pol=H sr=27500000 fec=3 sys=S pos=130E mod=1
+T 33F4:013E freq=11179000 pol=H sr=27500000 fec=2 sys=S2 pos=130W mod=2
+T 3458:013E freq=11200000 pol=H sr=27500000 fec=3 sys=S pos=130E mod=1
+T 3BC4:013E freq=11566000 pol=H sr=29900000 fec=3 sys=S2 pos=130E mod=2
+T 3C28:013E freq=11585000 pol=V sr=27500000 fec=4 sys=S2 pos=130E mod=2
+T 3C8C:013E freq=11604000 pol=H sr=27500000 fec=4 sys=S pos=130E mod=1
+T 3CF0:013E freq=11623000 pol=V sr=27500000 fec=3 sys=S pos=130E mod=1
+T 3D54:013E freq=11642500 pol=H sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 3DB8:013E freq=11662000 pol=V sr=27500000 fec=3 sys=S2 pos=130E mod=2

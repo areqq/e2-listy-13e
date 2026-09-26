@@ -1,0 +1,294 @@
+"""Budowa picon.tar i zzpicon.tar z NASZEGO repozytorium pikon (offline).
+
+Pikony trzymamy na stale w repo (katalog store z podkatalogami picon/ i zzpicon/);
+ten skrypt tylko sklada z nich tary dla kanalow z bukietow - bez pobierania z sieci,
+wiec dziala nawet gdy zrodlo zniknie. Store odswieza sie osobno:
+  scripts/update_picons.py       - z paczek zet71 (eeRepo j00zeka),
+  scripts/fetch_missing_picons.py - z github.com/picons/picons (czego zet71 nie ma).
+
+W tarze: plik pikony + symlinki po referencji uslugi
+(1_0_19_32D7_190_13E_820000_0_0_0.png), po wszystkich znanych pisowniach nazwy
+oraz dla wpisow strumieniowych - wiec pikona lapie sie na rozne sposoby.
+
+Uzycie: python3 scripts/make_picons.py <katalog_settings> <store> <katalog_wyjsciowy> [names_db.json] [bukiet.tv ...]
+Podanie names_db.json (ze scripts/build_names_db.py) wlacza dopasowywanie takze
+po rownowaznych nazwach kanalu z innych list i KingOfSat.
+Wynik:  <katalog_wyjsciowy>/picon.tar   (220x132, rozpakowac w /usr/share/enigma2/)
+        <katalog_wyjsciowy>/zzpicon.tar (400x170, jw.)
+"""
+from __future__ import annotations
+
+import difflib
+import io
+import json
+import re
+import sys
+import tarfile
+import unicodedata
+import urllib.request
+from dataclasses import dataclass
+from pathlib import Path
+
+from e2lib import load_bouquet, load_lamedb
+
+REPO_API = "https://api.github.com/repos/j00zek/eeRepo/contents/"
+RAW_BASE = "https://raw.githubusercontent.com/j00zek/eeRepo/main/"
+PKG_RE = re.compile(r"enigma2-plugin-picons--j00zeks-transparent-(220x132|400x170)-zet71_(.+)_all\.ipk")
+SUBDIR = {"220x132": "picon", "400x170": "zzpicon"}
+DEFAULT_BOUQUETS = [
+    "userbouquet.dbe00.tv",  # POLSKA FULL
+    "userbouquet.dbe25.tv",  # FTA Polska
+    "userbouquet.dbe64.tv",  # *Film
+    "userbouquet.dbe03.tv",  # *Sport
+    "userbouquet.dbe06.tv",  # *XXX_All
+    "userbouquet.dbe0e.tv",  # FTA English
+    "userbouquet.dbe24.tv",  # *Info
+]
+USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"
+STREAM_TAG_RE = re.compile(r"\s*\([^)]*\)\s*$")
+ALIASES = {
+    "canalplus1premiumhd": "canalpluspremiumhd",
+    "travelhd": "travelchannelhd",
+    "inultratvuhd": "ultratv4k",
+    "cgtnnewshd": "cgtnhd",
+    "cgtndocumhd": "cgtndocumentary",
+    "dubairacingchannel": "dubairacing",
+    "euronewsitalian": "euronews",
+    "ewtnenglish": "ewtn",
+    "noursatkids": "noursat",
+    "mta2hdeuropa": "mta2",
+    "ln24inter": "ln24international",
+    "solocalciohd": "sportitaliasolocalcio",
+    "mvmtmovementofculture": "mvmtculture",
+    "greaterlovehd": "greaterlove2",
+    "bareknucklesfightingchampionship": "bkfc",
+}
+
+
+@dataclass
+class Wanted:
+    ref: str
+    picon_name: str
+    channel: str
+    bouquet: str
+    aliases: list[str]
+
+
+def http_get(url: str) -> bytes:
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(req, timeout=300) as resp:
+        return resp.read()
+
+
+def newest_packages() -> dict[str, str]:
+    files = json.loads(http_get(REPO_API))
+    newest: dict[str, tuple[str, str]] = {}
+    for f in files:
+        m = PKG_RE.fullmatch(f["name"])
+        if m and (m.group(1) not in newest or m.group(2) > newest[m.group(1)][0]):
+            newest[m.group(1)] = (m.group(2), f["name"])
+    if set(newest) != set(SUBDIR):
+        raise SystemExit(f"nie znaleziono obu paczek zet71 w repo, jest: {sorted(newest)}")
+    return {size: name for size, (_, name) in newest.items()}
+
+
+def ipk_pngs(ipk: bytes) -> dict[str, bytes]:
+    off = 8
+    while off < len(ipk) - 60:
+        name = ipk[off:off + 16].decode().strip().rstrip("/")
+        size = int(ipk[off + 48:off + 58].decode().strip())
+        if name == "data.tar.gz":
+            tf = tarfile.open(fileobj=io.BytesIO(ipk[off + 60:off + 60 + size]))
+            return {Path(m.name).stem: tf.extractfile(m).read()
+                    for m in tf.getmembers() if m.isfile() and m.name.endswith(".png")}
+        off += 60 + size + (size % 2)
+    raise SystemExit("brak data.tar.gz w ipk")
+
+
+def normalize_name(channel: str) -> str:
+    lowered = channel.lower().replace("&", "and").replace("+", "plus").replace("*", "star").replace(" hevc", "")
+    ascii_name = unicodedata.normalize("NFKD", lowered).encode("ascii", "ignore").decode()
+    return re.sub("[^a-z0-9]", "", ascii_name)
+
+
+def collect_streams(settings_dir: Path, bouquets: list[str]) -> list[Wanted]:
+    """Wpisy strumieniowe (z URL w polu 11) - pikon bierzemy po nazwie bazowej
+    (bez tagu w nawiasie), a symlinki tworzymy po referencji i po pelnej nazwie."""
+    streams: dict[str, Wanted] = {}
+    for bq in bouquets:
+        for raw in (settings_dir / bq).read_text(encoding="utf-8", errors="replace").splitlines():
+            if not raw.startswith("#SERVICE 1:"):
+                continue
+            parts = raw[len("#SERVICE "):].split(":")
+            if len(parts) <= 11 or not parts[10]:
+                continue
+            ref = "_".join(parts[:10])
+            label = ":".join(parts[11:]).strip()
+            base = normalize_name(STREAM_TAG_RE.sub("", label))
+            if not base:
+                continue
+            full = normalize_name(label)
+            aliases = [full] if full != base else []
+            streams.setdefault(ref, Wanted(ref, base, label, bq, aliases))
+    return list(streams.values())
+
+
+def collect_wanted(settings_dir: Path, bouquets: list[str], names_db: dict[str, dict[str, object]]) -> list[Wanted]:
+    db = load_lamedb(settings_dir / "lamedb")
+    wanted: dict[str, Wanted] = {}
+    for bq in bouquets:
+        name, entries = load_bouquet(settings_dir / bq)
+        for e in entries:
+            if e.key is None:
+                continue
+            svc = db.services.get(e.key)
+            if svc is None:
+                continue
+            ref = "_".join(e.raw[len("#SERVICE "):].rstrip(":").split(":")[:10])
+            db_key = f"{e.key.sid:04x}:{e.key.tsid:04x}:{e.key.onid:04x}"
+            alias_names = names_db.get(db_key, {}).get("names", [])
+            aliases: list[str] = []
+            for alias in alias_names:
+                normalized = normalize_name(str(alias))
+                if normalized and normalized != normalize_name(svc.name) and normalized not in aliases:
+                    aliases.append(normalized)
+            wanted.setdefault(ref, Wanted(ref, normalize_name(svc.name), svc.name, name, aliases))
+    return list(wanted.values())
+
+
+def candidate_names(picon_name: str) -> list[str]:
+    names = [picon_name]
+    if picon_name in ALIASES:
+        names.append(ALIASES[picon_name])
+    base = re.sub(r"(uhd|fhd|hd)$", "", picon_name)
+    names += [base + suffix for suffix in ("", "hd", "uhd", "fhd", "ultrahd", "4k")]
+    derived: list[str] = []
+    for name in list(names):
+        if name.endswith("pl"):
+            derived += [name[:-2] + "polska", name[:-2] + "poland", name[:-2]]
+        if "pl" in name[:-2]:
+            derived.append(name.replace("pl", "polska", 1))
+        if "docu" in name:
+            derived.append(name.replace("docu", "doku"))
+        if name.startswith("viasat"):
+            derived.append("polsat" + name)
+        if "nationalgeo" in name:
+            derived += [name.replace("nationalgeo", "nationalgeographic"), name.replace("nationalgeo", "natgeo")]
+        if "sport" in name and "sports" not in name:
+            derived.append(name.replace("sport", "sports", 1))
+        if name.endswith("tv"):
+            derived.append(name[:-2])
+        if name.endswith("channel"):
+            derived.append(name[: -len("channel")])
+        if "tv" in name:
+            derived.append(name.replace("tv", "", 1))
+    unique: list[str] = []
+    for name in names + derived:
+        if name and name not in unique:
+            unique.append(name)
+    return unique
+
+
+def digits_of(name: str) -> str:
+    return re.sub(r"[^0-9]", "", name)
+
+
+def pick_png(pngs: dict[str, bytes], picon_name: str, aliases: list[str]) -> str | None:
+    for name in [picon_name] + aliases:
+        for candidate in candidate_names(name):
+            if candidate in pngs:
+                return candidate
+    close = difflib.get_close_matches(picon_name, list(pngs), n=1, cutoff=0.87)
+    if close and close[0][:2] == picon_name[:2] and digits_of(close[0]) == digits_of(picon_name):
+        return close[0]
+    return None
+
+
+def build_tar(out_path: Path, subdir: str, pngs: dict[str, bytes],
+              fallbacks: list[tuple[str, dict[str, bytes]]], wanted: list[Wanted]) -> list[Wanted]:
+    missing: list[Wanted] = []
+    substituted: dict[str, list[str]] = {}
+    with tarfile.open(out_path, "w") as tar:
+
+        def pack(name: str, data: bytes) -> None:
+            info = tarfile.TarInfo(f"{subdir}/{name}.png")
+            info.size = len(data)
+            info.mode = 0o644
+            tar.addfile(info, io.BytesIO(data))
+
+        packed: set[str] = set()
+        linked: set[str] = set()
+        for w in sorted(wanted, key=lambda x: x.picon_name):
+            found = pick_png(pngs, w.picon_name, w.aliases)
+            source = pngs
+            if found is None:
+                for label, fb_pngs in fallbacks:
+                    found = pick_png(fb_pngs, w.picon_name, w.aliases)
+                    if found is not None:
+                        source = fb_pngs
+                        substituted.setdefault(label, []).append(w.channel)
+                        break
+            if found is None:
+                missing.append(w)
+                continue
+            if found not in packed:
+                pack(found, source[found])
+                packed.add(found)
+            link_names = [w.ref] + [a for a in [w.picon_name] + w.aliases if a != found]
+            for link_name in link_names:
+                if link_name in packed or link_name in linked:
+                    continue
+                link = tarfile.TarInfo(f"{subdir}/{link_name}.png")
+                link.type = tarfile.SYMTYPE
+                link.linkname = f"{found}.png"
+                tar.addfile(link)
+                linked.add(link_name)
+    print(f"{out_path.name}: {len(packed)} pikon, {len(linked)} symlinkow (referencje + znane pisownie), brakuje {len(missing)}")
+    for label, channels in substituted.items():
+        print(f"   zastepczo z {label}: {', '.join(sorted(channels))}")
+    return missing
+
+
+def load_store(store_dir: Path) -> dict[str, dict[str, bytes]]:
+    pngs: dict[str, dict[str, bytes]] = {}
+    for size, sub in SUBDIR.items():
+        directory = store_dir / sub
+        pngs[size] = {f.stem: f.read_bytes() for f in directory.glob("*.png")} if directory.is_dir() else {}
+    return pngs
+
+
+def main() -> int:
+    if len(sys.argv) < 4:
+        print(__doc__)
+        return 2
+    settings_dir = Path(sys.argv[1])
+    store_dir = Path(sys.argv[2])
+    out_dir = Path(sys.argv[3])
+    out_dir.mkdir(parents=True, exist_ok=True)
+    rest = sys.argv[4:]
+    names_db: dict[str, dict[str, object]] = {}
+    if rest and rest[0].endswith(".json"):
+        names_db = json.loads(Path(rest[0]).read_text(encoding="utf-8"))
+        print(f"baza nazw: {rest[0]} ({len(names_db)} uslug)")
+        rest = rest[1:]
+    bouquets = rest or DEFAULT_BOUQUETS
+    wanted = collect_wanted(settings_dir, bouquets, names_db)
+    streams = collect_streams(settings_dir, bouquets)
+    if streams:
+        wanted += streams
+        print(f"wpisow strumieniowych (pikon po nazwie bazowej): {len(streams)}")
+    print(f"kanalow (unikalne referencje) z {len(bouquets)} bukietow: {len(wanted)}")
+    pngs_by_size = load_store(store_dir)
+    print(f"repo pikon: {store_dir} ({sum(len(v) for v in pngs_by_size.values())} plikow)")
+    for size in SUBDIR:
+        other = next(s for s in SUBDIR if s != size)
+        fallbacks = [(f"{SUBDIR[other]} (inny rozmiar)", pngs_by_size[other])]
+        missing = build_tar(out_dir / f"{SUBDIR[size]}.tar", SUBDIR[size],
+                            pngs_by_size[size], fallbacks, wanted)
+        for w in missing:
+            print(f"   BRAK: {w.channel} ({w.picon_name}) [{w.bouquet}]")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

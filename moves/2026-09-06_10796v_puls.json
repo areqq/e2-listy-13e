@@ -1,0 +1,15 @@
+{
+  "add_services": [
+    {"sid": "13F1", "tsid": "05DC", "type": 1, "name": "TV Puls HD", "provider": "Canal+"},
+    {"sid": "13F2", "tsid": "05DC", "type": 1, "name": "Puls 2 HD", "provider": "Canal+"},
+    {"sid": "13F3", "tsid": "05DC", "type": 1, "name": "WP", "provider": "Canal+"}
+  ],
+  "targets": [
+    {"bouquet": "userbouquet.dbe00.tv",
+     "moves": [
+       {"name": "TV Puls HD", "old_sid": "3D66", "old_tsid": "2C88", "new_sid": "13F1", "new_tsid": "05DC"},
+       {"name": "Puls 2 HD",  "old_sid": "3D5E", "old_tsid": "2C88", "new_sid": "13F2", "new_tsid": "05DC"},
+       {"name": "WP",         "old_sid": "3D5A", "old_tsid": "2C88", "new_sid": "13F3", "new_tsid": "05DC"}
+     ]}
+  ]
+}

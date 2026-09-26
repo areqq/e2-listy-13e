@@ -1,0 +1,16 @@
+# Przyklad konfiguracji dekoderow dla scripts/operator_scans.py.
+# Skopiuj do scan.local.toml (plik lokalny, poza repo - patrz .gitignore).
+# Skrypt nie zna zadnego dekodera - adresy pochodza wylacznie stad.
+#
+# Kolejnosc wpisow = priorytet: pierwszy, ktory odpowie, wygrywa.
+
+[[box]]
+opis = "dekoder w tej samej sieci"
+ssh = ["root@host"]           # argumenty ssh przed komenda, np. ["-J", "jump", "root@host"]
+arch = "armhf"                # armhf albo mipsel - ktora binarke satscana wgrac
+
+[[box]]
+opis = "zapasowy przez jump host"
+ssh = ["-J", "jump", "root@host2"]
+arch = "armhf"
+args = ["--frontend", "1"]    # opcjonalnie: dodatkowe argumenty satscana dla tego boxa

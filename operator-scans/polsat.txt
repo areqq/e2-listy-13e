@@ -1,0 +1,686 @@
+L 1 1C98:1CE8:0071 visible=1 src=nit
+L 1 3391:3390:0071 visible=1 src=nit
+L 10 1CA0:1CE8:0071 visible=1 src=nit
+L 10 3396:3390:0071 visible=1 src=nit
+L 100 10DE:03E8:013E visible=1 src=nit
+L 101 07D6:22C4:013E visible=1 src=nit
+L 1010 1C96:1CE8:0071 visible=1 src=nit
+L 102 10E0:03E8:013E visible=1 src=nit
+L 103 3DD7:0640:013E visible=1 src=nit
+L 1030 13F1:05DC:013E visible=1 src=nit
+L 104 3D5A:2C88:013E visible=1 src=nit
+L 105 10EB:03E8:013E visible=1 src=nit
+L 106 3D67:2C88:013E visible=1 src=nit
+L 107 32D7:0190:013E visible=1 src=nit
+L 108 4239:2F44:013E visible=1 src=nit
+L 109 0C23:1E78:0071 visible=1 src=nit
+L 11 0C2E:1E78:0071 visible=1 src=nit
+L 11 1410:05DC:013E visible=1 src=nit
+L 110 429D:2BC0:013E visible=1 src=nit
+L 111 33A1:3390:0071 visible=1 src=nit
+L 112 1138:2AF8:013E visible=1 src=nit
+L 113 3ADB:0514:013E visible=1 src=nit
+L 114 0C2C:1E78:0071 visible=1 src=nit
+L 115 3DEA:0640:013E visible=1 src=nit
+L 116 3DEB:0640:013E visible=1 src=nit
+L 118 0C24:1E78:0071 visible=1 src=nit
+L 119 0C1D:1E78:0071 visible=1 src=nit
+L 123 3E23:2EE0:013E visible=1 src=nit
+L 124 32DF:0190:013E visible=1 src=nit
+L 126 13F6:05DC:013E visible=1 src=nit
+L 128 0C2F:1E78:0071 visible=1 src=nit
+L 13 2913:1EDC:0071 visible=1 src=nit
+L 131 3398:3390:0071 visible=1 src=nit
+L 132 290E:1EDC:0071 visible=1 src=nit
+L 133 13F4:05DC:013E visible=1 src=nit
+L 134 13F9:05DC:013E visible=1 src=nit
+L 135 3A9F:0514:013E visible=1 src=nit
+L 136 0C26:1E78:0071 visible=1 src=nit
+L 137 0C1F:1E78:0071 visible=1 src=nit
+L 138 0C27:1E78:0071 visible=1 src=nit
+L 139 0C25:1E78:0071 visible=1 src=nit
+L 14 3B67:012C:013E visible=1 src=nit
+L 140 13FE:05DC:013E visible=1 src=nit
+L 141 3787:044C:013E visible=1 src=nit
+L 142 1133:2AF8:013E visible=1 src=nit
+L 143 3E1D:2EE0:013E visible=1 src=nit
+L 144 3E3E:2EE0:013E visible=1 src=nit
+L 145 3ABE:0514:013E visible=1 src=nit
+L 147 3E22:2EE0:013E visible=1 src=nit
+L 148 000C:1964:013E visible=1 src=nit
+L 149 000D:1964:013E visible=1 src=nit
+L 15 3B68:012C:013E visible=1 src=nit
+L 150 1C88:1CE8:0071 visible=1 src=nit
+L 151 3DD6:0640:013E visible=1 src=nit
+L 152 3DD5:0640:013E visible=1 src=nit
+L 153 3E26:2EE0:013E visible=1 src=nit
+L 154 33A3:3390:0071 visible=1 src=nit
+L 155 4291:2BC0:013E visible=1 src=nit
+L 156 3DD4:0640:013E visible=1 src=nit
+L 157 3D5E:2C88:013E visible=1 src=nit
+L 158 429E:2BC0:013E visible=1 src=nit
+L 159 0C37:1E78:0071 visible=1 src=nit
+L 16 4284:2BC0:013E visible=1 src=nit
+L 160 2907:1EDC:0071 visible=1 src=nit
+L 162 07E0:22C4:013E visible=1 src=nit
+L 164 3B66:012C:013E visible=1 src=nit
+L 165 2908:1EDC:0071 visible=1 src=nit
+L 166 33AA:3390:0071 visible=1 src=nit
+L 167 33B2:3390:0071 visible=1 src=nit
+L 168 33B6:3390:0071 visible=1 src=nit
+L 169 4285:2BC0:013E visible=1 src=nit
+L 17 2911:1EDC:0071 visible=1 src=nit
+L 170 4280:2BC0:013E visible=1 src=nit
+L 171 000E:1964:013E visible=1 src=nit
+L 172 1CC5:1CE8:0071 visible=1 src=nit
+L 173 10E5:03E8:013E visible=1 src=nit
+L 174 4293:2BC0:013E visible=1 src=nit
+L 178 429C:2BC0:013E visible=1 src=nit
+L 179 429A:2BC0:013E visible=1 src=nit
+L 18 3A9E:0514:013E visible=1 src=nit
+L 180 1C8C:1CE8:0071 visible=1 src=nit
+L 181 3785:044C:013E visible=1 src=nit
+L 182 428D:2BC0:013E visible=1 src=nit
+L 183 428F:2BC0:013E visible=1 src=nit
+L 184 428E:2BC0:013E visible=1 src=nit
+L 185 427F:2BC0:013E visible=1 src=nit
+L 186 4294:2BC0:013E visible=1 src=nit
+L 187 2910:1EDC:0071 visible=1 src=nit
+L 188 290D:1EDC:0071 visible=1 src=nit
+L 189 2909:1EDC:0071 visible=1 src=nit
+L 19 3333:3390:0071 visible=1 src=nit
+L 191 051B:2E7C:013E visible=1 src=nit
+L 192 423B:3DB8:013E visible=1 src=nit
+L 193 423C:3DB8:013E visible=1 src=nit
+L 194 4240:3DB8:013E visible=1 src=nit
+L 195 423E:3DB8:013E visible=1 src=nit
+L 196 4279:2BC0:013E visible=1 src=nit
+L 197 1412:05DC:013E visible=1 src=nit
+L 198 2914:1EDC:0071 visible=1 src=nit
+L 199 1C97:1CE8:0071 visible=1 src=nit
+L 2 3393:3390:0071 visible=1 src=nit
+L 20 3DD2:0640:013E visible=1 src=nit
+L 200 33B1:3390:0071 visible=1 src=nit
+L 202 33D9:3390:0071 visible=1 src=nit
+L 203 3343:3390:0071 visible=1 src=nit
+L 210 0709:32C8:013E visible=1 src=nit
+L 2104 13F3:05DC:013E visible=1 src=nit
+L 211 070A:32C8:013E visible=1 src=nit
+L 2118 0C28:1E78:0071 visible=1 src=nit
+L 212 3E2B:2EE0:013E visible=1 src=nit
+L 213 3E2C:2EE0:013E visible=1 src=nit
+L 214 0C33:1E78:0071 visible=1 src=nit
+L 215 0C34:1E78:0071 visible=1 src=nit
+L 2157 13F2:05DC:013E visible=1 src=nit
+L 220 3D69:2C88:013E visible=1 src=nit
+L 221 3D6A:2C88:013E visible=1 src=nit
+L 222 3D6B:2C88:013E visible=1 src=nit
+L 223 0711:32C8:013E visible=1 src=nit
+L 224 070F:32C8:013E visible=1 src=nit
+L 229 3E1F:2EE0:013E visible=1 src=nit
+L 23 1139:2AF8:013E visible=1 src=nit
+L 230 33B8:3390:0071 visible=1 src=nit
+L 232 33BA:3390:0071 visible=1 src=nit
+L 239 1C8B:1CE8:0071 visible=1 src=nit
+L 24 290B:1EDC:0071 visible=1 src=nit
+L 241 33C6:3390:0071 visible=1 src=nit
+L 242 33C2:3390:0071 visible=1 src=nit
+L 244 0C20:1E78:0071 visible=1 src=nit
+L 25 10EA:03E8:013E visible=1 src=nit
+L 26 33A8:3390:0071 visible=1 src=nit
+L 28 3394:3390:0071 visible=1 src=nit
+L 2890 37A1:044C:013E visible=1 src=nit
+L 2892 37A3:044C:013E visible=1 src=nit
+L 2897 37A2:044C:013E visible=1 src=nit
+L 29 339A:3390:0071 visible=1 src=nit
+L 3 1C9A:1CE8:0071 visible=1 src=nit
+L 3 3ABD:0514:013E visible=1 src=nit
+L 30 3D66:2C88:013E visible=1 src=nit
+L 307 003D:1964:013E visible=1 src=nit
+L 308 003E:1964:013E visible=1 src=nit
+L 308 3D56:2C88:013E visible=1 src=nit
+L 31 0021:1964:013E visible=1 src=nit
+L 32 0C30:1E78:0071 visible=1 src=nit
+L 32004 1CD6:1CE8:0071 visible=1 src=nit
+L 32006 1CE7:1CE8:0071 visible=1 src=nit
+L 32009 1CDE:1CE8:0071 visible=1 src=nit
+L 32010 1CDF:1CE8:0071 visible=1 src=nit
+L 32456 1CDB:1CE8:0071 visible=1 src=nit
+L 333 3E30:2EE0:013E visible=1 src=nit
+L 34 378A:044C:013E visible=1 src=nit
+L 340 290A:1EDC:0071 visible=1 src=nit
+L 341 3E24:2EE0:013E visible=1 src=nit
+L 35 0C2A:1E78:0071 visible=1 src=nit
+L 36 1C86:1CE8:0071 visible=1 src=nit
+L 37 1C87:1CE8:0071 visible=1 src=nit
+L 37000 0016:1E78:0071 visible=1 src=nit
+L 37008 1CE4:1CE8:0071 visible=1 src=nit
+L 37383 1CD7:1CE8:0071 visible=1 src=nit
+L 38 0C2B:1E78:0071 visible=1 src=nit
+L 39 0020:1964:013E visible=1 src=nit
+L 4 0C22:1E78:0071 visible=1 src=nit
+L 4 1C9B:1CE8:0071 visible=1 src=nit
+L 40 0010:1964:013E visible=1 src=nit
+L 400 33C8:3390:0071 visible=1 src=nit
+L 41 1CAC:1CE8:0071 visible=1 src=nit
+L 42 339B:3390:0071 visible=1 src=nit
+L 42 33AB:3390:0071 visible=1 src=nit
+L 42 33BB:3390:0071 visible=1 src=nit
+L 424 32CB:0190:013E visible=1 src=nit
+L 426 13FD:05DC:013E visible=1 src=nit
+L 43 3784:044C:013E visible=1 src=nit
+L 438 423F:3DB8:013E visible=1 src=nit
+L 439 3A9A:0514:013E visible=1 src=nit
+L 445 3E27:2EE0:013E visible=1 src=nit
+L 446 3E28:2EE0:013E visible=1 src=nit
+L 45 1C8D:1CE8:0071 visible=1 src=nit
+L 450 3789:044C:013E visible=1 src=nit
+L 452 428A:2BC0:013E visible=1 src=nit
+L 46 3B69:012C:013E visible=1 src=nit
+L 47 0C2D:1E78:0071 visible=1 src=nit
+L 48 1142:2AF8:013E visible=1 src=nit
+L 49 4290:2BC0:013E visible=1 src=nit
+L 5 1C9C:1CE8:0071 visible=1 src=nit
+L 5 3399:3390:0071 visible=1 src=nit
+L 50 3E20:2EE0:013E visible=1 src=nit
+L 502 0045:1964:013E visible=1 src=nit
+L 503 13FC:05DC:013E visible=1 src=nit
+L 504 07E3:22C4:013E visible=1 src=nit
+L 507 32E0:0190:013E visible=1 src=nit
+L 508 3A9B:0514:013E visible=1 src=nit
+L 51 3E44:2EE0:013E visible=1 src=nit
+L 52 1C8F:1CE8:0071 visible=1 src=nit
+L 53 3788:044C:013E visible=1 src=nit
+L 54 3786:044C:013E visible=1 src=nit
+L 55 1401:05DC:013E visible=1 src=nit
+L 56 000F:1964:013E visible=1 src=nit
+L 57 4288:2BC0:013E visible=1 src=nit
+L 58 427B:2BC0:013E visible=1 src=nit
+L 6 290C:1EDC:0071 visible=1 src=nit
+L 60 33B9:3390:0071 visible=1 src=nit
+L 605 3A99:0514:013E visible=1 src=nit
+L 63 1CBE:1CE8:0071 visible=1 src=nit
+L 630 08B5:01F4:013E visible=1 src=nit
+L 631 11FB:2B5C:013E visible=1 src=nit
+L 66 33C9:3390:0071 visible=1 src=nit
+L 67 4289:2BC0:013E visible=1 src=nit
+L 68 13F7:05DC:013E visible=1 src=nit
+L 7 3DD3:0640:013E visible=1 src=nit
+L 70 1CCA:1CE8:0071 visible=1 src=nit
+L 700 33D6:3390:0071 visible=1 src=nit
+L 705 3DD9:0640:013E visible=1 src=nit
+L 706 113E:2AF8:013E visible=1 src=nit
+L 707 07E5:22C4:013E visible=1 src=nit
+L 709 113D:2AF8:013E visible=1 src=nit
+L 71 1134:2AF8:013E visible=1 src=nit
+L 710 33D2:3390:0071 visible=1 src=nit
+L 720 0BEA:20D0:013E visible=1 src=nit
+L 721 11FD:2B5C:013E visible=1 src=nit
+L 722 11FC:2B5C:013E visible=1 src=nit
+L 73 10DD:03E8:013E visible=1 src=nit
+L 74 1428:05DC:013E visible=1 src=nit
+L 75 3B6A:012C:013E visible=1 src=nit
+L 76 3B6B:012C:013E visible=1 src=nit
+L 77 10DF:03E8:013E visible=1 src=nit
+L 770 0201:0384:013E visible=1 src=nit
+L 771 0202:0384:013E visible=1 src=nit
+L 78 3DD8:0640:013E visible=1 src=nit
+L 79 0C32:1E78:0071 visible=1 src=nit
+L 790 1CA2:1CE8:0071 visible=1 src=nit
+L 792 1CA4:1CE8:0071 visible=1 src=nit
+L 793 1CA5:1CE8:0071 visible=1 src=nit
+L 794 1CA6:1CE8:0071 visible=1 src=nit
+L 795 1CAB:1CE8:0071 visible=1 src=nit
+L 796 1CA8:1CE8:0071 visible=1 src=nit
+L 798 1CAA:1CE8:0071 visible=1 src=nit
+L 8 1C9E:1CE8:0071 visible=1 src=nit
+L 8 3DCD:0640:013E visible=1 src=nit
+L 80 0C31:1E78:0071 visible=1 src=nit
+L 804 04B9:23F0:013E visible=1 src=nit
+L 81 33A2:3390:0071 visible=1 src=nit
+L 82 3E21:2EE0:013E visible=1 src=nit
+L 83 3DD0:0640:013E visible=1 src=nit
+L 85 1403:05DC:013E visible=1 src=nit
+L 86 1CB6:1CE8:0071 visible=1 src=nit
+L 863 003F:1964:013E visible=1 src=nit
+L 864 0040:1964:013E visible=1 src=nit
+L 865 0041:1964:013E visible=1 src=nit
+L 866 0042:1964:013E visible=1 src=nit
+L 87 1CB7:1CE8:0071 visible=1 src=nit
+L 88 2938:1EDC:0071 visible=1 src=nit
+L 890 113F:2AF8:013E visible=1 src=nit
+L 891 4224:3DB8:013E visible=1 src=nit
+L 892 1141:2AF8:013E visible=1 src=nit
+L 895 422C:2F44:013E visible=1 src=nit
+L 896 4206:2F44:013E visible=1 src=nit
+L 897 1140:2AF8:013E visible=1 src=nit
+L 9 3392:3390:0071 visible=1 src=nit
+L 90 1CB5:1CE8:0071 visible=1 src=nit
+L 900 33E9:3390:0071 visible=1 src=nit
+L 901 3353:3390:0071 visible=1 src=nit
+L 91 0009:1964:013E visible=1 src=nit
+L 911 33F9:3390:0071 visible=1 src=nit
+L 913 3363:3390:0071 visible=1 src=nit
+L 915 421C:2F44:013E visible=1 src=nit
+L 92 10E4:03E8:013E visible=1 src=nit
+L 922 1C8A:1CE8:0071 visible=1 src=nit
+L 93 0003:1964:013E visible=1 src=nit
+L 930 3B6D:012C:013E visible=1 src=nit
+L 931 3330:1388:013E visible=1 src=nit
+L 932 233E:2328:013E visible=1 src=nit
+L 933 1C86:332C:013E visible=1 src=nit
+L 934 1326:33F4:013E visible=1 src=nit
+L 935 0328:3BC4:013E visible=1 src=nit
+L 936 06AA:3138:013E visible=1 src=nit
+L 937 1C8A:332C:013E visible=1 src=nit
+L 938 0064:1DB0:013E visible=1 src=nit
+L 94 07D9:22C4:013E visible=1 src=nit
+L 942 02C9:1B58:013E visible=1 src=nit
+L 944 332D:1388:013E visible=1 src=nit
+L 945 0327:3BC4:013E visible=1 src=nit
+L 946 452F:30D4:013E visible=1 src=nit
+L 947 2149:3070:013E visible=1 src=nit
+L 948 030F:1F40:013E visible=1 src=nit
+L 949 0215:0384:013E visible=1 src=nit
+L 95 3D5F:2C88:013E visible=1 src=nit
+L 952 0323:3BC4:013E visible=1 src=nit
+L 96 33A6:3390:0071 visible=1 src=nit
+L 960 0D49:1450:013E visible=1 src=nit
+L 961 0D4A:1450:013E visible=1 src=nit
+L 962 0D4B:1450:013E visible=1 src=nit
+L 963 07D4:22C4:013E visible=1 src=nit
+L 964 4238:3DB8:013E visible=1 src=nit
+L 966 1325:33F4:013E visible=1 src=nit
+L 967 01FC:0384:013E visible=1 src=nit
+L 969 1C22:1C20:013E visible=1 src=nit
+L 97 07DB:22C4:013E visible=1 src=nit
+L 970 4530:30D4:013E visible=1 src=nit
+L 971 2146:3070:013E visible=1 src=nit
+L 972 4536:30D4:013E visible=1 src=nit
+L 978 422D:2F44:013E visible=1 src=nit
+L 98 3DCE:0640:013E visible=1 src=nit
+L 99 3E1E:2EE0:013E visible=1 src=nit
+L 999 1CD4:1CE8:0071 visible=1 src=nit
+S 0003:1964:013E type=1 ca=1 "Nick Jr" "Cyfrowy Polsat S.A."
+S 0009:1964:013E type=1 ca=1 "Nickelodeon" "Cyfrowy Polsat S.A."
+S 000C:1964:013E type=1 ca=1 "Comedy Central HD" "Cyfrowy Polsat S.A."
+S 000D:1964:013E type=1 ca=1 "Paramount Network Polska" "Cyfrowy Polsat S.A."
+S 000E:1964:013E type=1 ca=1 "Nicktoons HD" "Cyfrowy Polsat S.A."
+S 000F:1964:013E type=1 ca=1 "MTV Polska HD" "Cyfrowy Polsat S.A."
+S 0010:1964:013E type=1 ca=1 "Polsat Comedy Central Extra" "Cyfrowy Polsat S.A."
+S 0016:1E78:0071 type=129 ca=0 "Consumer Cam" "Cyfrowy Polsat S.A."
+S 0019:1964:013E type=1 ca=0 "MTV Commercial" ""
+S 0020:1964:013E type=1 ca=1 "Comedy Central HD" "Cyfrowy Polsat S.A."
+S 0021:1964:013E type=1 ca=1 "Paramount Network Polska" "Cyfrowy Polsat S.A."
+S 003D:1964:013E type=1 ca=1 "Eurosport 3 HD" "Cyfrowy Polsat S.A."
+S 003E:1964:013E type=1 ca=1 "Eurosport 4 HD" "Cyfrowy Polsat S.A."
+S 003F:1964:013E type=1 ca=1 "VOD 205" "Cyfrowy Polsat S.A."
+S 0040:1964:013E type=1 ca=1 "VOD 206" "Cyfrowy Polsat S.A."
+S 0041:1964:013E type=1 ca=1 "VOD 207" "Cyfrowy Polsat S.A."
+S 0042:1964:013E type=1 ca=1 "VOD 208" "Cyfrowy Polsat S.A."
+S 0045:1964:013E type=1 ca=0 "Nicktoons HD" "Cyfrowy Polsat S.A."
+S 0064:1DB0:013E type=1 ca=0 "VoA TV Europe" "Cyfrowy Polsat S.A."
+S 01FC:0384:013E type=1 ca=0 "Kurdistan 24" "Cyfrowy Polsat S.A."
+S 0201:0384:013E type=1 ca=0 "Radionorba TV" "Cyfrowy Polsat S.A."
+S 0202:0384:013E type=1 ca=0 "102.5 HIT CH" "Cyfrowy Polsat S.A."
+S 0215:0384:013E type=1 ca=0 "NHK World TV" "Cyfrowy Polsat S.A."
+S 02C9:1B58:013E type=1 ca=0 "RTP Internacional" ""
+S 030F:1F40:013E type=1 ca=0 "Telesur" "Cyfrowy Polsat S.A."
+S 0323:3BC4:013E type=1 ca=0 "TRT Turk" "Cyfrowy Polsat S.A."
+S 0327:3BC4:013E type=1 ca=0 "France24" "Cyfrowy Polsat S.A."
+S 0328:3BC4:013E type=1 ca=0 "France 24" "Cyfrowy Polsat S.A."
+S 04B9:23F0:013E type=31 ca=0 "HOTBIRD 4K1" ""
+S 051B:2E7C:013E type=1 ca=0 "Arte HD" "Cyfrowy Polsat S.A."
+S 06AA:3138:013E type=1 ca=0 "CCTV News English" "Cyfrowy Polsat S.A."
+S 0709:32C8:013E type=1 ca=1 "Polsat Sport Premium 1" "Cyfrowy Polsat S.A."
+S 070A:32C8:013E type=1 ca=1 "Polsat Sport Premium 2" "Cyfrowy Polsat S.A."
+S 070B:32C8:013E type=1 ca=1 "Test1803" "Cyfrowy Polsat S.A."
+S 070C:32C8:013E type=1 ca=1 "Test1804" "Cyfrowy Polsat S.A."
+S 070F:32C8:013E type=31 ca=1 "Eleven Sports 1 4K" "Cyfrowy Polsat S.A."
+S 0710:32C8:013E type=1 ca=1 "Test1808" "Cyfrowy Polsat S.A."
+S 0711:32C8:013E type=1 ca=1 "Eleven Sports 4" "Cyfrowy Polsat S.A."
+S 07D4:22C4:013E type=1 ca=0 "Telepace HD" "Cyfrowy Polsat S.A."
+S 07D6:22C4:013E type=1 ca=1 "BBC Brit HD" "Cyfrowy Polsat S.A."
+S 07D9:22C4:013E type=1 ca=1 "BBC Cbeebies" "Cyfrowy Polsat S.A."
+S 07DB:22C4:013E type=1 ca=1 "BBC Lifestyle HD" "Cyfrowy Polsat S.A."
+S 07E0:22C4:013E type=1 ca=0 "BBC Brit HD" "Cyfrowy Polsat S.A."
+S 07E3:22C4:013E type=1 ca=0 "BBC Cbeebies" "Cyfrowy Polsat S.A."
+S 07E5:22C4:013E type=1 ca=0 "BBC Lifestyle HD" "Cyfrowy Polsat S.A."
+S 08B5:01F4:013E type=31 ca=1 "Love Nature 4K" "Cyfrowy Polsat S.A."
+S 0BEA:20D0:013E type=31 ca=1 "Inultra UHD" "Cyfrowy Polsat S.A."
+S 0C1D:1E78:0071 type=1 ca=1 "Polsat Sport 1" "Cyfrowy Polsat S.A."
+S 0C1E:1E78:0071 type=1 ca=1 "Polsat Sport HD" "Cyfrowy Polsat S.A."
+S 0C1F:1E78:0071 type=1 ca=1 "Fx Comedy HD" "Cyfrowy Polsat S.A."
+S 0C20:1E78:0071 type=1 ca=1 "Polsat Viasat History HD" "Cyfrowy Polsat S.A."
+S 0C22:1E78:0071 type=1 ca=1 "TVP 2 HD" "Cyfrowy Polsat S.A"
+S 0C23:1E78:0071 type=1 ca=1 "Polsat Doku HD" "Cyfrowy Polsat S.A."
+S 0C24:1E78:0071 type=1 ca=1 "Polsat Sport 2" "Cyfrowy Polsat S.A."
+S 0C25:1E78:0071 type=1 ca=1 "AXN HD" "Cyfrowy Polsat SA"
+S 0C26:1E78:0071 type=1 ca=1 "Cinemax 2 HD" "Cyfrowy Polsat S.A."
+S 0C27:1E78:0071 type=1 ca=1 "FX HD" "Cyfrowy Polsat S.A."
+S 0C28:1E78:0071 type=1 ca=1 "Polsat Sport 2" "Cyfrowy Polsat S.A."
+S 0C29:1E78:0071 type=1 ca=0 "Cinemax 2 HD" "Cyfrowy Polsat SA"
+S 0C2A:1E78:0071 type=1 ca=0 "AXN HD" "Cyfrowy Polsat S.A."
+S 0C2B:1E78:0071 type=1 ca=0 "Fx Comedy HD" "Cyfrowy Polsat S.A."
+S 0C2C:1E78:0071 type=1 ca=0 "TVP 2 HD" "Cyfrowy Polsat S.A."
+S 0C2D:1E78:0071 type=1 ca=0 "FX HD" "Cyfrowy Polsat S.A."
+S 0C2E:1E78:0071 type=1 ca=0 "Polsat Sport 1" "Cyfrowy Polsat S.A."
+S 0C2F:1E78:0071 type=1 ca=1 "History HD" "Cyfrowy Polsat S.A."
+S 0C30:1E78:0071 type=1 ca=1 "CI Polsat HD" "Cyfrowy Polsat S.A."
+S 0C31:1E78:0071 type=1 ca=0 "CI Polsat HD" ""
+S 0C32:1E78:0071 type=1 ca=0 "History HD" ""
+S 0C33:1E78:0071 type=1 ca=1 "Polsat Sport Extra 1" "Cyfrowy Polsat S.A."
+S 0C34:1E78:0071 type=1 ca=1 "Polsat Sport Extra 2" "Cyfrowy Polsat S.A."
+S 0C37:1E78:0071 type=1 ca=0 "Polsat Doku HD" "Cyfrowy Polsat SA"
+S 0D49:1450:013E type=1 ca=0 "RAI1" "Cyfrowy Polsat S.A."
+S 0D4A:1450:013E type=1 ca=0 "RAI2" "Cyfrowy Polsat S.A."
+S 0D4B:1450:013E type=1 ca=0 "RAI3" "Cyfrowy Polsat S.A."
+S 10DD:03E8:013E type=1 ca=1 "Discovery HD" "Cyfrowy Polsat S.A."
+S 10DE:03E8:013E type=1 ca=1 "TLC HD" "Cyfrowy Polsat S.A."
+S 10DF:03E8:013E type=1 ca=1 "Discovery Historia" "Cyfrowy Polsat S.A."
+S 10E0:03E8:013E type=1 ca=1 "Discovery Life HD" "Cyfrowy Polsat S.A."
+S 10E4:03E8:013E type=1 ca=1 "Cartoonito" "Cyfrowy Polsat S.A."
+S 10E5:03E8:013E type=1 ca=1 "Cartoon Network HD" "Cyfrowy Polsat S.A."
+S 10EA:03E8:013E type=1 ca=1 "TVN24 BiS HD" "Cyfrowy Polsat S.A."
+S 10EB:03E8:013E type=1 ca=1 "HGTV HD" "Cyfrowy Polsat S.A"
+S 1133:2AF8:013E type=1 ca=1 "BBC FIRST" "Cyfrowy Polsat S.A."
+S 1134:2AF8:013E type=1 ca=1 "BBC Earth HD" "Cyfrowy Polsat SA"
+S 1138:2AF8:013E type=1 ca=1 "TVP HD" "Cyfrowy Polsat S.A."
+S 1139:2AF8:013E type=1 ca=1 "TVP INFO HD" "Cyfrowy Polsat S.A."
+S 113D:2AF8:013E type=1 ca=1 "CANAL+ Domo HD" "Cyfrowy Polsat S.A."
+S 113E:2AF8:013E type=1 ca=1 "CANAL+ Kuchnia HD" "Cyfrowy Polsat S.A."
+S 113F:2AF8:013E type=1 ca=1 "Hustler HD" "Cyfrowy Polsat S.A."
+S 1140:2AF8:013E type=1 ca=1 "Blue Hustler" ""
+S 1141:2AF8:013E type=1 ca=1 "Private TV" ""
+S 1142:2AF8:013E type=1 ca=1 "TVP Seriale" "Cyfrowy Polsat S.A."
+S 11FB:2B5C:013E type=31 ca=1 "Travelxp 4K" "Cyfrowy Polsat S.A"
+S 11FC:2B5C:013E type=31 ca=1 "Museum TV 4K" ""
+S 11FD:2B5C:013E type=31 ca=1 "MyZEN TV 4K" ""
+S 1325:33F4:013E type=1 ca=0 "KBS World" "Cyfrowy Polsat S.A."
+S 1326:33F4:013E type=1 ca=0 "CNBC Europe" "Cyfrowy Polsat S.A."
+S 13F1:05DC:013E type=1 ca=1 "TV Puls HD" "Cyfrowy Polsat S.A."
+S 13F2:05DC:013E type=1 ca=1 "Puls 2 HD" "Cyfrowy Polsat S.A."
+S 13F3:05DC:013E type=1 ca=1 "WP" "Cyfrowy Polsat S.A."
+S 13F4:05DC:013E type=1 ca=1 "HBO 2 HD" "Cyfrowy Polsat S.A."
+S 13F6:05DC:013E type=1 ca=1 "National Geographic Wild HD" "Cyfrowy Polsat S.A."
+S 13F7:05DC:013E type=1 ca=1 "TVP 3" "Cyfrowy Polsat S.A."
+S 13F9:05DC:013E type=1 ca=1 "HBO 3 HD" "Cyfrowy Polsat S.A."
+S 13FC:05DC:013E type=1 ca=1 "TeenNick" "Cyfrowy Polsat S.A."
+S 13FD:05DC:013E type=1 ca=1 "Viasat True Crime" "Cyfrowy Polsat S.A."
+S 13FE:05DC:013E type=1 ca=1 "AXN Spin HD" "Cyfrowy Polsat S.A."
+S 1401:05DC:013E type=1 ca=1 "AMC" "Cyfrowy Polsat S.A."
+S 1403:05DC:013E type=1 ca=0 "TVS" "Cyfrowy Polsat S.A."
+S 1410:05DC:013E type=2 ca=0 "Radio Zet" "Cyfrowy Polsat SA"
+S 1412:05DC:013E type=1 ca=0 "TVC" "Cyfrowy Polsat S.A."
+S 1428:05DC:013E type=1 ca=0 "National Geographic Wild HD" "Cyfrowy Polsat S.A."
+S 1C22:1C20:013E type=1 ca=0 "Tunisia Nat 1" "Cyfrowy Polsat S.A."
+S 1C86:1CE8:0071 type=1 ca=1 "AXN White" "Cyfrowy Polsat S.A."
+S 1C86:332C:013E type=1 ca=0 "Bloomberg  European TV" "Cyfrowy Polsat S.A."
+S 1C87:1CE8:0071 type=1 ca=1 "AXN Black" "Cyfrowy Polsat S.A."
+S 1C88:1CE8:0071 type=1 ca=1 "Dla Abonentow" "Cyfrowy Polsat S.A."
+S 1C89:1CE8:0071 type=1 ca=0 "Dla Abonentow" "Cyfrowy Polsat S.A."
+S 1C8A:1CE8:0071 type=1 ca=0 "Newsmax Polska" "Cyfrowy Polsat S.A."
+S 1C8A:332C:013E type=1 ca=0 "Al Jazeera english" "Cyfrowy Polsat S.A."
+S 1C8B:1CE8:0071 type=1 ca=1 "Polsat X HD" "Cyfrowy Polsat S.A"
+S 1C8C:1CE8:0071 type=1 ca=1 "Disco Polo Music" "Cyfrowy Polsat S.A."
+S 1C8D:1CE8:0071 type=1 ca=0 "TV Okazje" "Cyfrowy Polsat S.A"
+S 1C8E:1CE8:0071 type=1 ca=0 "Disco Polo Music" ""
+S 1C8F:1CE8:0071 type=1 ca=1 "Polsat Rodzina HD" "Cyfrowy Polsat S.A."
+S 1C96:1CE8:0071 type=1 ca=1 "AXN" "Cyfrowy Polsat S.A."
+S 1C97:1CE8:0071 type=1 ca=0 "TV Okazje" "Cyfrowy Polsat S.A"
+S 1C98:1CE8:0071 type=2 ca=1 "RMF FM" "Cyfrowy Polsat S.A."
+S 1C9A:1CE8:0071 type=2 ca=0 "RMF Classic" "Cyfrowy Polsat S.A."
+S 1C9B:1CE8:0071 type=2 ca=1 "Jedynka - PR" "Cyfrowy Polsat S.A."
+S 1C9C:1CE8:0071 type=2 ca=1 "Trójka - PR" "Cyfrowy Polsat S.A."
+S 1C9E:1CE8:0071 type=2 ca=0 "RMF MAXX" "Cyfrowy Polsat S.A."
+S 1CA0:1CE8:0071 type=2 ca=0 "Zlote Przeboje" "Cyfrowy Polsat S.A."
+S 1CA1:1CE8:0071 type=2 ca=0 "PR dla Zagranicy" "Cyfrowy Polsat S.A."
+S 1CA2:1CE8:0071 type=1 ca=0 "RMF FM" "Cyfrowy Polsat S.A."
+S 1CA4:1CE8:0071 type=1 ca=0 "RMF Classic" "Cyfrowy Polsat S.A."
+S 1CA5:1CE8:0071 type=1 ca=0 "Jedynka - PR" "Cyfrowy Polsat S.A."
+S 1CA6:1CE8:0071 type=1 ca=0 "Trójka - PR" "Cyfrowy Polsat S.A."
+S 1CA8:1CE8:0071 type=1 ca=0 "RMF MAXX" "Cyfrowy Polsat S.A."
+S 1CAA:1CE8:0071 type=1 ca=0 "Zlote Przeboje" "Cyfrowy Polsat S.A."
+S 1CAB:1CE8:0071 type=1 ca=0 "PR dla Zagranicy" "Cyfrowy Polsat S.A."
+S 1CAC:1CE8:0071 type=1 ca=1 "Polsat Seriale HD" "Cyfrowy Polsat S.A."
+S 1CAD:1CE8:0071 type=1 ca=0 "Polsat Seriale HD" ""
+S 1CB5:1CE8:0071 type=1 ca=1 "Disney XD" "Cyfrowy Polsat S.A."
+S 1CB6:1CE8:0071 type=1 ca=1 "Disney Channel HD" "Cyfrowy Polsat S.A."
+S 1CB7:1CE8:0071 type=1 ca=1 "Polsat Jim Jam" "Cyfrowy Polsat S.A."
+S 1CBE:1CE8:0071 type=1 ca=1 "Polsat News Polityka HD" "Cyfrowy Polsat S.A."
+S 1CBF:1CE8:0071 type=1 ca=0 "Polsat News Polityka HD" "Cyfrowy Polsat SA"
+S 1CC5:1CE8:0071 type=1 ca=0 "Disney Channel HD" "Cyfrowy Polsat S.A."
+S 1CC9:1CE8:0071 type=12 ca=0 "D64-Testowy" ""
+S 1CCA:1CE8:0071 type=1 ca=1 "Polsat Viasat Explore HD" "Cyfrowy Polsat S.A."
+S 1CCB:1CE8:0071 type=12 ca=0 "D61_Nagra" ""
+S 1CCC:1CE8:0071 type=12 ca=0 "D63_Nagra" ""
+S 1CCE:1CE8:0071 type=12 ca=0 "D64_4k_Lite" ""
+S 1CD0:1CE8:0071 type=12 ca=0 "D63" "Cyfrowy Polsat S.A."
+S 1CD1:1CE8:0071 type=12 ca=0 "D56G" ""
+S 1CD2:1CE8:0071 type=12 ca=0 "D47" ""
+S 1CD3:1CE8:0071 type=12 ca=0 "D30" "Cyfrowy Polsat S.A."
+S 1CD4:1CE8:0071 type=171 ca=1 "Strefa Abonenta" "Cyfrowy Polsat S.A."
+S 1CD5:1CE8:0071 type=12 ca=0 "32056" "Cyfrowy Polsat S.A."
+S 1CD6:1CE8:0071 type=12 ca=0 "HD5000" "Cyfrowy Polsat S.A."
+S 1CD7:1CE8:0071 type=12 ca=1 "Ap" "Cyfrowy Polsat S.A."
+S 1CD8:1CE8:0071 type=12 ca=0 "32058" "Cyfrowy Polsat S.A."
+S 1CD9:1CE8:0071 type=12 ca=0 "32055" "Cyfrowy Polsat S.A."
+S 1CDA:1CE8:0071 type=12 ca=0 "32057" "Cyfrowy Polsat S.A."
+S 1CDB:1CE8:0071 type=12 ca=0 "ADB" ""
+S 1CDC:1CE8:0071 type=12 ca=0 "D56" ""
+S 1CDD:1CE8:0071 type=12 ca=0 "SCM" ""
+S 1CDE:1CE8:0071 type=12 ca=0 "HD_2000_NF" "Cyfrowy Polsat S.A."
+S 1CDF:1CE8:0071 type=12 ca=0 "HD3000_NF" "Cyfrowy Polsat S.A."
+S 1CE0:1CE8:0071 type=12 ca=0 "HD5500s" "Cyfrowy Polsat S.A"
+S 1CE1:1CE8:0071 type=12 ca=0 "HD7000" ""
+S 1CE2:1CE8:0071 type=12 ca=0 "HD_6000_FS" ""
+S 1CE3:1CE8:0071 type=12 ca=0 "HD_3000_FS" "Cyfrowy Polsat S.A."
+S 1CE4:1CE8:0071 type=12 ca=0 "HD3000 NP" ""
+S 1CE5:1CE8:0071 type=12 ca=0 "D62" ""
+S 1CE6:1CE8:0071 type=12 ca=0 "HD 3000" ""
+S 1CE7:1CE8:0071 type=12 ca=0 "HD2000" ""
+S 2146:3070:013E type=1 ca=0 "Rai Storia" "Cyfrowy Polsat S.A."
+S 2149:3070:013E type=1 ca=0 "Rai Scuola" "Cyfrowy Polsat S.A."
+S 233E:2328:013E type=1 ca=0 "EuroNews" "Cyfrowy Polsat S.A."
+S 2907:1EDC:0071 type=1 ca=1 "Nat Geo People HD" "Cyfrowy Polsat S.A."
+S 2908:1EDC:0071 type=1 ca=1 "Polsat Viasat Nature HD" "Cyfrowy Polsat SA"
+S 2909:1EDC:0071 type=1 ca=1 "Eska Rock HD" "Cyfrowy Polsat S.A."
+S 290A:1EDC:0071 type=1 ca=1 "Extreme Sports HD" "Cyfrowy Polsat S.A."
+S 290B:1EDC:0071 type=1 ca=0 "Zero" "Cyfrowy Polsat S.A."
+S 290C:1EDC:0071 type=1 ca=1 "Wydarzenia 24 HD" "Cyfrowy Polsat S.A."
+S 290D:1EDC:0071 type=1 ca=1 "Eska TV Extra HD" "Cyfrowy Polsat S.A."
+S 290E:1EDC:0071 type=1 ca=1 "HBO HD" "Cyfrowy Polsat S.A."
+S 290F:1EDC:0071 type=1 ca=0 "HBO HD" ""
+S 2910:1EDC:0071 type=1 ca=1 "Vox Music TV HD" ""
+S 2911:1EDC:0071 type=1 ca=1 "Polsat Sport Fight HD" "Cyfrowy Polsat S.A."
+S 2913:1EDC:0071 type=1 ca=1 "Polsat Sport 3" "Cyfrowy Polsat S.A."
+S 2914:1EDC:0071 type=1 ca=0 "Mango" "Cyfrowy Polsat S.A."
+S 2938:1EDC:0071 type=1 ca=1 "Disney Junior" "Cyfrowy Polsat S.A"
+S 32CB:0190:013E type=1 ca=1 "Ale Kino+ HD" "Cyfrowy Polsat S.A."
+S 32D7:0190:013E type=1 ca=1 "TVP Kultura" "Cyfrowy Polsat S.A."
+S 32DF:0190:013E type=1 ca=1 "National Geographic HD" "Cyfrowy Polsat S.A."
+S 32E0:0190:013E type=1 ca=1 "MiniMini+ HD" "Cyfrowy Polsat S.A."
+S 332D:1388:013E type=1 ca=0 "DW-TV" "Cyfrowy Polsat S.A."
+S 3330:1388:013E type=1 ca=0 "BBC News Europe" "Cyfrowy Polsat S.A."
+S 3333:3390:0071 type=1 ca=1 "Polsat News 2 HD" "Cyfrowy Polsat S.A."
+S 3343:3390:0071 type=1 ca=0 "Polsat News 2 HD" "Cyfrowy Polsat S.A."
+S 3353:3390:0071 type=1 ca=0 "Polsat News 2 HD" "Cyfrowy Polsat S.A."
+S 3363:3390:0071 type=1 ca=0 "Polsat News 2 HD" "Cyfrowy Polsat S.A."
+S 3391:3390:0071 type=1 ca=1 "Polsat HD" "Cyfrowy Polsat S.A."
+S 3392:3390:0071 type=1 ca=1 "Polsat Play HD" "Cyfrowy Polsat S.A."
+S 3393:3390:0071 type=1 ca=1 "TV4 HD" "Cyfrowy Polsat S.A."
+S 3394:3390:0071 type=1 ca=1 "TV6 HD" "Cyfrowy Polsat S.A."
+S 3396:3390:0071 type=1 ca=1 "Polsat Cafe HD" "Cyfrowy Polsat S.A."
+S 3398:3390:0071 type=1 ca=1 "Polsat Film HD" "Cyfrowy Polsat S.A."
+S 3399:3390:0071 type=1 ca=1 "Polsat News HD" "Cyfrowy Polsat S.A."
+S 339A:3390:0071 type=1 ca=1 "Polsat 2 HD " "Cyfrowy Polsat S.A."
+S 339B:3390:0071 type=1 ca=1 "Super Polsat HD" "Cyfrowy Polsat SA"
+S 33A1:3390:0071 type=1 ca=1 "Polsat HD" "Cyfrowy Polsat S.A."
+S 33A2:3390:0071 type=1 ca=0 "Polsat Play HD " "Cyfrowy Polsat S.A."
+S 33A3:3390:0071 type=1 ca=0 "TV4 HD " "Cyfrowy Polsat S.A."
+S 33A6:3390:0071 type=1 ca=0 "Polsat Cafe HD" "Cyfrowy Polsat S.A."
+S 33A8:3390:0071 type=1 ca=0 "Polsat Film HD" "Cyfrowy Polsat S.A."
+S 33A9:3390:0071 type=1 ca=0 "Polsat News HD" "Cyfrowy Polsat S.A."
+S 33AA:3390:0071 type=1 ca=0 "Polsat 2 HD" "Cyfrowy Polsat S.A."
+S 33AB:3390:0071 type=1 ca=1 "Super Polsat HD" "Cyfrowy Polsat S.A."
+S 33B1:3390:0071 type=1 ca=0 "Polsat HD" "Cyfrowy Polsat S.A."
+S 33B2:3390:0071 type=1 ca=0 "Polsat Play HD" "Cyfrowy Polsat S.A."
+S 33B6:3390:0071 type=1 ca=0 "Polsat Cafe HD" "Cyfrowy Polsat S.A."
+S 33B8:3390:0071 type=1 ca=0 "Polsat Film HD" "Cyfrowy Polsat S.A."
+S 33B9:3390:0071 type=1 ca=0 "Polsat News HD" "Cyfrowy Polsat S.A."
+S 33BA:3390:0071 type=1 ca=0 "Polsat 2 HD" "Cyfrowy Polsat S.A."
+S 33BB:3390:0071 type=1 ca=1 "Super Polsat HD" "Cyfrowy Polsat S.A."
+S 33C2:3390:0071 type=1 ca=0 "Polsat Play HD " "Cyfrowy Polsat S.A."
+S 33C6:3390:0071 type=1 ca=0 "Polsat Cafe HD" "Cyfrowy Polsat S.A."
+S 33C8:3390:0071 type=1 ca=0 "Polsat Film HD" "Cyfrowy Polsat S.A."
+S 33C9:3390:0071 type=1 ca=0 "Polsat News HD" "Cyfrowy Polsat S.A."
+S 33D2:3390:0071 type=1 ca=0 "Polsat Play HD " "Cyfrowy Polsat S.A."
+S 33D6:3390:0071 type=1 ca=0 "Polsat Cafe HD" "Cyfrowy Polsat S.A."
+S 33D9:3390:0071 type=1 ca=0 "Polsat News HD" "Cyfrowy Polsat S.A."
+S 33E9:3390:0071 type=1 ca=0 "Polsat News HD" "Cyfrowy Polsat S.A."
+S 33F9:3390:0071 type=1 ca=0 "Polsat News HD" "Cyfrowy Polsat S.A."
+S 3784:044C:013E type=1 ca=1 "Kino Polska" "Cyfrowy Polsat S.A."
+S 3785:044C:013E type=1 ca=1 "Kino Polska Muzyka" "Cyfrowy Polsat S.A."
+S 3786:044C:013E type=1 ca=1 "FILMBOX+ Action" "Cyfrowy Polsat S.A."
+S 3787:044C:013E type=1 ca=1 "FILMBOX+ Emotion" "Cyfrowy Polsat S.A."
+S 3788:044C:013E type=1 ca=1 "FILMBOX+ Comedy" "Cyfrowy Polsat S.A."
+S 3789:044C:013E type=1 ca=1 "FILMBOX+ Hits" "CYfrowy Polsat S.A."
+S 378A:044C:013E type=1 ca=1 "FILMBOX+ One" "Cyfrowy Polsat S.A."
+S 37A1:044C:013E type=1 ca=1 "Hustler HD" "Cyfrowy Polsat S.A."
+S 37A2:044C:013E type=1 ca=1 "Blue Hustler" "Cyfrowy Polsat S.A."
+S 37A3:044C:013E type=1 ca=1 "Private TV" "Vyfrowy Polsat S.A."
+S 3A99:0514:013E type=1 ca=1 "Planete+ HD" "Cyfrowy Polsat S.A."
+S 3A9A:0514:013E type=1 ca=1 "Novelas+ HD" "Cyfrowy Polsat S.A."
+S 3A9B:0514:013E type=1 ca=1 "TeleTOON+ HD" "Cyfrowy Polsat S.A."
+S 3A9E:0514:013E type=1 ca=1 "TVP Sport HD" "Cyfrowy Polsat S.A."
+S 3A9F:0514:013E type=1 ca=1 "Cinemax HD" ""
+S 3ABD:0514:013E type=1 ca=1 "TVP 1 HD" "Cyfowy Polsat S.A."
+S 3ABE:0514:013E type=1 ca=1 "Romance TV HD" "Cyfrowy Polsat S.A."
+S 3ADB:0514:013E type=1 ca=1 "TVP 1 HD" "Cyfrowy Polsat S.A."
+S 3B66:012C:013E type=1 ca=1 "Animal Planet HD" "Cyfrowy Polsat S.A."
+S 3B67:012C:013E type=1 ca=1 "Eurosport 1 HD" "Cyfrowy Polsat S.A."
+S 3B68:012C:013E type=1 ca=1 "Eurosport 2 HD" "Cyfrowy Polsat S.A."
+S 3B69:012C:013E type=1 ca=1 "ID HD" "Cyfrowy Polsat S.A."
+S 3B6A:012C:013E type=1 ca=1 "Discovery Science HD" "Cyfrowy Polsat S.A."
+S 3B6B:012C:013E type=1 ca=1 "DTX HD" "Cyfrowy Polsat S.A."
+S 3B6D:012C:013E type=1 ca=1 "CNN Europe HD" "Cyfrowy Polsat S.A."
+S 3D56:2C88:013E type=1 ca=1 "Motowizja HD" "Cyfrowy Polsat S.A."
+S 3D5A:2C88:013E type=1 ca=1 "WP" "Cyfrowy Polsat S.A."
+S 3D5E:2C88:013E type=1 ca=1 "Puls 2 HD" "Cyfrowy Polsat S.A"
+S 3D5F:2C88:013E type=1 ca=1 "TVP ABC" "Cyfrowy Polsat S.A."
+S 3D66:2C88:013E type=1 ca=1 "TV Puls HD" "Cyfrowy Polsat S.A."
+S 3D67:2C88:013E type=1 ca=1 "TVP Historia" "Cyfrowy Polsat S.A."
+S 3D69:2C88:013E type=1 ca=1 "Eleven Sports 1" "Cyfrowy Polsat S.A."
+S 3D6A:2C88:013E type=1 ca=1 "Eleven Sports 2" "Cyfrowy Polsat S.A."
+S 3D6B:2C88:013E type=1 ca=1 "Eleven Sports 3" "Cyfrowy Polsat S.A."
+S 3DCD:0640:013E type=1 ca=1 "TVN HD" "Cyfowy Polsat"
+S 3DCE:0640:013E type=1 ca=1 "TVN Style HD" "Cyfrowy Polsat S.A."
+S 3DD0:0640:013E type=1 ca=1 "TVN Turbo HD" "Cyfrowy Polsat S.A."
+S 3DD2:0640:013E type=1 ca=1 "TVN 24 HD" "Cyfrowy Polsat S.A."
+S 3DD3:0640:013E type=1 ca=1 "TVN7 HD" "Cyfrowy Polsat S.A."
+S 3DD4:0640:013E type=1 ca=1 "Metro HD" "Cyfrowy Polsat S.A."
+S 3DD5:0640:013E type=1 ca=1 "Warner TV" "Cyfrowy Polsat S.A."
+S 3DD6:0640:013E type=1 ca=1 "TVN Fabula HD" "Cyfrowy Polsat S.A."
+S 3DD7:0640:013E type=1 ca=1 "TTV HD" "Cyfrowy Polsat S.A."
+S 3DD8:0640:013E type=1 ca=1 "Travel HD" "Cyfrowy Polsat S.A."
+S 3DD9:0640:013E type=1 ca=1 "Food Network" "Cyfrowy Polsat S.A."
+S 3DEA:0640:013E type=1 ca=0 "TVN HD" "Cyfrowy Polsat S.A"
+S 3DEB:0640:013E type=1 ca=0 "TVN 7 HD" "Cyfrowy Polsat SA"
+S 3E1D:2EE0:013E type=1 ca=1 "Sundance HD" "Cyfrowy Polsat S.A."
+S 3E1E:2EE0:013E type=1 ca=1 "E! Entertainment" "Cyfrowy Polsat S.A."
+S 3E1F:2EE0:013E type=1 ca=1 "Polsat Film 2 HD" ""
+S 3E20:2EE0:013E type=1 ca=1 "SciFi HD" "Cyfrowy Polsat S.A."
+S 3E21:2EE0:013E type=1 ca=1 "Polsat Reality HD" ""
+S 3E22:2EE0:013E type=1 ca=1 "History 2 HD" "Cyfrowy Polsat S.A"
+S 3E23:2EE0:013E type=1 ca=1 "Golf Zone" "Cyfrowy Polsat S.A."
+S 3E24:2EE0:013E type=1 ca=1 "Fightbox HD" "Cyfrowy Polsat S.A."
+S 3E26:2EE0:013E type=1 ca=1 "13 Ulica HD" "Cyfrowy Polsat S.A."
+S 3E27:2EE0:013E type=1 ca=1 "SkyShowtime 1" "Cyfrowy Polsat S.A."
+S 3E28:2EE0:013E type=1 ca=1 "SkyShowtime 2" "Cyfrowy Polsat S.A."
+S 3E2B:2EE0:013E type=1 ca=1 "Polsat Sport Extra 3" "Cyfrowy Polsat S.A."
+S 3E2C:2EE0:013E type=1 ca=1 "Polsat Sport Extra 4" "Cyfrowy Polsat S.A."
+S 3E30:2EE0:013E type=1 ca=1 "PPV HD" "Cyfrowy Polsat S.A."
+S 3E3E:2EE0:013E type=1 ca=0 "SciFi HD" "Cyfrowy Polsat S.A."
+S 3E44:2EE0:013E type=1 ca=0 "13 Ulica HD" "Cyfrowy Polsat S.A."
+S 3E4E:2EE0:013E type=12 ca=0 "B" "Cyfrowy Polsat S.A."
+S 4206:2F44:013E type=1 ca=1 "Dorcel TV HD" "Cyfrowy Polsat S.A."
+S 421C:2F44:013E type=1 ca=0 "Freedom" ""
+S 4224:3DB8:013E type=1 ca=1 "Red Light HD" "Cyfrowy Polsat S.A."
+S 422C:2F44:013E type=1 ca=1 "Brazzers TV" "Cyfrowy Polsat S.A."
+S 422D:2F44:013E type=1 ca=0 "TV Moda" "Cyfrowy Polsat S.A."
+S 4238:3DB8:013E type=1 ca=0 "Tele Padre Pio" "Cyfrowy Polsat S.A."
+S 4239:2F44:013E type=1 ca=0 "TVP POLONIA" "Cyfrowy Polsat S.A."
+S 423B:3DB8:013E type=1 ca=0 "TELE5" "Cyfrowy Polsat S.A."
+S 423C:3DB8:013E type=1 ca=0 "P1" "Cyfrowy Polsat S.A."
+S 423E:3DB8:013E type=1 ca=1 "Water Planet" "Cyfrowy Polsat S.A."
+S 423F:3DB8:013E type=1 ca=0 "Novela TV" "Cyfrowy Polsat S.A."
+S 4240:3DB8:013E type=1 ca=1 "Novela TV" "Cyfrowy Polsat S.A."
+S 4279:2BC0:013E type=1 ca=1 "wPolsce24" "Cyfrowy Polsat S.A."
+S 427B:2BC0:013E type=1 ca=1 "Stopklatka" "Cyfrowy Polsat S.A."
+S 427C:2BC0:013E type=1 ca=0 "Stopklatka" "Cyfrowy Polsat S.A."
+S 427F:2BC0:013E type=1 ca=0 "STARS.TV" "Cyfrowy Polsat S.A."
+S 4280:2BC0:013E type=1 ca=1 "Da Vinci" "Cyfrowy Polsat S.A."
+S 4284:2BC0:013E type=1 ca=1 "Polsat Games HD" "Cyfrowy Polsat S.A"
+S 4285:2BC0:013E type=1 ca=0 "Polsat Games HD" "Cyfrowy Polsat S.A"
+S 4288:2BC0:013E type=1 ca=1 "TVP Rozrywka" "Cyfrowy Polsat S.A."
+S 4289:2BC0:013E type=1 ca=1 "TV Republika" "Cyfrowy Polsat S.A."
+S 428A:2BC0:013E type=1 ca=1 "FILMBOX+ Festival" "Cyfrowy Polsat SA"
+S 428D:2BC0:013E type=1 ca=0 "4Fun.TV" "Cyfrowy Polsat S.A."
+S 428E:2BC0:013E type=1 ca=0 "4Fun Kids" "Cyfrowy Polsat S.A."
+S 428F:2BC0:013E type=1 ca=0 "4Fun Dance" "Cyfrowy Polsat S.A."
+S 4290:2BC0:013E type=1 ca=1 "Viasat Epic Drama" "Cyfrowy Polsat S.A."
+S 4291:2BC0:013E type=1 ca=1 "ZOOM" "Cyfrowy Polsat S.A."
+S 4293:2BC0:013E type=1 ca=1 "Polsat Music HD" "Cyfrowy Polsat SA"
+S 4294:2BC0:013E type=1 ca=0 "Polsat Music HD" "Cyfrowy Polsat SA"
+S 429A:2BC0:013E type=1 ca=1 "Polo TV" "Cyfrowy Polsat S.A."
+S 429C:2BC0:013E type=1 ca=1 "Eska TV HD" "Cyfrowy Polsat S.A."
+S 429D:2BC0:013E type=1 ca=1 "Fokus TV HD" "Cyfrowy Polsat S.A."
+S 429E:2BC0:013E type=1 ca=1 "Nowa TV" "Cyfrowy Polsat S.A."
+S 42C2:2BC0:013E type=1 ca=0 "Polo TV" "Cyfrowy Polsat S.A."
+S 42C5:2BC0:013E type=1 ca=0 "Fokus TV HD" ""
+S 452F:30D4:013E type=1 ca=0 "Rai News 24 HD" ""
+S 4530:30D4:013E type=1 ca=0 "Rai Gulp" "Cyfrowy Polsat S.A."
+S 4536:30D4:013E type=1 ca=0 "RaiNettunoSat1" "Cyfrowy Polsat S.A."
+S 4537:0514:013E type=1 ca=1 "nPVR" ""
+T 012C:013E freq=11258000 pol=H sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 0190:013E freq=11278000 pol=V sr=27500000 fec=4 sys=S2 pos=130E mod=2
+T 01F4:013E freq=11296000 pol=H sr=27500000 fec=4 sys=S pos=130E mod=1
+T 02BC:013E freq=11334000 pol=H sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 0384:013E freq=11373000 pol=H sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 03E8:013E freq=11393000 pol=V sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 044C:013E freq=11411000 pol=H sr=27500000 fec=4 sys=S2 pos=130E mod=2
+T 0514:013E freq=11449000 pol=H sr=27500000 fec=4 sys=S2 pos=130E mod=2
+T 05DC:013E freq=11488000 pol=H sr=27500000 fec=4 sys=S2 pos=130E mod=2
+T 0640:013E freq=11508000 pol=V sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 1388:013E freq=11727000 pol=V sr=29900000 fec=3 sys=S2 pos=130E mod=2
+T 1450:013E freq=11766000 pol=V sr=29900000 fec=3 sys=S2 pos=130E mod=2
+T 1964:013E freq=12015000 pol=H sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 1B58:013E freq=12111000 pol=V sr=27500000 fec=3 sys=S pos=130E mod=1
+T 1C20:013E freq=12149000 pol=V sr=27500000 fec=3 sys=S pos=130E mod=1
+T 1CE8:0071 freq=12188000 pol=V sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 1DB0:013E freq=12226000 pol=V sr=27500000 fec=3 sys=S pos=130E mod=1
+T 1E14:013E freq=12245000 pol=H sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 1E78:0071 freq=12264000 pol=V sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 1EDC:0071 freq=12284000 pol=H sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 1F40:013E freq=12303000 pol=V sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 20D0:013E freq=12380000 pol=V sr=30000000 fec=4 sys=S2 pos=130E mod=2
+T 22C4:013E freq=12476000 pol=H sr=29900000 fec=3 sys=S2 pos=130E mod=2
+T 2328:013E freq=12520000 pol=V sr=27500000 fec=2 sys=S2 pos=130E mod=2
+T 23F0:013E freq=12558000 pol=V sr=27500000 fec=4 sys=S2 pos=130E mod=2
+T 270F:013E freq=12800000 pol=H sr=29900000 fec=7 sys=S2 pos=130E mod=2
+T 2AF8:013E freq=10719000 pol=V sr=27500000 fec=4 sys=S2 pos=130E mod=2
+T 2B5C:013E freq=10727000 pol=H sr=30000000 fec=3 sys=S2 pos=130E mod=2
+T 2BC0:013E freq=10757000 pol=V sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 2C88:013E freq=10796000 pol=V sr=27500000 fec=4 sys=S2 pos=130E mod=2
+T 2E7C:013E freq=10892000 pol=H sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 2EE0:013E freq=10910000 pol=V sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 2F44:013E freq=10930000 pol=H sr=30000000 fec=2 sys=S2 pos=130E mod=2
+T 3070:013E freq=10992000 pol=V sr=27500000 fec=2 sys=S pos=130E mod=1
+T 30D4:013E freq=11013000 pol=H sr=29900000 fec=3 sys=S2 pos=130E mod=2
+T 3138:013E freq=11034000 pol=V sr=27500000 fec=3 sys=S pos=130E mod=1
+T 32C8:013E freq=11117000 pol=V sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 332C:013E freq=11137000 pol=H sr=27500000 fec=3 sys=S pos=130E mod=1
+T 3390:0071 freq=11158000 pol=V sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 33F4:013E freq=11179000 pol=H sr=27500000 fec=2 sys=S2 pos=130E mod=2
+T 3BC4:013E freq=11565000 pol=H sr=29900000 fec=3 sys=S2 pos=130E mod=2
+T 3DB8:013E freq=11662000 pol=V sr=27500000 fec=3 sys=S2 pos=130E mod=2

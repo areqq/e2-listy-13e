@@ -1,0 +1,415 @@
+L 1 0D49:1450:013E visible=1 src=nit
+L 10 0D4D:1450:013E visible=1 src=nit
+L 11 007C:04B0:0110 visible=1 src=nit
+L 12 007F:04B0:0110 visible=1 src=nit
+L 13 4534:30D4:013E visible=1 src=nit
+L 14 0D4E:1450:013E visible=1 src=nit
+L 15 214A:3070:013E visible=1 src=nit
+L 16 0082:04B0:0110 visible=1 src=nit
+L 17 0081:04B0:0110 visible=1 src=nit
+L 18 005B:1770:00BE visible=1 src=nit
+L 187 06AA:3138:013E visible=1 src=nit
+L 19 1018:1A90:FBFF visible=1 src=nit
+L 2 0D4A:1450:013E visible=1 src=nit
+L 20 0078:04B0:0110 visible=1 src=nit
+L 202 2140:3070:013E visible=1 src=nit
+L 21 4532:30D4:013E visible=1 src=nit
+L 210 0D4F:1450:013E visible=1 src=nit
+L 22 0086:04B0:0110 visible=1 src=nit
+L 220 11FC:2B5C:013E visible=1 src=nit
+L 222 11FD:2B5C:013E visible=1 src=nit
+L 223 0BEA:20D0:013E visible=1 src=nit
+L 225 11FB:2B5C:013E visible=1 src=nit
+L 23 2146:3070:013E visible=1 src=nit
+L 230 04B9:23F0:013E visible=1 src=nit
+L 24 452F:30D4:013E visible=1 src=nit
+L 25 0080:04B0:0110 visible=1 src=nit
+L 26 2149:3070:013E visible=1 src=nit
+L 27 0087:04B0:0110 visible=1 src=nit
+L 28 3B62:012C:013E visible=1 src=nit
+L 29 0049:1770:00BE visible=1 src=nit
+L 3 0D4B:1450:013E visible=1 src=nit
+L 30 02C9:14B4:013E visible=1 src=nit
+L 301 4550:30D4:013E visible=1 src=nit
+L 302 454B:30D4:013E visible=1 src=nit
+L 303 4547:30D4:013E visible=1 src=nit
+L 304 454C:30D4:013E visible=1 src=nit
+L 305 454E:30D4:013E visible=1 src=nit
+L 306 4558:30D4:013E visible=1 src=nit
+L 307 4557:30D4:013E visible=1 src=nit
+L 308 454F:30D4:013E visible=1 src=nit
+L 309 4555:30D4:013E visible=1 src=nit
+L 31 3B61:012C:013E visible=1 src=nit
+L 310 4556:30D4:013E visible=1 src=nit
+L 311 454D:30D4:013E visible=1 src=nit
+L 312 4548:30D4:013E visible=1 src=nit
+L 313 454A:30D4:013E visible=1 src=nit
+L 314 4549:30D4:013E visible=1 src=nit
+L 315 4559:30D4:013E visible=1 src=nit
+L 316 4552:30D4:013E visible=1 src=nit
+L 317 4553:30D4:013E visible=1 src=nit
+L 318 4554:30D4:013E visible=1 src=nit
+L 319 4543:30D4:013E visible=1 src=nit
+L 320 4544:30D4:013E visible=1 src=nit
+L 321 4545:30D4:013E visible=1 src=nit
+L 322 4551:30D4:013E visible=1 src=nit
+L 323 4546:30D4:013E visible=1 src=nit
+L 33 3B63:012C:013E visible=1 src=nit
+L 34 006F:04B0:0110 visible=1 src=nit
+L 35 4242:3DB8:013E visible=1 src=nit
+L 36 0202:0384:013E visible=1 src=nit
+L 37 3B6C:012C:013E visible=1 src=nit
+L 38 10E2:03E8:013E visible=1 src=nit
+L 39 0084:04B0:0110 visible=1 src=nit
+L 4 007B:04B0:0110 visible=1 src=nit
+L 40 007E:04B0:0110 visible=1 src=nit
+L 41 0085:04B0:0110 visible=1 src=nit
+L 411 0531:3D54:013E visible=1 src=nit
+L 412 08A0:01F4:00FC visible=1 src=nit
+L 413 132E:33F4:013E visible=1 src=nit
+L 42 4530:30D4:013E visible=1 src=nit
+L 420 0206:0384:013E visible=1 src=nit
+L 422 1382:33F4:013E visible=1 src=nit
+L 43 213F:3070:013E visible=1 src=nit
+L 444 422E:2F44:013E visible=1 src=nit
+L 445 4238:3DB8:013E visible=1 src=nit
+L 447 4235:2F44:013E visible=1 src=nit
+L 454 01FE:0384:013E visible=1 src=nit
+L 47 4233:2F44:013E visible=1 src=nit
+L 48 051B:2E7C:013F visible=1 src=nit
+L 49 422B:2F44:013E visible=1 src=nit
+L 5 007A:04B0:0110 visible=1 src=nit
+L 50 4251:3DB8:013E visible=1 src=nit
+L 500 214B:3070:013E visible=1 src=nit
+L 51 4243:3DB8:013E visible=1 src=nit
+L 518 0535:3D54:013E visible=1 src=nit
+L 519 421A:3DB8:013E visible=1 src=nit
+L 52 064D:2454:013E visible=1 src=nit
+L 54 1384:33F4:013E visible=1 src=nit
+L 55 424B:3DB8:013E visible=1 src=nit
+L 550 1C58:1C20:013E visible=1 src=nit
+L 56 10EE:03E8:013E visible=1 src=nit
+L 58 233F:2328:013E visible=1 src=nit
+L 59 10E1:03E8:013E visible=1 src=nit
+L 6 0079:04B0:0110 visible=1 src=nit
+L 60 0106:2C24:013E visible=1 src=nit
+L 601 0D71:1450:013E visible=1 src=nit
+L 602 0D72:1450:013E visible=1 src=nit
+L 603 0D73:1450:013E visible=1 src=nit
+L 604 214E:3070:013E visible=1 src=nit
+L 605 214D:3070:013E visible=1 src=nit
+L 606 2155:3070:013E visible=1 src=nit
+L 607 214C:3070:013E visible=1 src=nit
+L 608 02E0:1B58:013E visible=1 src=nit
+L 609 02E1:1B58:013E visible=1 src=nit
+L 610 0E3A:1C20:013E visible=1 src=nit
+L 611 0E3B:1C20:013E visible=1 src=nit
+L 612 0E2E:1C20:013E visible=1 src=nit
+L 615 0069:1770:00BE visible=1 src=nit
+L 616 0068:1770:00BE visible=1 src=nit
+L 617 0065:1770:00BE visible=1 src=nit
+L 618 0066:1770:00BE visible=1 src=nit
+L 619 2157:3070:013E visible=1 src=nit
+L 62 0205:0384:013E visible=1 src=nit
+L 620 0E30:1C20:013E visible=1 src=nit
+L 621 0E45:1C20:013E visible=1 src=nit
+L 622 0E44:1C20:013E visible=1 src=nit
+L 623 0E43:1C20:013E visible=1 src=nit
+L 624 0E3C:1C20:013E visible=1 src=nit
+L 625 0300:1B58:013E visible=1 src=nit
+L 626 0E3D:1C20:013E visible=1 src=nit
+L 627 02E2:1B58:013E visible=1 src=nit
+L 629 135A:33F4:013E visible=1 src=nit
+L 63 4246:3DB8:013E visible=1 src=nit
+L 630 135D:33F4:013E visible=1 src=nit
+L 631 4255:3DB8:013E visible=1 src=nit
+L 633 02DC:1B58:013E visible=1 src=nit
+L 634 1C70:1C20:013E visible=1 src=nit
+L 635 0E48:1C20:013E visible=1 src=nit
+L 636 2152:3070:013E visible=1 src=nit
+L 637 2153:3070:013E visible=1 src=nit
+L 638 214F:3070:013E visible=1 src=nit
+L 639 2151:3070:013E visible=1 src=nit
+L 64 4250:3DB8:013E visible=1 src=nit
+L 640 2150:3070:013E visible=1 src=nit
+L 641 2154:3070:013E visible=1 src=nit
+L 642 2156:3070:013E visible=1 src=nit
+L 643 02E6:1B58:013E visible=1 src=nit
+L 644 0E35:1C20:013E visible=1 src=nit
+L 645 0207:0384:013E visible=1 src=nit
+L 646 4256:3DB8:013E visible=1 src=nit
+L 65 0204:0384:013E visible=1 src=nit
+L 656 334A:1388:013E visible=1 src=nit
+L 66 0203:0384:013E visible=1 src=nit
+L 661 4353:300C:013E visible=1 src=nit
+L 662 4354:300C:013E visible=1 src=nit
+L 663 435F:300C:013E visible=1 src=nit
+L 667 3344:1388:013E visible=1 src=nit
+L 669 3341:1388:013E visible=1 src=nit
+L 67 0077:04B0:0110 visible=1 src=nit
+L 670 3342:1388:013E visible=1 src=nit
+L 68 0076:04B0:0110 visible=1 src=nit
+L 69 0328:3BC4:013E visible=1 src=nit
+L 7 004F:1770:00BE visible=1 src=nit
+L 70 3330:1388:013E visible=1 src=nit
+L 701 4536:30D4:013E visible=1 src=nit
+L 71 1C8A:332C:013E visible=1 src=nit
+L 72 0323:3BC4:013E visible=1 src=nit
+L 73 0215:0384:013E visible=1 src=nit
+L 74 421C:2F44:013E visible=1 src=nit
+L 75 0327:3BC4:013E visible=1 src=nit
+L 76 4236:2F44:013E visible=1 src=nit
+L 77 0641:2454:013E visible=1 src=nit
+L 79 39D9:1FA4:013E visible=1 src=nit
+L 8 1C5C:1A90:FBFF visible=1 src=nit
+L 81 1326:33F4:013E visible=1 src=nit
+L 815 07D4:22C4:013E visible=1 src=nit
+L 819 4260:3DB8:013E visible=1 src=nit
+L 82 1C86:332C:013E visible=1 src=nit
+L 822 0050:1770:00BE visible=1 src=nit
+L 83 1200:2B5C:013E visible=1 src=nit
+L 832 425C:3DB8:013E visible=1 src=nit
+L 85 332D:1388:013E visible=1 src=nit
+L 86 233E:2328:013E visible=1 src=nit
+L 868 1381:33F4:013E visible=1 src=nit
+L 87 0368:3C28:013E visible=1 src=nit
+L 88 0369:3C28:013E visible=1 src=nit
+L 89 0D50:1450:013E visible=1 src=nit
+L 9 10E3:03E8:013E visible=1 src=nit
+L 90 2147:3070:013E visible=1 src=nit
+L 91 1325:33F4:013E visible=1 src=nit
+L 92 0367:3C28:013E visible=1 src=nit
+L 94 0065:2FA8:013E visible=1 src=nit
+L 95 0066:2FA8:013E visible=1 src=nit
+L 96 0069:2FA8:013E visible=1 src=nit
+L 97 0068:2FA8:013E visible=1 src=nit
+L 98 006A:2FA8:013E visible=1 src=nit
+L 99 0067:2FA8:013E visible=1 src=nit
+S 0049:1770:00BE type=25 ca=1 "LA7CINEMA" "MEDIASET"
+S 004F:1770:00BE type=25 ca=1 "LA7 HD" "MEDIASET"
+S 0050:1770:00BE type=25 ca=1 "TELESARDEGNA" "MEDIASET"
+S 005B:1770:00BE type=25 ca=1 "TV2000 HD" "MEDIASET"
+S 0065:1770:00BE type=2 ca=1 "R101" "MEDIASET"
+S 0065:2FA8:013E type=25 ca=1 "Svoboda" "SVOBODA"
+S 0066:1770:00BE type=2 ca=1 "Radio Monte Carlo" "MEDIASET"
+S 0066:2FA8:013E type=25 ca=1 "Svoboda News" "SVOBODA"
+S 0067:2FA8:013E type=25 ca=1 "Gordon Live" "SVOBODA"
+S 0068:1770:00BE type=2 ca=1 "VIRGIN RADIO" "MEDIASET"
+S 0068:2FA8:013E type=25 ca=1 "Russia's Future" "SVOBODA"
+S 0069:1770:00BE type=2 ca=1 "Radio 105" "MEDIASET"
+S 0069:2FA8:013E type=25 ca=1 "Svoboda+" "SVOBODA"
+S 006A:2FA8:013E type=25 ca=1 "Belarus Tomorrow" "SVOBODA"
+S 006F:04B0:0110 type=1 ca=1 "Cine34 HD" "MEDIASET HD"
+S 0076:04B0:0110 type=22 ca=1 "VIRGIN RADIO" "MEDIASET"
+S 0077:04B0:0110 type=1 ca=1 "RADIO MONTE CARLO" "MEDIASET HD"
+S 0078:04B0:0110 type=25 ca=1 "20Mediaset HD" "MEDIASET HD"
+S 0079:04B0:0110 type=25 ca=1 "Italia1 HD" "MEDIASET HD"
+S 007A:04B0:0110 type=25 ca=1 "Canale5 HD" "MEDIASET HD"
+S 007B:04B0:0110 type=25 ca=1 "Rete4 HD" "MEDIASET HD"
+S 007C:04B0:0110 type=22 ca=1 "Iris HD" "MEDIASET HD"
+S 007E:04B0:0110 type=22 ca=1 "Boing" "MEDIASET HD"
+S 007F:04B0:0110 type=22 ca=1 "La5 HD" "MEDIASET HD"
+S 0080:04B0:0110 type=22 ca=1 "TGCOM24 HD" "MEDIASET HD"
+S 0081:04B0:0110 type=22 ca=1 "Mediaset Extra HD" "MEDIASET HD"
+S 0082:04B0:0110 type=22 ca=1 "Mediaset Italia2 HD" "MEDIASET HD"
+S 0084:04B0:0110 type=22 ca=1 "TOPcrime HD" "MEDIASET HD"
+S 0085:04B0:0110 type=22 ca=1 "Cartoonito" "MEDIASET HD"
+S 0086:04B0:0110 type=22 ca=1 "Focus HD" "MEDIASET HD"
+S 0087:04B0:0110 type=25 ca=1 "27Twentyseven HD" "MEDIASET HD"
+S 0106:2C24:013E type=25 ca=1 "wedotv Big Stories" "WEDOTV"
+S 0110:3070:013E type=0 ca=1 "" ""
+S 0111:3070:013E type=0 ca=1 "" ""
+S 0112:3070:013E type=0 ca=1 "" ""
+S 0113:3070:013E type=0 ca=1 "" ""
+S 0114:3070:013E type=0 ca=1 "" ""
+S 0115:3070:013E type=0 ca=1 "" ""
+S 0116:3070:013E type=0 ca=1 "" ""
+S 0117:3070:013E type=0 ca=1 "" ""
+S 01FE:0384:013E type=1 ca=1 "Parole di Vita" "NHK JAPAN"
+S 0202:0384:013E type=25 ca=1 "RTL 102.5 HD" "NHK JAPAN"
+S 0203:0384:013E type=25 ca=1 "RADIOFRECCIA HD" "NHK JAPAN"
+S 0204:0384:013E type=25 ca=1 "RADIO ZETA HD" "NHK JAPAN"
+S 0205:0384:013E type=25 ca=1 "RTL 102.5 CALIENTE" "NHK JAPAN"
+S 0206:0384:013E type=25 ca=1 "People TV-Rete 7" "NHK JAPAN"
+S 0207:0384:013E type=2 ca=1 "RVS-Accendi la Speranza" "NHK JAPAN"
+S 0215:0384:013E type=25 ca=1 "NHK WORLD JAPAN" "NHK JAPAN"
+S 02C9:14B4:013E type=22 ca=1 "wedotv Movies" "WEDO"
+S 02DC:1B58:013E type=2 ca=1 "Radio Maria" "TELESPAZIO"
+S 02E0:1B58:013E type=2 ca=1 "RDS" "TELESPAZIO"
+S 02E1:1B58:013E type=2 ca=1 "DimSuono Roma" "TELESPAZIO"
+S 02E2:1B58:013E type=2 ca=1 "ANNI 60" "TELESPAZIO"
+S 02E6:1B58:013E type=2 ca=1 "Radio Kiss Kiss" "TELESPAZIO"
+S 0300:1B58:013E type=2 ca=1 "DISCORADIO" "TELESPAZIO"
+S 0323:3BC4:013E type=25 ca=1 "TRT World HD" "EURONEWS"
+S 0327:3BC4:013E type=25 ca=1 "France 24 HD (en Francais)" "EURONEWS"
+S 0328:3BC4:013E type=25 ca=1 "France 24 HD (in English)" "EURONEWS"
+S 0367:3C28:013E type=25 ca=1 "CCTV-4 HD" "CCTV"
+S 0368:3C28:013E type=25 ca=1 "CGTN HD" "CCTV"
+S 0369:3C28:013E type=25 ca=1 "CGTN Documentary HD" "CCTV"
+S 04B9:23F0:013E type=31 ca=1 "Hot Bird 4k1" "HOT BIRD 4K1"
+S 051B:2E7C:013F type=25 ca=1 "Arte HD" "REAL LIFE"
+S 0531:3D54:013E type=22 ca=1 "La C Sat" "QVC HD"
+S 0535:3D54:013E type=22 ca=1 "ER24" "QVC HD"
+S 0641:2454:013E type=25 ca=1 "Al Jazeera HD" "AL JAZEERA HD"
+S 064D:2454:013E type=22 ca=1 "ACI SPORT TV" "AL JAZEERA HD"
+S 06AA:3138:013E type=1 ca=1 "CGTN" "CGTN"
+S 07D4:22C4:013E type=1 ca=1 "Vatican Media Europa HD" "ARTURO LT"
+S 08A0:01F4:00FC type=22 ca=1 "TELERADIOPACE" "TELERADIOPACE"
+S 0BEA:20D0:013E type=17 ca=1 "INULTRA" "INULTRA"
+S 0D49:1450:013E type=25 ca=1 "Rai 1 HD" "RAI"
+S 0D4A:1450:013E type=25 ca=1 "Rai 2 HD" "RAI"
+S 0D4B:1450:013E type=25 ca=1 "Rai 3 HD" "RAI"
+S 0D4D:1450:013E type=25 ca=1 "Rai 4 HD" "RAI"
+S 0D4E:1450:013E type=25 ca=1 "Rai Movie HD" "RAI"
+S 0D4F:1450:013E type=31 ca=1 "Rai 4K" "RAI"
+S 0D50:1450:013E type=25 ca=1 "Senato" "RAI"
+S 0D71:1450:013E type=2 ca=1 "Rai Radio 1" "RAI"
+S 0D72:1450:013E type=2 ca=1 "Rai Radio 2" "RAI"
+S 0D73:1450:013E type=2 ca=1 "Rai Radio 3" "RAI"
+S 0E2E:1C20:013E type=2 ca=1 "Radio Freccia" "PEOPLE TV"
+S 0E30:1C20:013E type=2 ca=1 "RADIO ITALIA s.m.i." "PEOPLE TV"
+S 0E35:1C20:013E type=2 ca=1 "Radio Sportiva" "PEOPLE TV"
+S 0E3A:1C20:013E type=2 ca=1 "RTL 102.5" "PEOPLE TV"
+S 0E3B:1C20:013E type=2 ca=1 "RADIO ZETA ITALIANA" "PEOPLE TV"
+S 0E3C:1C20:013E type=2 ca=1 "Radio 24" "PEOPLE TV"
+S 0E3D:1C20:013E type=2 ca=1 "R.ONDA D'URTO" "PEOPLE TV"
+S 0E43:1C20:013E type=2 ca=1 "DEEJAY" "PEOPLE TV"
+S 0E44:1C20:013E type=2 ca=1 "CAPITAL" "PEOPLE TV"
+S 0E45:1C20:013E type=2 ca=1 "M DUE O" "PEOPLE TV"
+S 0E48:1C20:013E type=2 ca=1 "popolare" "PEOPLE TV"
+S 1018:1A90:FBFF type=25 ca=1 "Cielo HD" "SKY"
+S 10E1:03E8:013E type=25 ca=1 "Discovery Turbo" "SKY"
+S 10E2:03E8:013E type=25 ca=1 "GIALLO" "SKY"
+S 10E3:03E8:013E type=25 ca=1 "Nove" "SKY"
+S 10EE:03E8:013E type=25 ca=1 "HGTV Italy" "SKY"
+S 11FB:2B5C:013E type=25 ca=1 "TRAVELXP 4K" "4K"
+S 11FC:2B5C:013E type=25 ca=1 "Museum 4K" "4K"
+S 11FD:2B5C:013E type=31 ca=1 "MyZenTV 4K" "4K"
+S 1200:2B5C:013E type=25 ca=1 "DAYSTAR HD" "4K"
+S 1325:33F4:013E type=25 ca=1 "KBS HD" "JUWELO"
+S 1326:33F4:013E type=25 ca=1 "CNBC HD" "JUWELO"
+S 132E:33F4:013E type=1 ca=1 "Sender Neu Jerusalem" "JUWELO"
+S 135A:33F4:013E type=2 ca=1 "Radio Supersound" "JUWELO"
+S 135D:33F4:013E type=2 ca=1 "Radio Margherita" "JUWELO"
+S 1381:33F4:013E type=22 ca=1 "Arte Investimenti" "JUWELO"
+S 1382:33F4:013E type=1 ca=1 "Telecupole" "JUWELO"
+S 1384:33F4:013E type=22 ca=1 "Solo Calcio" "JUWELO"
+S 1C58:1C20:013E type=25 ca=1 "San Marino RTV HD" "PEOPLE TV"
+S 1C5C:1A90:FBFF type=25 ca=1 "TV8 HD" "SKY"
+S 1C70:1C20:013E type=2 ca=1 "Radio Mater" "PEOPLE TV"
+S 1C86:332C:013E type=1 ca=1 "Bloomberg European TV" "AL JAZEERA"
+S 1C8A:332C:013E type=25 ca=1 "Al Jazeera English HD" "AL JAZEERA"
+S 213F:3070:013E type=25 ca=1 "Rai YoYo HD" "RAI"
+S 2140:3070:013E type=22 ca=1 "Rai Radio 2 Visual" "RAI"
+S 2146:3070:013E type=25 ca=1 "Rai Storia HD" "RAI"
+S 2147:3070:013E type=1 ca=1 "Camera Deputati" "RAI"
+S 2149:3070:013E type=25 ca=1 "Rai Scuola HD" "RAI"
+S 214A:3070:013E type=25 ca=1 "Rai Premium HD" "RAI"
+S 214B:3070:013E type=22 ca=1 "tivù la guida" "RAI"
+S 214C:3070:013E type=2 ca=0 "Rai Radio 3 Classica" "RAI"
+S 214D:3070:013E type=2 ca=0 "Rai GrParlamento" "RAI"
+S 214E:3070:013E type=2 ca=0 "Rai Isoradio" "RAI"
+S 214F:3070:013E type=2 ca=0 "Rai Radio Techete'" "RAI"
+S 2150:3070:013E type=2 ca=0 "Rai Radio Live Napoli" "RAI"
+S 2151:3070:013E type=2 ca=0 "Rai Radio Kids" "RAI"
+S 2152:3070:013E type=2 ca=0 "No Name Radio" "RAI"
+S 2153:3070:013E type=2 ca=0 "Rai Radio Tutta Italiana" "RAI"
+S 2154:3070:013E type=2 ca=0 "Rai Radio 1 L'Ora della Venezia Giulia" "RAI"
+S 2155:3070:013E type=2 ca=0 "Rai Radio 1 Sport" "RAI"
+S 2156:3070:013E type=2 ca=0 "Rai Radio Trst A" "RAI"
+S 2157:3070:013E type=2 ca=0 "Rai Radio Südtirol" "RAI"
+S 233E:2328:013E type=22 ca=1 "Euronews English HD" "REAL LIFE"
+S 233F:2328:013E type=22 ca=1 "Euronews Italian" "REAL LIFE"
+S 332D:1388:013E type=25 ca=1 "DW English HD" "DW"
+S 3330:1388:013E type=1 ca=1 "BBC News Europe" "DW"
+S 3341:1388:013E type=2 ca=1 "DW08" "DW"
+S 3342:1388:013E type=2 ca=1 "DW09" "DW"
+S 3344:1388:013E type=2 ca=1 "DW02" "DW"
+S 334A:1388:013E type=2 ca=1 "RFI Francais" "DW"
+S 39D9:1FA4:013E type=1 ca=1 "Sonlife" "REAL LIFE"
+S 3B61:012C:013E type=25 ca=1 "Real Time" "SKY"
+S 3B62:012C:013E type=25 ca=1 "DMAX" "SKY"
+S 3B63:012C:013E type=25 ca=1 "Food Network" "SKY"
+S 3B6C:012C:013E type=22 ca=1 "Discovery" "SKY"
+S 421A:3DB8:013E type=22 ca=1 "TRM h24" "TVA"
+S 421C:2F44:013E type=22 ca=1 "FREEDOM" "M7group"
+S 422B:2F44:013E type=22 ca=1 "MEZZO" "M7group"
+S 422E:2F44:013E type=25 ca=1 "Horse TV HD" "M7group"
+S 4233:2F44:013E type=25 ca=1 "Super!" "M7group"
+S 4235:2F44:013E type=25 ca=1 "BeJoy.kids" "M7group"
+S 4236:2F44:013E type=22 ca=1 "DIM" "M7group"
+S 4238:3DB8:013E type=1 ca=1 "Padre Pio Tv" "TVA"
+S 4242:3DB8:013E type=25 ca=1 "Radio Italia TV HD" "TVA"
+S 4243:3DB8:013E type=25 ca=1 "EQUtv" "TVA"
+S 4246:3DB8:013E type=25 ca=1 "Radio Italia Live" "TVA"
+S 424B:3DB8:013E type=25 ca=1 "MARCOPOLO TRAVEL TV" "TVA"
+S 4250:3DB8:013E type=1 ca=1 "Radio Kiss Kiss TV" "TVA"
+S 4251:3DB8:013E type=1 ca=1 "RDS Social TV" "TVA"
+S 4255:3DB8:013E type=2 ca=1 "Radio Number One" "TVA"
+S 4256:3DB8:013E type=1 ca=1 "Canzoni Napoletane" "TVA"
+S 425C:3DB8:013E type=1 ca=1 "TVA Vicenza" "TVA"
+S 4260:3DB8:013E type=1 ca=1 "VIDEOLINA" "TVA"
+S 4353:300C:013E type=2 ca=1 "Swiss Pop" "RADIO SWISS"
+S 4354:300C:013E type=2 ca=1 "Swiss Jazz" "RADIO SWISS"
+S 435F:300C:013E type=2 ca=1 "Swiss Classica" "RADIO SWISS"
+S 452F:30D4:013E type=25 ca=1 "Rai News 24 HD" "RAI"
+S 4530:30D4:013E type=25 ca=1 "Rai Gulp HD" "RAI"
+S 4532:30D4:013E type=25 ca=1 "Rai Sport HD" "RAI"
+S 4534:30D4:013E type=25 ca=1 "Rai 5 HD" "RAI"
+S 4536:30D4:013E type=1 ca=1 "UNINETTUNO UNIVERSITY TV" "RAI"
+S 4543:30D4:013E type=22 ca=1 "Rai 3 TGR Puglia" "RAI"
+S 4544:30D4:013E type=22 ca=1 "Rai 3 TGR Basilicata" "RAI"
+S 4545:30D4:013E type=22 ca=1 "Rai 3 TGR Calabria" "RAI"
+S 4546:30D4:013E type=22 ca=1 "Rai 3 TGR Sicilia" "RAI"
+S 4547:30D4:013E type=22 ca=1 "Rai 3 TGR Liguria" "RAI"
+S 4548:30D4:013E type=22 ca=1 "Rai 3 TGR Toscana" "RAI"
+S 4549:30D4:013E type=22 ca=1 "Rai 3 TGR Umbria" "RAI"
+S 454A:30D4:013E type=22 ca=1 "Rai 3 TGR Marche" "RAI"
+S 454B:30D4:013E type=22 ca=1 "Rai 3 TGR Piemonte" "RAI"
+S 454C:30D4:013E type=22 ca=1 "Rai 3 TGR Lombardia" "RAI"
+S 454D:30D4:013E type=22 ca=1 "Rai 3 TGR Emilia-Romagna" "RAI"
+S 454E:30D4:013E type=22 ca=1 "Rai 3 TGR Veneto" "RAI"
+S 454F:30D4:013E type=25 ca=1 "Rai 3 TGR Südtirol" "RAI"
+S 4550:30D4:013E type=22 ca=1 "Rai 3 TGR Valle d'Aosta" "RAI"
+S 4551:30D4:013E type=22 ca=1 "Rai 3 TGR Sardegna" "RAI"
+S 4552:30D4:013E type=22 ca=1 "Rai 3 TGR Abruzzo" "RAI"
+S 4553:30D4:013E type=22 ca=1 "Rai 3 TGR Molise" "RAI"
+S 4554:30D4:013E type=22 ca=1 "Rai 3 TGR Campania" "RAI"
+S 4555:30D4:013E type=22 ca=1 "Rai 3 TGR Friuli Venezia Giulia" "RAI"
+S 4556:30D4:013E type=22 ca=1 "Rai 3 TGR Furlanija Julijska Krajina" "RAI"
+S 4557:30D4:013E type=22 ca=1 "Rai 3 TGR Trentino Alto Adige Trento" "RAI"
+S 4558:30D4:013E type=22 ca=1 "Rai 3 TGR Trentino Alto Adige Bolzano" "RAI"
+S 4559:30D4:013E type=22 ca=1 "Rai 3 TGR Lazio" "RAI"
+T 012C:013E freq=11258000 pol=H sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 01F4:00FC freq=11296000 pol=H sr=27500000 fec=4 sys=S pos=130E mod=1
+T 0384:013E freq=11373000 pol=H sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 03E8:013E freq=11393000 pol=V sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 04B0:0110 freq=11432000 pol=V sr=29900000 fec=3 sys=S2 pos=130E mod=2
+T 1388:013E freq=11727000 pol=V sr=29900000 fec=3 sys=S2 pos=130E mod=2
+T 1450:013E freq=11765840 pol=V sr=29900000 fec=3 sys=S2 pos=130E mod=2
+T 14B4:013E freq=11785000 pol=H sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 1770:00BE freq=11919000 pol=V sr=29900000 fec=3 sys=S2 pos=130E mod=2
+T 1A90:FBFF freq=12072000 pol=V sr=29900000 fec=3 sys=S2 pos=130E mod=2
+T 1B58:013E freq=12111000 pol=V sr=27500000 fec=3 sys=S pos=130E mod=1
+T 1C20:013E freq=12149440 pol=V sr=27500000 fec=3 sys=S pos=130E mod=1
+T 1FA4:013E freq=12322000 pol=H sr=27500000 fec=3 sys=S pos=130E mod=1
+T 20D0:013E freq=12379000 pol=V sr=30000000 fec=4 sys=S2 pos=130E mod=2
+T 22C4:013E freq=12476000 pol=H sr=29900000 fec=3 sys=S2 pos=130E mod=2
+T 2328:013E freq=12520000 pol=V sr=27500000 fec=2 sys=S2 pos=130E mod=2
+T 23F0:013E freq=12558000 pol=V sr=27500000 fec=4 sys=S2 pos=130E mod=2
+T 2454:013E freq=12577000 pol=H sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 2B5C:013E freq=10727000 pol=H sr=30000000 fec=3 sys=S2 pos=130E mod=2
+T 2C24:013E freq=10775000 pol=H sr=29900000 fec=2 sys=S2 pos=130E mod=2
+T 2E7C:013F freq=10892000 pol=H sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 2F44:013E freq=10930000 pol=H sr=30000000 fec=2 sys=S2 pos=130E mod=2
+T 2FA8:013E freq=10949000 pol=V sr=27500000 fec=2 sys=S2 pos=130E mod=2
+T 300C:013E freq=10971000 pol=H sr=29700000 fec=2 sys=S2 pos=130E mod=2
+T 3070:013E freq=10992160 pol=V sr=27500000 fec=2 sys=S pos=130E mod=1
+T 30D4:013E freq=11013000 pol=H sr=29900000 fec=3 sys=S2 pos=130E mod=2
+T 3138:013E freq=11034000 pol=V sr=27500000 fec=3 sys=S pos=130E mod=1
+T 332C:013E freq=11137410 pol=H sr=27500000 fec=3 sys=S pos=130E mod=1
+T 33F4:013E freq=11179000 pol=H sr=27500000 fec=2 sys=S2 pos=130E mod=2
+T 3BC4:013E freq=11565000 pol=H sr=29900000 fec=3 sys=S2 pos=130E mod=2
+T 3C28:013E freq=11585000 pol=V sr=27500000 fec=4 sys=S2 pos=130E mod=2
+T 3D54:013E freq=11642000 pol=H sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 3DB8:013E freq=11662000 pol=V sr=27500000 fec=2 sys=S2 pos=130E mod=2

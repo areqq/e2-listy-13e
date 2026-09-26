@@ -1,0 +1,20 @@
+# lokalne artefakty i cudze listy - nie publikujemy
+work/
+picons_out/
+dist/
+__pycache__/
+E2_HD_settings_*.zip
+komplet_*.tar
+lista.tar
+*.zip
+komplet_*.tar
+lista.tar
+STATUS.md
+codedb.snapshot
+
+# lokalne konfiguracje post-procesora (tresc modyfikacji trzymana poza repo)
+*.local.toml
+*.local.json
+satscan/satscan-armhf
+satscan/.zig-cache/
+satscan/zig-out/

@@ -1,0 +1,1333 @@
+L 1 1131:2AF8:013E visible=1 src=bat
+L 10 339A:3390:0071 visible=1 src=bat
+L 100 3398:3390:0071 visible=1 src=bat
+L 101 1CAC:1CE8:0071 visible=1 src=bat
+L 102 339B:3390:0071 visible=1 src=bat
+L 103 000C:1964:013E visible=1 src=bat
+L 104 000D:1964:013E visible=1 src=bat
+L 105 1133:2AF8:013E visible=1 src=bat
+L 106 3DD5:0640:013E visible=1 src=bat
+L 107 3E26:2EE0:013E visible=1 src=bat
+L 108 3E20:2EE0:013E visible=1 src=bat
+L 109 0010:1964:013E visible=1 src=bat
+L 11 3ABD:0514:013E visible=1 src=bat
+L 110 331B:0190:013E visible=1 src=bat
+L 111 3DD6:0640:013E visible=1 src=bat
+L 112 3ABE:0514:013E visible=1 src=bat
+L 113 0C27:1E78:0071 visible=1 src=bat
+L 114 0C25:1E78:0071 visible=1 src=bat
+L 115 1401:05DC:013E visible=1 src=bat
+L 116 0C1F:1E78:0071 visible=1 src=bat
+L 117 4290:2BC0:013E visible=1 src=bat
+L 119 3E1D:2EE0:013E visible=1 src=bat
+L 12 0C22:1E78:0071 visible=1 src=bat
+L 120 33A8:3390:0071 visible=1 src=bat
+L 121 1CAD:1CE8:0071 visible=1 src=bat
+L 122 1C87:1CE8:0071 visible=1 src=bat
+L 123 33AB:3390:0071 visible=1 src=bat
+L 124 3AD6:0514:013E visible=1 src=bat
+L 125 3ACB:0514:013E visible=1 src=bat
+L 126 3D8A:2C88:013E visible=1 src=bat
+L 128 10DD:03E8:013E visible=1 src=bat
+L 129 32DF:0190:013E visible=1 src=bat
+L 13 1139:2AF8:013E visible=1 src=bat
+L 130 13F6:05DC:013E visible=1 src=bat
+L 131 1134:2AF8:013E visible=1 src=bat
+L 132 07D6:22C4:013E visible=1 src=bat
+L 133 0C23:1E78:0071 visible=1 src=bat
+L 134 3D67:2C88:013E visible=1 src=bat
+L 135 2907:1EDC:0071 visible=1 src=bat
+L 136 0C2F:1E78:0071 visible=1 src=bat
+L 137 3E22:2EE0:013E visible=1 src=bat
+L 138 10DF:03E8:013E visible=1 src=bat
+L 139 3B6A:012C:013E visible=1 src=bat
+L 14 1142:2AF8:013E visible=1 src=bat
+L 140 0C20:1E78:0071 visible=1 src=bat
+L 141 1CCA:1CE8:0071 visible=1 src=bat
+L 142 2908:1EDC:0071 visible=1 src=bat
+L 144 3B66:012C:013E visible=1 src=bat
+L 145 3DD8:0640:013E visible=1 src=bat
+L 148 42C5:2BC0:013E visible=1 src=bat
+L 149 08B5:01F4:00FC visible=1 src=bat
+L 15 32CB:0190:013E visible=1 src=bat
+L 150 32FE:0190:013E visible=1 src=bat
+L 151 3ACD:0514:013E visible=1 src=bat
+L 152 2938:1EDC:0071 visible=1 src=bat
+L 153 0003:1964:013E visible=1 src=bat
+L 154 07D9:22C4:013E visible=1 src=bat
+L 155 3D5F:2C88:013E visible=1 src=bat
+L 157 1CB6:1CE8:0071 visible=1 src=bat
+L 158 1CB5:1CE8:0071 visible=1 src=bat
+L 159 0009:1964:013E visible=1 src=bat
+L 16 427B:2BC0:013E visible=1 src=bat
+L 160 000E:1964:013E visible=1 src=bat
+L 161 10E5:03E8:013E visible=1 src=bat
+L 162 10E4:03E8:013E visible=1 src=bat
+L 163 1CB7:1CE8:0071 visible=1 src=bat
+L 164 13FC:05DC:013E visible=1 src=bat
+L 165 3AD7:0514:013E visible=1 src=bat
+L 166 3308:0190:013E visible=1 src=bat
+L 17 378A:044C:013E visible=1 src=bat
+L 170 330D:0190:013E visible=1 src=bat
+L 171 32FC:0190:013E visible=1 src=bat
+L 172 3ACE:0514:013E visible=1 src=bat
+L 173 3AD2:0514:013E visible=1 src=bat
+L 174 3AD3:0514:013E visible=1 src=bat
+L 175 3AE1:0514:013E visible=1 src=bat
+L 176 3AD8:0514:013E visible=1 src=bat
+L 178 3D69:2C88:013E visible=1 src=bat
+L 179 3D6A:2C88:013E visible=1 src=bat
+L 18 33B8:3390:0071 visible=1 src=bat
+L 180 3D6B:2C88:013E visible=1 src=bat
+L 181 3D6C:2C88:013E visible=1 src=bat
+L 182 070F:32C8:013E visible=1 src=bat
+L 183 3A9E:0514:013E visible=1 src=bat
+L 184 3B67:012C:013E visible=1 src=bat
+L 185 3B68:012C:013E visible=1 src=bat
+L 186 4284:2BC0:013E visible=1 src=bat
+L 187 3E24:2EE0:013E visible=1 src=bat
+L 19 33BB:3390:0071 visible=1 src=bat
+L 190 3D56:2C88:013E visible=1 src=bat
+L 192 1177:2AF8:013E visible=1 src=bat
+L 193 1168:2AF8:013E visible=1 src=bat
+L 194 37B5:044C:013E visible=1 src=bat
+L 195 3315:0190:013E visible=1 src=bat
+L 196 3316:0190:013E visible=1 src=bat
+L 2 32F0:0190:013E visible=1 src=bat
+L 20 3DD7:0640:013E visible=1 src=bat
+L 200 3322:0190:013E visible=1 src=bat
+L 201 3324:0190:013E visible=1 src=bat
+L 202 3AE2:0514:013E visible=1 src=bat
+L 203 3AF0:0514:013E visible=1 src=bat
+L 204 3AF1:0514:013E visible=1 src=bat
+L 205 3AA5:0514:013E visible=1 src=bat
+L 206 3AEC:0514:013E visible=1 src=bat
+L 208 3E23:2EE0:013E visible=1 src=bat
+L 209 290A:1EDC:0071 visible=1 src=bat
+L 21 3A99:0514:013E visible=1 src=bat
+L 210 116F:2AF8:013E visible=1 src=bat
+L 211 1170:2AF8:013E visible=1 src=bat
+L 212 3DD0:0640:013E visible=1 src=bat
+L 213 3DCE:0640:013E visible=1 src=bat
+L 214 10EB:03E8:013E visible=1 src=bat
+L 215 3DD9:0640:013E visible=1 src=bat
+L 216 3392:3390:0071 visible=1 src=bat
+L 217 3396:3390:0071 visible=1 src=bat
+L 218 07DB:22C4:013E visible=1 src=bat
+L 219 13FD:05DC:013E visible=1 src=bat
+L 22 4291:2BC0:013E visible=1 src=bat
+L 220 13FB:05DC:013E visible=1 src=bat
+L 221 000F:1964:013E visible=1 src=bat
+L 222 10DE:03E8:013E visible=1 src=bat
+L 223 3B6B:012C:013E visible=1 src=bat
+L 224 3E1E:2EE0:013E visible=1 src=bat
+L 225 13FF:05DC:013E visible=1 src=bat
+L 227 0C30:1E78:0071 visible=1 src=bat
+L 228 3B69:012C:013E visible=1 src=bat
+L 229 140B:05DC:013E visible=1 src=bat
+L 23 3D66:2C88:013E visible=1 src=bat
+L 230 140D:05DC:013E visible=1 src=bat
+L 231 10E0:03E8:013E visible=1 src=bat
+L 233 1C8F:1CE8:0071 visible=1 src=bat
+L 239 42C2:2BC0:013E visible=1 src=bat
+L 24 3D5E:2C88:013E visible=1 src=bat
+L 240 3785:044C:013E visible=1 src=bat
+L 241 427F:2BC0:013E visible=1 src=bat
+L 242 140E:05DC:013E visible=1 src=bat
+L 243 428D:2BC0:013E visible=1 src=bat
+L 244 428E:2BC0:013E visible=1 src=bat
+L 245 428F:2BC0:013E visible=1 src=bat
+L 246 429C:2BC0:013E visible=1 src=bat
+L 247 140F:05DC:013E visible=1 src=bat
+L 248 290D:1EDC:0071 visible=1 src=bat
+L 249 2910:1EDC:0071 visible=1 src=bat
+L 25 32E0:0190:013E visible=1 src=bat
+L 250 1C8C:1CE8:0071 visible=1 src=bat
+L 251 4293:2BC0:013E visible=1 src=bat
+L 256 429A:2BC0:013E visible=1 src=bat
+L 257 1410:05DC:013E visible=1 src=bat
+L 258 2909:1EDC:0071 visible=1 src=bat
+L 26 3A9B:0514:013E visible=1 src=bat
+L 260 422B:2F44:013E visible=1 src=bat
+L 265 233E:2328:013E visible=1 src=bat
+L 266 3330:1388:013E visible=1 src=bat
+L 267 0328:3BC4:013E visible=1 src=bat
+L 268 0327:3BC4:013E visible=1 src=bat
+L 269 332D:1388:013E visible=1 src=bat
+L 270 452F:30D4:013E visible=1 src=bat
+L 271 421C:2F44:013E visible=1 src=bat
+L 272 0070:2FA8:013E visible=1 src=bat
+L 273 3B6D:012C:013E visible=1 src=bat
+L 274 1326:33F4:013E visible=1 src=bat
+L 275 1C86:332C:013E visible=1 src=bat
+L 276 0516:2E7C:013F visible=1 src=bat
+L 277 0517:2E7C:013F visible=1 src=bat
+L 278 0522:2E7C:013F visible=1 src=bat
+L 279 0519:2E7C:013F visible=1 src=bat
+L 28 3784:044C:013E visible=1 src=bat
+L 280 0D4A:1450:013E visible=1 src=bat
+L 281 2149:3070:013E visible=1 src=bat
+L 282 2146:3070:013E visible=1 src=bat
+L 283 0D4B:1450:013E visible=1 src=bat
+L 284 0D49:1450:013E visible=1 src=bat
+L 285 1C8A:332C:013E visible=1 src=bat
+L 286 0215:0384:013E visible=1 src=bat
+L 287 1325:33F4:013E visible=1 src=bat
+L 288 1C8D:1CE8:0071 visible=1 src=bat
+L 289 423B:3DB8:013E visible=1 src=bat
+L 29 3A9A:0514:013E visible=1 src=bat
+L 290 423C:3DB8:013E visible=1 src=bat
+L 291 4232:2F44:013E visible=1 src=bat
+L 292 1C86:1CE8:0071 visible=1 src=bat
+L 293 13FE:05DC:013E visible=1 src=bat
+L 295 1200:2B5C:013E visible=1 src=bat
+L 296 2914:1EDC:0071 visible=1 src=bat
+L 298 3332:1388:013E visible=1 src=bat
+L 299 3DAE:2C88:013E visible=1 src=bat
+L 3 113D:2AF8:013E visible=1 src=bat
+L 300 113F:2AF8:013E visible=1 src=bat
+L 301 1140:2AF8:013E visible=1 src=bat
+L 302 1141:2AF8:013E visible=1 src=bat
+L 303 4206:2F44:013E visible=1 src=bat
+L 305 4224:3DB8:013E visible=1 src=bat
+L 31 32DC:0190:013E visible=1 src=bat
+L 310 1419:05DC:013E visible=1 src=bat
+L 312 1C98:1CE8:0071 visible=1 src=bat
+L 313 1CA8:1CE8:0071 visible=1 src=bat
+L 314 1CA4:1CE8:0071 visible=1 src=bat
+L 32 3D55:2C88:013E visible=1 src=bat
+L 33 32CE:0190:013E visible=1 src=bat
+L 34 3D57:2C88:013E visible=1 src=bat
+L 35 3D58:2C88:013E visible=1 src=bat
+L 356 4336:300C:013E visible=1 src=bat
+L 357 0587:170C:013F visible=1 src=bat
+L 358 031F:3BC4:013E visible=1 src=bat
+L 359 0323:3BC4:013E visible=1 src=bat
+L 36 32DB:0190:013E visible=1 src=bat
+L 360 0DAE:1F40:013E visible=1 src=bat
+L 361 0080:04B0:0110 visible=1 src=bat
+L 363 252C:13EF:013E visible=1 src=bat
+L 365 332E:1388:013E visible=1 src=bat
+L 366 0367:3C28:013E visible=1 src=bat
+L 367 06AA:3138:013E visible=1 src=bat
+L 369 252F:13EF:013E visible=1 src=bat
+L 37 32DE:0190:013E visible=1 src=bat
+L 370 0001:2E18:00B0 visible=1 src=bat
+L 372 02C2:1B58:013E visible=1 src=bat
+L 374 01FC:0384:013E visible=1 src=bat
+L 375 2529:13EF:013E visible=1 src=bat
+L 376 04B5:23F0:013E visible=1 src=bat
+L 377 2526:13EF:013E visible=1 src=bat
+L 378 1C8C:332C:013E visible=1 src=bat
+L 38 3A9C:0514:013E visible=1 src=bat
+L 381 038B:2134:013E visible=1 src=bat
+L 382 2333:2328:013E visible=1 src=bat
+L 384 0DAD:1F40:013E visible=1 src=bat
+L 386 02C9:1B58:013E visible=1 src=bat
+L 389 030F:1F40:013E visible=1 src=bat
+L 39 3AA0:0514:013E visible=1 src=bat
+L 390 036B:3C28:013E visible=1 src=bat
+L 391 036A:3C28:013E visible=1 src=bat
+L 392 0368:3C28:013E visible=1 src=bat
+L 393 0206:0384:013E visible=1 src=bat
+L 394 1366:33F4:013E visible=1 src=bat
+L 399 425C:3DB8:013E visible=1 src=bat
+L 4 113E:2AF8:013E visible=1 src=bat
+L 40 3AA1:0514:013E visible=1 src=bat
+L 402 08A6:01F4:00FC visible=1 src=bat
+L 403 1C22:1C20:013E visible=1 src=bat
+L 406 0002:2E18:00B0 visible=1 src=bat
+L 407 06A6:3138:013E visible=1 src=bat
+L 408 00F1:2E18:00B0 visible=1 src=bat
+L 409 0003:2E18:00B0 visible=1 src=bat
+L 41 3AB9:0514:013E visible=1 src=bat
+L 410 0007:2E18:00B0 visible=1 src=bat
+L 411 4241:3DB8:013E visible=1 src=bat
+L 412 1C56:1C20:013E visible=1 src=bat
+L 416 0392:2134:013E visible=1 src=bat
+L 418 089A:01F4:00FC visible=1 src=bat
+L 419 031E:3BC4:013E visible=1 src=bat
+L 42 3AA6:0514:013E visible=1 src=bat
+L 420 06A5:3138:013E visible=1 src=bat
+L 423 0395:2134:013E visible=1 src=bat
+L 424 0389:2134:013E visible=1 src=bat
+L 427 2520:13EF:013E visible=1 src=bat
+L 428 0326:3BC4:013E visible=1 src=bat
+L 429 0641:2454:013E visible=1 src=bat
+L 430 2525:13EF:013E visible=1 src=bat
+L 431 0398:2134:013E visible=1 src=bat
+L 432 2338:2328:013E visible=1 src=bat
+L 436 01FA:0384:013E visible=1 src=bat
+L 437 01F5:0384:013E visible=1 src=bat
+L 438 11FE:2B5C:013E visible=1 src=bat
+L 44 1163:2AF8:013E visible=1 src=bat
+L 443 2334:2328:013E visible=1 src=bat
+L 444 232B:2328:013E visible=1 src=bat
+L 447 04B1:23F0:013E visible=1 src=bat
+L 45 1136:2AF8:013E visible=1 src=bat
+L 46 3783:044C:013E visible=1 src=bat
+L 460 02C1:1B58:013E visible=1 src=bat
+L 461 0369:3C28:013E visible=1 src=bat
+L 466 051B:2E7C:013F visible=1 src=bat
+L 469 4536:30D4:013E visible=1 src=bat
+L 47 32E3:0190:013E visible=1 src=bat
+L 470 4532:30D4:013E visible=1 src=bat
+L 472 4243:3DB8:013E visible=1 src=bat
+L 473 064D:2454:013E visible=1 src=bat
+L 475 000A:2E18:00B0 visible=1 src=bat
+L 478 2336:2328:013E visible=1 src=bat
+L 48 32E4:0190:013E visible=1 src=bat
+L 482 422D:2F44:013E visible=1 src=bat
+L 49 290B:1EDC:0071 visible=1 src=bat
+L 491 4251:3DB8:013E visible=1 src=bat
+L 492 4250:3DB8:013E visible=1 src=bat
+L 493 4242:3DB8:013E visible=1 src=bat
+L 494 0204:0384:013E visible=1 src=bat
+L 495 1382:33F4:013E visible=1 src=bat
+L 496 4246:3DB8:013E visible=1 src=bat
+L 497 0203:0384:013E visible=1 src=bat
+L 499 0202:0384:013E visible=1 src=bat
+L 5 3DCD:0640:013E visible=1 src=bat
+L 50 3DED:0640:013E visible=1 src=bat
+L 500 0205:0384:013E visible=1 src=bat
+L 501 3D6E:2C88:013E visible=1 src=bat
+L 502 13F1:05DC:013E visible=1 src=bat
+L 503 13F2:05DC:013E visible=1 src=bat
+L 504 13F3:05DC:013E visible=1 src=bat
+L 505 3D75:2C88:013E visible=1 src=bat
+L 506 232C:2328:013E visible=1 src=bat
+L 507 3D76:2C88:013E visible=1 src=bat
+L 508 3D77:2C88:013E visible=1 src=bat
+L 509 3D78:2C88:013E visible=1 src=bat
+L 51 10EA:03E8:013E visible=1 src=bat
+L 513 07D4:22C4:013E visible=1 src=bat
+L 514 4238:3DB8:013E visible=1 src=bat
+L 515 29D1:1C20:013E visible=1 src=bat
+L 516 233A:2328:013E visible=1 src=bat
+L 52 3399:3390:0071 visible=1 src=bat
+L 522 2331:2328:013E visible=1 src=bat
+L 524 01FE:0384:013E visible=1 src=bat
+L 527 2332:2328:013E visible=1 src=bat
+L 528 132E:33F4:013E visible=1 src=bat
+L 53 3333:3390:0071 visible=1 src=bat
+L 530 39D9:1FA4:013E visible=1 src=bat
+L 534 233C:2328:013E visible=1 src=bat
+L 538 2147:3070:013E visible=1 src=bat
+L 54 1CBE:1CE8:0071 visible=1 src=bat
+L 542 1361:33F4:013E visible=1 src=bat
+L 543 421A:3DB8:013E visible=1 src=bat
+L 544 37A1:044C:013E visible=1 src=bat
+L 545 37A2:044C:013E visible=1 src=bat
+L 546 37A3:044C:013E visible=1 src=bat
+L 547 37C8:044C:013E visible=1 src=bat
+L 55 290C:1EDC:0071 visible=1 src=bat
+L 550 0D71:1450:013E visible=1 src=bat
+L 551 0D72:1450:013E visible=1 src=bat
+L 552 0D73:1450:013E visible=1 src=bat
+L 553 3348:1388:013E visible=1 src=bat
+L 556 0E3A:1C20:013E visible=1 src=bat
+L 557 0065:1770:00BE visible=1 src=bat
+L 558 0E01:1F40:013E visible=1 src=bat
+L 559 0E46:1C20:013E visible=1 src=bat
+L 56 429D:2BC0:013E visible=1 src=bat
+L 560 0DFE:1F40:013E visible=1 src=bat
+L 561 434B:300C:013E visible=1 src=bat
+L 562 434C:300C:013E visible=1 src=bat
+L 563 434D:300C:013E visible=1 src=bat
+L 564 434E:300C:013E visible=1 src=bat
+L 565 4357:300C:013E visible=1 src=bat
+L 566 434F:300C:013E visible=1 src=bat
+L 567 4350:300C:013E visible=1 src=bat
+L 568 4351:300C:013E visible=1 src=bat
+L 57 429E:2BC0:013E visible=1 src=bat
+L 571 0300:1B58:013E visible=1 src=bat
+L 572 02E6:1B58:013E visible=1 src=bat
+L 573 3358:1388:013E visible=1 src=bat
+L 574 039A:2134:013E visible=1 src=bat
+L 575 0E2E:1C20:013E visible=1 src=bat
+L 576 0E3B:1C20:013E visible=1 src=bat
+L 577 02E1:1B58:013E visible=1 src=bat
+L 578 0068:1770:00BE visible=1 src=bat
+L 579 0069:1770:00BE visible=1 src=bat
+L 58 140C:05DC:013E visible=1 src=bat
+L 580 334A:1388:013E visible=1 src=bat
+L 581 0066:1770:00BE visible=1 src=bat
+L 582 02E2:1B58:013E visible=1 src=bat
+L 584 0DFF:1F40:013E visible=1 src=bat
+L 585 0E00:1F40:013E visible=1 src=bat
+L 586 000E:2E18:00B0 visible=1 src=bat
+L 587 0393:2134:013E visible=1 src=bat
+L 588 1C53:1C20:013E visible=1 src=bat
+L 59 1412:05DC:013E visible=1 src=bat
+L 591 02E4:1B58:013E visible=1 src=bat
+L 592 02E0:1B58:013E visible=1 src=bat
+L 595 02F9:1B58:013E visible=1 src=bat
+L 596 4345:300C:013E visible=1 src=bat
+L 597 4346:300C:013E visible=1 src=bat
+L 598 4347:300C:013E visible=1 src=bat
+L 599 4348:300C:013E visible=1 src=bat
+L 6 3DD2:0640:013E visible=1 src=bat
+L 60 1413:05DC:013E visible=1 src=bat
+L 600 4349:300C:013E visible=1 src=bat
+L 601 435F:300C:013E visible=1 src=bat
+L 602 4352:300C:013E visible=1 src=bat
+L 603 4353:300C:013E visible=1 src=bat
+L 604 4354:300C:013E visible=1 src=bat
+L 605 434A:300C:013E visible=1 src=bat
+L 61 3DD4:0640:013E visible=1 src=bat
+L 619 0E43:1C20:013E visible=1 src=bat
+L 62 4279:2BC0:013E visible=1 src=bat
+L 63 4239:2F44:013E visible=1 src=bat
+L 64 4289:2BC0:013E visible=1 src=bat
+L 65 13F7:05DC:013E visible=1 src=bat
+L 650 283D:03FB:0001 visible=1 src=bat
+L 651 2B66:03F3:0001 visible=1 src=bat
+L 652 6DCB:044D:0001 visible=1 src=bat
+L 654 2889:040F:0001 visible=1 src=bat
+L 658 285B:0401:0001 visible=1 src=bat
+L 659 445E:0453:0001 visible=1 src=bat
+L 66 1403:05DC:013E visible=1 src=bat
+L 660 0030:0005:0085 visible=1 src=bat
+L 661 2EE3:0441:0001 visible=1 src=bat
+L 662 2EF4:0441:0001 visible=1 src=bat
+L 663 2F08:0441:0001 visible=1 src=bat
+L 664 2F1D:0441:0001 visible=1 src=bat
+L 665 2F1C:0441:0001 visible=1 src=bat
+L 666 445C:0453:0001 visible=1 src=bat
+L 667 4460:0453:0001 visible=1 src=bat
+L 668 2B8E:03F2:0001 visible=1 src=bat
+L 669 445D:0453:0001 visible=1 src=bat
+L 67 1411:05DC:013E visible=1 src=bat
+L 670 4461:0453:0001 visible=1 src=bat
+L 671 0049:0007:0085 visible=1 src=bat
+L 672 2B7A:03F3:0001 visible=1 src=bat
+L 673 4465:0453:0001 visible=1 src=bat
+L 674 6E47:0431:0001 visible=1 src=bat
+L 675 6E2D:0431:0001 visible=1 src=bat
+L 677 6E40:0431:0001 visible=1 src=bat
+L 678 6E41:0431:0001 visible=1 src=bat
+L 679 6E42:0431:0001 visible=1 src=bat
+L 68 3393:3390:0071 visible=1 src=bat
+L 680 6E43:0431:0001 visible=1 src=bat
+L 681 6E44:0431:0001 visible=1 src=bat
+L 682 6E45:0431:0001 visible=1 src=bat
+L 683 6E46:0431:0001 visible=1 src=bat
+L 684 6EAE:03FD:0001 visible=1 src=bat
+L 685 6EB0:03FD:0001 visible=1 src=bat
+L 686 6EB2:03FD:0001 visible=1 src=bat
+L 687 6EB3:03FD:0001 visible=1 src=bat
+L 688 6EB4:03FD:0001 visible=1 src=bat
+L 689 6EAD:03FD:0001 visible=1 src=bat
+L 69 3D5A:2C88:013E visible=1 src=bat
+L 690 6EB6:03FD:0001 visible=1 src=bat
+L 691 6EAF:03FD:0001 visible=1 src=bat
+L 692 6EB1:03FD:0001 visible=1 src=bat
+L 693 2888:040F:0001 visible=1 src=bat
+L 694 1005:0451:0035 visible=1 src=bat
+L 695 4463:0453:0001 visible=1 src=bat
+L 696 4464:0453:0001 visible=1 src=bat
+L 697 2B98:03F2:0001 visible=1 src=bat
+L 698 7008:0436:0001 visible=1 src=bat
+L 699 003D:0007:0085 visible=1 src=bat
+L 7 3391:3390:0071 visible=1 src=bat
+L 700 0701:0005:0085 visible=1 src=bat
+L 701 2F3A:0441:0001 visible=1 src=bat
+L 702 0033:0021:0085 visible=1 src=bat
+L 703 14BD:0407:0001 visible=1 src=bat
+L 704 7004:0436:0001 visible=1 src=bat
+L 705 0041:0007:0085 visible=1 src=bat
+L 706 445F:0453:0001 visible=1 src=bat
+L 707 2887:040F:0001 visible=1 src=bat
+L 709 1389:03EA:0001 visible=1 src=bat
+L 71 32FA:0190:013E visible=1 src=bat
+L 710 2BA2:03F2:0001 visible=1 src=bat
+L 711 18F4:03F4:0001 visible=1 src=bat
+L 712 17D5:042A:0001 visible=1 src=bat
+L 713 1C7A:0457:0001 visible=1 src=bat
+L 714 1C20:0457:0001 visible=1 src=bat
+L 716 2F69:0454:0001 visible=1 src=bat
+L 72 3D87:2C88:013E visible=1 src=bat
+L 720 1AF9:03FE:0001 visible=1 src=bat
+L 721 1AFA:03FE:0001 visible=1 src=bat
+L 723 79E0:0443:0001 visible=1 src=bat
+L 724 0384:0021:0085 visible=1 src=bat
+L 725 283E:03FB:0001 visible=1 src=bat
+L 727 14C0:0407:0001 visible=1 src=bat
+L 728 22C6:0434:0001 visible=1 src=bat
+L 729 1B03:03FE:0001 visible=1 src=bat
+L 73 3300:0190:013E visible=1 src=bat
+L 730 16AB:03FF:0001 visible=1 src=bat
+L 731 16AC:03FF:0001 visible=1 src=bat
+L 732 16A9:03FF:0001 visible=1 src=bat
+L 733 16AA:03FF:0001 visible=1 src=bat
+L 734 139D:03EA:0001 visible=1 src=bat
+L 736 7729:0416:0001 visible=1 src=bat
+L 739 7A49:0410:0001 visible=1 src=bat
+L 74 3D89:2C88:013E visible=1 src=bat
+L 740 2336:0442:0001 visible=1 src=bat
+L 741 2331:0442:0001 visible=1 src=bat
+L 742 245C:0440:0001 visible=1 src=bat
+L 743 16AF:03FF:0001 visible=1 src=bat
+L 744 1647:042C:0001 visible=1 src=bat
+L 746 16B1:03FF:0001 visible=1 src=bat
+L 747 0702:0005:0085 visible=1 src=bat
+L 748 3330:045B:0001 visible=1 src=bat
+L 75 290E:1EDC:0071 visible=1 src=bat
+L 751 0304:0005:0085 visible=1 src=bat
+L 754 02FC:0005:0085 visible=1 src=bat
+L 756 14BE:0407:0001 visible=1 src=bat
+L 757 14BF:0407:0001 visible=1 src=bat
+L 758 0295:0021:0085 visible=1 src=bat
+L 76 13F4:05DC:013E visible=1 src=bat
+L 761 0301:0007:0085 visible=1 src=bat
+L 762 2F30:0441:0001 visible=1 src=bat
+L 763 16B0:03FF:0001 visible=1 src=bat
+L 766 3336:045B:0001 visible=1 src=bat
+L 767 3339:045B:0001 visible=1 src=bat
+L 768 313C:0459:0001 visible=1 src=bat
+L 77 13F9:05DC:013E visible=1 src=bat
+L 770 3332:045B:0001 visible=1 src=bat
+L 771 0020:0021:0085 visible=1 src=bat
+L 772 79EA:0443:0001 visible=1 src=bat
+L 774 0293:0005:0085 visible=1 src=bat
+L 775 33AB:03EB:0001 visible=1 src=bat
+L 778 002E:0021:0085 visible=1 src=bat
+L 779 003F:0021:0085 visible=1 src=bat
+L 78 3A9F:0514:013E visible=1 src=bat
+L 780 0296:0005:0085 visible=1 src=bat
+L 782 3355:045B:0001 visible=1 src=bat
+L 784 4E22:043A:0001 visible=1 src=bat
+L 786 4E24:043A:0001 visible=1 src=bat
+L 787 4E25:043A:0001 visible=1 src=bat
+L 788 7080:0443:0001 visible=1 src=bat
+L 789 7085:0443:0001 visible=1 src=bat
+L 79 0C26:1E78:0071 visible=1 src=bat
+L 790 708A:0443:0001 visible=1 src=bat
+L 791 708F:0443:0001 visible=1 src=bat
+L 793 3333:045B:0001 visible=1 src=bat
+L 794 33AD:03EB:0001 visible=1 src=bat
+L 795 2EFE:0441:0001 visible=1 src=bat
+L 796 3400:03ED:0001 visible=1 src=bat
+L 797 3405:03ED:0001 visible=1 src=bat
+L 798 3402:03ED:0001 visible=1 src=bat
+L 799 0308:0005:0085 visible=1 src=bat
+L 8 3394:3390:0071 visible=1 src=bat
+L 80 3789:044C:013E visible=1 src=bat
+L 802 1332:03EF:0001 visible=1 src=bat
+L 805 288A:040F:0001 visible=1 src=bat
+L 806 526C:041D:0001 visible=1 src=bat
+L 807 7006:0436:0001 visible=1 src=bat
+L 808 002F:0021:0085 visible=1 src=bat
+L 81 3787:044C:013E visible=1 src=bat
+L 815 2873:0425:0001 visible=1 src=bat
+L 816 286E:0425:0001 visible=1 src=bat
+L 817 286F:0425:0001 visible=1 src=bat
+L 818 2870:0425:0001 visible=1 src=bat
+L 819 2871:0425:0001 visible=1 src=bat
+L 82 3786:044C:013E visible=1 src=bat
+L 820 2872:0425:0001 visible=1 src=bat
+L 821 283F:03FB:0001 visible=1 src=bat
+L 822 2840:03FB:0001 visible=1 src=bat
+L 823 2855:0401:0001 visible=1 src=bat
+L 824 2856:0401:0001 visible=1 src=bat
+L 825 2857:0401:0001 visible=1 src=bat
+L 826 6EAC:03FD:0001 visible=1 src=bat
+L 828 157E:041F:0001 visible=1 src=bat
+L 829 33A8:03EB:0001 visible=1 src=bat
+L 83 3788:044C:013E visible=1 src=bat
+L 832 006C:000C:0085 visible=1 src=bat
+L 833 1518:0455:0001 visible=1 src=bat
+L 834 526F:041D:0001 visible=1 src=bat
+L 835 1580:041F:0001 visible=1 src=bat
+L 836 5270:041D:0001 visible=1 src=bat
+L 837 157D:041F:0001 visible=1 src=bat
+L 838 151B:0455:0001 visible=1 src=bat
+L 839 151C:0455:0001 visible=1 src=bat
+L 84 428A:2BC0:013E visible=1 src=bat
+L 841 2776:0409:0001 visible=1 src=bat
+L 842 2779:0409:0001 visible=1 src=bat
+L 843 2775:0409:0001 visible=1 src=bat
+L 844 2778:0409:0001 visible=1 src=bat
+L 848 332F:045B:0001 visible=1 src=bat
+L 850 23C2:0446:0001 visible=1 src=bat
+L 851 23C3:0446:0001 visible=1 src=bat
+L 852 23C4:0446:0001 visible=1 src=bat
+L 853 23C5:0446:0001 visible=1 src=bat
+L 854 23C7:0446:0001 visible=1 src=bat
+L 855 23CB:0446:0001 visible=1 src=bat
+L 856 23CC:0446:0001 visible=1 src=bat
+L 857 23CE:0446:0001 visible=1 src=bat
+L 859 23CD:0446:0001 visible=1 src=bat
+L 860 23D0:0446:0001 visible=1 src=bat
+L 863 23D7:0446:0001 visible=1 src=bat
+L 864 23DD:0446:0001 visible=1 src=bat
+L 866 23D9:0446:0001 visible=1 src=bat
+L 867 23DE:0446:0001 visible=1 src=bat
+L 868 23E0:0446:0001 visible=1 src=bat
+L 869 23E2:0446:0001 visible=1 src=bat
+L 870 23E3:0446:0001 visible=1 src=bat
+L 871 23B4:0446:0001 visible=1 src=bat
+L 872 23C1:0446:0001 visible=1 src=bat
+L 873 23DA:0446:0001 visible=1 src=bat
+L 874 23DB:0446:0001 visible=1 src=bat
+L 875 23EE:0446:0001 visible=1 src=bat
+L 876 23DC:0446:0001 visible=1 src=bat
+L 878 23DF:0446:0001 visible=1 src=bat
+L 879 23E1:0446:0001 visible=1 src=bat
+L 88 1190:2AF8:013E visible=1 src=bat
+L 880 28A3:040F:0001 visible=1 src=bat
+L 881 28CF:040F:0001 visible=1 src=bat
+L 882 28E6:0425:0001 visible=1 src=bat
+L 883 28E2:0425:0001 visible=1 src=bat
+L 885 28E5:0425:0001 visible=1 src=bat
+L 886 28F7:0425:0001 visible=1 src=bat
+L 887 28AE:040F:0001 visible=1 src=bat
+L 888 28F1:0425:0001 visible=1 src=bat
+L 889 28C0:040F:0001 visible=1 src=bat
+L 89 118A:2AF8:013E visible=1 src=bat
+L 891 00A0:0007:0085 visible=1 src=bat
+L 893 00AA:0007:0085 visible=1 src=bat
+L 894 3354:045B:0001 visible=1 src=bat
+L 899 28AD:040F:0001 visible=1 src=bat
+L 9 3DD3:0640:013E visible=1 src=bat
+L 901 28F9:0425:0001 visible=1 src=bat
+L 902 28EE:0425:0001 visible=1 src=bat
+L 903 28F0:0425:0001 visible=1 src=bat
+L 904 28EF:0425:0001 visible=1 src=bat
+L 906 28CA:040F:0001 visible=1 src=bat
+L 907 28D5:040F:0001 visible=1 src=bat
+L 908 28D7:040F:0001 visible=1 src=bat
+L 91 32CD:0190:013E visible=1 src=bat
+L 910 1EFB:0457:0001 visible=1 src=bat
+L 912 1357:03EF:0001 visible=1 src=bat
+L 913 134E:03EF:0001 visible=1 src=bat
+L 914 134F:03EF:0001 visible=1 src=bat
+L 915 1350:03EF:0001 visible=1 src=bat
+L 916 134C:03EF:0001 visible=1 src=bat
+L 917 1352:03EF:0001 visible=1 src=bat
+L 918 1353:03EF:0001 visible=1 src=bat
+L 919 1354:03EF:0001 visible=1 src=bat
+L 92 4288:2BC0:013E visible=1 src=bat
+L 920 1355:03EF:0001 visible=1 src=bat
+L 921 1356:03EF:0001 visible=1 src=bat
+L 922 1351:03EF:0001 visible=1 src=bat
+L 923 134D:03EF:0001 visible=1 src=bat
+L 924 28A0:040F:0001 visible=1 src=bat
+L 925 28A1:040F:0001 visible=1 src=bat
+L 926 28A2:040F:0001 visible=1 src=bat
+L 93 32D7:0190:013E visible=1 src=bat
+L 936 28D8:040F:0001 visible=1 src=bat
+L 937 00A9:0007:0085 visible=1 src=bat
+L 938 00AC:0005:0085 visible=1 src=bat
+L 939 00AD:0005:0085 visible=1 src=bat
+L 94 1138:2AF8:013E visible=1 src=bat
+L 940 28E1:0425:0001 visible=1 src=bat
+L 941 28E3:0425:0001 visible=1 src=bat
+L 942 28E4:0425:0001 visible=1 src=bat
+L 943 28EA:0425:0001 visible=1 src=bat
+L 944 28EB:0425:0001 visible=1 src=bat
+L 945 28EC:0425:0001 visible=1 src=bat
+L 946 28ED:0425:0001 visible=1 src=bat
+L 947 28AC:040F:0001 visible=1 src=bat
+L 948 28AF:040F:0001 visible=1 src=bat
+L 949 28B0:040F:0001 visible=1 src=bat
+L 95 32FD:0190:013E visible=1 src=bat
+L 954 1090:03EE:0001 visible=1 src=bat
+L 955 1091:03EE:0001 visible=1 src=bat
+L 96 427C:2BC0:013E visible=1 src=bat
+L 97 37B6:044C:013E visible=1 src=bat
+L 98 37BC:044C:013E visible=1 src=bat
+L 99 3ACC:0514:013E visible=1 src=bat
+S 0001:2E18:00B0 type=1 ca=1 "Al Maghribia HD" "CANAL+"
+S 0002:2E18:00B0 type=1 ca=1 "Al Aoula Middle East" "CANAL+"
+S 0003:1964:013E type=1 ca=1 "Nick Jr." "CANAL+"
+S 0003:2E18:00B0 type=1 ca=1 "Al Aoula Inter HD" "CANAL+"
+S 0007:2E18:00B0 type=1 ca=1 "2M Monde" "CANAL+"
+S 0009:1964:013E type=1 ca=1 "Nickelodeon" "CANAL+"
+S 000A:2E18:00B0 type=1 ca=1 "Arryadia HD" "CANAL+"
+S 000C:1964:013E type=1 ca=1 "Comedy Central HD" "CANAL+"
+S 000D:1964:013E type=1 ca=1 "Paramount Network Polska HD" "CANAL+"
+S 000E:1964:013E type=1 ca=1 "Nicktoons HD" "CANAL+"
+S 000E:2E18:00B0 type=2 ca=1 "Radio Inter" "CANAL+"
+S 000F:1964:013E type=1 ca=1 "MTV Polska HD" "CANAL+"
+S 0010:1964:013E type=1 ca=1 "Polsat Comedy Central Extra HD" "CANAL+"
+S 0020:0021:0085 type=1 ca=1 "Sonnenklar TV" "CANAL+"
+S 002E:0021:0085 type=1 ca=1 "Handystar TV 2" "CANAL+"
+S 002F:0021:0085 type=1 ca=1 "Regio TV" "CANAL+"
+S 0030:0005:0085 type=1 ca=1 "N24 DOKU" "CANAL+"
+S 0033:0021:0085 type=1 ca=1 "Tele 5 Germany" "CANAL+"
+S 003D:0007:0085 type=1 ca=1 "NICK / CC" "CANAL+"
+S 003F:0021:0085 type=1 ca=1 "DMAX" "CANAL+"
+S 0041:0007:0085 type=1 ca=1 "DELUXE MUSIC" "CANAL+"
+S 0049:0007:0085 type=1 ca=1 "DMAX Austria" "CANAL+"
+S 0065:1770:00BE type=2 ca=1 "Radio R101" "CANAL+"
+S 0066:1770:00BE type=2 ca=1 "Radio Monte Carlo" "CANAL+"
+S 0068:1770:00BE type=2 ca=1 "Virgin Radio" "CANAL+"
+S 0069:1770:00BE type=2 ca=1 "Radio 105" "CANAL+"
+S 006C:000C:0085 type=1 ca=1 "Sky Sport News HD" "CANAL+"
+S 0070:2FA8:013E type=1 ca=1 "Current Time TV" "CANAL+"
+S 0080:04B0:0110 type=1 ca=1 "TgCom24" "CANAL+"
+S 00A0:0007:0085 type=2 ca=1 "ROCKANTENNE" "CANAL+"
+S 00A9:0007:0085 type=2 ca=1 "sunshine live" "CANAL+"
+S 00AA:0007:0085 type=2 ca=1 "ANTENNE BAYERN" "CANAL+"
+S 00AC:0005:0085 type=2 ca=1 "egoFM" "CANAL+"
+S 00AD:0005:0085 type=2 ca=1 "Klassik Radio" "CANAL+"
+S 00F1:2E18:00B0 type=1 ca=1 "Tamazight HD" "CANAL+"
+S 01F5:0384:013E type=1 ca=1 "Iran Int HD" "CANAL+"
+S 01FA:0384:013E type=1 ca=1 "Rudaw HD." "CANAL+"
+S 01FC:0384:013E type=1 ca=1 "Kurdistan 24 HD" "CANAL+"
+S 01FE:0384:013E type=1 ca=1 "Parole di Vita" "CANAL+"
+S 0202:0384:013E type=1 ca=1 "RTL 102,5 HD" "CANAL+"
+S 0203:0384:013E type=1 ca=1 "RadioFreccia HD" "CANAL+"
+S 0204:0384:013E type=1 ca=1 "Radio Zeta HD" "CANAL+"
+S 0205:0384:013E type=1 ca=1 "RTL 102,5 CALIENTE" "CANAL+"
+S 0206:0384:013E type=1 ca=1 "People TV" "CANAL+"
+S 0215:0384:013E type=1 ca=1 "NHK World Japan HD" "CANAL+"
+S 0293:0005:0085 type=1 ca=1 "Handystar TV" "CANAL+"
+S 0295:0021:0085 type=1 ca=1 "AstroTV" "CANAL+"
+S 0296:0005:0085 type=1 ca=1 "1-2-3.tv" "CANAL+"
+S 02C1:1B58:013E type=1 ca=1 "Al Jazeera Doc" "CANAL+"
+S 02C2:1B58:013E type=1 ca=1 "Al Jazeera Mub" "CANAL+"
+S 02C9:1B58:013E type=1 ca=1 "RTP International" "CANAL+"
+S 02E0:1B58:013E type=2 ca=1 "RDS" "CANAL+"
+S 02E1:1B58:013E type=2 ca=1 "DimSuono Roma" "CANAL+"
+S 02E2:1B58:013E type=2 ca=1 "ANNI 60" "CANAL+"
+S 02E4:1B58:013E type=2 ca=1 "Radio Italia Smi" "CANAL+"
+S 02E6:1B58:013E type=2 ca=1 "Radio Kiss Kiss" "CANAL+"
+S 02F9:1B58:013E type=2 ca=1 "Radio Radicale" "CANAL+"
+S 02FC:0005:0085 type=1 ca=1 "Anixe TV" "CANAL+"
+S 0300:1B58:013E type=2 ca=1 "Discoradio" "CANAL+"
+S 0301:0007:0085 type=1 ca=1 "Channel 21" "CANAL+"
+S 0304:0005:0085 type=1 ca=1 "TLC" "CANAL+"
+S 0308:0005:0085 type=1 ca=1 "Sixx" "CANAL+"
+S 030F:1F40:013E type=1 ca=1 "Telesur" "CANAL+"
+S 031E:3BC4:013E type=1 ca=1 "Qatar TV" "CANAL+"
+S 031F:3BC4:013E type=1 ca=1 "TRT Arabi HD" "CANAL+"
+S 0323:3BC4:013E type=1 ca=1 "TRT World HD" "CANAL+"
+S 0326:3BC4:013E type=1 ca=1 "Bahrain TV" "CANAL+"
+S 0327:3BC4:013E type=1 ca=1 "FRANCE 24 FRA." "CANAL+"
+S 0328:3BC4:013E type=1 ca=1 "FRANCE 24 ENG." "CANAL+"
+S 0367:3C28:013E type=1 ca=1 "CCTV-4" "CANAL+"
+S 0368:3C28:013E type=1 ca=1 "CGTN" "CANAL+"
+S 0369:3C28:013E type=1 ca=1 "CGTN Documentary" "CANAL+"
+S 036A:3C28:013E type=1 ca=1 "CGTN E" "CANAL+"
+S 036B:3C28:013E type=1 ca=1 "CGTN F" "CANAL+"
+S 0384:0021:0085 type=1 ca=1 "Sport 1" "CANAL+"
+S 0389:2134:013E type=1 ca=1 "Dubai TV HD" "CANAL+"
+S 038B:2134:013E type=1 ca=1 "Sudan TV" "CANAL+"
+S 0392:2134:013E type=1 ca=1 "Jordan Satellite Channel" "CANAL+"
+S 0393:2134:013E type=2 ca=1 "JORDAN R1" "CANAL+"
+S 0395:2134:013E type=1 ca=1 "Kuwait TV HD" "CANAL+"
+S 0398:2134:013E type=1 ca=1 "Oman TV Satellite" "CANAL+"
+S 039A:2134:013E type=2 ca=1 "Oman English Radio R2" "CANAL+"
+S 04B1:23F0:013E type=1 ca=1 "SBC HD" "CANAL+"
+S 04B5:23F0:013E type=1 ca=1 "Saudi TV 1 HD" "CANAL+"
+S 0516:2E7C:013F type=1 ca=1 "France2" "CANAL+"
+S 0517:2E7C:013F type=1 ca=1 "France3" "CANAL+"
+S 0519:2E7C:013F type=1 ca=1 "France5" "CANAL+"
+S 051B:2E7C:013F type=1 ca=1 "arte HD" "CANAL+"
+S 0522:2E7C:013F type=1 ca=1 "France4" "CANAL+"
+S 0587:170C:013F type=1 ca=1 "BFM TV" "CANAL+"
+S 0641:2454:013E type=1 ca=1 "Al Jazeera HD" "CANAL+"
+S 064D:2454:013E type=1 ca=1 "ACI_sportTV" "CANAL+"
+S 06A5:3138:013E type=1 ca=1 "Algerie 5" "CANAL+"
+S 06A6:3138:013E type=1 ca=1 "TV Tamazight" "CANAL+"
+S 06AA:3138:013E type=1 ca=1 "CCTV News" "CANAL+"
+S 0701:0005:0085 type=1 ca=1 "Disney Channel" "CANAL+"
+S 0702:0005:0085 type=1 ca=1 "QVC" "CANAL+"
+S 070F:32C8:013E type=31 ca=1 "Eleven Sports 1 4K" "CANAL+"
+S 07D4:22C4:013E type=1 ca=1 "Vatican Media Europa" "CANAL+"
+S 07D6:22C4:013E type=1 ca=1 "BBC Brit HD" "CANAL+"
+S 07D9:22C4:013E type=1 ca=1 "Cbeebies" "CANAL+"
+S 07DB:22C4:013E type=1 ca=1 "BBC Lifestyle HD" "CANAL+"
+S 089A:01F4:00FC type=1 ca=1 "CBC" "CANAL+"
+S 08A6:01F4:00FC type=1 ca=1 "Medya Haber" "CANAL+"
+S 08B5:01F4:00FC type=31 ca=1 "Love Nature 4K" "CANAL+"
+S 0C1F:1E78:0071 type=1 ca=1 "FX Comedy HD" "CANAL+"
+S 0C20:1E78:0071 type=1 ca=1 "Polsat Viasat History HD" "CANAL+"
+S 0C22:1E78:0071 type=1 ca=1 "TVP 2 HD" "CANAL+"
+S 0C23:1E78:0071 type=1 ca=1 "Polsat Doku HD" "CANAL+"
+S 0C25:1E78:0071 type=1 ca=1 "AXN HD" "CANAL+"
+S 0C26:1E78:0071 type=1 ca=1 "Cinemax 2 HD" "CANAL+"
+S 0C27:1E78:0071 type=1 ca=1 "FX HD" "CANAL+"
+S 0C2F:1E78:0071 type=1 ca=1 "History HD" "CANAL+"
+S 0C30:1E78:0071 type=1 ca=1 "Crime+Investigation Polsat HD" "CANAL+"
+S 0D49:1450:013E type=1 ca=1 "Rai 1" "CANAL+"
+S 0D4A:1450:013E type=1 ca=1 "Rai 2" "CANAL+"
+S 0D4B:1450:013E type=1 ca=1 "Rai 3" "CANAL+"
+S 0D71:1450:013E type=2 ca=1 "Rai Radio1" "CANAL+"
+S 0D72:1450:013E type=2 ca=1 "Rai Radio2" "CANAL+"
+S 0D73:1450:013E type=2 ca=1 "Rai Radio3" "CANAL+"
+S 0DAD:1F40:013E type=1 ca=1 "TVE International" "CANAL+"
+S 0DAE:1F40:013E type=1 ca=1 "Canal 24 Horas" "CANAL+"
+S 0DFE:1F40:013E type=2 ca=1 "Radio Clasica" "CANAL+"
+S 0DFF:1F40:013E type=2 ca=1 "Radio 3" "CANAL+"
+S 0E00:1F40:013E type=2 ca=1 "Radio 5" "CANAL+"
+S 0E01:1F40:013E type=2 ca=1 "Radio Exterior" "CANAL+"
+S 0E2E:1C20:013E type=2 ca=1 "RADIO FRECCIA" "CANAL+"
+S 0E3A:1C20:013E type=2 ca=1 "RTL 102.5" "CANAL+"
+S 0E3B:1C20:013E type=2 ca=1 "RADIO ZETA" "CANAL+"
+S 0E43:1C20:013E type=2 ca=1 "DEEJAY" "CANAL+"
+S 0E46:1C20:013E type=2 ca=1 "Radio Iglesias" "CANAL+"
+S 1005:0451:0035 type=1 ca=1 "BVN" "CANAL+"
+S 1090:03EE:0001 type=1 ca=1 "TV TRWAM" "CANAL+"
+S 1091:03EE:0001 type=2 ca=1 "Radio Maryja" "CANAL+"
+S 10DD:03E8:013E type=1 ca=1 "Discovery HD" "CANAL+"
+S 10DE:03E8:013E type=1 ca=1 "TLC HD" "CANAL+"
+S 10DF:03E8:013E type=1 ca=1 "Discovery Historia" "CANAL+"
+S 10E0:03E8:013E type=1 ca=1 "Discovery Life HD" "CANAL+"
+S 10E4:03E8:013E type=1 ca=1 "Cartoonito" "CANAL+"
+S 10E5:03E8:013E type=1 ca=1 "CARTOON Network HD" "CANAL+"
+S 10EA:03E8:013E type=1 ca=1 "TVN24 BiS HD" "CANAL+"
+S 10EB:03E8:013E type=1 ca=1 "HGTV" "CANAL+"
+S 1131:2AF8:013E type=1 ca=1 "CANAL+ 360" "CANAL+"
+S 1133:2AF8:013E type=1 ca=1 "BBC FIRST" "CANAL+"
+S 1134:2AF8:013E type=1 ca=1 "BBC Earth HD" "CANAL+"
+S 1136:2AF8:013E type=1 ca=1 "CANAL+ EXTRA 1" "CANAL+"
+S 1138:2AF8:013E type=1 ca=1 "TVP HD" "CANAL+"
+S 1139:2AF8:013E type=1 ca=0 "TVP INFO HD" "CANAL+"
+S 113D:2AF8:013E type=1 ca=1 "CANAL+ DOMO HD" "CANAL+"
+S 113E:2AF8:013E type=1 ca=1 "CANAL+ KUCHNIA" "CANAL+"
+S 113F:2AF8:013E type=25 ca=1 "Hustler HD" "CANAL+"
+S 1140:2AF8:013E type=22 ca=1 "Blue Hustler" "CANAL+"
+S 1141:2AF8:013E type=25 ca=1 "Private HD" "CANAL+"
+S 1142:2AF8:013E type=1 ca=0 "TVP SERIALE" "CANAL+"
+S 1147:2AF8:013E type=25 ca=1 "Hustler HD SBB" "CANAL+"
+S 1148:2AF8:013E type=25 ca=1 "Hustler HD Nova" "CANAL+"
+S 1149:2AF8:013E type=25 ca=1 "Private HD SBB" "CANAL+"
+S 114A:2AF8:013E type=22 ca=1 "Blue Hustler Nova" "CANAL+"
+S 114B:2AF8:013E type=25 ca=1 "Private HD Nova" "CANAL+"
+S 1154:2AF8:013E type=22 ca=1 "Blue Hustler SBB" "CANAL+"
+S 1163:2AF8:013E type=1 ca=1 "CANAL+ 360" "CANAL+"
+S 1168:2AF8:013E type=1 ca=1 "CANAL+ EXTRA 1" "CANAL+"
+S 116D:2AF8:013E type=1 ca=1 "CANAL+ 360" "CANAL+"
+S 116F:2AF8:013E type=1 ca=1 "CANAL+ DOMO HD" "CANAL+"
+S 1170:2AF8:013E type=1 ca=1 "CANAL+ KUCHNIA" "CANAL+"
+S 1177:2AF8:013E type=1 ca=1 "CANAL+ 360" "CANAL+"
+S 118B:2AF8:013E type=12 ca=0 "GDATA" "CANAL+"
+S 118C:2AF8:013E type=12 ca=0 "STB GFR" "CANAL+"
+S 118F:2AF8:013E type=1 ca=1 "DATA" "CANAL+"
+S 1190:2AF8:013E type=132 ca=1 "NETFLIX" "CANAL+"
+S 11FE:2B5C:013E type=1 ca=1 "Simaye Azadi HD" "CANAL+"
+S 1200:2B5C:013E type=1 ca=1 "Daystar HD" "CANAL+"
+S 1325:33F4:013E type=1 ca=1 "KBS World HD" "CANAL+"
+S 1326:33F4:013E type=1 ca=1 "CNBC HD" "CANAL+"
+S 132E:33F4:013E type=1 ca=1 "S. Neu Jerusalem" "CANAL+"
+S 1332:03EF:0001 type=1 ca=1 "ServusTV HD Deu" "CANAL+"
+S 134C:03EF:0001 type=2 ca=1 "ORF RADIO OE1" "CANAL+"
+S 134D:03EF:0001 type=2 ca=1 "ORF RADIO FM4" "CANAL+"
+S 134E:03EF:0001 type=2 ca=1 "ORF RADIO WIEN" "CANAL+"
+S 134F:03EF:0001 type=2 ca=1 "ORF RADIO NOE" "CANAL+"
+S 1350:03EF:0001 type=2 ca=1 "ORF RADIO B" "CANAL+"
+S 1351:03EF:0001 type=2 ca=1 "ORF RADIO OOE" "CANAL+"
+S 1352:03EF:0001 type=2 ca=1 "ORF RADIO S" "CANAL+"
+S 1353:03EF:0001 type=2 ca=1 "ORF RADIO T" "CANAL+"
+S 1354:03EF:0001 type=2 ca=1 "ORF RADIO V" "CANAL+"
+S 1355:03EF:0001 type=2 ca=1 "ORF RADIO STMK" "CANAL+"
+S 1356:03EF:0001 type=2 ca=1 "ORF RADIO K" "CANAL+"
+S 1357:03EF:0001 type=2 ca=1 "ORF RADIO OE1 DOLBY" "CANAL+"
+S 1361:33F4:013E type=1 ca=1 "Canale Italia 83" "CANAL+"
+S 1366:33F4:013E type=1 ca=1 "Canale Italia 2" "CANAL+"
+S 1382:33F4:013E type=1 ca=1 "Telecupole" "CANAL+"
+S 1389:03EA:0001 type=1 ca=1 "BBC World News" "CANAL+"
+S 139D:03EA:0001 type=1 ca=1 "NHK World TV" "CANAL+"
+S 13F1:05DC:013E type=1 ca=1 "TV Puls HD." "CANAL+"
+S 13F2:05DC:013E type=1 ca=1 "Puls 2 HD." "CANAL+"
+S 13F3:05DC:013E type=1 ca=1 "WP." "CANAL+"
+S 13F4:05DC:013E type=1 ca=1 "HBO2 HD" "CANAL+"
+S 13F6:05DC:013E type=1 ca=1 "National Geographic Wild HD" "CANAL+"
+S 13F7:05DC:013E type=1 ca=1 "TVP 3" "CANAL+"
+S 13F9:05DC:013E type=1 ca=1 "HBO3 HD" "CANAL+"
+S 13FB:05DC:013E type=1 ca=1 "StudioMed TV" "CANAL+"
+S 13FC:05DC:013E type=1 ca=1 "TeenNick" "CANAL+"
+S 13FD:05DC:013E type=1 ca=1 "Viasat True Crime" "CANAL+"
+S 13FE:05DC:013E type=1 ca=1 "AXN Spin HD" "CANAL+"
+S 13FF:05DC:013E type=1 ca=1 "Active Family" "CANAL+"
+S 1401:05DC:013E type=1 ca=1 "AMC HD" "CANAL+"
+S 1403:05DC:013E type=1 ca=1 "TVS" "CANAL+"
+S 140B:05DC:013E type=1 ca=1 "ADVENTURE HD" "CANAL+"
+S 140C:05DC:013E type=1 ca=1 "ANTENA" "CANAL+"
+S 140D:05DC:013E type=1 ca=1 "HOME TV" "CANAL+"
+S 140E:05DC:013E type=1 ca=1 "NUTA GOLD" "CANAL+"
+S 140F:05DC:013E type=1 ca=1 "NUTA.TV" "CANAL+"
+S 1410:05DC:013E type=1 ca=1 "Power TV" "CANAL+"
+S 1411:05DC:013E type=1 ca=1 "SZLAGIER TV" "CANAL+"
+S 1412:05DC:013E type=1 ca=1 "TVC" "CANAL+"
+S 1413:05DC:013E type=1 ca=1 "TVC SUPER" "CANAL+"
+S 1419:05DC:013E type=2 ca=1 "Radio Jasna Góra" "CANAL+"
+S 14BD:0407:0001 type=1 ca=1 "Shop LC" "CANAL+"
+S 14BE:0407:0001 type=1 ca=1 "SAT.1 Gold Osterreich" "CANAL+"
+S 14BF:0407:0001 type=1 ca=1 "Pro7 MAXX Austria" "CANAL+"
+S 14C0:0407:0001 type=1 ca=1 "Kabel 1 Doku Austria" "CANAL+"
+S 1518:0455:0001 type=1 ca=1 "sonnenklar.TV HD" "CANAL+"
+S 151B:0455:0001 type=1 ca=1 "Juwelo HD" "CANAL+"
+S 151C:0455:0001 type=1 ca=1 "pearl.tv" "CANAL+"
+S 157D:041F:0001 type=1 ca=1 "HSE24 EXTRA HD" "CANAL+"
+S 157E:041F:0001 type=1 ca=1 "1-2-3.tv HD" "CANAL+"
+S 1580:041F:0001 type=1 ca=1 "QVC PLUS HD" "CANAL+"
+S 1647:042C:0001 type=1 ca=1 "Cubavision International" "CANAL+"
+S 16A9:03FF:0001 type=1 ca=1 "munchen.tv HD" "CANAL+"
+S 16AA:03FF:0001 type=1 ca=1 "RFO" "CANAL+"
+S 16AB:03FF:0001 type=1 ca=1 "a.tv HD" "CANAL+"
+S 16AC:03FF:0001 type=1 ca=1 "intv HD" "CANAL+"
+S 16AF:03FF:0001 type=1 ca=1 "Niederbayern TV HD" "CANAL+"
+S 16B0:03FF:0001 type=1 ca=1 "TVA-OTV HD" "CANAL+"
+S 16B1:03FF:0001 type=1 ca=1 "Franken Plus HD" "CANAL+"
+S 17D5:042A:0001 type=1 ca=1 "CNN Int." "CANAL+"
+S 18F4:03F4:0001 type=1 ca=1 "EURONEWS GERMAN" "CANAL+"
+S 1AF9:03FE:0001 type=1 ca=1 "France 24 Fra." "CANAL+"
+S 1AFA:03FE:0001 type=1 ca=1 "France 24 Eng." "CANAL+"
+S 1B03:03FE:0001 type=1 ca=1 "TV5 MONDE EUROPE" "CANAL+"
+S 1C20:0457:0001 type=1 ca=1 "Bloomberg TV" "CANAL+"
+S 1C22:1C20:013E type=1 ca=1 "Tunisie Nationale" "CANAL+"
+S 1C53:1C20:013E type=2 ca=1 "Tunezja Internationale" "CANAL+"
+S 1C56:1C20:013E type=1 ca=1 "SMtv San Marino HD" "CANAL+"
+S 1C7A:0457:0001 type=1 ca=1 "Sky News" "CANAL+"
+S 1C86:1CE8:0071 type=1 ca=1 "AXN White" "CANAL+"
+S 1C86:332C:013E type=1 ca=1 "Bloomberg TV Europe" "CANAL+"
+S 1C87:1CE8:0071 type=1 ca=1 "AXN Black" "CANAL+"
+S 1C8A:332C:013E type=1 ca=1 "Al Jazeera English HD" "CANAL+"
+S 1C8C:1CE8:0071 type=1 ca=1 "Disco Polo Music" "CANAL+"
+S 1C8C:332C:013E type=1 ca=1 "ARMPUB TV" "CANAL+"
+S 1C8D:1CE8:0071 type=1 ca=1 "TV OKAZJE" "CANAL+"
+S 1C8F:1CE8:0071 type=1 ca=1 "Polsat Rodzina HD" "CANAL+"
+S 1C98:1CE8:0071 type=2 ca=1 "RMF FM" "CANAL+"
+S 1CA4:1CE8:0071 type=2 ca=1 "RMF Classic" "CANAL+"
+S 1CA8:1CE8:0071 type=2 ca=1 "RMF MAXXX" "CANAL+"
+S 1CAC:1CE8:0071 type=1 ca=1 "Polsat Seriale HD" "CANAL+"
+S 1CAD:1CE8:0071 type=1 ca=1 "Polsat Seriale HD" "CANAL+"
+S 1CB5:1CE8:0071 type=1 ca=1 "Disney XD" "CANAL+"
+S 1CB6:1CE8:0071 type=1 ca=1 "Disney Channel HD" "CANAL+"
+S 1CB7:1CE8:0071 type=1 ca=1 "Polsat Jim Jam" "CANAL+"
+S 1CBE:1CE8:0071 type=1 ca=1 "Polsat News Polityka" "CANAL+"
+S 1CCA:1CE8:0071 type=1 ca=1 "Polsat Viasat Explore HD" "CANAL+"
+S 1EFB:0457:0001 type=2 ca=1 "RTL RADIO" "CANAL+"
+S 2146:3070:013E type=1 ca=1 "Rai Storia" "CANAL+"
+S 2147:3070:013E type=1 ca=1 "Camera Deputati" "CANAL+"
+S 2149:3070:013E type=1 ca=1 "Rai Scuola" "CANAL+"
+S 22C6:0434:0001 type=1 ca=1 "TV5 Monde FBS HD" "CANAL+"
+S 232B:2328:013E type=1 ca=1 "Ronahi TV" "CANAL+"
+S 232C:2328:013E type=1 ca=1 "Med Music" "CANAL+"
+S 2331:0442:0001 type=1 ca=1 "LCI HD" "CANAL+"
+S 2331:2328:013E type=1 ca=1 "Angel TV Europe" "CANAL+"
+S 2332:2328:013E type=1 ca=1 "BogBlagTV" "CANAL+"
+S 2333:2328:013E type=1 ca=1 "Sterk TV HD" "CANAL+"
+S 2334:2328:013E type=1 ca=1 "CIRA TV" "CANAL+"
+S 2336:0442:0001 type=1 ca=1 "Cnews HD" "CANAL+"
+S 2336:2328:013E type=1 ca=1 "Paci Contemporary Channel" "CANAL+"
+S 2338:2328:013E type=1 ca=1 "Somaliland National TV" "CANAL+"
+S 233A:2328:013E type=1 ca=1 "The Kingdom Sat" "CANAL+"
+S 233C:2328:013E type=1 ca=1 "TBN Europe" "CANAL+"
+S 233E:2328:013E type=1 ca=1 "Euronews HD" "CANAL+"
+S 23B4:0446:0001 type=2 ca=1 "FUN RADIO" "CANAL+"
+S 23C1:0446:0001 type=2 ca=1 "LE MOUV'" "CANAL+"
+S 23C2:0446:0001 type=2 ca=1 "FRANCE MUSIQUE" "CANAL+"
+S 23C3:0446:0001 type=2 ca=1 "FIP" "CANAL+"
+S 23C4:0446:0001 type=2 ca=1 "FRANCE INFO" "CANAL+"
+S 23C5:0446:0001 type=2 ca=1 "FRANCE INTER" "CANAL+"
+S 23C7:0446:0001 type=2 ca=1 "FRANCE BLEU IDF" "CANAL+"
+S 23CB:0446:0001 type=2 ca=1 "RFI INT" "CANAL+"
+S 23CC:0446:0001 type=2 ca=1 "RADIO CLASSIQUE" "CANAL+"
+S 23CD:0446:0001 type=2 ca=1 "RTL" "CANAL+"
+S 23CE:0446:0001 type=2 ca=1 "EUROPE 1" "CANAL+"
+S 23D0:0446:0001 type=2 ca=1 "RIRE & CHANSONS" "CANAL+"
+S 23D7:0446:0001 type=2 ca=1 "TSF JAZZ" "CANAL+"
+S 23D9:0446:0001 type=2 ca=1 "JAZZ RADIO" "CANAL+"
+S 23DA:0446:0001 type=2 ca=1 "NOVA" "CANAL+"
+S 23DB:0446:0001 type=2 ca=1 "RADIO FG" "CANAL+"
+S 23DC:0446:0001 type=2 ca=1 "CONTACT FM" "CANAL+"
+S 23DD:0446:0001 type=2 ca=1 "NOSTALGIE" "CANAL+"
+S 23DE:0446:0001 type=2 ca=1 "NRJ" "CANAL+"
+S 23DF:0446:0001 type=2 ca=1 "RFM" "CANAL+"
+S 23E0:0446:0001 type=2 ca=1 "Radio R101" "CANAL+"
+S 23E1:0446:0001 type=2 ca=1 "CHERIE FM" "CANAL+"
+S 23E2:0446:0001 type=2 ca=1 "RTL 2" "CANAL+"
+S 23E3:0446:0001 type=2 ca=1 "SKYROCK" "CANAL+"
+S 23EE:0446:0001 type=2 ca=1 "BEUR FM" "CANAL+"
+S 245C:0440:0001 type=1 ca=1 "LCP HD" "CANAL+"
+S 2520:13EF:013E type=1 ca=1 "Sharjah HD" "CANAL+"
+S 2525:13EF:013E type=1 ca=1 "ZAD TV" "CANAL+"
+S 2526:13EF:013E type=1 ca=1 "AL SHARQIYA" "CANAL+"
+S 2529:13EF:013E type=1 ca=1 "Al-Arabiya" "CANAL+"
+S 252C:13EF:013E type=1 ca=1 "Sky News Arabia" "CANAL+"
+S 252F:13EF:013E type=1 ca=1 "Asharq News Channel HD" "CANAL+"
+S 2775:0409:0001 type=1 ca=1 "BILD HD" "CANAL+"
+S 2776:0409:0001 type=1 ca=1 "Handystar TV HD" "CANAL+"
+S 2778:0409:0001 type=1 ca=1 "Channel 21" "CANAL+"
+S 2779:0409:0001 type=1 ca=1 "QVC Beaty Style HD" "CANAL+"
+S 283D:03FB:0001 type=1 ca=1 "Das Erste HD" "CANAL+"
+S 283E:03FB:0001 type=1 ca=1 "ARTE HD " "CANAL+"
+S 283F:03FB:0001 type=1 ca=1 "SWR Baden-W. HD" "CANAL+"
+S 2840:03FB:0001 type=1 ca=1 "SWR Rheinland-P HD" "CANAL+"
+S 2855:0401:0001 type=1 ca=1 "BR Sud HD" "CANAL+"
+S 2856:0401:0001 type=1 ca=1 "BR Nord HD" "CANAL+"
+S 2857:0401:0001 type=1 ca=1 "NDR FS NDS HD" "CANAL+"
+S 285B:0401:0001 type=1 ca=1 "phoenix HD" "CANAL+"
+S 286E:0425:0001 type=1 ca=1 "rbb Brandenburg HD" "CANAL+"
+S 286F:0425:0001 type=1 ca=1 "rbb Berlin HD" "CANAL+"
+S 2870:0425:0001 type=1 ca=1 "MDR Sachsen HD" "CANAL+"
+S 2871:0425:0001 type=1 ca=1 "MDR S-Anhalt HD" "CANAL+"
+S 2872:0425:0001 type=1 ca=1 "MDR Thuringen HD" "CANAL+"
+S 2873:0425:0001 type=1 ca=1 "hr-fernsehen HD" "CANAL+"
+S 2887:040F:0001 type=1 ca=1 "tagesschau24 HD" "CANAL+"
+S 2888:040F:0001 type=1 ca=1 "ONE HD" "CANAL+"
+S 2889:040F:0001 type=1 ca=1 "ARD Alpha" "CANAL+"
+S 288A:040F:0001 type=1 ca=1 "SR Fernsehen" "CANAL+"
+S 28A0:040F:0001 type=2 ca=1 "Bayern 1" "CANAL+"
+S 28A1:040F:0001 type=2 ca=1 "Bayern 2" "CANAL+"
+S 28A2:040F:0001 type=2 ca=1 "Bayern 3" "CANAL+"
+S 28A3:040F:0001 type=2 ca=1 "BR-Klassik" "CANAL+"
+S 28AC:040F:0001 type=2 ca=1 "NDR 2 NDS" "CANAL+"
+S 28AD:040F:0001 type=2 ca=1 "NDR Kultur" "CANAL+"
+S 28AE:040F:0001 type=2 ca=1 "NDR Info NDS" "CANAL+"
+S 28AF:040F:0001 type=2 ca=1 "N-JOY" "CANAL+"
+S 28B0:040F:0001 type=2 ca=1 "NDR 90,3" "CANAL+"
+S 28C0:040F:0001 type=2 ca=1 "SR 1 Europawelle" "CANAL+"
+S 28CA:040F:0001 type=2 ca=1 "SWR2" "CANAL+"
+S 28CF:040F:0001 type=2 ca=1 "SWR Aktuell" "CANAL+"
+S 28D5:040F:0001 type=2 ca=1 "WDR 3" "CANAL+"
+S 28D7:040F:0001 type=2 ca=1 "WDR 5" "CANAL+"
+S 28D8:040F:0001 type=2 ca=1 "COSMO" "CANAL+"
+S 28E1:0425:0001 type=2 ca=1 "hr1" "CANAL+"
+S 28E2:0425:0001 type=2 ca=1 "hr2" "CANAL+"
+S 28E3:0425:0001 type=2 ca=1 "hr3" "CANAL+"
+S 28E4:0425:0001 type=2 ca=1 "hr4" "CANAL+"
+S 28E5:0425:0001 type=2 ca=1 "YOU FM" "CANAL+"
+S 28E6:0425:0001 type=2 ca=1 "hr-info" "CANAL+"
+S 28EA:0425:0001 type=2 ca=1 "MDR1 SACHSEN DD" "CANAL+"
+S 28EB:0425:0001 type=2 ca=1 "MDR1 S-ANHALT" "CANAL+"
+S 28EC:0425:0001 type=2 ca=1 "MDR1 THUR Mitte-W" "CANAL+"
+S 28ED:0425:0001 type=2 ca=1 "MDR KULTUR" "CANAL+"
+S 28EE:0425:0001 type=2 ca=1 "MDR JUMP" "CANAL+"
+S 28EF:0425:0001 type=2 ca=1 "MDR SPUTNIK" "CANAL+"
+S 28F0:0425:0001 type=2 ca=1 "MDR AKTUELL" "CANAL+"
+S 28F1:0425:0001 type=2 ca=1 "MDR KLASSIK" "CANAL+"
+S 28F7:0425:0001 type=2 ca=1 "rbb 88.8" "CANAL+"
+S 28F9:0425:0001 type=2 ca=1 "Fritz" "CANAL+"
+S 2907:1EDC:0071 type=1 ca=1 "Nat Geo People HD" "CANAL+"
+S 2908:1EDC:0071 type=1 ca=1 "Polsat Viasat Nature HD" "CANAL+"
+S 2909:1EDC:0071 type=1 ca=1 "ESKA ROCK TV HD" "CANAL+"
+S 290A:1EDC:0071 type=1 ca=1 "Extreme Channel" "CANAL+"
+S 290B:1EDC:0071 type=1 ca=1 "ZERO" "CANAL+"
+S 290C:1EDC:0071 type=1 ca=1 "Wydarzenia 24" "CANAL+"
+S 290D:1EDC:0071 type=1 ca=1 "ESKA TV EXTRA HD" "CANAL+"
+S 290E:1EDC:0071 type=1 ca=1 "HBO HD" "CANAL+"
+S 2910:1EDC:0071 type=1 ca=1 "VOX MUSIC TV HD" "CANAL+"
+S 2914:1EDC:0071 type=1 ca=1 "MANGO" "CANAL+"
+S 2938:1EDC:0071 type=1 ca=1 "Disney Junior" "CANAL+"
+S 29D1:1C20:013E type=1 ca=1 "EWTN English" "CANAL+"
+S 2B66:03F3:0001 type=1 ca=1 "ZDF HD" "CANAL+"
+S 2B7A:03F3:0001 type=1 ca=1 "zdf_neo HD" "CANAL+"
+S 2B8E:03F2:0001 type=1 ca=1 "3sat HD" "CANAL+"
+S 2B98:03F2:0001 type=1 ca=1 "KiKA HD" "CANAL+"
+S 2BA2:03F2:0001 type=1 ca=1 "ZDFinfo HD" "CANAL+"
+S 2EE3:0441:0001 type=1 ca=1 "RTL Television" "CANAL+"
+S 2EF4:0441:0001 type=1 ca=1 "RTL2" "CANAL+"
+S 2EFE:0441:0001 type=1 ca=1 "TOGGO plus" "CANAL+"
+S 2F08:0441:0001 type=1 ca=1 "SUPER RTL" "CANAL+"
+S 2F1C:0441:0001 type=1 ca=1 "VOX" "CANAL+"
+S 2F1D:0441:0001 type=1 ca=1 "RTLNITRO" "CANAL+"
+S 2F30:0441:0001 type=1 ca=1 "RTL Plus" "CANAL+"
+S 2F3A:0441:0001 type=1 ca=1 "n-tv" "CANAL+"
+S 2F69:0454:0001 type=1 ca=1 "Canal Algerie 2" "CANAL+"
+S 313C:0459:0001 type=1 ca=1 "Deutsches Musik" "CANAL+"
+S 32CB:0190:013E type=1 ca=1 "Ale kino+ HD" "CANAL+"
+S 32CD:0190:013E type=1 ca=1 "CANAL+ Now HD" "CANAL+"
+S 32CE:0190:013E type=1 ca=1 "CANAL+ FILM HD" "CANAL+"
+S 32D7:0190:013E type=1 ca=1 "TVP Kultura HD" "CANAL+"
+S 32DB:0190:013E type=31 ca=1 "CANAL+ 4K ULTRA HD" "CANAL+"
+S 32DC:0190:013E type=1 ca=1 "CANAL+ PREMIUM HD" "CANAL+"
+S 32DE:0190:013E type=1 ca=1 "CANAL+ SPORT HD" "CANAL+"
+S 32DF:0190:013E type=1 ca=1 "National Geographic HD" "CANAL+"
+S 32E0:0190:013E type=1 ca=1 "MiniMini+ HD" "CANAL+"
+S 32E3:0190:013E type=1 ca=1 "CANAL+ EXTRA 3" "CANAL+"
+S 32E4:0190:013E type=1 ca=1 "CANAL+ EXTRA 4" "CANAL+"
+S 32F0:0190:013E type=1 ca=1 "CANAL+ PREMIUM HD" "CANAL+"
+S 32F8:0190:013E type=1 ca=1 " " "CANAL+"
+S 32F9:0190:013E type=1 ca=1 " " "CANAL+"
+S 32FA:0190:013E type=1 ca=1 "CANAL+ PREMIUM HD" "CANAL+"
+S 32FC:0190:013E type=1 ca=1 "CANAL+ SPORT HD" "CANAL+"
+S 32FD:0190:013E type=1 ca=1 "Ale kino+ HD" "CANAL+"
+S 32FE:0190:013E type=1 ca=1 "MiniMini+ HD" "CANAL+"
+S 3300:0190:013E type=1 ca=1 "CANAL+ FILM HD" "CANAL+"
+S 3308:0190:013E type=1 ca=1 "MiniMini+ HD" "CANAL+"
+S 330D:0190:013E type=31 ca=1 "CANAL+ 4K ULTRA HD" "CANAL+"
+S 3315:0190:013E type=1 ca=1 "CANAL+ EXTRA 3" "CANAL+"
+S 3316:0190:013E type=1 ca=1 "CANAL+ EXTRA 4" "CANAL+"
+S 331B:0190:013E type=1 ca=1 "Ale kino+ HD" "CANAL+"
+S 3322:0190:013E type=1 ca=1 "CANAL+ PREMIUM HD" "CANAL+"
+S 3324:0190:013E type=1 ca=1 "CANAL+ SPORT HD" "CANAL+"
+S 332A:0190:013E type=1 ca=1 " " "CANAL+"
+S 332B:0190:013E type=1 ca=1 " " "CANAL+"
+S 332D:1388:013E type=1 ca=1 "DW - TV Europe HD" "CANAL+"
+S 332E:1388:013E type=1 ca=1 "BBC Arabic HD" "CANAL+"
+S 332F:045B:0001 type=1 ca=1 "Welt der Wunder" "CANAL+"
+S 3330:045B:0001 type=1 ca=1 "L-TV/TVM" "CANAL+"
+S 3330:1388:013E type=1 ca=1 "BBC News" "CANAL+"
+S 3332:045B:0001 type=1 ca=1 "Shop LC" "CANAL+"
+S 3332:1388:013E type=1 ca=1 "Arirang TV HD" "CANAL+"
+S 3333:045B:0001 type=1 ca=1 "Visit-X TV" "CANAL+"
+S 3333:3390:0071 type=1 ca=1 "Polsat News 2" "CANAL+"
+S 3336:045B:0001 type=1 ca=1 "Servus TV" "CANAL+"
+S 3339:045B:0001 type=1 ca=1 "L TV" "CANAL+"
+S 3348:1388:013E type=2 ca=1 "BBC Europe" "CANAL+"
+S 334A:1388:013E type=2 ca=1 "RFI" "CANAL+"
+S 3354:045B:0001 type=2 ca=1 "Radio Maria A" "CANAL+"
+S 3355:045B:0001 type=1 ca=1 "TV1 OOE" "CANAL+"
+S 3358:1388:013E type=2 ca=1 "RFI Persian" "CANAL+"
+S 3391:3390:0071 type=1 ca=1 "Polsat HD" "CANAL+"
+S 3392:3390:0071 type=1 ca=1 "Polsat Play HD" "CANAL+"
+S 3393:3390:0071 type=1 ca=1 "TV4 HD" "CANAL+"
+S 3394:3390:0071 type=1 ca=1 "TV6 HD" "CANAL+"
+S 3396:3390:0071 type=1 ca=1 "Polsat Cafe HD" "CANAL+"
+S 3398:3390:0071 type=1 ca=1 "Polsat Film HD" "CANAL+"
+S 3399:3390:0071 type=1 ca=1 "Polsat News HD" "CANAL+"
+S 339A:3390:0071 type=1 ca=1 "Polsat 2 HD" "CANAL+"
+S 339B:3390:0071 type=1 ca=1 "Super Polsat HD" "CANAL+"
+S 33A8:03EB:0001 type=1 ca=1 "Bibel TV HD" "CANAL+"
+S 33A8:3390:0071 type=1 ca=1 "Polsat Film HD" "CANAL+"
+S 33AB:03EB:0001 type=1 ca=1 "HOPE Channel HD" "CANAL+"
+S 33AB:3390:0071 type=1 ca=1 "Super Polsat HD" "CANAL+"
+S 33AD:03EB:0001 type=1 ca=1 "RTL up Austria" "CANAL+"
+S 33B8:3390:0071 type=1 ca=1 "Polsat Film HD" "CANAL+"
+S 33BB:3390:0071 type=1 ca=1 "Super Polsat HD" "CANAL+"
+S 3400:03ED:0001 type=1 ca=1 "R9 Österreich HD" "CANAL+"
+S 3402:03ED:0001 type=1 ca=1 "oe24.TV" "CANAL+"
+S 3405:03ED:0001 type=1 ca=1 "Melodie Express" "CANAL+"
+S 3783:044C:013E type=1 ca=1 "CANAL+ EXTRA 2" "CANAL+"
+S 3784:044C:013E type=1 ca=1 "Kino Polska HD" "CANAL+"
+S 3785:044C:013E type=1 ca=1 "Kino Polska Muzyka" "CANAL+"
+S 3786:044C:013E type=1 ca=1 "FILMBOX+ action" "CANAL+"
+S 3787:044C:013E type=1 ca=1 "FILMBOX+ emotion" "CANAL+"
+S 3788:044C:013E type=1 ca=1 "FILMBOX+ comedy" "CANAL+"
+S 3789:044C:013E type=1 ca=1 "FILMBOX+ hits" "CANAL+"
+S 378A:044C:013E type=1 ca=1 "FILMBOX+ one" "CANAL+"
+S 37A1:044C:013E type=1 ca=1 "Hustler HD." "CANAL+"
+S 37A2:044C:013E type=1 ca=1 "Blue Hustler." "CANAL+"
+S 37A3:044C:013E type=1 ca=1 "Private TV HD." "CANAL+"
+S 37B5:044C:013E type=1 ca=1 "CANAL+ EXTRA 2" "CANAL+"
+S 37B6:044C:013E type=1 ca=1 "Kino Polska HD" "CANAL+"
+S 37BC:044C:013E type=1 ca=1 "FILMBOX+ one" "CANAL+"
+S 37C8:044C:013E type=1 ca=1 "SERWISY INT." "CANAL+"
+S 37CD:044C:013E type=1 ca=1 " " "CANAL+"
+S 37DB:044C:013E type=1 ca=1 " " "CANAL+"
+S 39D9:1FA4:013E type=1 ca=1 "SonLife" "CANAL+"
+S 3A99:0514:013E type=1 ca=1 "Planete+ HD" "CANAL+"
+S 3A9A:0514:013E type=1 ca=1 "NOVELAS+" "CANAL+"
+S 3A9B:0514:013E type=1 ca=1 "teleTOON+ HD" "CANAL+"
+S 3A9C:0514:013E type=1 ca=1 "CANAL+ SPORT 2 HD" "CANAL+"
+S 3A9E:0514:013E type=1 ca=1 "TVP Sport HD" "CANAL+"
+S 3A9F:0514:013E type=1 ca=1 "Cinemax HD" "CANAL+"
+S 3AA0:0514:013E type=1 ca=1 "CANAL+ SPORT 3 HD" "CANAL+"
+S 3AA1:0514:013E type=1 ca=1 "CANAL+ SPORT 4 HD" "CANAL+"
+S 3AA5:0514:013E type=1 ca=1 "CANAL+ SPORT 5 HD" "CANAL+"
+S 3AA6:0514:013E type=1 ca=1 "CANAL+ SPORT 6" "CANAL+"
+S 3AB9:0514:013E type=1 ca=1 "CANAL+ SPORT 5 HD" "CANAL+"
+S 3ABD:0514:013E type=1 ca=1 "TVP 1 HD" "CANAL+"
+S 3ABE:0514:013E type=1 ca=1 "Romance TV HD" "CANAL+"
+S 3ACB:0514:013E type=1 ca=1 "Planete+ HD" "CANAL+"
+S 3ACC:0514:013E type=1 ca=1 "NOVELAS+" "CANAL+"
+S 3ACD:0514:013E type=1 ca=1 "teleTOON+ HD" "CANAL+"
+S 3ACE:0514:013E type=1 ca=1 "CANAL+ SPORT 2 HD" "CANAL+"
+S 3AD2:0514:013E type=1 ca=1 "CANAL+ SPORT 3 HD" "CANAL+"
+S 3AD3:0514:013E type=1 ca=1 "CANAL+ SPORT 4 HD" "CANAL+"
+S 3AD6:0514:013E type=1 ca=1 "NOVELAS+" "CANAL+"
+S 3AD7:0514:013E type=1 ca=1 "teleTOON+ HD" "CANAL+"
+S 3AD8:0514:013E type=1 ca=1 "CANAL+ SPORT 6" "CANAL+"
+S 3AE1:0514:013E type=1 ca=1 "CANAL+ SPORT 5 HD" "CANAL+"
+S 3AE2:0514:013E type=1 ca=1 "CANAL+ SPORT 2 HD" "CANAL+"
+S 3AEC:0514:013E type=1 ca=1 "CANAL+ SPORT 6" "CANAL+"
+S 3AF0:0514:013E type=1 ca=1 "CANAL+ SPORT 3 HD" "CANAL+"
+S 3AF1:0514:013E type=1 ca=1 "CANAL+ SPORT 4 HD" "CANAL+"
+S 3B66:012C:013E type=1 ca=1 "Animal Planet HD" "CANAL+"
+S 3B67:012C:013E type=1 ca=1 "Eurosport 1 HD" "CANAL+"
+S 3B68:012C:013E type=1 ca=1 "Eurosport 2 HD" "CANAL+"
+S 3B69:012C:013E type=1 ca=1 "ID HD" "CANAL+"
+S 3B6A:012C:013E type=1 ca=1 "Discovery Science HD" "CANAL+"
+S 3B6B:012C:013E type=1 ca=1 "DTX" "CANAL+"
+S 3B6D:012C:013E type=1 ca=1 "CNN HD" "CANAL+"
+S 3D55:2C88:013E type=1 ca=1 "CANAL+ 1 HD" "CANAL+"
+S 3D56:2C88:013E type=1 ca=1 "Motowizja HD" "CANAL+"
+S 3D57:2C88:013E type=1 ca=1 "CANAL+ SERIALE HD" "CANAL+"
+S 3D58:2C88:013E type=1 ca=1 "CANAL+ DOKUMENT HD" "CANAL+"
+S 3D5A:2C88:013E type=1 ca=1 "WP" "CANAL+"
+S 3D5E:2C88:013E type=1 ca=1 "Puls 2 HD" "CANAL+"
+S 3D5F:2C88:013E type=1 ca=1 "TVP ABC" "CANAL+"
+S 3D66:2C88:013E type=1 ca=1 "TV Puls HD" "CANAL+"
+S 3D67:2C88:013E type=1 ca=1 "TVP Historia" "CANAL+"
+S 3D69:2C88:013E type=1 ca=1 "Eleven Sports 1 HD" "CANAL+"
+S 3D6A:2C88:013E type=1 ca=1 "Eleven Sports 2 HD" "CANAL+"
+S 3D6B:2C88:013E type=1 ca=1 "Eleven Sports 3 HD" "CANAL+"
+S 3D6C:2C88:013E type=1 ca=1 "Eleven Sports 4 HD" "CANAL+"
+S 3D6E:2C88:013E type=1 ca=1 "StudioMed TV." "CANAL+"
+S 3D75:2C88:013E type=1 ca=1 "HOME TV." "CANAL+"
+S 3D76:2C88:013E type=1 ca=1 "NUTA GOLD." "CANAL+"
+S 3D77:2C88:013E type=1 ca=1 "NUTA.TV." "CANAL+"
+S 3D78:2C88:013E type=1 ca=1 "Power TV." "CANAL+"
+S 3D87:2C88:013E type=1 ca=1 "CANAL+ 1 HD" "CANAL+"
+S 3D89:2C88:013E type=1 ca=1 "CANAL+ SERIALE HD" "CANAL+"
+S 3D8A:2C88:013E type=1 ca=1 "CANAL+ DOKUMENT HD" "CANAL+"
+S 3DAE:2C88:013E type=1 ca=1 "TV RACHUNEK" "CANAL+"
+S 3DCD:0640:013E type=1 ca=1 "TVN HD" "CANAL+"
+S 3DCE:0640:013E type=1 ca=1 "TVN Style HD" "CANAL+"
+S 3DD0:0640:013E type=1 ca=1 "TVN Turbo HD" "CANAL+"
+S 3DD2:0640:013E type=1 ca=1 "TVN 24 HD" "CANAL+"
+S 3DD3:0640:013E type=1 ca=1 "TVN 7 HD" "CANAL+"
+S 3DD4:0640:013E type=1 ca=1 "Metro" "CANAL+"
+S 3DD5:0640:013E type=1 ca=1 "Warner TV" "CANAL+"
+S 3DD6:0640:013E type=1 ca=1 "TVN Fabula HD" "CANAL+"
+S 3DD7:0640:013E type=1 ca=1 "TTV HD" "CANAL+"
+S 3DD8:0640:013E type=1 ca=1 "Travel Channel HD" "CANAL+"
+S 3DD9:0640:013E type=1 ca=1 "Food Network" "CANAL+"
+S 3DED:0640:013E type=1 ca=1 "TVN 24 HD" "CANAL+"
+S 3E1D:2EE0:013E type=1 ca=1 "Sundance TV HD" "CANAL+"
+S 3E1E:2EE0:013E type=1 ca=1 "E! Entertainment HD" "CANAL+"
+S 3E20:2EE0:013E type=1 ca=1 "Sci fi HD" "CANAL+"
+S 3E22:2EE0:013E type=1 ca=1 "HISTORY 2 HD" "CANAL+"
+S 3E23:2EE0:013E type=1 ca=1 "Golf Zone" "CANAL+"
+S 3E24:2EE0:013E type=1 ca=1 "FightBox HD" "CANAL+"
+S 3E26:2EE0:013E type=1 ca=1 "13 Ulica HD" "CANAL+"
+S 4206:2F44:013E type=1 ca=1 "Dorcel TV" "CANAL+"
+S 421A:3DB8:013E type=1 ca=1 "TRM Network" "CANAL+"
+S 421C:2F44:013E type=1 ca=1 "FREEDOM" "CANAL+"
+S 4224:3DB8:013E type=1 ca=1 "Redlight HD" "CANAL+"
+S 422B:2F44:013E type=1 ca=1 "Mezzo" "CANAL+"
+S 422D:2F44:013E type=1 ca=1 "Class TV Moda" "CANAL+"
+S 4232:2F44:013E type=1 ca=1 "CTV - DLA CIEBIE" "CANAL+"
+S 4238:3DB8:013E type=1 ca=1 "Padre Pio TV" "CANAL+"
+S 4239:2F44:013E type=1 ca=1 "TVP Polonia HD" "CANAL+"
+S 423B:3DB8:013E type=1 ca=1 "Tele5" "CANAL+"
+S 423C:3DB8:013E type=1 ca=1 "Polonia 1" "CANAL+"
+S 4241:3DB8:013E type=1 ca=1 "TVR International" "CANAL+"
+S 4242:3DB8:013E type=1 ca=1 "Radio Italia TV HD" "CANAL+"
+S 4243:3DB8:013E type=1 ca=1 "Unire Sat HD" "CANAL+"
+S 4246:3DB8:013E type=1 ca=1 "Radio Italia Trend TV HD" "CANAL+"
+S 4250:3DB8:013E type=1 ca=1 "Radio Kiss Kiss TV" "CANAL+"
+S 4251:3DB8:013E type=1 ca=1 "RDS TV" "CANAL+"
+S 425C:3DB8:013E type=1 ca=1 "TVA Vicenza" "CANAL+"
+S 4279:2BC0:013E type=1 ca=1 "wPolsce24" "CANAL+"
+S 427B:2BC0:013E type=1 ca=1 "Stopklatka" "CANAL+"
+S 427C:2BC0:013E type=1 ca=1 "Stopklatka" "CANAL+"
+S 427F:2BC0:013E type=1 ca=1 "STARS.TV" "CANAL+"
+S 4284:2BC0:013E type=1 ca=1 "Polsat Games" "CANAL+"
+S 4288:2BC0:013E type=1 ca=1 "TVP Rozrywka" "CANAL+"
+S 4289:2BC0:013E type=1 ca=1 "TV Republika" "CANAL+"
+S 428A:2BC0:013E type=1 ca=1 "FILMBOX+ festival" "CANAL+"
+S 428D:2BC0:013E type=1 ca=1 "4 FUN.TV" "CANAL+"
+S 428E:2BC0:013E type=1 ca=1 "4 FUN KIDS" "CANAL+"
+S 428F:2BC0:013E type=1 ca=1 "4 FUN DANCE" "CANAL+"
+S 4290:2BC0:013E type=1 ca=1 "Viasat Epic Drama HD" "CANAL+"
+S 4291:2BC0:013E type=1 ca=1 "Zoom" "CANAL+"
+S 4293:2BC0:013E type=1 ca=1 "Polsat Music HD" "CANAL+"
+S 429A:2BC0:013E type=1 ca=1 "Polo TV HD" "CANAL+"
+S 429C:2BC0:013E type=1 ca=1 "ESKA TV HD" "CANAL+"
+S 429D:2BC0:013E type=1 ca=1 "FOKUS TV HD" "CANAL+"
+S 429E:2BC0:013E type=1 ca=1 "Nowa TV HD" "CANAL+"
+S 42C2:2BC0:013E type=1 ca=1 "Polo TV HD" "CANAL+"
+S 42C5:2BC0:013E type=1 ca=1 "FOKUS TV HD" "CANAL+"
+S 4336:300C:013E type=1 ca=1 "SF Info HD" "CANAL+"
+S 4345:300C:013E type=2 ca=1 "SRF 1" "CANAL+"
+S 4346:300C:013E type=2 ca=1 "SRF 2 Kultur" "CANAL+"
+S 4347:300C:013E type=2 ca=1 "SRF 3" "CANAL+"
+S 4348:300C:013E type=2 ca=1 "SRF Virus" "CANAL+"
+S 4349:300C:013E type=2 ca=1 "SRF Musikwelle" "CANAL+"
+S 434A:300C:013E type=2 ca=1 "Radio RTR" "CANAL+"
+S 434B:300C:013E type=2 ca=1 "RTS-1ere" "CANAL+"
+S 434C:300C:013E type=2 ca=1 "Espace 2" "CANAL+"
+S 434D:300C:013E type=2 ca=1 "Couleur3" "CANAL+"
+S 434E:300C:013E type=2 ca=1 "Option Musique" "CANAL+"
+S 434F:300C:013E type=2 ca=1 "Rete Uno" "CANAL+"
+S 4350:300C:013E type=2 ca=1 "Rete Due" "CANAL+"
+S 4351:300C:013E type=2 ca=1 "Rete Tre" "CANAL+"
+S 4352:300C:013E type=2 ca=1 "Swiss Classic" "CANAL+"
+S 4353:300C:013E type=2 ca=1 "Swiss Pop" "CANAL+"
+S 4354:300C:013E type=2 ca=1 "Swiss Jazz" "CANAL+"
+S 4357:300C:013E type=2 ca=1 "Swiss Classique" "CANAL+"
+S 435F:300C:013E type=2 ca=1 "Swiss Classica" "CANAL+"
+S 445C:0453:0001 type=1 ca=1 "SAT.1" "CANAL+"
+S 445D:0453:0001 type=1 ca=1 "ProSieben" "CANAL+"
+S 445E:0453:0001 type=1 ca=1 "kabel eins" "CANAL+"
+S 445F:0453:0001 type=1 ca=1 "WELT" "CANAL+"
+S 4460:0453:0001 type=1 ca=1 "SAT 1 Gold" "CANAL+"
+S 4461:0453:0001 type=1 ca=1 "ProSieben MAXX" "CANAL+"
+S 4463:0453:0001 type=1 ca=1 "SAT.1 Bayern" "CANAL+"
+S 4464:0453:0001 type=1 ca=1 "SAT.1 NRW" "CANAL+"
+S 4465:0453:0001 type=1 ca=1 "kabel eins doku" "CANAL+"
+S 452F:30D4:013E type=1 ca=1 "Rai News 24" "CANAL+"
+S 4532:30D4:013E type=1 ca=1 "RAI Sport" "CANAL+"
+S 4536:30D4:013E type=1 ca=1 "Uninettuno University TV" "CANAL+"
+S 4E22:043A:0001 type=1 ca=1 "ProSieben A" "CANAL+"
+S 4E24:043A:0001 type=1 ca=1 "Kabel 1 Austria" "CANAL+"
+S 4E25:043A:0001 type=1 ca=1 "SAT.1 A" "CANAL+"
+S 526C:041D:0001 type=1 ca=1 "Anixe HD" "CANAL+"
+S 526F:041D:0001 type=1 ca=1 "QVC Deutschland" "CANAL+"
+S 5270:041D:0001 type=1 ca=1 "HSE24" "CANAL+"
+S 6DCB:044D:0001 type=1 ca=1 "TELRGOLD" "CANAL+"
+S 6E2D:0431:0001 type=1 ca=1 "Xplore" "CANAL+"
+S 6E40:0431:0001 type=1 ca=1 "One Terra" "CANAL+"
+S 6E41:0431:0001 type=1 ca=1 "Deluxe Rap" "CANAL+"
+S 6E42:0431:0001 type=1 ca=1 "Deluxe Dance by Kontor" "CANAL+"
+S 6E43:0431:0001 type=1 ca=1 "Just Cooking" "CANAL+"
+S 6E44:0431:0001 type=1 ca=1 "Just Fishing" "CANAL+"
+S 6E45:0431:0001 type=1 ca=1 "Hohenrausch" "CANAL+"
+S 6E46:0431:0001 type=1 ca=1 "Crime Time" "CANAL+"
+S 6E47:0431:0001 type=1 ca=1 "SERIEN+" "CANAL+"
+S 6EAC:03FD:0001 type=1 ca=1 "WDR HD Koln" "CANAL+"
+S 6EAD:03FD:0001 type=1 ca=1 "WDR Aachen" "CANAL+"
+S 6EAE:03FD:0001 type=1 ca=1 "WDR Bielefeld" "CANAL+"
+S 6EAF:03FD:0001 type=1 ca=1 "WDR Bonn" "CANAL+"
+S 6EB0:03FD:0001 type=1 ca=1 "WDR Dortmund" "CANAL+"
+S 6EB1:03FD:0001 type=1 ca=1 "WDR Duisburg" "CANAL+"
+S 6EB2:03FD:0001 type=1 ca=1 "WDR Düsseldorf" "CANAL+"
+S 6EB3:03FD:0001 type=1 ca=1 "WDR Essen" "CANAL+"
+S 6EB4:03FD:0001 type=1 ca=1 "WDR Münster" "CANAL+"
+S 6EB6:03FD:0001 type=1 ca=1 "WDR Wuppertal" "CANAL+"
+S 7004:0436:0001 type=1 ca=1 "Comedy Central Germany" "CANAL+"
+S 7006:0436:0001 type=1 ca=1 "MTV Germany" "CANAL+"
+S 7008:0436:0001 type=1 ca=1 "NICK" "CANAL+"
+S 7080:0443:0001 type=1 ca=1 "RTL Austria" "CANAL+"
+S 7085:0443:0001 type=1 ca=1 "VOX Austria" "CANAL+"
+S 708A:0443:0001 type=1 ca=1 "RTL2 Austria" "CANAL+"
+S 708F:0443:0001 type=1 ca=1 "Super RTL A" "CANAL+"
+S 7729:0416:0001 type=1 ca=1 "Canal Sur Andalucia" "CANAL+"
+S 79E0:0443:0001 type=1 ca=1 "Eurosport" "CANAL+"
+S 79EA:0443:0001 type=1 ca=1 "HSE24 Extra" "CANAL+"
+S 7A49:0410:0001 type=1 ca=1 "Telesur HD" "CANAL+"
+T 012C:013E freq=11258000 pol=H sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 0190:013E freq=11278000 pol=V sr=27500000 fec=4 sys=S2 pos=130E mod=2
+T 0384:013E freq=11373000 pol=H sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 03E8:013E freq=11393000 pol=V sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 044C:013E freq=11411000 pol=H sr=27500000 fec=4 sys=S2 pos=130E mod=2
+T 0514:013E freq=11449000 pol=H sr=27500000 fec=4 sys=S2 pos=130E mod=2
+T 05DC:013E freq=11488000 pol=H sr=27500000 fec=4 sys=S2 pos=130E mod=2
+T 0640:013E freq=11508000 pol=V sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 1388:013E freq=11727000 pol=V sr=29900000 fec=3 sys=S2 pos=130E mod=2
+T 13EF:013E freq=11747000 pol=H sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 1450:013E freq=11766000 pol=V sr=29900000 fec=3 sys=S2 pos=130E mod=2
+T 1964:013E freq=12015000 pol=H sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 1B58:013E freq=12111000 pol=V sr=27500000 fec=3 sys=S pos=130E mod=1
+T 1C20:013E freq=12149000 pol=V sr=27500000 fec=3 sys=S pos=130E mod=1
+T 1F40:013E freq=12303000 pol=V sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 1FA4:013E freq=12322000 pol=H sr=27500000 fec=3 sys=S pos=130E mod=1
+T 2134:013E freq=12399000 pol=H sr=29700000 fec=2 sys=S2 pos=130E mod=2
+T 22C4:013E freq=12476000 pol=H sr=29900000 fec=3 sys=S2 pos=130E mod=2
+T 2328:013E freq=12520000 pol=V sr=27500000 fec=2 sys=S2 pos=130E mod=2
+T 23F0:013E freq=12558000 pol=V sr=27500000 fec=4 sys=S2 pos=130E mod=2
+T 2454:013E freq=12576000 pol=H sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 2AF8:013E freq=10719000 pol=V sr=27500000 fec=4 sys=S2 pos=130E mod=2
+T 2B5C:013E freq=10728000 pol=H sr=30000000 fec=3 sys=S2 pos=130E mod=2
+T 2BC0:013E freq=10758000 pol=V sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 2C88:013E freq=10796000 pol=V sr=27500000 fec=4 sys=S2 pos=130E mod=2
+T 2EE0:013E freq=10911000 pol=V sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 2F44:013E freq=10930000 pol=H sr=30000000 fec=2 sys=S2 pos=130E mod=2
+T 2FA8:013E freq=10949000 pol=V sr=27500000 fec=2 sys=S2 pos=130E mod=2
+T 300C:013E freq=10971000 pol=H sr=29700000 fec=2 sys=S2 pos=130E mod=2
+T 3070:013E freq=10992000 pol=V sr=27500000 fec=2 sys=S pos=130E mod=1
+T 30D4:013E freq=11013000 pol=H sr=29900000 fec=3 sys=S2 pos=130E mod=2
+T 3138:013E freq=11034000 pol=V sr=27500000 fec=3 sys=S pos=130E mod=1
+T 32C8:013E freq=11117000 pol=V sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 332C:013E freq=11137000 pol=H sr=27500000 fec=3 sys=S pos=130E mod=1
+T 33F4:013E freq=11179000 pol=H sr=27500000 fec=2 sys=S2 pos=130E mod=2
+T 3BC4:013E freq=11566000 pol=H sr=29900000 fec=3 sys=S2 pos=130E mod=2
+T 3C28:013E freq=11585000 pol=V sr=27500000 fec=4 sys=S2 pos=130E mod=2
+T 3DB8:013E freq=11662000 pol=V sr=27500000 fec=2 sys=S2 pos=130E mod=2

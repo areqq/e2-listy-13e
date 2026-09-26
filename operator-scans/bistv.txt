@@ -1,0 +1,293 @@
+L 1 0327:3BC4:013E visible=0 src=bat
+L 1 0515:2E7C:013F visible=0 src=bat
+L 10 051E:2E7C:013F visible=0 src=bat
+L 10 3330:1388:013E visible=0 src=bat
+L 10 4336:300C:013E visible=0 src=bat
+L 11 051F:2E7C:013F visible=0 src=bat
+L 11 4331:300C:013E visible=0 src=bat
+L 12 0367:3C28:013E visible=0 src=bat
+L 12 058A:170C:013F visible=0 src=bat
+L 12 4332:300C:013E visible=0 src=bat
+L 13 0368:3C28:013E visible=0 src=bat
+L 13 0587:170C:013F visible=0 src=bat
+L 14 0369:3C28:013E visible=0 src=bat
+L 14 0524:2E7C:013F visible=0 src=bat
+L 15 036A:3C28:013E visible=0 src=bat
+L 15 052E:2E7C:013F visible=0 src=bat
+L 16 036B:3C28:013E visible=0 src=bat
+L 16 058B:170C:013F visible=0 src=bat
+L 16 0BC2:20D0:013E visible=0 src=bat
+L 16 422C:2F44:013E visible=0 src=bat
+L 17 0589:170C:013F visible=0 src=bat
+L 17 0BC3:20D0:013E visible=0 src=bat
+L 17 11FA:2B5C:013E visible=0 src=bat
+L 18 0328:3BC4:013E visible=0 src=bat
+L 18 051C:2E7C:013F visible=0 src=bat
+L 18 0BC4:20D0:013E visible=0 src=bat
+L 19 01F8:0384:013E visible=0 src=bat
+L 19 04B9:23F0:013E visible=0 src=bat
+L 19 0520:2E7C:013F visible=0 src=bat
+L 2 02C1:1B58:013E visible=0 src=bat
+L 2 0516:2E7C:013F visible=0 src=bat
+L 2 051D:3D54:013E visible=0 src=bat
+L 20 0528:2E7C:013F visible=0 src=bat
+L 21 0529:2E7C:013F visible=0 src=bat
+L 21 1C86:332C:013E visible=0 src=bat
+L 22 052A:2E7C:013F visible=0 src=bat
+L 22 1C4D:1A2C:FBFF visible=0 src=bat
+L 23 052B:2E7C:013F visible=0 src=bat
+L 23 200C:24B8:013E visible=0 src=bat
+L 24 052C:2E7C:013F visible=0 src=bat
+L 24 29CD:1C20:013E visible=0 src=bat
+L 25 052D:2E7C:013F visible=0 src=bat
+L 28 05AB:170C:013F visible=0 src=bat
+L 28 07D5:22C4:013E visible=0 src=bat
+L 29 05AC:170C:013F visible=0 src=bat
+L 3 02C4:1B58:013E visible=0 src=bat
+L 3 0517:2E7C:013F visible=0 src=bat
+L 3 34DE:1AF4:FBFF visible=0 src=bat
+L 30 0003:2E18:00B0 visible=0 src=bat
+L 30 05BA:170C:013F visible=0 src=bat
+L 31 05B0:170C:013F visible=0 src=bat
+L 31 1C22:1C20:013E visible=0 src=bat
+L 32 05B5:170C:013F visible=0 src=bat
+L 32 089C:01F4:013E visible=0 src=bat
+L 32 4345:300C:013E visible=0 src=bat
+L 33 0392:2134:013E visible=0 src=bat
+L 33 05B6:170C:013F visible=0 src=bat
+L 33 4358:300C:013E visible=0 src=bat
+L 34 05AD:170C:013F visible=0 src=bat
+L 34 4359:300C:013E visible=0 src=bat
+L 34 452F:30D4:013E visible=0 src=bat
+L 35 058D:170C:013F visible=0 src=bat
+L 35 0D49:1450:013E visible=0 src=bat
+L 35 435A:300C:013E visible=0 src=bat
+L 36 05BE:170C:013F visible=0 src=bat
+L 36 0D4A:1450:013E visible=0 src=bat
+L 36 435B:300C:013E visible=0 src=bat
+L 37 05B2:170C:013F visible=0 src=bat
+L 37 0D4B:1450:013E visible=0 src=bat
+L 37 435C:300C:013E visible=0 src=bat
+L 38 0080:04B0:0110 visible=0 src=bat
+L 38 05B7:170C:013F visible=0 src=bat
+L 38 435D:300C:013E visible=0 src=bat
+L 39 05B3:170C:013F visible=0 src=bat
+L 39 435E:300C:013E visible=0 src=bat
+L 39 4530:30D4:013E visible=0 src=bat
+L 4 0522:2E7C:013F visible=0 src=bat
+L 4 1006:1AF4:FBFF visible=0 src=bat
+L 4 1C8A:332C:013E visible=0 src=bat
+L 40 05AE:170C:013F visible=0 src=bat
+L 40 2149:3070:013E visible=0 src=bat
+L 40 4346:300C:013E visible=0 src=bat
+L 41 05AF:170C:013F visible=0 src=bat
+L 41 4347:300C:013E visible=0 src=bat
+L 41 4536:30D4:013E visible=0 src=bat
+L 42 05B1:170C:013F visible=0 src=bat
+L 42 4355:300C:013E visible=0 src=bat
+L 42 4532:30D4:013E visible=0 src=bat
+L 43 058C:170C:013F visible=0 src=bat
+L 43 2146:3070:013E visible=0 src=bat
+L 43 4348:300C:013E visible=0 src=bat
+L 44 051F:3D54:013E visible=0 src=bat
+L 44 3331:1388:013E visible=0 src=bat
+L 44 4349:300C:013E visible=0 src=bat
+L 45 1C56:1C20:013E visible=0 src=bat
+L 45 4352:300C:013E visible=0 src=bat
+L 46 4357:300C:013E visible=0 src=bat
+L 47 4242:3DB8:013E visible=0 src=bat
+L 47 435F:300C:013E visible=0 src=bat
+L 48 02C9:1B58:013E visible=0 src=bat
+L 48 4353:300C:013E visible=0 src=bat
+L 49 423C:3DB8:013E visible=0 src=bat
+L 49 4354:300C:013E visible=0 src=bat
+L 5 0398:2134:013E visible=0 src=bat
+L 5 0519:2E7C:013F visible=0 src=bat
+L 50 423B:3DB8:013E visible=0 src=bat
+L 50 434A:300C:013E visible=0 src=bat
+L 51 0E83:3200:013E visible=0 src=bat
+L 51 434B:300C:013E visible=0 src=bat
+L 52 428D:2BC0:013E visible=0 src=bat
+L 52 434C:300C:013E visible=0 src=bat
+L 53 427F:2BC0:013E visible=0 src=bat
+L 53 434D:300C:013E visible=0 src=bat
+L 54 428E:2BC0:013E visible=0 src=bat
+L 54 434E:300C:013E visible=0 src=bat
+L 55 428F:2BC0:013E visible=0 src=bat
+L 55 434F:300C:013E visible=0 src=bat
+L 56 4250:3DB8:013E visible=0 src=bat
+L 56 4350:300C:013E visible=0 src=bat
+L 57 0DAD:1F40:013E visible=0 src=bat
+L 57 4351:300C:013E visible=0 src=bat
+L 58 051B:3D54:013E visible=0 src=bat
+L 58 05BC:170C:013F visible=0 src=bat
+L 58 0E3A:1C20:013E visible=0 src=bat
+L 59 052B:3D54:013E visible=0 src=bat
+L 59 4206:2F44:013E visible=0 src=bat
+L 6 051A:2E7C:013F visible=0 src=bat
+L 6 4333:300C:013E visible=0 src=bat
+L 60 0529:3D54:013E visible=0 src=bat
+L 61 051C:3D54:013E visible=0 src=bat
+L 63 06B6:3138:013E visible=0 src=bat
+L 7 051B:2E7C:013F visible=0 src=bat
+L 7 4334:300C:013E visible=0 src=bat
+L 8 0215:0384:013E visible=0 src=bat
+L 8 0521:2E7C:013F visible=0 src=bat
+L 8 4337:300C:013E visible=0 src=bat
+L 9 051D:2E7C:013F visible=0 src=bat
+L 9 3332:1388:013E visible=0 src=bat
+L 9 4338:300C:013E visible=0 src=bat
+S 0003:2E18:00B0 type=1 ca=0 "Al Aloua" "Eutelsat"
+S 0080:04B0:0110 type=1 ca=0 "TGCom24" "Eutelsat"
+S 01F8:0384:013E type=1 ca=0 "NASA TV HD" "Eutelsat"
+S 0215:0384:013E type=1 ca=0 "NHK" "Eutelsat"
+S 02C1:1B58:013E type=1 ca=0 "Al Jazeera Docu" "Eutelsat"
+S 02C4:1B58:013E type=1 ca=0 "Al Jazeera Sat Channel" "Eutelsat"
+S 02C9:1B58:013E type=1 ca=0 "RTP International Europe" "Eutelsat"
+S 0327:3BC4:013E type=1 ca=0 "France 24 HD (en Francais)" "Eutelsat"
+S 0328:3BC4:013E type=1 ca=0 "France 24 HD (in English)" "Eutelsat"
+S 0367:3C28:013E type=1 ca=0 "CCTV4" "Eutelsat"
+S 0368:3C28:013E type=1 ca=0 "CGTN" "Eutelsat"
+S 0369:3C28:013E type=1 ca=0 "CGTN DOCUMENTARY" "Eutelsat"
+S 036A:3C28:013E type=1 ca=0 "CGTN Espagne" "Eutelsat"
+S 036B:3C28:013E type=1 ca=0 "CGTN Francais" "Eutelsat"
+S 0392:2134:013E type=1 ca=0 "jordan tv" "Eutelsat"
+S 0398:2134:013E type=1 ca=0 "Oman TV Satellite" "Eutelsat"
+S 04B9:23F0:013E type=1 ca=0 "HOT BIRD 4K" "Eutelsat"
+S 0515:2E7C:013F type=1 ca=1 "TF1" "Eutelsat"
+S 0516:2E7C:013F type=1 ca=1 "FRANCE 2" "Eutelsat"
+S 0517:2E7C:013F type=1 ca=1 "FRANCE 3" "Eutelsat"
+S 0519:2E7C:013F type=1 ca=1 "FRANCE 5" "Eutelsat"
+S 051A:2E7C:013F type=1 ca=1 "M6" "Eutelsat"
+S 051B:2E7C:013F type=1 ca=0 "ARTE" "Eutelsat"
+S 051B:3D54:013E type=1 ca=0 "RTL 102.5 TV HD" "Eutelsat"
+S 051C:2E7C:013F type=1 ca=1 "T18" "Eutelsat"
+S 051C:3D54:013E type=1 ca=0 "Radio Freccia HD" "Eutelsat"
+S 051D:2E7C:013F type=1 ca=1 "W9" "Eutelsat"
+S 051D:3D54:013E type=1 ca=0 "I24 NEWS Francais" "Eutelsat"
+S 051E:2E7C:013F type=1 ca=1 "TMC" "Eutelsat"
+S 051F:2E7C:013F type=1 ca=1 "TFX" "Eutelsat"
+S 051F:3D54:013E type=1 ca=0 "RADIONORBA TV" "Eutelsat"
+S 0520:2E7C:013F type=1 ca=1 "NOVO 19" "Eutelsat"
+S 0521:2E7C:013F type=1 ca=1 "LCP" "Eutelsat"
+S 0522:2E7C:013F type=1 ca=1 "FRANCE 4" "Eutelsat"
+S 0524:2E7C:013F type=1 ca=1 "CNEWS" "Eutelsat"
+S 0524:3D54:013E type=1 ca=0 "SAT.TV" "Eutelsat"
+S 0528:2E7C:013F type=1 ca=1 "TF1 SERIES FILMS" "Eutelsat"
+S 0529:2E7C:013F type=1 ca=1 "L'EQUIPE" "Eutelsat"
+S 0529:3D54:013E type=1 ca=0 "Radio ZETA HD" "Eutelsat"
+S 052A:2E7C:013F type=1 ca=1 "6TER" "Eutelsat"
+S 052B:2E7C:013F type=1 ca=1 "RMC STORY" "Eutelsat"
+S 052B:3D54:013E type=1 ca=0 "RTL 102.5 news aspi" "Eutelsat"
+S 052C:2E7C:013F type=1 ca=1 "RMC DECOUVERTE" "Eutelsat"
+S 052D:2E7C:013F type=1 ca=1 "RMC LIFE" "Eutelsat"
+S 052E:2E7C:013F type=1 ca=1 "LCI" "Eutelsat"
+S 0587:170C:013F type=1 ca=1 "BFM TV" "Eutelsat"
+S 0589:170C:013F type=1 ca=1 "CSTAR" "Eutelsat"
+S 058A:170C:013F type=1 ca=1 "GULLI" "Eutelsat"
+S 058B:170C:013F type=1 ca=1 "FRANCEINFO:" "Eutelsat"
+S 058C:170C:013F type=1 ca=1 "USHUAIA" "AB Sat"
+S 058D:170C:013F type=1 ca=1 "EQUIDIA" "AB Sat"
+S 05AB:170C:013F type=1 ca=1 "RTL 9" "AB Sat"
+S 05AC:170C:013F type=1 ca=1 "AB1" "AB Sat"
+S 05AD:170C:013F type=1 ca=1 "AUTOMOTO la chaine" "AB Sat"
+S 05AE:170C:013F type=1 ca=1 "ANIMAUX" "AB Sat"
+S 05AF:170C:013F type=1 ca=1 "CHASSE ET PECHE" "AB Sat"
+S 05B0:170C:013F type=1 ca=1 "TV BREIZH" "AB Sat"
+S 05B1:170C:013F type=1 ca=1 "CRIME DISTRICT" "AB Sat"
+S 05B2:170C:013F type=1 ca=1 "TREK" "AB Sat"
+S 05B3:170C:013F type=1 ca=1 "TOUTE L'HISTOIRE" "AB Sat"
+S 05B5:170C:013F type=1 ca=1 "ACTION" "AB Sat"
+S 05B6:170C:013F type=1 ca=1 "MANGAS" "AB Sat"
+S 05B7:170C:013F type=1 ca=1 "SCIENCE ET VIE" "AB Sat"
+S 05BA:170C:013F type=1 ca=1 "TEVA" "AB Sat"
+S 05BC:170C:013F type=1 ca=1 "XXL" "AB Sat"
+S 05BE:170C:013F type=1 ca=1 "PADEL TIME TV" "AB Sat"
+S 06B6:3138:013E type=1 ca=0 "8 TV RU" "Eutelsat"
+S 07D5:22C4:013E type=1 ca=0 "2M Monde" "Eutelsat"
+S 089C:01F4:013E type=1 ca=0 "Yemen TV" "Eutelsat"
+S 0BC2:20D0:013E type=1 ca=0 "Fashion TV L'Original" "Eutelsat"
+S 0BC3:20D0:013E type=1 ca=0 "Fashion TV" "Eutelsat"
+S 0BC4:20D0:013E type=1 ca=0 "Fashion TV 4K" "Eutelsat"
+S 0D49:1450:013E type=1 ca=0 "RAI Uno HD" "Eutelsat"
+S 0D4A:1450:013E type=1 ca=0 "RAI Due HD" "Eutelsat"
+S 0D4B:1450:013E type=1 ca=0 "RAI Tre HD" "Eutelsat"
+S 0DAD:1F40:013E type=1 ca=0 "TVE Internacional" "Eutelsat"
+S 0E3A:1C20:013E type=1 ca=0 "RTL 102.5" "Eutelsat"
+S 0E83:3200:013E type=1 ca=0 "TVP Polonia" "Eutelsat"
+S 1006:1AF4:FBFF type=1 ca=0 "Bike" "Eutelsat"
+S 11FA:2B5C:013E type=1 ca=0 "NASA TV UHD" "Eutelsat"
+S 1C22:1C20:013E type=1 ca=0 "Tunisia Intl" "Eutelsat"
+S 1C4D:1A2C:FBFF type=1 ca=0 "CNBC Europe" "Eutelsat"
+S 1C56:1C20:013E type=1 ca=0 "SMTV San Marino HD" "Eutelsat"
+S 1C86:332C:013E type=1 ca=0 "Bloomberg TV Europe" "Eutelsat"
+S 1C8A:332C:013E type=1 ca=0 "Al Jazeera English HD" "Eutelsat"
+S 1C8C:332C:013E type=1 ca=0 "Armpub" "Eutelsat"
+S 200C:24B8:013E type=1 ca=0 "BBC World" "Eutelsat"
+S 2146:3070:013E type=1 ca=0 "RAI STORIA" "Eutelsat"
+S 2149:3070:013E type=1 ca=0 "RAI SCUOLA" "Eutelsat"
+S 29CD:1C20:013E type=1 ca=0 "TV CONGO" "Eutelsat"
+S 3330:1388:013E type=1 ca=0 "KBS WORLD HD" "Eutelsat"
+S 3331:1388:013E type=1 ca=0 "TV5 MONDE" "Eutelsat"
+S 3332:1388:013E type=1 ca=0 "ARIRANG WORLD" "Eutelsat"
+S 34DE:1AF4:FBFF type=1 ca=0 "Explorer HD Channel" "Eutelsat"
+S 4206:2F44:013E type=1 ca=1 "Dorcel TV HD New" "Eutelsat"
+S 420E:2F44:013E type=1 ca=1 "La Une HD" "Eutelsat"
+S 420F:2F44:013E type=1 ca=1 "La Deux" "Eutelsat"
+S 4210:2F44:013E type=1 ca=1 "La Trois" "Eutelsat"
+S 4211:2F44:013E type=1 ca=1 "RTL-TVi HD" "Eutelsat"
+S 4212:2F44:013E type=1 ca=1 "Club-RTL" "Eutelsat"
+S 4213:2F44:013E type=1 ca=1 "Plug-RTL" "Eutelsat"
+S 4220:2F44:013E type=25 ca=1 "Hustler HD" "Eutelsat"
+S 4221:2F44:013E type=22 ca=1 "Blue Hustler SD" "Eutelsat"
+S 4222:2F44:013E type=25 ca=1 "Private HD" "Eutelsat"
+S 422B:2F44:013E type=0 ca=1 "" ""
+S 422C:2F44:013E type=0 ca=1 "" ""
+S 422F:2F44:013E type=0 ca=1 "" ""
+S 423B:3DB8:013E type=1 ca=0 "Tele 5 polska" "Eutelsat"
+S 423C:3DB8:013E type=1 ca=0 "Polonia 1" "Eutelsat"
+S 4242:3DB8:013E type=1 ca=0 "RADIO ITALIA TV" "Eutelsat"
+S 4250:3DB8:013E type=1 ca=0 "Kiss Kiss TV" "Eutelsat"
+S 427F:2BC0:013E type=1 ca=0 "STARS TV" "Eutelsat"
+S 428D:2BC0:013E type=1 ca=0 "4Fun TV" "Eutelsat"
+S 428E:2BC0:013E type=1 ca=0 "4Fun KIDS" "Eutelsat"
+S 428F:2BC0:013E type=1 ca=0 "4Fun DANCE" "Eutelsat"
+S 4331:300C:013E type=1 ca=1 "SRF 1" "Eutelsat"
+S 4332:300C:013E type=1 ca=1 "SRF Zwei" "Eutelsat"
+S 4333:300C:013E type=1 ca=1 "RTS Un" "Eutelsat"
+S 4334:300C:013E type=1 ca=1 "RTS Deux" "Eutelsat"
+S 4336:300C:013E type=1 ca=0 "SRF INFO" "Eutelsat"
+S 4337:300C:013E type=1 ca=1 "RSI LA 1" "Eutelsat"
+S 4338:300C:013E type=1 ca=1 "RSI LA 2" "Eutelsat"
+S 4345:300C:013E type=2 ca=0 "SRF 1" "Eutelsat"
+S 4346:300C:013E type=2 ca=0 "SRF 2 Kultur" "Eutelsat"
+S 4347:300C:013E type=2 ca=0 "SRF 3" "Eutelsat"
+S 4348:300C:013E type=2 ca=0 "SRF VIRUS" "Eutelsat"
+S 4349:300C:013E type=2 ca=0 "SRF Musikwelle" "Eutelsat"
+S 434A:300C:013E type=2 ca=0 "Radio RTR" "Eutelsat"
+S 434B:300C:013E type=2 ca=0 "RTS-1ere" "Eutelsat"
+S 434C:300C:013E type=2 ca=0 "Espace 2" "Eutelsat"
+S 434D:300C:013E type=2 ca=0 "Couleur 3" "Eutelsat"
+S 434E:300C:013E type=2 ca=0 "Option Musique" "Eutelsat"
+S 434F:300C:013E type=2 ca=0 "Rete Uno" "Eutelsat"
+S 4350:300C:013E type=2 ca=0 "Rete Due" "Eutelsat"
+S 4351:300C:013E type=2 ca=0 "Rete Tre" "Eutelsat"
+S 4352:300C:013E type=2 ca=0 "Swiss Classic" "Eutelsat"
+S 4353:300C:013E type=2 ca=0 "Swiss Pop" "Eutelsat"
+S 4354:300C:013E type=2 ca=0 "Swiss Jazz" "Eutelsat"
+S 4355:300C:013E type=2 ca=0 "SRF 4 News" "Eutelsat"
+S 4357:300C:013E type=2 ca=0 "Swiss Classique" "Eutelsat"
+S 4358:300C:013E type=2 ca=0 "SRF 1AG SO" "Eutelsat"
+S 4359:300C:013E type=2 ca=0 "SRF 1BS" "Eutelsat"
+S 435A:300C:013E type=2 ca=0 "SRF 1BE FR VS" "Eutelsat"
+S 435B:300C:013E type=2 ca=0 "SRF 1LU" "Eutelsat"
+S 435C:300C:013E type=2 ca=0 "SRF 1SG" "Eutelsat"
+S 435D:300C:013E type=2 ca=0 "SRF 1ZH SH" "Eutelsat"
+S 435E:300C:013E type=2 ca=0 "SRF 1GR" "Eutelsat"
+S 435F:300C:013E type=2 ca=0 "Swiss Classica" "Eutelsat"
+S 452F:30D4:013E type=1 ca=0 "RAI NEWS 24 HD" "Eutelsat"
+S 4530:30D4:013E type=1 ca=0 "RAI GULB HD" "Eutelsat"
+S 4532:30D4:013E type=1 ca=0 "RAI SPORT + HD" "Eutelsat"
+S 4536:30D4:013E type=1 ca=0 "Uninettuno University TV" "Eutelsat"
+T 170C:013F freq=11900100 pol=H sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 2E7C:013F freq=10891800 pol=H sr=27500000 fec=3 sys=S2 pos=130E mod=2
