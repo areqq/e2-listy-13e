@@ -1,0 +1,8 @@
+{
+ "_opis": "11258 H: dwa kanaly dzieciece wylaczone 31.08.2026 wg KingOfSat, brak zamiennikow; w pelnym skanie z 02.10 SID 3B64 nie istnieje, 3B65 jest tylko w tablicy operatora pod inna nazwa. Wpisy usuniete z bukietow, uslugi zostaja w lamedb.",
+ "targets": [
+  {"bouquet": "userbouquet.dbe05.tv", "remove": [{"name": "K2 HD", "sid": "3B64", "tsid": "012C"}, {"name": "Frisbee HD", "sid": "3B65", "tsid": "012C"}]},
+  {"bouquet": "userbouquet.dbe09.tv", "remove": [{"name": "K2 HD", "sid": "3B64", "tsid": "012C"}, {"name": "Frisbee HD", "sid": "3B65", "tsid": "012C"}]},
+  {"bouquet": "userbouquet.dbe10.tv", "remove": [{"name": "K2 HD", "sid": "3B64", "tsid": "012C"}, {"name": "Frisbee HD", "sid": "3B65", "tsid": "012C"}]}
+ ]
+}
