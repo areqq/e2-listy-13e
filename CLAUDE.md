@@ -13,6 +13,7 @@ Procedury żyją w lokalnych skillach projektu (`.claude/skills/`, poza repo):
 | kontrola z sygnałem, skany, „czy są zmiany", przenosiny | `kontrola-orbity` |
 | wydanie paczki, praca na cudzej paczce, commit i push | `wydanie-listy` |
 | zmiany w satscan, testy na dekoderach, release | `satscan-dev` |
+| odświeżenie store pikon z najnowszych paczek, wątki z pikonami | `pikony-zet71` |
 
 - `STATUS.md` — stan bieżący: aktualna paczka, co obserwujemy, otwarte decyzje.
 - `scripts/` — narzędzia, opis w `README.md`. Zanim napiszesz doraźny kod do porównań lub skanów,

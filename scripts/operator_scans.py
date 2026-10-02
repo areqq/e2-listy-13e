@@ -28,6 +28,9 @@ Uzycie:
   python3 scripts/operator_scans.py changes [p ...]    # referencje vs HEAD: nowe/znikniete/nazwy/przenosiny
   python3 scripts/operator_scans.py sweep [--kazdy]    # test satscana: wszystkie platformy, nic nie zapisuje
   python3 scripts/operator_scans.py moved OLD NEW      # co zmienilo transponder miedzy dwoma plikami
+
+Opcja --box <fragment opisu> (przed komenda) zaweza wybor do dekoderow, ktorych `opis`
+w scan.local.toml zawiera fragment - np. gdy pierwszy box jest zajety.
 """
 from __future__ import annotations
 
@@ -91,13 +94,14 @@ def decode(raw: bytes) -> str:
     return raw.decode(ENCODING, errors="replace")
 
 
-def load_boxes() -> list[Box]:
+def load_boxes(only: str | None) -> list[Box]:
     if not CONFIG.is_file():
         print(f"brak {CONFIG.name} - skopiuj scan.example.toml i wpisz swoje dekodery")
         return []
     data = tomllib.loads(CONFIG.read_text(encoding="utf-8"))
-    return [Box(opis=b["opis"], ssh=list(b["ssh"]), arch=b.get("arch", "armhf"), args=list(b.get("args", [])))
-            for b in data.get("box", [])]
+    boxes = [Box(opis=b["opis"], ssh=list(b["ssh"]), arch=b.get("arch", "armhf"), args=list(b.get("args", [])))
+             for b in data.get("box", [])]
+    return [b for b in boxes if only is None or only in b.opis]
 
 
 def ssh(box: Box, command: str, stdin: bytes | None = None, timeout: int = 180) -> ScanResult | None:
@@ -132,8 +136,8 @@ def deploy(box: Box) -> bool:
     return res is not None and res.rc == 0
 
 
-def ready_box() -> Box | None:
-    box = find_box(load_boxes())
+def ready_box(only: str | None) -> Box | None:
+    box = find_box(load_boxes(only))
     if box is None:
         print("zaden dekoder z scan.local.toml nie odpowiada")
         return None
@@ -185,8 +189,8 @@ def rejection_reason(res: ScanResult, text: str, ref: Path) -> str | None:
     return None
 
 
-def refresh(which: list[str]) -> int:
-    box = ready_box()
+def refresh(which: list[str], only: str | None) -> int:
+    box = ready_box(only)
     if box is None:
         return 1
     OUT.mkdir(exist_ok=True)
@@ -266,9 +270,9 @@ def sweep_box(box: Box) -> int:
     return bad
 
 
-def sweep(each: bool) -> int:
+def sweep(each: bool, only: str | None) -> int:
     """Test satscana: domyslnie pierwszy odpowiadajacy box, z --kazdy wszystkie odpowiadajace."""
-    boxes = load_boxes()
+    boxes = load_boxes(only)
     if each:
         targets = [b for b in boxes if alive(b)]
     else:
@@ -285,8 +289,8 @@ def sweep(each: bool) -> int:
     return 1 if bad else 0
 
 
-def fullscan() -> int:
-    box = ready_box()
+def fullscan(only: str | None) -> int:
+    box = ready_box(only)
     if box is None:
         return 1
     print(f"  pelny skan 13E w tle (~10 min, odpytanie co {POLL_S} s)...")
@@ -380,6 +384,12 @@ def main(argv: list[str]) -> int:
     if not argv or argv[0] in ("-h", "--help"):
         print(__doc__)
         return 0
+    only: str | None = None
+    if argv[0] == "--box":
+        if len(argv) < 3:
+            print(__doc__)
+            return 2
+        only, argv = argv[1], argv[2:]
     cmd = argv[0]
     if cmd == "refresh":
         which = argv[1:] or PROVIDERS
@@ -387,11 +397,11 @@ def main(argv: list[str]) -> int:
         if bad:
             print(f"nieznani operatorzy: {', '.join(bad)}  (znani: {', '.join(PROVIDERS)})")
             return 2
-        return refresh(which)
+        return refresh(which, only)
     if cmd == "fullscan":
-        return fullscan()
+        return fullscan(only)
     if cmd == "sweep":
-        return sweep(each="--kazdy" in argv[1:])
+        return sweep(each="--kazdy" in argv[1:], only=only)
     if cmd == "changes":
         return changes(argv[1:] or PROVIDERS)
     if cmd == "moved":

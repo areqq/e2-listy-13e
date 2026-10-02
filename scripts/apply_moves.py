@@ -2,6 +2,9 @@
 
 Format pliku (hex bez 0x; onid/ns opcjonalne, domyslnie 013E/00820000):
 {
+  "add_transponders": [
+    {"tsid": "3C28", "line": "s 11585000:27500000:1:4:130:2:0:1:2:0:2"}
+  ],
   "add_services": [
     {"sid": "3ACE", "tsid": "0514", "type": 25, "name": "Canal+ Sport 2 HD", "provider": "Canal+"}
   ],
@@ -11,12 +14,13 @@ Format pliku (hex bez 0x; onid/ns opcjonalne, domyslnie 013E/00820000):
   "targets": [
     {"bouquet": "userbouquet.dbe00.tv",
      "moves": [
-       {"name": "TVP Kultura HD", "old_sid": "3D59", "old_tsid": "2C88", "new_sid": "32D7", "new_tsid": "0190"}
+       {"name": "TVP Kultura HD", "old_sid": "3D59", "old_tsid": "2C88", "new_sid": "32D7", "new_tsid": "0190"},
+       {"name": "Medya Haber", "old_sid": "08A6", "old_tsid": "01F4", "new_sid": "08A6", "new_tsid": "01F4", "new_onid": "00FC"}
      ]}
   ]
 }
 
-Dzialanie: dopisuje brakujace uslugi do lamedb, podmienia stare referencje
+Dzialanie: dopisuje brakujace transpondery (linia parametrow jak w lamedb) i uslugi do lamedb, podmienia stare referencje
 w bukiecie na nowe (kanal zostaje na swojej pozycji; typ uslugi brany z lamedb),
 a potem usuwa z bukietu pozniejsze duplikaty tych samych referencji.
 
@@ -32,6 +36,24 @@ from e2lib import Lamedb, ServiceKey, load_lamedb
 
 DEFAULT_ONID = "013E"
 DEFAULT_NS = "00820000"
+
+
+def add_transponders(lamedb_path: Path, additions: list[dict[str, object]]) -> int:
+    lines = lamedb_path.read_text(encoding="utf-8", errors="replace").splitlines(keepends=True)
+    end_idx = next(i for i, l in enumerate(lines) if l.strip() == "end")
+    added = 0
+    for tp in additions:
+        key = (f"{str(tp.get('ns', DEFAULT_NS)).lower().zfill(8)}:{str(tp['tsid']).lower().zfill(4)}:"
+               f"{str(tp.get('onid', DEFAULT_ONID)).lower().zfill(4)}")
+        if any(l.strip() == key for l in lines[:end_idx]):
+            print(f"  lamedb: transponder {key} juz istnieje - pomijam")
+            continue
+        lines[end_idx:end_idx] = [f"{key}\n", f"\t{tp['line']}\n", "/\n"]
+        end_idx += 3
+        added += 1
+        print(f"  lamedb: dopisano transponder {key}")
+    lamedb_path.write_text("".join(lines), encoding="utf-8")
+    return added
 
 
 def add_services(lamedb_path: Path, additions: list[dict[str, object]]) -> int:
@@ -83,12 +105,13 @@ def apply_to_bouquet(bouquet_path: Path, moves: list[dict[str, object]], db: Lam
     for move in moves:
         old = (int(str(move["old_sid"]), 16), int(str(move["old_tsid"]), 16))
         new = (int(str(move["new_sid"]), 16), int(str(move["new_tsid"]), 16))
-        key = ServiceKey(new[0], new[1], int(DEFAULT_ONID, 16), int(DEFAULT_NS, 16))
+        onid = int(str(move.get("new_onid", DEFAULT_ONID)), 16)
+        key = ServiceKey(new[0], new[1], onid, int(DEFAULT_NS, 16))
         svc = db.services.get(key)
         if svc is None:
-            print(f"  BLAD: {move['name']}: nowej uslugi {move['new_sid']}:{move['new_tsid']} nie ma w lamedb")
+            print(f"  BLAD: {move['name']}: nowej uslugi {move['new_sid']}:{move['new_tsid']}:{onid:04X} nie ma w lamedb")
             continue
-        new_line = f"#SERVICE 1:0:{svc.stype:X}:{new[0]:X}:{new[1]:X}:{int(DEFAULT_ONID, 16):X}:{int(DEFAULT_NS, 16):X}:0:0:0:"
+        new_line = f"#SERVICE 1:0:{svc.stype:X}:{new[0]:X}:{new[1]:X}:{onid:X}:{int(DEFAULT_NS, 16):X}:0:0:0:"
         hit = False
         for i, line in enumerate(lines):
             if ref_of(line) == old:
@@ -119,6 +142,7 @@ def main() -> int:
         return 2
     settings_dir = Path(sys.argv[1])
     config = json.loads(Path(sys.argv[2]).read_text(encoding="utf-8"))
+    add_transponders(settings_dir / "lamedb", list(config.get("add_transponders", [])))
     add_services(settings_dir / "lamedb", list(config.get("add_services", [])))
     rename_services(settings_dir / "lamedb", list(config.get("rename_services", [])))
     db = load_lamedb(settings_dir / "lamedb")

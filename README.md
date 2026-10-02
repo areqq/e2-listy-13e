@@ -21,7 +21,7 @@ na starszym Pythonie użyj równoważnego configu `.json`.
 | `scripts/fix_types.py <settings>` | wyrównanie typów usług w bukietach do lamedb |
 | `scripts/build_names_db.py <out.json> <listy...>` | baza równoważnych pisowni nazw kanałów (klucz SID:TSID:ONID) z wielu list + KingOfSat |
 | `scripts/make_picons.py <settings> <store> <out> [names_db]` | picon.tar (220×132) i zzpicon.tar (400×170) **offline z repo store `picons/`**; symlinki po referencji, wszystkich znanych pisowniach i dla wpisów strumieniowych |
-| `scripts/update_picons.py <settings> <store> [names_db]` | odświeża store `picons/` z najnowszych paczek zet71 (raz pobrane pikony zostają w repo) |
+| `scripts/update_picons.py <settings> <store> [names_db] [--dir <paczka>]` | odświeża store `picons/` z najnowszych paczek zet71 — domyślnie z eeRepo, z `--dir` z wypakowanej paczki „Nazwy - 8bit” (nowsza); plik zastąpiony inną nazwą usuwa (raz pobrane pikony zostają w repo) |
 | `scripts/fetch_missing_picons.py <settings> <db> <store>` | dokłada do store to, czego zet71 nie ma — logotypy github.com/picons/picons (wymaga Pillow) |
 | `scripts/postprocess_bouquet.py <settings> [config] [bukiety]` | generyczny post-procesor sterowany lokalnym configiem (poza repo); podmiany/wpisy dodatkowe wg `*.local.toml` |
 | `scripts/pack_release.py <settings> <out_dir> [picon.tar zzpicon.tar]` | archiwa tylko przez Pythona: `<nazwa>.zip`, `lista.tar` (korzeń), `komplet_<DDMMRR>.tar` |
@@ -32,6 +32,7 @@ na starszym Pythonie użyj równoważnego configu `.json`.
 | `scripts/operator_scans.py changes [platformy]` | referencje vs ostatni commit: nowe, zniknięte, zmiany nazw, przenosiny |
 | `scripts/operator_scans.py fullscan` | pełny skan satelity (`--scan-all`) w tle na dekoderze → `work/satscan-out/<DDMMRR>/full13e.txt` |
 | `scripts/operator_scans.py sweep [--kazdy]` | test satscana: wszystkie platformy na dekoderze, nic nie zapisuje |
+| `scripts/operator_scans.py --box <fragment> <komenda>` | jw. na wskazanym dekoderze (fragment pola `opis` w `scan.local.toml`), gdy pierwszy jest zajęty |
 | `scripts/verify_vs_scan.py <settings> <skany...>` | lista vs sygnał: martwe referencje, przejęte SID-y (wg pełnego skanu), podpowiedzi „inny ONID" / „kandydat"; osobno bukiety polskie i obce |
 
 ## Przepływ pracy
