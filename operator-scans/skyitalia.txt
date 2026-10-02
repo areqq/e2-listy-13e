@@ -38,22 +38,22 @@ L 109 0598:19C8:FBFF visible=1 region=0 src=bat
 L 109 0598:19C8:FBFF visible=1 region=1 src=bat
 L 109 0598:19C8:FBFF visible=1 region=2 src=bat
 L 109 0598:19C8:FBFF visible=1 region=4 src=bat
-L 110 106B:15E0:FBFF visible=1 region=0 src=bat
-L 110 106B:15E0:FBFF visible=1 region=1 src=bat
-L 110 106B:15E0:FBFF visible=1 region=2 src=bat
-L 110 106B:15E0:FBFF visible=1 region=4 src=bat
-L 111 3792:15E0:FBFF visible=1 region=0 src=bat
-L 111 3792:15E0:FBFF visible=1 region=1 src=bat
-L 111 3792:15E0:FBFF visible=1 region=2 src=bat
-L 111 3792:15E0:FBFF visible=1 region=4 src=bat
-L 112 2DA4:15E0:FBFF visible=1 region=0 src=bat
-L 112 2DA4:15E0:FBFF visible=1 region=1 src=bat
-L 112 2DA4:15E0:FBFF visible=1 region=2 src=bat
-L 112 2DA4:15E0:FBFF visible=1 region=4 src=bat
-L 113 2DA6:15E0:FBFF visible=1 region=0 src=bat
-L 113 2DA6:15E0:FBFF visible=1 region=1 src=bat
-L 113 2DA6:15E0:FBFF visible=1 region=2 src=bat
-L 113 2DA6:15E0:FBFF visible=1 region=4 src=bat
+L 110 0F67:2198:FBFF visible=1 region=0 src=bat
+L 110 0F67:2198:FBFF visible=1 region=1 src=bat
+L 110 0F67:2198:FBFF visible=1 region=2 src=bat
+L 110 0F67:2198:FBFF visible=1 region=4 src=bat
+L 111 0F68:2198:FBFF visible=1 region=0 src=bat
+L 111 0F68:2198:FBFF visible=1 region=1 src=bat
+L 111 0F68:2198:FBFF visible=1 region=2 src=bat
+L 111 0F68:2198:FBFF visible=1 region=4 src=bat
+L 112 0F6D:2198:FBFF visible=1 region=0 src=bat
+L 112 0F6D:2198:FBFF visible=1 region=1 src=bat
+L 112 0F6D:2198:FBFF visible=1 region=2 src=bat
+L 112 0F6D:2198:FBFF visible=1 region=4 src=bat
+L 113 0F6E:2198:FBFF visible=1 region=0 src=bat
+L 113 0F6E:2198:FBFF visible=1 region=1 src=bat
+L 113 0F6E:2198:FBFF visible=1 region=2 src=bat
+L 113 0F6E:2198:FBFF visible=1 region=4 src=bat
 L 114 0597:19C8:FBFF visible=1 region=0 src=bat
 L 114 0597:19C8:FBFF visible=1 region=1 src=bat
 L 114 0597:19C8:FBFF visible=1 region=2 src=bat
@@ -200,10 +200,10 @@ L 204 2B10:1900:FBFF visible=1 region=0 src=bat
 L 204 2B10:1900:FBFF visible=1 region=1 src=bat
 L 204 2B10:1900:FBFF visible=1 region=2 src=bat
 L 204 2B10:1900:FBFF visible=1 region=4 src=bat
-L 205 1E54:15E0:FBFF visible=1 region=0 src=bat
-L 205 1E54:15E0:FBFF visible=1 region=1 src=bat
-L 205 1E54:15E0:FBFF visible=1 region=2 src=bat
-L 205 1E54:15E0:FBFF visible=1 region=4 src=bat
+L 205 0F70:2198:FBFF visible=1 region=0 src=bat
+L 205 0F70:2198:FBFF visible=1 region=1 src=bat
+L 205 0F70:2198:FBFF visible=1 region=2 src=bat
+L 205 0F70:2198:FBFF visible=1 region=4 src=bat
 L 206 1C50:1A90:FBFF visible=1 region=0 src=bat
 L 206 1C50:1A90:FBFF visible=1 region=1 src=bat
 L 206 1C50:1A90:FBFF visible=1 region=2 src=bat
@@ -228,14 +228,14 @@ L 211 0DFB:1A90:FBFF visible=1 region=0 src=bat
 L 211 0DFB:1A90:FBFF visible=1 region=1 src=bat
 L 211 0DFB:1A90:FBFF visible=1 region=2 src=bat
 L 211 0DFB:1A90:FBFF visible=1 region=4 src=bat
-L 212 2C29:15E0:FBFF visible=1 region=0 src=bat
-L 212 2C29:15E0:FBFF visible=1 region=1 src=bat
-L 212 2C29:15E0:FBFF visible=1 region=2 src=bat
-L 212 2C29:15E0:FBFF visible=1 region=4 src=bat
-L 214 0DEE:15E0:FBFF visible=1 region=0 src=bat
-L 214 0DEE:15E0:FBFF visible=1 region=1 src=bat
-L 214 0DEE:15E0:FBFF visible=1 region=2 src=bat
-L 214 0DEE:15E0:FBFF visible=1 region=4 src=bat
+L 212 0F72:2198:FBFF visible=1 region=0 src=bat
+L 212 0F72:2198:FBFF visible=1 region=1 src=bat
+L 212 0F72:2198:FBFF visible=1 region=2 src=bat
+L 212 0F72:2198:FBFF visible=1 region=4 src=bat
+L 214 0F6B:2198:FBFF visible=1 region=0 src=bat
+L 214 0F6B:2198:FBFF visible=1 region=1 src=bat
+L 214 0F6B:2198:FBFF visible=1 region=2 src=bat
+L 214 0F6B:2198:FBFF visible=1 region=4 src=bat
 L 215 0DCF:1A90:FBFF visible=1 region=0 src=bat
 L 215 0DCF:1A90:FBFF visible=1 region=1 src=bat
 L 215 0DCF:1A90:FBFF visible=1 region=2 src=bat
@@ -310,18 +310,18 @@ L 256 0F48:2008:FBFF visible=1 region=0 src=bat
 L 256 0F48:2008:FBFF visible=1 region=1 src=bat
 L 256 0F48:2008:FBFF visible=1 region=2 src=bat
 L 256 0F48:2008:FBFF visible=1 region=4 src=bat
-L 257 1E5F:15E0:FBFF visible=1 region=0 src=bat
-L 257 1E5F:15E0:FBFF visible=1 region=1 src=bat
-L 257 1E5F:15E0:FBFF visible=1 region=2 src=bat
-L 257 1E5F:15E0:FBFF visible=1 region=4 src=bat
+L 257 0F71:2198:FBFF visible=1 region=0 src=bat
+L 257 0F71:2198:FBFF visible=1 region=1 src=bat
+L 257 0F71:2198:FBFF visible=1 region=2 src=bat
+L 257 0F71:2198:FBFF visible=1 region=4 src=bat
 L 258 1E5C:2260:FBFF visible=1 region=0 src=bat
 L 258 1E5C:2260:FBFF visible=1 region=1 src=bat
 L 258 1E5C:2260:FBFF visible=1 region=2 src=bat
 L 258 1E5C:2260:FBFF visible=1 region=4 src=bat
-L 259 2D5D:15E0:FBFF visible=1 region=0 src=bat
-L 259 2D5D:15E0:FBFF visible=1 region=1 src=bat
-L 259 2D5D:15E0:FBFF visible=1 region=2 src=bat
-L 259 2D5D:15E0:FBFF visible=1 region=4 src=bat
+L 259 0F6C:2198:FBFF visible=1 region=0 src=bat
+L 259 0F6C:2198:FBFF visible=1 region=1 src=bat
+L 259 0F6C:2198:FBFF visible=1 region=2 src=bat
+L 259 0F6C:2198:FBFF visible=1 region=4 src=bat
 L 271 2C77:19C8:FBFF visible=1 region=0 src=bat
 L 271 2C77:19C8:FBFF visible=1 region=1 src=bat
 L 291 1092:2008:FBFF visible=1 region=2 src=bat
@@ -329,14 +329,14 @@ L 3003 0E56:16A8:FBFF visible=1 region=0 src=bat
 L 3003 0E56:16A8:FBFF visible=1 region=1 src=bat
 L 3003 0E56:16A8:FBFF visible=1 region=2 src=bat
 L 3003 0E56:16A8:FBFF visible=1 region=4 src=bat
-L 301 106A:15E0:FBFF visible=1 region=0 src=bat
-L 301 106A:15E0:FBFF visible=1 region=1 src=bat
-L 301 106A:15E0:FBFF visible=1 region=2 src=bat
-L 301 106A:15E0:FBFF visible=1 region=4 src=bat
-L 302 0DEC:15E0:FBFF visible=1 region=0 src=bat
-L 302 0DEC:15E0:FBFF visible=1 region=1 src=bat
-L 302 0DEC:15E0:FBFF visible=1 region=2 src=bat
-L 302 0DEC:15E0:FBFF visible=1 region=4 src=bat
+L 301 0F65:2198:FBFF visible=1 region=0 src=bat
+L 301 0F65:2198:FBFF visible=1 region=1 src=bat
+L 301 0F65:2198:FBFF visible=1 region=2 src=bat
+L 301 0F65:2198:FBFF visible=1 region=4 src=bat
+L 302 0F6A:2198:FBFF visible=1 region=0 src=bat
+L 302 0F6A:2198:FBFF visible=1 region=1 src=bat
+L 302 0F6A:2198:FBFF visible=1 region=2 src=bat
+L 302 0F6A:2198:FBFF visible=1 region=4 src=bat
 L 303 106C:2260:FBFF visible=1 region=0 src=bat
 L 303 106C:2260:FBFF visible=1 region=1 src=bat
 L 303 106C:2260:FBFF visible=1 region=2 src=bat
@@ -381,14 +381,6 @@ L 331 2C46:19C8:FBFF visible=1 region=0 src=bat
 L 331 2C46:19C8:FBFF visible=1 region=1 src=bat
 L 348 2D68:16A8:FBFF visible=1 region=2 src=bat
 L 349 0F66:16A8:FBFF visible=1 region=2 src=bat
-L 3892 1FCD:2260:FBFF visible=1 region=0 src=bat
-L 3892 1FCD:2260:FBFF visible=1 region=1 src=bat
-L 3892 1FCD:2260:FBFF visible=1 region=2 src=bat
-L 3892 1FCD:2260:FBFF visible=1 region=4 src=bat
-L 3902 1FD2:2260:FBFF visible=1 region=0 src=bat
-L 3902 1FD2:2260:FBFF visible=1 region=1 src=bat
-L 3902 1FD2:2260:FBFF visible=1 region=2 src=bat
-L 3902 1FD2:2260:FBFF visible=1 region=4 src=bat
 L 392 2C4D:19C8:FBFF visible=1 region=0 src=bat
 L 392 2C4D:19C8:FBFF visible=1 region=1 src=bat
 L 400 2B43:19C8:FBFF visible=1 region=0 src=bat
@@ -399,10 +391,10 @@ L 40004 2D68:16A8:FBFF visible=1 region=0 src=bat
 L 40004 2D68:16A8:FBFF visible=1 region=1 src=bat
 L 40004 2D68:16A8:FBFF visible=1 region=4 src=bat
 L 40005 0F66:16A8:FBFF visible=1 region=4 src=bat
-L 4005 38F6:15E0:FBFF visible=1 region=0 src=bat
-L 4005 38F6:15E0:FBFF visible=1 region=1 src=bat
-L 4005 38F6:15E0:FBFF visible=1 region=2 src=bat
-L 4005 38F6:15E0:FBFF visible=1 region=4 src=bat
+L 4005 38F6:2198:FBFF visible=1 region=0 src=bat
+L 4005 38F6:2198:FBFF visible=1 region=1 src=bat
+L 4005 38F6:2198:FBFF visible=1 region=2 src=bat
+L 4005 38F6:2198:FBFF visible=1 region=4 src=bat
 L 402 2DB2:2260:FBFF visible=1 region=0 src=bat
 L 402 2DB2:2260:FBFF visible=1 region=1 src=bat
 L 402 2DB2:2260:FBFF visible=1 region=2 src=bat
@@ -1316,15 +1308,24 @@ S 0E83:3200:013E type=0 ca=1 "" ""
 S 0F46:2008:FBFF type=25 ca=1 "Sky Sport" "SkyItalia"
 S 0F48:2008:FBFF type=25 ca=1 "Sky Sport" "SkyItalia"
 S 0F4D:1A90:FBFF type=25 ca=1 "Sky Sport" "SkyItalia"
-S 0F54:2198:FBFF type=25 ca=1 "Onboard Mix HD" "SkyItalia"
-S 0F5A:2198:FBFF type=130 ca=1 "Calcio1Magaz" "SkyItalia"
+S 0F64:2198:FBFF type=25 ca=1 "Prime Video Sportsbar" "SkyItalia"
+S 0F65:2198:FBFF type=25 ca=1 "Sky Cinema Uno" "SkyItalia"
 S 0F66:16A8:FBFF type=0 ca=1 "" ""
+S 0F67:2198:FBFF type=25 ca=1 "Sky Cinema Uno" "SkyItalia"
+S 0F68:2198:FBFF type=25 ca=1 "Sky Atlantic" "SkyItalia"
+S 0F69:2198:FBFF type=25 ca=1 "Sky Sport Business 2" "SkyItalia"
+S 0F6A:2198:FBFF type=25 ca=1 "Sky Cinema Stories" "SkyItalia"
+S 0F6B:2198:FBFF type=25 ca=1 "DAZN 1" "SkyItalia"
+S 0F6C:2198:FBFF type=1 ca=1 "Sky Sport" "SkyItalia"
+S 0F6D:2198:FBFF type=25 ca=1 "Sky Serie" "SkyItalia"
+S 0F6E:2198:FBFF type=25 ca=1 "Sky Investigation" "SkyItalia"
 S 0F6F:2008:FBFF type=25 ca=1 "Sky Sport" "SkyItalia"
+S 0F70:2198:FBFF type=25 ca=1 "Sky Sport Basket" "SkyItalia"
+S 0F71:2198:FBFF type=25 ca=1 "Sky Sport" "SkyItalia"
+S 0F72:2198:FBFF type=25 ca=1 "SuperTennis HD" "SkyItalia"
 S 0F79:19C8:FBFF type=25 ca=1 "Sky Adventure" "SkyItalia"
 S 0F7A:19C8:FBFF type=25 ca=1 "Sky Adventure" "SkyItalia"
-S 0F87:2198:FBFF type=132 ca=1 "Dl951" "SkyItalia"
 S 0F89:2198:FBFF type=131 ca=1 "IEPG Data" "SkyItalia"
-S 0F8A:2198:FBFF type=132 ca=1 "Dl583" "SkyItalia"
 S 0F96:2198:FBFF type=251 ca=1 "Fusion BGDL 3990" "SkyItalia"
 S 0FC7:2260:FBFF type=25 ca=1 "Sky Cinema Restart" "SkyItalia"
 S 0FDC:1AF4:FBFF type=31 ca=1 "Eurosport 4K" "SkyItalia"
@@ -1338,7 +1339,7 @@ S 105E:1A90:FBFF type=251 ca=1 "Fusion BGDL 4190" "SkyItalia"
 S 1063:1A90:FBFF type=131 ca=1 "IEPG Data" "SkyItalia"
 S 106A:15E0:FBFF type=25 ca=1 "Sky Cinema Uno" "SkyItalia"
 S 106B:15E0:FBFF type=25 ca=1 "Sky Cinema Uno" "SkyItalia"
-S 106C:2260:FBFF type=25 ca=1 "Fast & Furious Collection" "SkyItalia"
+S 106C:2260:FBFF type=25 ca=1 "Adventure Collection" "SkyItalia"
 S 106E:2008:FBFF type=25 ca=1 "Sky Cinema Action" "SkyItalia"
 S 1089:1A90:FBFF type=25 ca=1 "Sky Sport" "SkyItalia"
 S 108A:1A90:FBFF type=25 ca=1 "Sky Sport" "SkyItalia"
@@ -1509,8 +1510,6 @@ S 1F67:319C:013E type=1 ca=1 "EBRU TV" "SkyItalia"
 S 1F78:319C:013E type=1 ca=1 "GLOBALK SAT" "SkyItalia"
 S 1FA7:19C8:FBFF type=1 ca=1 "Fox News" "SkyItalia"
 S 1FAC:19C8:FBFF type=1 ca=1 "Sky News" "SkyItalia"
-S 1FCD:2260:FBFF type=144 ca=1 "Sky Primafila Active" "SkyItalia"
-S 1FD2:2260:FBFF type=144 ca=1 "Sky Primafila" "SkyItalia"
 S 1FED:16A8:FBFF type=252 ca=1 "Fusion FGDL" "SkyItalia"
 S 1FEE:189C:FBFF type=132 ca=1 "BGDL_6300" "SkyItalia"
 S 1FEF:189C:FBFF type=132 ca=1 "Downl IKUSI" "SkyItalia"
@@ -1569,7 +1568,7 @@ S 20BC:2328:013E type=2 ca=1 "RADIO BANOVINA" "SkyItalia"
 S 20BD:2328:013E type=2 ca=1 "TEST" "SkyItalia"
 S 2146:3070:013E type=25 ca=0 "Rai Storia " "SkyItalia"
 S 2147:3070:013E type=0 ca=0 "" ""
-S 2149:3070:013E type=25 ca=0 "Rai Scuola " "SkyItalia"
+S 2149:3070:013E type=25 ca=0 "Italiana" "SkyItalia"
 S 214C:3070:013E type=2 ca=1 "Rai Radio3 Classica" "SkyItalia"
 S 214D:3070:013E type=2 ca=1 "Rai GR PARLAMENTO " "SkyItalia"
 S 214E:3070:013E type=2 ca=1 "Rai ISORADIO " "SkyItalia"
@@ -1800,7 +1799,7 @@ S 37B5:19C8:FBFF type=25 ca=1 "Milan TV" "SkyItalia"
 S 37D3:14B4:FBFF type=251 ca=1 "Fusion BGDL 14291" "SkyItalia"
 S 37D7:14B4:FBFF type=131 ca=1 "IEPG Data" "SkyItalia"
 S 38D0:19C8:FBFF type=1 ca=1 "Fox Business" "SkyItalia"
-S 38F6:15E0:FBFF type=144 ca=1 " " "SkyItalia"
+S 38F6:2198:FBFF type=144 ca=1 " " "SkyItalia"
 S 39D7:1FA4:013E type=1 ca=1 "RTVI INFO" "SkyItalia"
 S 39D9:1FA4:013E type=1 ca=1 "SonLife Broadcasting Network" "SkyItalia"
 S 39DE:1FA4:013E type=2 ca=1 "RADIO BOBAR" "SkyItalia"
@@ -1885,13 +1884,14 @@ T 1FA4:013E freq=12322060 pol=H sr=27500000 fec=3 sys=S pos=130E mod=1
 T 2008:FBFF freq=12341000 pol=V sr=29900000 fec=3 sys=S2 pos=130E mod=2
 T 20D0:013E freq=12379600 pol=V sr=30000000 fec=4 sys=S2 pos=130E mod=2
 T 2134:013E freq=12399000 pol=H sr=29700000 fec=2 sys=S2 pos=130E mod=2
+T 2198:FBFF freq=12418000 pol=V sr=29900000 fec=3 sys=S2 pos=130E mod=2
 T 21FC:013E freq=12437000 pol=H sr=27500000 fec=3 sys=S pos=130E mod=1
 T 2260:FBFF freq=12465910 pol=V sr=29900000 fec=3 sys=S2 pos=130E mod=2
 T 22C4:013E freq=12475500 pol=H sr=29900000 fec=3 sys=S2 pos=130E mod=2
 T 2328:013E freq=12520000 pol=V sr=27500000 fec=2 sys=S2 pos=130E mod=2
 T 238C:013E freq=12539020 pol=H sr=30000000 fec=4 sys=S2 pos=130E mod=2
 T 23F0:013F freq=12558000 pol=V sr=27500000 fec=4 sys=S2 pos=130E mod=2
-T 2454:013E freq=12576000 pol=H sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 2454:013E freq=12577000 pol=H sr=27500000 fec=3 sys=S2 pos=130E mod=2
 T 24B8:013E freq=12596560 pol=V sr=27500000 fec=3 sys=S pos=130E mod=1
 T 25E4:02BE freq=12654000 pol=H sr=27500000 fec=4 sys=S pos=130E mod=1
 T 270F:03E7 freq=99999990 pol=V sr=99999900 fec=4 sys=S pos=999E mod=1

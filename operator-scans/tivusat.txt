@@ -105,6 +105,7 @@ L 609 02E1:1B58:013E visible=1 src=nit
 L 610 0E3A:1C20:013E visible=1 src=nit
 L 611 0E3B:1C20:013E visible=1 src=nit
 L 612 0E2E:1C20:013E visible=1 src=nit
+L 613 0E31:1C20:013E visible=1 src=nit
 L 615 0069:1770:00BE visible=1 src=nit
 L 616 0068:1770:00BE visible=1 src=nit
 L 617 0065:1770:00BE visible=1 src=nit
@@ -268,6 +269,7 @@ S 0D72:1450:013E type=2 ca=1 "Rai Radio 2" "RAI"
 S 0D73:1450:013E type=2 ca=1 "Rai Radio 3" "RAI"
 S 0E2E:1C20:013E type=2 ca=1 "Radio Freccia" "PEOPLE TV"
 S 0E30:1C20:013E type=2 ca=1 "RADIO ITALIA s.m.i." "PEOPLE TV"
+S 0E31:1C20:013E type=2 ca=1 "Giornale Radio" "PEOPLE TV"
 S 0E35:1C20:013E type=2 ca=1 "Radio Sportiva" "PEOPLE TV"
 S 0E3A:1C20:013E type=2 ca=1 "RTL 102.5" "PEOPLE TV"
 S 0E3B:1C20:013E type=2 ca=1 "RADIO ZETA ITALIANA" "PEOPLE TV"
@@ -303,7 +305,7 @@ S 213F:3070:013E type=25 ca=1 "Rai YoYo HD" "RAI"
 S 2140:3070:013E type=22 ca=1 "Rai Radio 2 Visual" "RAI"
 S 2146:3070:013E type=25 ca=1 "Rai Storia HD" "RAI"
 S 2147:3070:013E type=1 ca=1 "Camera Deputati" "RAI"
-S 2149:3070:013E type=25 ca=1 "Rai Scuola HD" "RAI"
+S 2149:3070:013E type=25 ca=1 "Italiana" "RAI"
 S 214A:3070:013E type=25 ca=1 "Rai Premium HD" "RAI"
 S 214B:3070:013E type=22 ca=1 "tivù la guida" "RAI"
 S 214C:3070:013E type=2 ca=0 "Rai Radio 3 Classica" "RAI"

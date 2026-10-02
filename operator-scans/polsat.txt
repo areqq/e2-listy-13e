@@ -112,6 +112,7 @@ L 213 3E2C:2EE0:013E visible=1 src=nit
 L 214 0C33:1E78:0071 visible=1 src=nit
 L 215 0C34:1E78:0071 visible=1 src=nit
 L 2157 13F2:05DC:013E visible=1 src=nit
+L 2194 423F:3DB8:013E visible=1 src=nit
 L 220 3D69:2C88:013E visible=1 src=nit
 L 221 3D6A:2C88:013E visible=1 src=nit
 L 222 3D6B:2C88:013E visible=1 src=nit
@@ -169,7 +170,6 @@ L 42 33BB:3390:0071 visible=1 src=nit
 L 424 32CB:0190:013E visible=1 src=nit
 L 426 13FD:05DC:013E visible=1 src=nit
 L 43 3784:044C:013E visible=1 src=nit
-L 438 423F:3DB8:013E visible=1 src=nit
 L 439 3A9A:0514:013E visible=1 src=nit
 L 445 3E27:2EE0:013E visible=1 src=nit
 L 446 3E28:2EE0:013E visible=1 src=nit
@@ -613,8 +613,8 @@ S 4239:2F44:013E type=1 ca=0 "TVP POLONIA" "Cyfrowy Polsat S.A."
 S 423B:3DB8:013E type=1 ca=0 "TELE5" "Cyfrowy Polsat S.A."
 S 423C:3DB8:013E type=1 ca=0 "P1" "Cyfrowy Polsat S.A."
 S 423E:3DB8:013E type=1 ca=1 "Water Planet" "Cyfrowy Polsat S.A."
-S 423F:3DB8:013E type=1 ca=0 "Novela TV" "Cyfrowy Polsat S.A."
-S 4240:3DB8:013E type=1 ca=1 "Novela TV" "Cyfrowy Polsat S.A."
+S 423F:3DB8:013E type=0 ca=1 "" ""
+S 4240:3DB8:013E type=1 ca=1 "Novela TV" "CYfrowy Polsat S.A."
 S 4279:2BC0:013E type=1 ca=1 "wPolsce24" "Cyfrowy Polsat S.A."
 S 427B:2BC0:013E type=1 ca=1 "Stopklatka" "Cyfrowy Polsat S.A."
 S 427C:2BC0:013E type=1 ca=0 "Stopklatka" "Cyfrowy Polsat S.A."

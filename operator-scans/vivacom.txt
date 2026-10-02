@@ -2,7 +2,6 @@ L 1 0067:251C:00D5 visible=1 src=bat
 L 10 0020:2580:00D5 visible=1 src=bat
 L 100 0147:2648:00D5 visible=1 src=bat
 L 101 0146:2648:00D5 visible=1 src=bat
-L 102 00D5:2648:00D5 visible=1 src=bat
 L 103 00DB:25E4:00D5 visible=1 src=bat
 L 104 0087:251C:00D5 visible=1 src=bat
 L 105 13B2:2710:00D5 visible=1 src=bat
@@ -310,7 +309,7 @@ S 00D1:25E4:00D5 type=22 ca=1 "Планета Фолк" "VIVACOM"
 S 00D2:25E4:00D5 type=22 ca=1 "7/8 TV" "VIVACOM"
 S 00D3:25E4:00D5 type=22 ca=1 "Фолклор ТВ" "VIVACOM"
 S 00D4:25E4:00D5 type=22 ca=1 "Viasat Nature" "VIVACOM"
-S 00D5:2648:00D5 type=22 ca=1 "Russian Travel Guide Int" "VIVACOM"
+S 00D5:2648:00D5 type=22 ca=1 "No Name" "VIVACOM"
 S 00D6:25E4:00D5 type=22 ca=1 "Без Багаж" "VIVACOM"
 S 00D7:25E4:00D5 type=22 ca=1 "Eurosport 2" "VIVACOM"
 S 00D8:25E4:00D5 type=22 ca=1 "NKTV Evrokom" "VIVACOM"
