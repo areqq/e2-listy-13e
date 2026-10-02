@@ -16,12 +16,16 @@ Format pliku (hex bez 0x; onid/ns opcjonalne, domyslnie 013E/00820000):
      "moves": [
        {"name": "TVP Kultura HD", "old_sid": "3D59", "old_tsid": "2C88", "new_sid": "32D7", "new_tsid": "0190"},
        {"name": "Medya Haber", "old_sid": "08A6", "old_tsid": "01F4", "new_sid": "08A6", "new_tsid": "01F4", "new_onid": "00FC"}
+     ],
+     "remove": [
+       {"name": "K2 HD", "sid": "3B64", "tsid": "012C"}
      ]}
   ]
 }
 
 Dzialanie: dopisuje brakujace transpondery (linia parametrow jak w lamedb) i uslugi do lamedb, podmienia stare referencje
 w bukiecie na nowe (kanal zostaje na swojej pozycji; typ uslugi brany z lamedb),
+usuwa wpisy z listy "remove" (kanal wylaczony, bez zamiennika; usluga zostaje w lamedb),
 a potem usuwa z bukietu pozniejsze duplikaty tych samych referencji.
 
 Uzycie: python3 scripts/apply_moves.py <katalog_settings> <moves.json>
@@ -100,7 +104,8 @@ def ref_of(line: str) -> tuple[int, int] | None:
     return int(parts[3], 16), int(parts[4], 16)
 
 
-def apply_to_bouquet(bouquet_path: Path, moves: list[dict[str, object]], db: Lamedb) -> None:
+def apply_to_bouquet(bouquet_path: Path, moves: list[dict[str, object]], removals: list[dict[str, object]],
+                     db: Lamedb) -> None:
     lines = bouquet_path.read_text(encoding="utf-8", errors="replace").splitlines()
     for move in moves:
         old = (int(str(move["old_sid"]), 16), int(str(move["old_tsid"]), 16))
@@ -121,6 +126,15 @@ def apply_to_bouquet(bouquet_path: Path, moves: list[dict[str, object]], db: Lam
                 break
         if not hit:
             print(f"  UWAGA: {move['name']}: starej referencji {move['old_sid']}:{move['old_tsid']} nie ma w bukiecie")
+
+    for rem in removals:
+        ref = (int(str(rem["sid"]), 16), int(str(rem["tsid"]), 16))
+        kept = [line for line in lines if ref_of(line) != ref]
+        if len(kept) == len(lines):
+            print(f"  UWAGA: {rem['name']}: referencji {rem['sid']}:{rem['tsid']} nie ma w bukiecie")
+        else:
+            print(f"  {rem['name']}: usunieto {len(lines) - len(kept)} wpis(y)")
+        lines = kept
 
     seen: set[tuple[int, int]] = set()
     deduped: list[str] = []
@@ -148,7 +162,8 @@ def main() -> int:
     db = load_lamedb(settings_dir / "lamedb")
     for target in list(config.get("targets", [])):
         print(f"-- {target['bouquet']}")
-        apply_to_bouquet(settings_dir / str(target["bouquet"]), list(target["moves"]), db)
+        apply_to_bouquet(settings_dir / str(target["bouquet"]), list(target.get("moves", [])),
+                         list(target.get("remove", [])), db)
     return 0
 
 
