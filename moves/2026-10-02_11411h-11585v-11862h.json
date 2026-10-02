@@ -1,0 +1,694 @@
+{
+ "_opis": "Fala 02.10.2026, wg pelnego skanu 13E z 02.10 (SDT: typy, nazwy, provider). Blok XXX 10719 V -> 11411 H (platforma przelaczyla LCN 300-302 na nowa emisje, stara jeszcze nadaje). 11585 V zmienil identyfikator 001A:0888 -> 3C28:013E. 11296 H nadaje z ONID 00FC. 11862 H: TSID 1645 -> 1644. Zmiany nazw = rebranding wg SDT.",
+ "add_transponders": [
+  {
+   "tsid": "3C28",
+   "line": "s 11585000:27500000:1:4:130:2:0:1:2:0:2"
+  },
+  {
+   "tsid": "1644",
+   "line": "s 11862000:29900000:0:2:130:2:0:1:2:0:2"
+  }
+ ],
+ "add_services": [
+  {
+   "sid": "0064",
+   "tsid": "1644",
+   "type": 25,
+   "name": "Kabelio 3+",
+   "provider": "KABELIO.CH"
+  },
+  {
+   "sid": "0065",
+   "tsid": "1644",
+   "type": 25,
+   "name": "Kabelio 3+ Movies",
+   "provider": "KABELIO.CH"
+  },
+  {
+   "sid": "0066",
+   "tsid": "1644",
+   "type": 25,
+   "name": "Kabelio 3+ Series",
+   "provider": "KABELIO.CH"
+  },
+  {
+   "sid": "0067",
+   "tsid": "1644",
+   "type": 25,
+   "name": "Kabelio 3+ Adrenalin",
+   "provider": "KABELIO.CH"
+  },
+  {
+   "sid": "0068",
+   "tsid": "1644",
+   "type": 25,
+   "name": "Kabelio 3+ Emotion",
+   "provider": "KABELIO.CH"
+  },
+  {
+   "sid": "0069",
+   "tsid": "1644",
+   "type": 25,
+   "name": "Kabelio 3+ Crime",
+   "provider": "KABELIO.CH"
+  },
+  {
+   "sid": "006B",
+   "tsid": "1644",
+   "type": 1,
+   "name": "Kabelio Tele Zueri",
+   "provider": "KABELIO.CH"
+  },
+  {
+   "sid": "006C",
+   "tsid": "1644",
+   "type": 25,
+   "name": "Kabelio Puls acht",
+   "provider": "KABELIO.CH"
+  },
+  {
+   "sid": "006D",
+   "tsid": "1644",
+   "type": 25,
+   "name": "Kabelio ORF eins",
+   "provider": "KABELIO.CH"
+  },
+  {
+   "sid": "006E",
+   "tsid": "1644",
+   "type": 25,
+   "name": "Kabelio ORF 2 Tirol",
+   "provider": "KABELIO.CH"
+  },
+  {
+   "sid": "006F",
+   "tsid": "1644",
+   "type": 25,
+   "name": "Kabelio RTL CH",
+   "provider": "KABELIO.CH"
+  },
+  {
+   "sid": "0070",
+   "tsid": "1644",
+   "type": 25,
+   "name": "Kabelio RTLzwei CH",
+   "provider": "KABELIO.CH"
+  },
+  {
+   "sid": "0071",
+   "tsid": "1644",
+   "type": 25,
+   "name": "Kabelio VOX CH",
+   "provider": "KABELIO.CH"
+  },
+  {
+   "sid": "0072",
+   "tsid": "1644",
+   "type": 25,
+   "name": "Kabelio SAT.1 CH",
+   "provider": "KABELIO.CH"
+  },
+  {
+   "sid": "0073",
+   "tsid": "1644",
+   "type": 25,
+   "name": "Kabelio ProSieben CH",
+   "provider": "KABELIO.CH"
+  },
+  {
+   "sid": "0074",
+   "tsid": "1644",
+   "type": 25,
+   "name": "Kabelio ORF III",
+   "provider": "KABELIO.CH"
+  },
+  {
+   "sid": "0075",
+   "tsid": "1644",
+   "type": 25,
+   "name": "Kabelio ServusTV",
+   "provider": "KABELIO.CH"
+  },
+  {
+   "sid": "0076",
+   "tsid": "1644",
+   "type": 25,
+   "name": "Kabelio ORF Sport+",
+   "provider": "KABELIO.CH"
+  },
+  {
+   "sid": "007F",
+   "tsid": "1644",
+   "type": 25,
+   "name": "Kabelio Kabel 1 CH",
+   "provider": "KABELIO.CH"
+  },
+  {
+   "sid": "0082",
+   "tsid": "1644",
+   "type": 25,
+   "name": "Kabelio SuperRTL CH",
+   "provider": "KABELIO.CH"
+  },
+  {
+   "sid": "0084",
+   "tsid": "1644",
+   "type": 25,
+   "name": "Kabelio Das Erste",
+   "provider": "KABELIO.CH"
+  },
+  {
+   "sid": "0085",
+   "tsid": "1644",
+   "type": 25,
+   "name": "Kabelio ZDF",
+   "provider": "KABELIO.CH"
+  },
+  {
+   "sid": "0087",
+   "tsid": "1644",
+   "type": 1,
+   "name": "Kabelio ntv CH",
+   "provider": "KABELIO.CH"
+  },
+  {
+   "sid": "0089",
+   "tsid": "1644",
+   "type": 1,
+   "name": "Kabelio SAT.1 GOLD",
+   "provider": "KABELIO.CH"
+  },
+  {
+   "sid": "0367",
+   "tsid": "3C28",
+   "type": 1,
+   "name": "CCTV 4E",
+   "provider": "CCTV"
+  },
+  {
+   "sid": "0368",
+   "tsid": "3C28",
+   "type": 1,
+   "name": "CGTN",
+   "provider": "CCTV"
+  },
+  {
+   "sid": "0369",
+   "tsid": "3C28",
+   "type": 1,
+   "name": "CGTN Documentary",
+   "provider": "CCTV"
+  },
+  {
+   "sid": "036A",
+   "tsid": "3C28",
+   "type": 1,
+   "name": "CGTN E",
+   "provider": "CCTV"
+  },
+  {
+   "sid": "036B",
+   "tsid": "3C28",
+   "type": 1,
+   "name": "CGTN F",
+   "provider": "CCTV"
+  },
+  {
+   "sid": "036C",
+   "tsid": "3C28",
+   "type": 1,
+   "name": "CGTN R",
+   "provider": "CCTV"
+  },
+  {
+   "sid": "036D",
+   "tsid": "3C28",
+   "type": 1,
+   "name": "CGTN A",
+   "provider": "CCTV"
+  },
+  {
+   "sid": "089A",
+   "tsid": "01F4",
+   "type": 22,
+   "name": "CBC Azerbaijan",
+   "provider": "iKOMG",
+   "onid": "00FC"
+  },
+  {
+   "sid": "089B",
+   "tsid": "01F4",
+   "type": 1,
+   "name": "Iran E Aryee",
+   "provider": "iKOMG",
+   "onid": "00FC"
+  },
+  {
+   "sid": "08A6",
+   "tsid": "01F4",
+   "type": 25,
+   "name": "Medya Haber",
+   "provider": "iKOMG",
+   "onid": "00FC"
+  },
+  {
+   "sid": "37A1",
+   "tsid": "044C",
+   "type": 25,
+   "name": "Hustler HD",
+   "provider": "CANAL+"
+  },
+  {
+   "sid": "37A2",
+   "tsid": "044C",
+   "type": 22,
+   "name": "Blue Hustler",
+   "provider": "CANAL+"
+  },
+  {
+   "sid": "37A3",
+   "tsid": "044C",
+   "type": 25,
+   "name": "Private HD",
+   "provider": "CANAL+"
+  }
+ ],
+ "rename_services": [
+  {
+   "sid": "3B6B",
+   "tsid": "012C",
+   "new_name": "Turbo Xtra Poland HD"
+  },
+  {
+   "sid": "0BEA",
+   "tsid": "20D0",
+   "new_name": "Insight TV UHD"
+  },
+  {
+   "sid": "2149",
+   "tsid": "3070",
+   "new_name": "Italiana"
+  },
+  {
+   "sid": "0077",
+   "tsid": "04B0",
+   "new_name": "RADIO MONTE CARLO"
+  },
+  {
+   "sid": "3C97",
+   "tsid": "1BBC",
+   "new_name": "E! Entertainment HD"
+  },
+  {
+   "sid": "421C",
+   "tsid": "2F44",
+   "new_name": "UATV"
+  },
+  {
+   "sid": "3C9D",
+   "tsid": "1BBC",
+   "new_name": "MagentaSport1"
+  },
+  {
+   "sid": "1BD3",
+   "tsid": "17D4",
+   "new_name": "MagentaSport2"
+  },
+  {
+   "sid": "0165",
+   "tsid": "1C84",
+   "new_name": "MagentaSport3"
+  },
+  {
+   "sid": "1BCB",
+   "tsid": "17D4",
+   "new_name": "MagentaSport4"
+  },
+  {
+   "sid": "1BCC",
+   "tsid": "17D4",
+   "new_name": "MagentaSport5"
+  },
+  {
+   "sid": "1BCE",
+   "tsid": "17D4",
+   "new_name": "MagentaSport6"
+  },
+  {
+   "sid": "3C93",
+   "tsid": "1BBC",
+   "new_name": "MagentaSport7"
+  },
+  {
+   "sid": "3C94",
+   "tsid": "1BBC",
+   "new_name": "MagentaSport8"
+  },
+  {
+   "sid": "3C96",
+   "tsid": "1BBC",
+   "new_name": "MagentaSport9"
+  },
+  {
+   "sid": "0193",
+   "tsid": "1518",
+   "new_name": "MagentaSportHighlights"
+  }
+ ],
+ "targets": [
+  {
+   "bouquet": "userbouquet.Kabelio.tv",
+   "moves": [
+    {
+     "name": "Kabelio VOX CH",
+     "old_sid": "0071",
+     "old_tsid": "1645",
+     "new_sid": "0071",
+     "new_tsid": "1644"
+    },
+    {
+     "name": "Kabelio 3+",
+     "old_sid": "0064",
+     "old_tsid": "1645",
+     "new_sid": "0064",
+     "new_tsid": "1644"
+    },
+    {
+     "name": "Kabelio 3+ Movies",
+     "old_sid": "0065",
+     "old_tsid": "1645",
+     "new_sid": "0065",
+     "new_tsid": "1644"
+    },
+    {
+     "name": "Kabelio 3+ Series",
+     "old_sid": "0066",
+     "old_tsid": "1645",
+     "new_sid": "0066",
+     "new_tsid": "1644"
+    },
+    {
+     "name": "Kabelio 3+ Crime",
+     "old_sid": "0069",
+     "old_tsid": "1645",
+     "new_sid": "0069",
+     "new_tsid": "1644"
+    },
+    {
+     "name": "Kabelio Das Erste",
+     "old_sid": "0084",
+     "old_tsid": "1645",
+     "new_sid": "0084",
+     "new_tsid": "1644"
+    },
+    {
+     "name": "Kabelio Kabel 1 CH",
+     "old_sid": "007F",
+     "old_tsid": "1645",
+     "new_sid": "007F",
+     "new_tsid": "1644"
+    },
+    {
+     "name": "Kabelio ntv CH",
+     "old_sid": "0087",
+     "old_tsid": "1645",
+     "new_sid": "0087",
+     "new_tsid": "1644"
+    },
+    {
+     "name": "Kabelio ORF eins",
+     "old_sid": "006D",
+     "old_tsid": "1645",
+     "new_sid": "006D",
+     "new_tsid": "1644"
+    },
+    {
+     "name": "Kabelio ORF 2 Tirol",
+     "old_sid": "006E",
+     "old_tsid": "1645",
+     "new_sid": "006E",
+     "new_tsid": "1644"
+    },
+    {
+     "name": "Kabelio ORF III",
+     "old_sid": "0074",
+     "old_tsid": "1645",
+     "new_sid": "0074",
+     "new_tsid": "1644"
+    },
+    {
+     "name": "Kabelio ORF Sport+",
+     "old_sid": "0076",
+     "old_tsid": "1645",
+     "new_sid": "0076",
+     "new_tsid": "1644"
+    },
+    {
+     "name": "Kabelio ProSieben CH",
+     "old_sid": "0073",
+     "old_tsid": "1645",
+     "new_sid": "0073",
+     "new_tsid": "1644"
+    },
+    {
+     "name": "Kabelio Puls acht",
+     "old_sid": "006C",
+     "old_tsid": "1645",
+     "new_sid": "006C",
+     "new_tsid": "1644"
+    },
+    {
+     "name": "Kabelio RTL CH",
+     "old_sid": "006F",
+     "old_tsid": "1645",
+     "new_sid": "006F",
+     "new_tsid": "1644"
+    },
+    {
+     "name": "Kabelio RTLzwei CH",
+     "old_sid": "0070",
+     "old_tsid": "1645",
+     "new_sid": "0070",
+     "new_tsid": "1644"
+    },
+    {
+     "name": "Kabelio SAT.1 CH",
+     "old_sid": "0072",
+     "old_tsid": "1645",
+     "new_sid": "0072",
+     "new_tsid": "1644"
+    },
+    {
+     "name": "Kabelio SAT.1 GOLD",
+     "old_sid": "0089",
+     "old_tsid": "1645",
+     "new_sid": "0089",
+     "new_tsid": "1644"
+    },
+    {
+     "name": "Kabelio ServusTV",
+     "old_sid": "0075",
+     "old_tsid": "1645",
+     "new_sid": "0075",
+     "new_tsid": "1644"
+    },
+    {
+     "name": "Kabelio SuperRTL CH",
+     "old_sid": "0082",
+     "old_tsid": "1645",
+     "new_sid": "0082",
+     "new_tsid": "1644"
+    },
+    {
+     "name": "Kabelio Tele Zueri",
+     "old_sid": "006B",
+     "old_tsid": "1645",
+     "new_sid": "006B",
+     "new_tsid": "1644"
+    },
+    {
+     "name": "Kabelio 3+ Adrenalin",
+     "old_sid": "0067",
+     "old_tsid": "1645",
+     "new_sid": "0067",
+     "new_tsid": "1644"
+    },
+    {
+     "name": "Kabelio 3+ Emotion",
+     "old_sid": "0068",
+     "old_tsid": "1645",
+     "new_sid": "0068",
+     "new_tsid": "1644"
+    },
+    {
+     "name": "Kabelio ZDF",
+     "old_sid": "0085",
+     "old_tsid": "1645",
+     "new_sid": "0085",
+     "new_tsid": "1644"
+    }
+   ]
+  },
+  {
+   "bouquet": "userbouquet.dbe06.tv",
+   "moves": [
+    {
+     "name": "Hustler HD",
+     "old_sid": "113F",
+     "old_tsid": "2AF8",
+     "new_sid": "37A1",
+     "new_tsid": "044C"
+    },
+    {
+     "name": "Private HD",
+     "old_sid": "1141",
+     "old_tsid": "2AF8",
+     "new_sid": "37A3",
+     "new_tsid": "044C"
+    },
+    {
+     "name": "Blue Hustler",
+     "old_sid": "1140",
+     "old_tsid": "2AF8",
+     "new_sid": "37A2",
+     "new_tsid": "044C"
+    }
+   ]
+  },
+  {
+   "bouquet": "userbouquet.dbe07.tv",
+   "moves": [
+    {
+     "name": "CGTN R",
+     "old_sid": "036C",
+     "old_tsid": "001A",
+     "new_sid": "036C",
+     "new_tsid": "3C28"
+    },
+    {
+     "name": "CBC Azerbaijan",
+     "old_sid": "089A",
+     "old_tsid": "01F4",
+     "new_sid": "089A",
+     "new_tsid": "01F4",
+     "new_onid": "00FC"
+    }
+   ]
+  },
+  {
+   "bouquet": "userbouquet.dbe0e.tv",
+   "moves": [
+    {
+     "name": "CCTV 4E",
+     "old_sid": "0367",
+     "old_tsid": "001A",
+     "new_sid": "0367",
+     "new_tsid": "3C28"
+    },
+    {
+     "name": "CGTN",
+     "old_sid": "0368",
+     "old_tsid": "001A",
+     "new_sid": "0368",
+     "new_tsid": "3C28"
+    },
+    {
+     "name": "CGTN Documentary",
+     "old_sid": "0369",
+     "old_tsid": "001A",
+     "new_sid": "0369",
+     "new_tsid": "3C28"
+    }
+   ]
+  },
+  {
+   "bouquet": "userbouquet.dbe24.tv",
+   "moves": [
+    {
+     "name": "CCTV 4E",
+     "old_sid": "0367",
+     "old_tsid": "001A",
+     "new_sid": "0367",
+     "new_tsid": "3C28"
+    },
+    {
+     "name": "CGTN",
+     "old_sid": "0368",
+     "old_tsid": "001A",
+     "new_sid": "0368",
+     "new_tsid": "3C28"
+    },
+    {
+     "name": "Medya Haber",
+     "old_sid": "08A6",
+     "old_tsid": "01F4",
+     "new_sid": "08A6",
+     "new_tsid": "01F4",
+     "new_onid": "00FC"
+    }
+   ]
+  },
+  {
+   "bouquet": "userbouquet.dbe29.tv",
+   "moves": [
+    {
+     "name": "CGTN F",
+     "old_sid": "036B",
+     "old_tsid": "001A",
+     "new_sid": "036B",
+     "new_tsid": "3C28"
+    },
+    {
+     "name": "CGTN E",
+     "old_sid": "036A",
+     "old_tsid": "001A",
+     "new_sid": "036A",
+     "new_tsid": "3C28"
+    },
+    {
+     "name": "Medya Haber",
+     "old_sid": "08A6",
+     "old_tsid": "01F4",
+     "new_sid": "08A6",
+     "new_tsid": "01F4",
+     "new_onid": "00FC"
+    }
+   ]
+  },
+  {
+   "bouquet": "userbouquet.dbe32.tv",
+   "moves": [
+    {
+     "name": "CCTV 4E",
+     "old_sid": "0367",
+     "old_tsid": "001A",
+     "new_sid": "0367",
+     "new_tsid": "3C28"
+    },
+    {
+     "name": "CGTN",
+     "old_sid": "0368",
+     "old_tsid": "001A",
+     "new_sid": "0368",
+     "new_tsid": "3C28"
+    },
+    {
+     "name": "CGTN A",
+     "old_sid": "036D",
+     "old_tsid": "001A",
+     "new_sid": "036D",
+     "new_tsid": "3C28"
+    },
+    {
+     "name": "Iran E Aryee",
+     "old_sid": "089B",
+     "old_tsid": "01F4",
+     "new_sid": "089B",
+     "new_tsid": "01F4",
+     "new_onid": "00FC"
+    }
+   ]
+  }
+ ]
+}

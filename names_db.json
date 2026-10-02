@@ -534,13 +534,15 @@
    "Radio Eparhiiski glas",
    "12635V SID 0x1a",
    "No Name",
-   "BNT 4 (Test)"
+   "BNT 4 (Test)",
+   "Test"
   ],
   "sources": {
    "12635V SID 0x1a": "vhannibal",
    "BNT 4 (Test)": "zewnetrzna",
    "No Name": "antena-13e",
-   "Radio Eparhiiski glas": "robocza"
+   "Radio Eparhiiski glas": "robocza",
+   "Test": "vhannibal"
   }
  },
  "001b:2580:00d5": {
@@ -2967,9 +2969,11 @@
  },
  "008a:1644:013e": {
   "names": [
-   "Kabelio Spare1"
+   "Kabelio Spare1",
+   "Kabelio 3+ Family"
   ],
   "sources": {
+   "Kabelio 3+ Family": "vhannibal",
    "Kabelio Spare1": "vhannibal"
   }
  },
@@ -6297,6 +6301,14 @@
    "SERVICE IP/MAC NOTIFICATION": "vhannibal"
   }
  },
+ "0320:03eb:0001": {
+  "names": [
+   "SERVICE IP/MAC NOTIFICATION"
+  ],
+  "sources": {
+   "SERVICE IP/MAC NOTIFICATION": "vhannibal"
+  }
+ },
  "0320:03eb:0002": {
   "names": [
    "SERVICE IP/MAC NOTIFICATION"
@@ -6584,9 +6596,11 @@
  "0394:2134:013e": {
   "names": [
    "Libya Alwatnya TV",
-   "Libya AlWatnieh"
+   "Libya AlWatnieh",
+   "Libya ALWatnieh"
   ],
   "sources": {
+   "Libya ALWatnieh": "vhannibal",
    "Libya AlWatnieh": "vhannibal",
    "Libya Alwatnya TV": "robocza"
   }
@@ -6671,6 +6685,14 @@
   ],
   "sources": {
    "dn1-sgp-BASIC": "bzyk83"
+  }
+ },
+ "03eb:03eb:0001": {
+  "names": [
+   "dn1-sgb-HVS-3"
+  ],
+  "sources": {
+   "dn1-sgb-HVS-3": "vhannibal"
   }
  },
  "03f2:251c:00d5": {
@@ -8499,6 +8521,14 @@
    "DAZN 1 HD": "robocza"
   }
  },
+ "0def:2260:fbff": {
+  "names": [
+   "Sky Voices"
+  ],
+  "sources": {
+   "Sky Voices": "vhannibal"
+  }
+ },
  "0dfa:2008:fbff": {
   "names": [
    "Sky Sport Legend"
@@ -8817,9 +8847,81 @@
    "Sky Sport Italia": "robocza"
   }
  },
+ "0f64:2198:fbff": {
+  "names": [
+   "Prime Video Sportsbar"
+  ],
+  "sources": {
+   "Prime Video Sportsbar": "kingofsat"
+  }
+ },
+ "0f65:2198:fbff": {
+  "names": [
+   "Sky Cinema Uno"
+  ],
+  "sources": {
+   "Sky Cinema Uno": "kingofsat"
+  }
+ },
  "0f66:16a8:fbff": {
   "names": [],
   "sources": {}
+ },
+ "0f68:2198:fbff": {
+  "names": [
+   "Sky Atlantic"
+  ],
+  "sources": {
+   "Sky Atlantic": "kingofsat"
+  }
+ },
+ "0f69:2198:fbff": {
+  "names": [
+   "Sky Sport Business 2"
+  ],
+  "sources": {
+   "Sky Sport Business 2": "kingofsat"
+  }
+ },
+ "0f6a:2198:fbff": {
+  "names": [
+   "Sky Cinema Stories"
+  ],
+  "sources": {
+   "Sky Cinema Stories": "kingofsat"
+  }
+ },
+ "0f6b:2198:fbff": {
+  "names": [
+   "DAZN 1"
+  ],
+  "sources": {
+   "DAZN 1": "kingofsat"
+  }
+ },
+ "0f6c:2198:fbff": {
+  "names": [
+   "Sky Sport"
+  ],
+  "sources": {
+   "Sky Sport": "kingofsat"
+  }
+ },
+ "0f6d:2198:fbff": {
+  "names": [
+   "Sky Serie"
+  ],
+  "sources": {
+   "Sky Serie": "kingofsat"
+  }
+ },
+ "0f6e:2198:fbff": {
+  "names": [
+   "Sky Investigation"
+  ],
+  "sources": {
+   "Sky Investigation": "kingofsat"
+  }
  },
  "0f6f:2008:fbff": {
   "names": [
@@ -8829,6 +8931,30 @@
   "sources": {
    "Sky Sport": "vhannibal",
    "Sky Sport Italia": "robocza"
+  }
+ },
+ "0f70:2198:fbff": {
+  "names": [
+   "Sky Sport Basket"
+  ],
+  "sources": {
+   "Sky Sport Basket": "kingofsat"
+  }
+ },
+ "0f71:2198:fbff": {
+  "names": [
+   "Sky Sport"
+  ],
+  "sources": {
+   "Sky Sport": "kingofsat"
+  }
+ },
+ "0f72:2198:fbff": {
+  "names": [
+   "SuperTennis HD"
+  ],
+  "sources": {
+   "SuperTennis HD": "kingofsat"
   }
  },
  "0f79:19c8:fbff": {
@@ -8951,12 +9077,16 @@
    "BarLume Collection",
    "Sky Western Collection",
    "Mission: Impossible Collection",
-   "Batman Collection"
+   "Batman Collection",
+   "Fast & Furious Collection",
+   "Adventure Collection"
   ],
   "sources": {
+   "Adventure Collection": "kingofsat",
    "BarLume Collection": "vhannibal",
    "BarLume Collection HD": "robocza",
    "Batman Collection": "kingofsat",
+   "Fast & Furious Collection": "vhannibal",
    "Mission: Impossible Collection": "vhannibal",
    "Sky Western Collection": "zewnetrzna"
   }
@@ -12102,9 +12232,11 @@
  "2149:3070:013e": {
   "names": [
    "Rai Scuola HD",
-   "Rai Scuola"
+   "Rai Scuola",
+   "Italiana"
   ],
   "sources": {
+   "Italiana": "robocza",
    "Rai Scuola": "antena-canalplus",
    "Rai Scuola HD": "robocza"
   }
@@ -15237,12 +15369,44 @@
    "Private HD": "zewnetrzna"
   }
  },
+ "37a7:044c:013e": {
+  "names": [
+   "Hustler HD SBB"
+  ],
+  "sources": {
+   "Hustler HD SBB": "vhannibal"
+  }
+ },
+ "37a8:044c:013e": {
+  "names": [
+   "Hustler HD Nova"
+  ],
+  "sources": {
+   "Hustler HD Nova": "vhannibal"
+  }
+ },
+ "37a9:044c:013e": {
+  "names": [
+   "Private HD SBB"
+  ],
+  "sources": {
+   "Private HD SBB": "vhannibal"
+  }
+ },
  "37a9:2260:fbff": {
   "names": [
    "Sky Crime"
   ],
   "sources": {
    "Sky Crime": "robocza"
+  }
+ },
+ "37aa:044c:013e": {
+  "names": [
+   "Blue Hustler Nova"
+  ],
+  "sources": {
+   "Blue Hustler Nova": "vhannibal"
   }
  },
  "37ab:044c:013e": {
@@ -15259,9 +15423,11 @@
  },
  "37ac:044c:013e": {
   "names": [
-   "CANAL+ DOKUMENT HD"
+   "CANAL+ DOKUMENT HD",
+   "Blue Hustler SBB"
   ],
   "sources": {
+   "Blue Hustler SBB": "vhannibal",
    "CANAL+ DOKUMENT HD": "bzyk83"
   }
  },
@@ -18011,6 +18177,14 @@
   ],
   "sources": {
    "DVB-NIP-01": "vhannibal"
+  }
+ },
+ "4528:1db0:013e": {
+  "names": [
+   "dvb-nip-02"
+  ],
+  "sources": {
+   "dvb-nip-02": "vhannibal"
   }
  },
  "452f:30d4:013e": {
