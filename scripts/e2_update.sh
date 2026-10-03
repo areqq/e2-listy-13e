@@ -2,7 +2,7 @@
 # Aktualizator listy kanalow Enigma2 (ultra-przenosny, POSIX/busybox).
 #
 # Pobiera <BASE>version, porownuje z lokalna /etc/enigma2/userbouquet.version
-# (pierwsza linia = epoch); gdy zdalna nowsza, sciaga lista.tar + pikony,
+# (pierwsza linia = RRRRMMDDGGMM, starsze wydania: epoch); gdy zdalna nowsza, sciaga lista.tar + pikony,
 # podmienia pliki i przeladowuje bukiety przez OpenWebif (bez restartu GUI).
 #
 # Uzycie:  e2_update.sh <bazowy_url/>
@@ -35,6 +35,13 @@ owif_candidates() {
 mkdir -p "$TMP"
 trap 'rm -rf "$TMP"' EXIT INT TERM
 
+# newer <a> <b>: czy wersja a jest nowsza od b. Bez arytmetyki - 12 cyfr nie miesci sie
+# w 32 bitach starszych busyboxow: dluzsza liczba wygrywa, przy rownej dlugosci kolejnosc tekstowa.
+newer() {
+  if [ "${#1}" -ne "${#2}" ]; then [ "${#1}" -gt "${#2}" ]; return; fi
+  [ "$1" != "$2" ] && [ "$(printf '%s\n%s\n' "$1" "$2" | sort | tail -n1)" = "$1" ]
+}
+
 fetch() {  # fetch <url> <plik>
   if command -v wget >/dev/null 2>&1; then wget -q -O "$2" "$1"
   elif command -v curl >/dev/null 2>&1; then curl -fsSL -o "$2" "$1"
@@ -47,7 +54,7 @@ LOCAL=$(head -n1 "$E2ROOT/userbouquet.version" 2>/dev/null | tr -dc '0-9' || tru
 LOCAL="${LOCAL:-0}"
 [ -n "$REMOTE" ] || { echo "pusta/zla zawartosc version"; exit 1; }
 
-if [ "${FORCE:-0}" != 1 ] && [ "$REMOTE" -le "$LOCAL" ]; then
+if [ "${FORCE:-0}" != 1 ] && ! newer "$REMOTE" "$LOCAL"; then
   echo "lista aktualna (lokalna=$LOCAL, zdalna=$REMOTE) - FORCE=1 wymusza"
   exit 0
 fi

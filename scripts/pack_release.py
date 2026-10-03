@@ -32,9 +32,10 @@ def _clean(info: tarfile.TarInfo) -> tarfile.TarInfo:
 
 def write_version(settings_dir: Path, out_dir: Path) -> str:
     """userbouquet.version (do archiwum, marker wersji na dekoderze) + version
-    (do uploadu, do porownania przez e2_update.sh). Pierwsza linia = epoch."""
+    (do uploadu, do porownania przez e2_update.sh). Pierwsza linia = RRRRMMDDGGMM (czas lokalny),
+    rosnie z czasem i jest wieksza od dawnych wersji w epoch (10 cyfr)."""
     now = datetime.datetime.now().astimezone()
-    content = f"{int(now.timestamp())}\n{now.strftime('%Y-%m-%d %H:%M:%S %z')}\n{VERSION_LABEL}\n"
+    content = f"{now.strftime('%Y%m%d%H%M')}\n{now.strftime('%Y-%m-%d %H:%M:%S %z')}\n{VERSION_LABEL}\n"
     (settings_dir / "userbouquet.version").write_text(content, encoding="utf-8")
     (out_dir / "version").write_text(content, encoding="utf-8")
     return content

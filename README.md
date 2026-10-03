@@ -26,7 +26,7 @@ na starszym Pythonie użyj równoważnego configu `.json`.
 | `scripts/postprocess_bouquet.py <settings> [config] [bukiety]` | generyczny post-procesor sterowany lokalnym configiem (poza repo); podmiany/wpisy dodatkowe wg `*.local.toml` |
 | `scripts/pack_release.py <settings> <out_dir> [picon.tar zzpicon.tar]` | archiwa tylko przez Pythona: `<nazwa>.zip`, `lista.tar` (korzeń), `komplet_<DDMMRR>.tar` |
 | `scripts/upload_release.py <pliki...>` | publikacja na transfer.whalebone.io + mirror wg lokalnego `upload.local.toml` (np. FTP) |
-| `scripts/pack_release.py` | (jw.) generuje też `userbouquet.version` (w archiwum) i `version` (do uploadu) z pełnym timestampem |
+| `scripts/pack_release.py` | (jw.) generuje też `userbouquet.version` (w archiwum) i `version` (do uploadu); pierwsza linia = wersja `RRRRMMDDGGMM` (np. `202610031448`), dalej data i etykieta |
 | `scripts/e2_update.sh <bazowy_url/>` | **na dekoderze**: sprawdza `version`, pobiera i podmienia listę + pikony, przeładowuje bukiety przez OpenWebif — ultra-przenośny POSIX/busybox, URL bazowy jako parametr |
 | `scripts/operator_scans.py refresh [platformy]` | skan ramówek operatorów satscanem na dekoderze → `operator-scans/`; skan niepełny (kod ≠ 0 albo < połowy referencji) nie nadpisuje referencji |
 | `scripts/operator_scans.py changes [platformy]` | referencje vs ostatni commit: nowe, zniknięte, zmiany nazw, przenosiny |
