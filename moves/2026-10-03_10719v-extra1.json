@@ -1,0 +1,7 @@
+{
+ "_opis": "Kanal wydarzen Extra 1: referencja 32E1:0190 (11278 V) martwa w pelnym skanie 02.10 (wczesniej przykryta strumieniem post-procesora). Nadaje na 10719 V jako 1136 i 1168 (2AF8) - wybrany nizszy SID jak u Extra 2/3. Typ w lamedb poprawiony na 1 wg SDT pelnego skanu.",
+ "targets": [
+  {"bouquet": "userbouquet.dbe00.tv", "moves": [{"name": "Canal+ Extra 1", "old_sid": "32E1", "old_tsid": "0190", "new_sid": "1136", "new_tsid": "2AF8"}]},
+  {"bouquet": "userbouquet.dbe03.tv", "moves": [{"name": "Canal+ Extra 1", "old_sid": "32E1", "old_tsid": "0190", "new_sid": "1136", "new_tsid": "2AF8"}]}
+ ]
+}
