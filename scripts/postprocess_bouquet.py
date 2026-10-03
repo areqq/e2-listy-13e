@@ -15,6 +15,11 @@ ze zmiennej srodowiskowej LISTY_POSTPROC_CONFIG. Schemat - patrz postprocess.exa
                 z url_template)
   [[extend]] after/name/sref/display/url : dodatkowy wpis wstawiany po kanale-kotwicy
 
+Idempotentny: wpisy ze strumieniem wygenerowane wczesniej (nazwa konczy sie na `suffix`) sa
+najpierw cofane - kanal satelitarny wraca do zwyklej referencji, wpis extend zostaje na miejscu,
+jesli nadal jest w configu, inaczej znika - i dopiero potem config jest stosowany od nowa.
+Extend bez kotwicy w bukiecie jest pomijany (nie trafia na koniec kazdego bukietu).
+
 Uzycie: python3 scripts/postprocess_bouquet.py <katalog_settings> [config] [bukiet.tv ...]
 Bez podania bukietow przetwarza wszystkie userbouquet.*.tv. lamedb bierze z katalogu.
 """
@@ -105,10 +110,49 @@ def has_stream(ref_parts: list[str]) -> bool:
     return len(ref_parts) > 10 and ref_parts[10].strip() not in ("", "0")
 
 
-def process(bouquet_path: Path, db_services: dict[ServiceKey, object], cfg: Config) -> int:
-    lines = bouquet_path.read_text(encoding="utf-8", errors="replace").splitlines()
+def extend_line(cfg: Config, ext: dict[str, str]) -> str | None:
+    sref_parts = ext["sref"].rstrip(":").split(":")
+    while len(sref_parts) < 11:
+        sref_parts.append("")
+    sref_parts = sref_parts[:11]
+    ext_url = stream_url(cfg, ext["name"], ext.get("url"))
+    if ext_url is None:
+        return None
+    sref_parts[10] = ext_url
+    display = str(ext.get("display", ext["name"])).replace(":", " ").strip()
+    if cfg.suffix and not display.endswith(cfg.suffix.strip()):
+        display += cfg.suffix
+    return f"#SERVICE {':'.join(sref_parts)}:{display}"
+
+
+def revert_generated(lines: list[str], db_services: dict[ServiceKey, object], cfg: Config,
+                     extend_keys: dict[str, str]) -> tuple[list[tuple[str, str | None]], int]:
+    """Cofa wpisy wygenerowane wczesniej; zostawia extendy obecne w configu (z kluczem jako kotwica)."""
     out: list[tuple[str, str | None]] = []
-    changes = 0
+    reverted = 0
+    for line in lines:
+        ref_parts = line[len("#SERVICE "):].split(":") if line.startswith("#SERVICE ") else []
+        generated = (cfg.suffix and has_stream(ref_parts)
+                     and ":".join(ref_parts[11:]).strip().endswith(cfg.suffix.strip()))
+        if not generated:
+            out.append((line, None))
+        elif line in extend_keys:
+            out.append((line, extend_keys[line]))
+        elif service_name(db_services, ref_parts) is not None:
+            out.append((f"#SERVICE {':'.join(ref_parts[:10])}:", None))
+            reverted += 1
+        else:
+            reverted += 1
+    return out, reverted
+
+
+def process(bouquet_path: Path, db_services: dict[ServiceKey, object], cfg: Config) -> int:
+    extend_keys = {ln: ext["name"] for ext in cfg.extends if (ln := extend_line(cfg, ext)) is not None}
+    reverted, changes = revert_generated(
+        bouquet_path.read_text(encoding="utf-8", errors="replace").splitlines(), db_services, cfg, extend_keys)
+    lines = [ln for ln, _ in reverted]
+    kept_keys = {idx: key for idx, (_, key) in enumerate(reverted) if key is not None}
+    out: list[tuple[str, str | None]] = []
     i = 0
     while i < len(lines):
         line = lines[i]
@@ -118,7 +162,7 @@ def process(bouquet_path: Path, db_services: dict[ServiceKey, object], cfg: Conf
             continue
         ref_parts = line[len("#SERVICE "):].split(":")
         if len(ref_parts) < 7 or ref_parts[1] == "64" or has_stream(ref_parts):
-            out.append((line, None))
+            out.append((line, kept_keys.get(i - 1)))
             continue
         name = service_name(db_services, ref_parts)
         key = cfg.name_to_key.get(name.strip().upper()) if name else None
@@ -142,25 +186,17 @@ def process(bouquet_path: Path, db_services: dict[ServiceKey, object], cfg: Conf
         if i < len(lines) and lines[i].startswith("#DESCRIPTION"):
             i += 1
 
-    present_srefs = {ln.split(":aqiptv", 1)[0] if ":aqiptv" in ln else ln for ln, _ in out}
     for ext in cfg.extends:
-        sref_parts = ext["sref"].rstrip(":").split(":")
-        while len(sref_parts) < 11:
-            sref_parts.append("")
-        sref_parts = sref_parts[:11]
-        ext_url = stream_url(cfg, ext["name"], ext.get("url"))
-        if ext_url is None:
+        ext_line = extend_line(cfg, ext)
+        if ext_line is None:
             print(f"  UWAGA: brak url dla extend '{ext['name']}' - pomijam")
             continue
-        sref_parts[10] = ext_url
-        display = str(ext.get("display", ext["name"])).replace(":", " ").strip()
-        if cfg.suffix and not display.endswith(cfg.suffix.strip()):
-            display += cfg.suffix
-        ext_line = f"#SERVICE {':'.join(sref_parts)}:{display}"
         if any(ext_line == ln for ln, _ in out):
             continue
         anchor = next((idx for idx in range(len(out) - 1, -1, -1) if out[idx][1] == ext.get("after")), None)
-        out.insert(anchor + 1 if anchor is not None else len(out), (ext_line, ext["name"]))
+        if anchor is None:
+            continue
+        out.insert(anchor + 1, (ext_line, ext["name"]))
         changes += 1
 
     bouquet_path.write_text("\n".join(ln for ln, _ in out) + "\n", encoding="utf-8")
