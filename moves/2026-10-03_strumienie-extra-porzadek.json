@@ -1,0 +1,7 @@
+{
+ "_opis": "Wpisy strumieniowe Extra 5-7 dolaczone na koniec bukietow bez kotwicy (stary blad post-procesora) - zostaja tylko w POLSKA FULL i *Sport, po Extra 4 (decyzja usera 03.10).",
+ "targets": [
+  {"bouquet": "userbouquet.dbe25.tv", "remove": [{"name": "Extra 5 (strumien)", "sid": "1AD9", "tsid": "701F"}, {"name": "Extra 6 (strumien)", "sid": "0759", "tsid": "7F62"}, {"name": "Extra 7 (strumien)", "sid": "1494", "tsid": "4021"}]},
+  {"bouquet": "userbouquet.dbe64.tv", "remove": [{"name": "Extra 5 (strumien)", "sid": "1AD9", "tsid": "701F"}, {"name": "Extra 6 (strumien)", "sid": "0759", "tsid": "7F62"}, {"name": "Extra 7 (strumien)", "sid": "1494", "tsid": "4021"}]}
+ ]
+}
