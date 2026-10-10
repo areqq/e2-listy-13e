@@ -98,7 +98,7 @@ def main() -> int:
         pack_dir = Path(rest[1])
         rest = rest[2:]
     bouquets = rest or DEFAULT_BOUQUETS
-    wanted = collect_wanted(settings_dir, bouquets, names_db) + collect_streams(settings_dir, bouquets)
+    wanted = collect_wanted(settings_dir, bouquets, names_db) + collect_streams(settings_dir, bouquets, names_db)
     print(f"kanalow do pokrycia: {len(wanted)}")
 
     packages = dir_packages(pack_dir) if pack_dir else eerepo_packages()

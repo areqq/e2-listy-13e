@@ -51,7 +51,7 @@ DEFAULT_BOUQUETS = [
 USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"
 STREAM_TAG_RE = re.compile(r"\s*\([^)]*\)\s*$")
 ALIASES = {
-    "canalplus1premiumhd": "canalpluspremiumhd",
+    "canalplus1premiumhd": "canalplus1hd",
     "travelhd": "travelchannelhd",
     "inultratvuhd": "ultratv4k",
     "cgtnnewshd": "cgtnhd",

@@ -15227,6 +15227,14 @@
    "Melodie Express": "antena-canalplus"
   }
  },
+ "34b9:00a3:4151": {
+  "names": [
+   "Music Box Polska"
+  ],
+  "sources": {
+   "Music Box Polska": "zewnetrzna"
+  }
+ },
  "3779:044c:013e": {
   "names": [
    "Canal+ Film HD"
@@ -18643,6 +18651,14 @@
   "sources": {
    "TVP Warszawa": "robocza",
    "TVP3 Warszawa": "zewnetrzna"
+  }
+ },
+ "5198:00a6:4151": {
+  "names": [
+   "Dr G"
+  ],
+  "sources": {
+   "Dr G": "zewnetrzna"
   }
  },
  "526c:041d:0001": {
