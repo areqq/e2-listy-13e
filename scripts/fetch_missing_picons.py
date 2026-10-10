@@ -2,8 +2,8 @@
 
 Dla kanalow z naszych bukietow, ktorych nie ma w paczkach zet71, dobiera logo
 z build-source/logos (prawdziwe logotypy z przezroczystoscia; warianty .light
-sa czytelniejsze na ciemnej skorce), w razie potrzeby renderuje SVG przez
-qlmanage (macOS), wpasowuje w kanwy 220x132 i 400x170 i zapisuje do bazy:
+sa jasne, czytelne na ciemnej skorce), w razie potrzeby renderuje SVG przez
+ImageMagick (awaryjnie qlmanage), wpasowuje w kanwy 220x132 i 400x170 i zapisuje do bazy:
   <baza>/picon/<nazwa>.png     (220x132)
   <baza>/zzpicon/<nazwa>.png   (400x170)
 make_picons.py uzywa tej bazy jako ostatniego fallbacku.
@@ -40,6 +40,8 @@ TREE_URL = "https://api.github.com/repos/picons/picons/git/trees/master?recursiv
 LOGOS_RAW = "https://raw.githubusercontent.com/picons/picons/master/"
 LOGO_PATH_RE = re.compile(r"build-source/logos/([a-z0-9]+)\.(default|light)\.(png|svg)$")
 VARIANT_ORDER = ["light.png", "default.png", "light.svg", "default.svg"]
+MIN_LUMA = 50  # srednia jasnosc widocznych pikseli; nizej = logo ginie na ciemnej skorce
+MIN_CHROMA = 40  # srednie nasycenie; kolorowe logo jest czytelne nawet gdy ciemne
 CANVAS = {"picon": (220, 132), "zzpicon": (400, 170)}
 MARGIN = 0.06
 WHITE_THRESHOLD = 244
@@ -67,26 +69,72 @@ def pick_stem(index: dict[str, dict[str, str]], picon_name: str, aliases: list[s
     return None
 
 
-def svg_to_png(svg: bytes) -> bytes | None:
+def svg_renders(svg: bytes) -> list[bytes]:
+    """Oba dostepne renderery, w kolejnosci zaufania. ImageMagick: przezroczyste
+    tlo, ale gubi gradienty i filtry (jednolity blok). qlmanage (macOS): wierny,
+    ale na bialym tle (biale logo .light ginie przy zdejmowaniu bieli) i
+    przycina SVG bez viewBox. Dobor robi fetch_logo()."""
+    out: list[bytes] = []
     with tempfile.TemporaryDirectory() as tmp:
         src = Path(tmp) / "logo.svg"
         src.write_bytes(svg)
+        magick = subprocess.run(["magick", "-background", "none", "-density", "200", str(src),
+                                 "-resize", "1600x1600>", "png:-"], capture_output=True, timeout=60, check=False)
+        if magick.returncode == 0 and magick.stdout[:8] == b"\x89PNG\r\n\x1a\n":
+            out.append(magick.stdout)
         subprocess.run(["qlmanage", "-t", "-s", "800", str(src), "-o", tmp],
                        capture_output=True, timeout=60, check=False)
         rendered = Path(tmp) / "logo.svg.png"
-        return rendered.read_bytes() if rendered.exists() else None
+        if rendered.exists():
+            out.append(rendered.read_bytes())
+    return out
 
 
-def to_picon(raw: bytes, size: tuple[int, int]) -> bytes:
+def prepare(raw: bytes) -> Image.Image:
+    """RGBA z przezroczystoscia: render bez kanalu alfa (biale tlo) dostaje ja
+    przez zdjecie bieli."""
     img = Image.open(io.BytesIO(raw)).convert("RGBA")
-    has_alpha = img.getextrema()[3][0] < 255
+    if img.getextrema()[3][0] < 255:
+        return img
     pixels = img.load()
-    if not has_alpha:
-        for y in range(img.height):
-            for x in range(img.width):
-                r, g, b, _ = pixels[x, y]
-                if r >= WHITE_THRESHOLD and g >= WHITE_THRESHOLD and b >= WHITE_THRESHOLD:
-                    pixels[x, y] = (r, g, b, 0)
+    for y in range(img.height):
+        for x in range(img.width):
+            r, g, b, _ = pixels[x, y]
+            if r >= WHITE_THRESHOLD and g >= WHITE_THRESHOLD and b >= WHITE_THRESHOLD:
+                pixels[x, y] = (r, g, b, 0)
+    return img
+
+
+def logo_readable(img: Image.Image) -> bool | None:
+    """True, gdy logo bedzie widoczne na ciemnej skorce (jasne albo kolorowe),
+    False, gdy jest ciemne i szare (czarny napis), None, gdy render jest pusty
+    albo jednolitym blokiem (SVG z gradientem/filtrem, ktorego renderer nie umie)."""
+    box = img.getbbox()
+    if box is None:
+        return None
+    visible = [(r, g, b) for r, g, b, a in img.crop(box).getdata() if a > 32]
+    if not visible:
+        return None
+    lumas = [0.299 * r + 0.587 * g + 0.114 * b for r, g, b in visible]
+    area = (box[2] - box[0]) * (box[3] - box[1])
+    mean = sum(lumas) / len(lumas)
+    spread = (sum((v - mean) ** 2 for v in lumas) / len(lumas)) ** 0.5
+    if len(lumas) > 0.9 * area and spread < 12:
+        return None
+    chroma = sum(max(c) - min(c) for c in visible) / len(visible)
+    return mean >= MIN_LUMA or chroma >= MIN_CHROMA
+
+
+def lighten(img: Image.Image) -> Image.Image:
+    """Ciemne logo (czarny napis) na ciemnej skorce ginie - odwrocenie jasnosci
+    daje czytelny bialy odpowiednik."""
+    r, g, b, a = img.split()
+    inverted = Image.merge("RGB", (r, g, b)).point(lambda v: 255 - v)
+    inverted.putalpha(a)
+    return inverted
+
+
+def to_picon(img: Image.Image, size: tuple[int, int]) -> bytes:
     box = img.getbbox()
     if box:
         img = img.crop(box)
@@ -101,17 +149,25 @@ def to_picon(raw: bytes, size: tuple[int, int]) -> bytes:
     return out.getvalue()
 
 
-def fetch_logo(variants: dict[str, str]) -> bytes | None:
+def fetch_logo(variants: dict[str, str]) -> Image.Image | None:
+    """Pierwszy render (wariant x renderer) czytelny na ciemnej skorce; gdy
+    wszystkie ciemne - pierwszy z nich, rozjasniony."""
+    dark: Image.Image | None = None
     for variant in VARIANT_ORDER:
         if variant not in variants:
             continue
         raw = http_get(LOGOS_RAW + variants[variant])
-        if variant.endswith(".svg"):
-            raw = svg_to_png(raw)
-            if raw is None:
-                continue
-        return raw
-    return None
+        renders = svg_renders(raw) if variant.endswith(".svg") else [raw]
+        if variant.startswith("light.") and variant.endswith(".svg"):
+            renders = renders[:1]  # qlmanage: biale logo na bialym tle - nic nie zostaje
+        for rendered in renders:
+            img = prepare(rendered)
+            readable = logo_readable(img)
+            if readable:
+                return img
+            if readable is False and dark is None:
+                dark = img
+    return lighten(dark) if dark is not None else None
 
 
 def missing_channels(settings_dir: Path, names_db_path: Path, bouquets: list[str]) -> list[Wanted]:

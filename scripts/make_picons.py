@@ -44,6 +44,7 @@ DEFAULT_BOUQUETS = [
     "userbouquet.dbe06.tv",  # *XXX_All
     "userbouquet.dbe0e.tv",  # FTA English
     "userbouquet.dbe24.tv",  # *Info
+    "userbouquet.dbe14.tv",  # FTA France
 ]
 USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"
 STREAM_TAG_RE = re.compile(r"\s*\([^)]*\)\s*$")
@@ -63,6 +64,8 @@ ALIASES = {
     "mvmtmovementofculture": "mvmtculture",
     "greaterlovehd": "greaterlove2",
     "bareknucklesfightingchampionship": "bkfc",
+    "equidiapro1hd": "equidia",
+    "equidiapro2hd": "equidia",
     "musicbox": "musicboxpolska",
     "drgmedicalexaminer": "drg",
 }
