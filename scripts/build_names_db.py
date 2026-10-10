@@ -35,6 +35,8 @@ USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"
 FREQ_HEADER_RE = re.compile(
     r'class="bld">(\d{4,5})\.\d{2}</td><td[^>]*class="bld">([VHLR])</td>.*?'
     r'width="4%">(\d{1,5})</td><td[^>]*width="4%">(\d{1,5})</td>', re.S)
+# uklad z 10.2026: "NID 318 - TSID 11000" w jednej komorce podsumowania strumienia
+NIDTID_RE = re.compile(r"NID (\d{1,5}) - TSID (\d{1,5})")
 CHANNEL_RE = re.compile(r'title="Id: ([^"]+)"[^>]*class="A3".*?<td class="s">(\d{1,5})</td>', re.S)
 
 
@@ -93,10 +95,14 @@ def from_kingofsat(db: dict[str, dict[str, object]]) -> int:
             page = resp.read().decode("utf-8", errors="replace")
         blocks = page.split("data-frequency-id")[1:]
         for block in blocks:
-            header = FREQ_HEADER_RE.search(block)
-            if header is None:
-                continue
-            nid, tid = int(header.group(3)), int(header.group(4))
+            ids = NIDTID_RE.search(block)
+            if ids is not None:
+                nid, tid = int(ids.group(1)), int(ids.group(2))
+            else:
+                header = FREQ_HEADER_RE.search(block)
+                if header is None:
+                    continue
+                nid, tid = int(header.group(3)), int(header.group(4))
             for name, sid in CHANNEL_RE.findall(block):
                 add(db, f"{int(sid):04x}:{tid:04x}:{nid:04x}", name, "kingofsat")
                 count += 1

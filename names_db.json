@@ -3530,9 +3530,11 @@
  "00d5:2648:00d5": {
   "names": [
    "RTG TV",
-   "Russian Travel Guide Int"
+   "Russian Travel Guide Int",
+   "No Name"
   ],
   "sources": {
+   "No Name": "antena-101026",
    "RTG TV": "robocza",
    "Russian Travel Guide Int": "vhannibal"
   }
@@ -6293,6 +6295,14 @@
    "SERVICE IP/MAC NOTIFICATION": "vhannibal"
   }
  },
+ "0320:03ea:0001": {
+  "names": [
+   "SERVICE IP/MAC NOTIFICATION"
+  ],
+  "sources": {
+   "SERVICE IP/MAC NOTIFICATION": "vhannibal"
+  }
+ },
  "0320:03ea:0002": {
   "names": [
    "SERVICE IP/MAC NOTIFICATION"
@@ -6310,6 +6320,14 @@
   }
  },
  "0320:03eb:0002": {
+  "names": [
+   "SERVICE IP/MAC NOTIFICATION"
+  ],
+  "sources": {
+   "SERVICE IP/MAC NOTIFICATION": "vhannibal"
+  }
+ },
+ "0320:07d4:0002": {
   "names": [
    "SERVICE IP/MAC NOTIFICATION"
   ],
@@ -6685,6 +6703,14 @@
   ],
   "sources": {
    "dn1-sgp-BASIC": "bzyk83"
+  }
+ },
+ "03ea:03ea:0001": {
+  "names": [
+   "dn1-sgp-HVS-2"
+  ],
+  "sources": {
+   "dn1-sgp-HVS-2": "vhannibal"
   }
  },
  "03eb:03eb:0001": {
@@ -7285,6 +7311,26 @@
    "Al Jazeera HD": "robocza"
   }
  },
+ "0642:2454:013e": {
+  "names": [
+   "Al Jazeera Test 1 HD",
+   "Test 1"
+  ],
+  "sources": {
+   "Al Jazeera Test 1 HD": "antena-101026",
+   "Test 1": "vhannibal"
+  }
+ },
+ "0643:2454:013e": {
+  "names": [
+   "Al Jazeera Test 2 HD",
+   "Test 2"
+  ],
+  "sources": {
+   "Al Jazeera Test 2 HD": "antena-101026",
+   "Test 2": "vhannibal"
+  }
+ },
  "064d:2454:013e": {
   "names": [
    "ACI SportTV",
@@ -7616,9 +7662,11 @@
  "070b:32c8:013e": {
   "names": [
    "Test1803 (CP)",
-   "Test1803"
+   "Test1803",
+   "Eleven Sports 1"
   ],
   "sources": {
+   "Eleven Sports 1": "antena-101026",
    "Test1803": "vhannibal",
    "Test1803 (CP)": "zewnetrzna"
   }
@@ -7626,9 +7674,11 @@
  "070c:32c8:013e": {
   "names": [
    "Test1804 (CP)",
-   "Test1804"
+   "Test1804",
+   "Eleven Sports 2"
   ],
   "sources": {
+   "Eleven Sports 2": "antena-101026",
    "Test1804": "vhannibal",
    "Test1804 (CP)": "zewnetrzna"
   }
@@ -7644,9 +7694,11 @@
  "0710:32c8:013e": {
   "names": [
    "Test1808 (CP)",
-   "Test1808"
+   "Test1808",
+   "Eleven Sports 3"
   ],
   "sources": {
+   "Eleven Sports 3": "antena-101026",
    "Test1808": "vhannibal",
    "Test1808 (CP)": "zewnetrzna"
   }
@@ -7689,6 +7741,14 @@
   ],
   "sources": {
    "dn2-sgp-HVS-3": "vhannibal"
+  }
+ },
+ "07d4:07d4:0002": {
+  "names": [
+   "HVS-4 Pry DN1"
+  ],
+  "sources": {
+   "HVS-4 Pry DN1": "vhannibal"
   }
  },
  "07d4:22c4:013e": {
@@ -8867,6 +8927,14 @@
   "names": [],
   "sources": {}
  },
+ "0f67:2198:fbff": {
+  "names": [
+   "Sky Cinema Uno"
+  ],
+  "sources": {
+   "Sky Cinema Uno": "vhannibal"
+  }
+ },
  "0f68:2198:fbff": {
   "names": [
    "Sky Atlantic"
@@ -8975,6 +9043,14 @@
    "Sky Adventure": "vhannibal"
   }
  },
+ "0f89:2198:fbff": {
+  "names": [
+   "IEPG Data"
+  ],
+  "sources": {
+   "IEPG Data": "vhannibal"
+  }
+ },
  "0fc7:2260:fbff": {
   "names": [
    "Sky Cinema Restart"
@@ -9079,10 +9155,12 @@
    "Mission: Impossible Collection",
    "Batman Collection",
    "Fast & Furious Collection",
-   "Adventure Collection"
+   "Adventure Collection",
+   "Anni 90 Collection"
   ],
   "sources": {
    "Adventure Collection": "kingofsat",
+   "Anni 90 Collection": "vhannibal",
    "BarLume Collection": "vhannibal",
    "BarLume Collection HD": "robocza",
    "Batman Collection": "kingofsat",
@@ -15507,6 +15585,10 @@
   "names": [],
   "sources": {}
  },
+ "38f6:2198:fbff": {
+  "names": [],
+  "sources": {}
+ },
  "39d1:1fa4:013e": {
   "names": [
    "CHAINE 1"
@@ -17048,11 +17130,13 @@
  "422b:2f44:013e": {
   "names": [
    "Mezzo SD",
-   "Mezzo"
+   "Mezzo",
+   "Mezzo TV"
   ],
   "sources": {
    "Mezzo": "antena-canalplus",
-   "Mezzo SD": "robocza"
+   "Mezzo SD": "robocza",
+   "Mezzo TV": "antena-101026"
   }
  },
  "422c:2f44:013e": {
@@ -17475,6 +17559,14 @@
   ],
   "sources": {
    "Eutelsat Data 1": "vhannibal"
+  }
+ },
+ "4273:2bc0:013e": {
+  "names": [
+   "test17011"
+  ],
+  "sources": {
+   "test17011": "antena-101026"
   }
  },
  "4279:2bc0:0071": {
