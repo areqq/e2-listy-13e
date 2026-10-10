@@ -467,7 +467,7 @@ T 22C4:013E freq=12476000 pol=H sr=29900000 fec=3 sys=S2 pos=130E mod=2
 T 2328:013E freq=12521000 pol=V sr=27500000 fec=2 sys=S2 pos=130E mod=2
 T 238C:013E freq=12539020 pol=H sr=30000000 fec=4 sys=S2 pos=130E mod=2
 T 23F0:013E freq=12500000 pol=V sr=27500000 fec=3 sys=S pos=130E mod=1
-T 2454:013E freq=12577000 pol=H sr=2750000 fec=3 sys=S2 pos=130E mod=2
+T 2454:013E freq=12577000 pol=H sr=27500000 fec=3 sys=S2 pos=130E mod=2
 T 24B8:013E freq=12597000 pol=V sr=27500000 fec=3 sys=S pos=130E mod=1
 T 2774:013E freq=12730000 pol=H sr=30000000 fec=4 sys=S2 pos=130E mod=0
 T 2AF8:013E freq=10719000 pol=V sr=27500000 fec=4 sys=S2 pos=130E mod=2

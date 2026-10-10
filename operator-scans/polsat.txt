@@ -116,6 +116,9 @@ L 2194 423F:3DB8:013E visible=1 src=nit
 L 220 3D69:2C88:013E visible=1 src=nit
 L 221 3D6A:2C88:013E visible=1 src=nit
 L 222 3D6B:2C88:013E visible=1 src=nit
+L 2220 070B:32C8:013E visible=1 src=nit
+L 2221 070C:32C8:013E visible=1 src=nit
+L 2222 0710:32C8:013E visible=1 src=nit
 L 223 0711:32C8:013E visible=1 src=nit
 L 224 070F:32C8:013E visible=1 src=nit
 L 229 3E1F:2EE0:013E visible=1 src=nit
@@ -334,10 +337,10 @@ S 051B:2E7C:013E type=1 ca=0 "Arte HD" "Cyfrowy Polsat S.A."
 S 06AA:3138:013E type=1 ca=0 "CCTV News English" "Cyfrowy Polsat S.A."
 S 0709:32C8:013E type=1 ca=1 "Polsat Sport Premium 1" "Cyfrowy Polsat S.A."
 S 070A:32C8:013E type=1 ca=1 "Polsat Sport Premium 2" "Cyfrowy Polsat S.A."
-S 070B:32C8:013E type=1 ca=1 "Test1803" "Cyfrowy Polsat S.A."
-S 070C:32C8:013E type=1 ca=1 "Test1804" "Cyfrowy Polsat S.A."
+S 070B:32C8:013E type=1 ca=1 "Eleven Sports 1" "Cyfrowy Polsat S.A."
+S 070C:32C8:013E type=1 ca=1 "Eleven Sports 2" "Cyfrowy Polsat S.A."
 S 070F:32C8:013E type=31 ca=1 "Eleven Sports 1 4K" "Cyfrowy Polsat S.A."
-S 0710:32C8:013E type=1 ca=1 "Test1808" "Cyfrowy Polsat S.A."
+S 0710:32C8:013E type=1 ca=1 "Eleven Sports 3" "Cyfrowy Polsat S.A."
 S 0711:32C8:013E type=1 ca=1 "Eleven Sports 4" "Cyfrowy Polsat S.A."
 S 07D4:22C4:013E type=1 ca=0 "Telepace HD" "Cyfrowy Polsat S.A."
 S 07D6:22C4:013E type=1 ca=1 "BBC Brit HD" "Cyfrowy Polsat S.A."
@@ -615,6 +618,7 @@ S 423C:3DB8:013E type=1 ca=0 "P1" "Cyfrowy Polsat S.A."
 S 423E:3DB8:013E type=1 ca=1 "Water Planet" "Cyfrowy Polsat S.A."
 S 423F:3DB8:013E type=0 ca=1 "" ""
 S 4240:3DB8:013E type=1 ca=1 "Novela TV" "CYfrowy Polsat S.A."
+S 4273:2BC0:013E type=1 ca=1 "test17011" "Cyfrowy Polsat S.A."
 S 4279:2BC0:013E type=1 ca=1 "wPolsce24" "Cyfrowy Polsat S.A."
 S 427B:2BC0:013E type=1 ca=1 "Stopklatka" "Cyfrowy Polsat S.A."
 S 427C:2BC0:013E type=1 ca=0 "Stopklatka" "Cyfrowy Polsat S.A."
