@@ -7721,6 +7721,14 @@
    "Eleven Sports 4": "robocza"
   }
  },
+ "0759:7f62:00ec": {
+  "names": [
+   "CANAL+ EXTRA 6 HD"
+  ],
+  "sources": {
+   "CANAL+ EXTRA 6 HD": "zewnetrzna"
+  }
+ },
  "07d0:03e8:0002": {
   "names": [
    "dn2-sgp-BASIC"
@@ -10957,6 +10965,14 @@
    "DATA": "vhannibal"
   }
  },
+ "1494:4021:00ec": {
+  "names": [
+   "CANAL+ EXTRA 7 HD"
+  ],
+  "sources": {
+   "CANAL+ EXTRA 7 HD": "zewnetrzna"
+  }
+ },
  "14bd:0407:0001": {
   "names": [
    "Shop LC"
@@ -11115,6 +11131,14 @@
   ],
   "sources": {
    "EURONEWS GERMAN": "antena-canalplus"
+  }
+ },
+ "1ad9:701f:00ec": {
+  "names": [
+   "CANAL+ EXTRA 5 HD"
+  ],
+  "sources": {
+   "CANAL+ EXTRA 5 HD": "zewnetrzna"
   }
  },
  "1af9:03fe:0001": {
