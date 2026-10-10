@@ -26,6 +26,7 @@ import sys
 import tarfile
 import unicodedata
 import urllib.request
+from urllib.parse import unquote
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -62,6 +63,8 @@ ALIASES = {
     "mvmtmovementofculture": "mvmtculture",
     "greaterlovehd": "greaterlove2",
     "bareknucklesfightingchampionship": "bkfc",
+    "musicbox": "musicboxpolska",
+    "drgmedicalexaminer": "drg",
 }
 
 
@@ -128,7 +131,8 @@ def collect_streams(settings_dir: Path, bouquets: list[str]) -> list[Wanted]:
             if not base:
                 continue
             full = normalize_name(label)
-            aliases = [full] if full != base else []
+            decoded = normalize_name(STREAM_TAG_RE.sub("", unquote(label)))
+            aliases = [a for a in (decoded, full) if a != base]
             streams.setdefault(ref, Wanted(ref, base, label, bq, aliases))
     return list(streams.values())
 
@@ -176,6 +180,8 @@ def candidate_names(picon_name: str) -> list[str]:
             derived += [name.replace("nationalgeo", "nationalgeographic"), name.replace("nationalgeo", "natgeo")]
         if "sport" in name and "sports" not in name:
             derived.append(name.replace("sport", "sports", 1))
+        if name.startswith("tvp") and not name.startswith("tvp3"):
+            derived.append("tvp3" + name[3:])
         if name.endswith("tv"):
             derived.append(name[:-2])
         if name.endswith("channel"):
