@@ -125,10 +125,11 @@ def bouquet_path(settings_dir: Path, bq: str) -> Path:
     return Path(bq) if "/" in bq else settings_dir / bq
 
 
-def collect_streams(settings_dir: Path, bouquets: list[str]) -> list[Wanted]:
+def collect_streams(settings_dir: Path, bouquets: list[str], names_db: dict[str, dict[str, object]]) -> list[Wanted]:
     """Wpisy strumieniowe (z URL w polu 11) - pikon bierzemy po nazwie bazowej
-    (bez tagu w nawiasie), a symlinki tworzymy po referencji, po pelnej nazwie
-    i po nazwie z odkodowanymi znakami URL (np. %3a)."""
+    (bez tagu w nawiasie), a symlinki tworzymy po referencji, po pelnej nazwie,
+    po nazwie z odkodowanymi znakami URL (np. %3a) i po pisowniach z names_db
+    (klucz SID:TSID:ONID jest syntetyczny, ale staly w bukiecie)."""
     streams: dict[str, Wanted] = {}
     for bq in bouquets:
         for raw in bouquet_path(settings_dir, bq).read_text(encoding="utf-8", errors="replace").splitlines():
@@ -144,7 +145,9 @@ def collect_streams(settings_dir: Path, bouquets: list[str]) -> list[Wanted]:
                 continue
             full = normalize_name(label)
             decoded = normalize_name(STREAM_TAG_RE.sub("", unquote(label)))
-            aliases = [a for a in (decoded, full) if a != base]
+            db_key = f"{int(parts[3], 16):04x}:{int(parts[4], 16):04x}:{int(parts[5], 16):04x}"
+            spellings = [normalize_name(str(n)) for n in names_db.get(db_key, {}).get("names", [])]
+            aliases = [a for a in dict.fromkeys([decoded, full] + spellings) if a and a != base]
             streams.setdefault(ref, Wanted(ref, base, label, bq, aliases))
     return list(streams.values())
 
@@ -295,7 +298,7 @@ def main() -> int:
         rest = rest[1:]
     bouquets = rest or DEFAULT_BOUQUETS
     wanted = collect_wanted(settings_dir, bouquets, names_db)
-    streams = collect_streams(settings_dir, bouquets)
+    streams = collect_streams(settings_dir, bouquets, names_db)
     if streams:
         wanted += streams
         print(f"wpisow strumieniowych (pikon po nazwie bazowej): {len(streams)}")

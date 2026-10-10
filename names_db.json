@@ -1619,6 +1619,16 @@
    "Kabelio 4+": "vhannibal"
   }
  },
+ "0066:00a3:4151": {
+  "names": [
+   "TVP Gorzów Wielkopolski",
+   "TVP3 Gorzów Wielkopolski"
+  ],
+  "sources": {
+   "TVP Gorzów Wielkopolski": "robocza",
+   "TVP3 Gorzów Wielkopolski": "zewnetrzna"
+  }
+ },
  "0066:00c8:013e": {
   "names": [
    "Gametoon"
@@ -8103,6 +8113,16 @@
    "Love Nature 4K": "robocza"
   }
  },
+ "0918:00a3:4151": {
+  "names": [
+   "TVP Wrocław",
+   "TVP3 Wrocław"
+  ],
+  "sources": {
+   "TVP Wrocław": "robocza",
+   "TVP3 Wrocław": "zewnetrzna"
+  }
+ },
  "0bb8:16a8:fbff": {
   "names": [
    "PUSH REF SD 3000"
@@ -13829,6 +13849,16 @@
    "ZDFinfo HD": "antena-canalplus"
   }
  },
+ "2baf:00a3:4151": {
+  "names": [
+   "TVP Gdańsk",
+   "TVP3 Gdańsk"
+  ],
+  "sources": {
+   "TVP Gdańsk": "robocza",
+   "TVP3 Gdańsk": "zewnetrzna"
+  }
+ },
  "2bb6:19c8:fbff": {
   "names": [
    "Fusion BGDL 11190"
@@ -13981,6 +14011,16 @@
    "Sky Sport HD": "vhannibal"
   }
  },
+ "2cc4:00a3:4151": {
+  "names": [
+   "TVP Bydgoszcz",
+   "TVP3 Bydgoszcz"
+  ],
+  "sources": {
+   "TVP Bydgoszcz": "robocza",
+   "TVP3 Bydgoszcz": "zewnetrzna"
+  }
+ },
  "2cc4:19c8:fbff": {
   "names": [
    "DeA Kids",
@@ -13989,6 +14029,16 @@
   "sources": {
    "DeA Kids": "robocza",
    "DeAKids": "vhannibal"
+  }
+ },
+ "2ce6:00a3:4151": {
+  "names": [
+   "TVP Kielce",
+   "TVP3 Kielce"
+  ],
+  "sources": {
+   "TVP Kielce": "robocza",
+   "TVP3 Kielce": "zewnetrzna"
   }
  },
  "2d5d:15e0:fbff": {
@@ -15572,6 +15622,16 @@
  "37db:044c:013e": {
   "names": [],
   "sources": {}
+ },
+ "3873:00a3:4151": {
+  "names": [
+   "TVP Szczecin",
+   "TVP3 Szczecin"
+  ],
+  "sources": {
+   "TVP Szczecin": "robocza",
+   "TVP3 Szczecin": "zewnetrzna"
+  }
  },
  "38d0:19c8:fbff": {
   "names": [
@@ -18531,6 +18591,26 @@
    "Rai 3 TGR Lazio": "robocza"
   }
  },
+ "4be4:00a3:4151": {
+  "names": [
+   "TVP Poznań",
+   "TVP3 Poznań"
+  ],
+  "sources": {
+   "TVP Poznań": "robocza",
+   "TVP3 Poznań": "zewnetrzna"
+  }
+ },
+ "4de8:00a3:4151": {
+  "names": [
+   "TVP Lublin",
+   "TVP3 Lublin"
+  ],
+  "sources": {
+   "TVP Lublin": "robocza",
+   "TVP3 Lublin": "zewnetrzna"
+  }
+ },
  "4e22:043a:0001": {
   "names": [
    "ProSieben A"
@@ -18555,6 +18635,16 @@
    "SAT.1 A": "antena-canalplus"
   }
  },
+ "5079:00a3:4151": {
+  "names": [
+   "TVP Warszawa",
+   "TVP3 Warszawa"
+  ],
+  "sources": {
+   "TVP Warszawa": "robocza",
+   "TVP3 Warszawa": "zewnetrzna"
+  }
+ },
  "526c:041d:0001": {
   "names": [
    "Anixe HD"
@@ -18577,6 +18667,16 @@
   ],
   "sources": {
    "HSE24": "antena-canalplus"
+  }
+ },
+ "6784:00a3:4151": {
+  "names": [
+   "TVP Opole",
+   "TVP3 Opole"
+  ],
+  "sources": {
+   "TVP Opole": "robocza",
+   "TVP3 Opole": "zewnetrzna"
   }
  },
  "6dcb:044d:0001": {
@@ -18819,12 +18919,72 @@
    "HSE24 Extra": "antena-canalplus"
   }
  },
+ "7a15:00a3:4151": {
+  "names": [
+   "TVP Katowice",
+   "TVP3 Katowice"
+  ],
+  "sources": {
+   "TVP Katowice": "robocza",
+   "TVP3 Katowice": "zewnetrzna"
+  }
+ },
  "7a49:0410:0001": {
   "names": [
    "Telesur HD"
   ],
   "sources": {
    "Telesur HD": "antena-canalplus"
+  }
+ },
+ "89f1:00a3:4151": {
+  "names": [
+   "TVP Białystok",
+   "TVP3 Białystok"
+  ],
+  "sources": {
+   "TVP Białystok": "robocza",
+   "TVP3 Białystok": "zewnetrzna"
+  }
+ },
+ "ccfc:00a3:4151": {
+  "names": [
+   "TVP Kraków",
+   "TVP3 Kraków"
+  ],
+  "sources": {
+   "TVP Kraków": "robocza",
+   "TVP3 Kraków": "zewnetrzna"
+  }
+ },
+ "d090:00a3:4151": {
+  "names": [
+   "TVP Rzeszów",
+   "TVP3 Rzeszów"
+  ],
+  "sources": {
+   "TVP Rzeszów": "robocza",
+   "TVP3 Rzeszów": "zewnetrzna"
+  }
+ },
+ "e986:00a3:4151": {
+  "names": [
+   "TVP Łódź",
+   "TVP3 Łódź"
+  ],
+  "sources": {
+   "TVP Łódź": "robocza",
+   "TVP3 Łódź": "zewnetrzna"
+  }
+ },
+ "fdbd:00a3:4151": {
+  "names": [
+   "TVP Olsztyn",
+   "TVP3 Olsztyn"
+  ],
+  "sources": {
+   "TVP Olsztyn": "robocza",
+   "TVP3 Olsztyn": "zewnetrzna"
   }
  }
 }

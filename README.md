@@ -20,7 +20,7 @@ na starszym Pythonie użyj równoważnego configu `.json`.
 | `scripts/apply_moves.py <settings> <moves.json>` | wykonanie przenosin: podmiany referencji, dopisy/rename w lamedb, sprzątanie duplikatów |
 | `scripts/fix_types.py <settings>` | wyrównanie typów usług w bukietach do lamedb |
 | `scripts/build_names_db.py <out.json> <listy...>` | baza równoważnych pisowni nazw kanałów (klucz SID:TSID:ONID) z wielu list + KingOfSat |
-| `scripts/make_picons.py <settings> <store> <out> [names_db]` | picon.tar (220×132) i zzpicon.tar (400×170) **offline z repo store `picons/`**; symlinki po referencji, wszystkich znanych pisowniach i dla wpisów strumieniowych |
+| `scripts/make_picons.py <settings> <store> <out> [names_db]` | picon.tar (220×132) i zzpicon.tar (400×170) **offline z repo store `picons/`**; symlinki po referencji, wszystkich znanych pisowniach i dla wpisów strumieniowych (dla nich pisownie z names_db pod syntetycznym kluczem SID:TSID:ONID z bukietu) |
 | `scripts/update_picons.py <settings> <store> [names_db] [--dir <paczka>]` | odświeża store `picons/` z najnowszych paczek zet71 — domyślnie z eeRepo, z `--dir` z wypakowanej paczki „Nazwy - 8bit” (nowsza); plik zastąpiony inną nazwą usuwa (raz pobrane pikony zostają w repo) |
 | `scripts/fetch_missing_picons.py <settings> <db> <store>` | dokłada do store to, czego zet71 nie ma — logotypy github.com/picons/picons (wymaga Pillow) |
 | `scripts/postprocess_bouquet.py <settings> [config] [bukiety]` | generyczny post-procesor sterowany lokalnym configiem (poza repo); podmiany/wpisy dodatkowe wg `*.local.toml` |
