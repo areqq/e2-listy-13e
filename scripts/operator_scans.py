@@ -243,6 +243,7 @@ def run_detached(box: Box, command: str, timeout_s: int) -> ScanResult | None:
 
 SUMMARY = re.compile(rb"services=(\d+) transponders=(\d+) lcn=(\d+)")
 LOCKED = re.compile(rb"frontend(\d+): (\d+[HV]) fec=(\S+): LOCK")
+VIA = re.compile(rb"via receiver: (\d+[HV]) up on frontend(\d+)")  # satscan strojony przez Enigme
 
 
 def sweep_box(box: Box) -> int:
@@ -258,8 +259,14 @@ def sweep_box(box: Box) -> int:
             bad += 1
             continue
         lock = LOCKED.search(res.stderr)
+        via = VIA.search(res.stderr)
         summ = SUMMARY.search(res.stderr)
-        where = f"fe{lock[1].decode()} {lock[2].decode()} {lock[3].decode()}" if lock else "bez locka"
+        if lock:
+            where = f"fe{lock[1].decode()} {lock[2].decode()} {lock[3].decode()}"
+        elif via:
+            where = f"fe{via[2].decode()} {via[1].decode()} przez E2"
+        else:
+            where = "bez locka"
         nums = "svc={} tp={} lcn={}".format(*(g.decode() for g in summ.groups())) if summ else "-"
         flag = "" if res.rc == 0 else "   <-- BLAD"
         print(f"  {p:10s} {where:22s} {nums:28s} rc={res.rc}{flag}")
