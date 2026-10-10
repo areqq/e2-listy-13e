@@ -7723,10 +7723,12 @@
  },
  "0759:7f62:00ec": {
   "names": [
-   "CANAL+ EXTRA 6 HD"
+   "CANAL+ EXTRA 6 HD",
+   "CANAL+ EXTRA 6 HD (IPTV)"
   ],
   "sources": {
-   "CANAL+ EXTRA 6 HD": "zewnetrzna"
+   "CANAL+ EXTRA 6 HD": "zewnetrzna",
+   "CANAL+ EXTRA 6 HD (IPTV)": "zewnetrzna"
   }
  },
  "07d0:03e8:0002": {
@@ -10967,10 +10969,12 @@
  },
  "1494:4021:00ec": {
   "names": [
-   "CANAL+ EXTRA 7 HD"
+   "CANAL+ EXTRA 7 HD",
+   "CANAL+ EXTRA 7 HD (IPTV)"
   ],
   "sources": {
-   "CANAL+ EXTRA 7 HD": "zewnetrzna"
+   "CANAL+ EXTRA 7 HD": "zewnetrzna",
+   "CANAL+ EXTRA 7 HD (IPTV)": "zewnetrzna"
   }
  },
  "14bd:0407:0001": {
@@ -11135,10 +11139,12 @@
  },
  "1ad9:701f:00ec": {
   "names": [
-   "CANAL+ EXTRA 5 HD"
+   "CANAL+ EXTRA 5 HD",
+   "CANAL+ EXTRA 5 HD (IPTV)"
   ],
   "sources": {
-   "CANAL+ EXTRA 5 HD": "zewnetrzna"
+   "CANAL+ EXTRA 5 HD": "zewnetrzna",
+   "CANAL+ EXTRA 5 HD (IPTV)": "zewnetrzna"
   }
  },
  "1af9:03fe:0001": {
