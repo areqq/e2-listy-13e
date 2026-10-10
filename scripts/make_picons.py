@@ -11,6 +11,8 @@ W tarze: plik pikony + symlinki po referencji uslugi
 oraz dla wpisow strumieniowych - wiec pikona lapie sie na rozne sposoby.
 
 Uzycie: python3 scripts/make_picons.py <katalog_settings> <store> <katalog_wyjsciowy> [names_db.json] [bukiet.tv ...]
+Bukiet podany ze sciezka (zawiera '/') jest czytany spoza katalogu settings - np. bukiety
+strumieniowe sciagniete z dekodera, ktorych nie ma w paczce.
 Podanie names_db.json (ze scripts/build_names_db.py) wlacza dopasowywanie takze
 po rownowaznych nazwach kanalu z innych list i KingOfSat.
 Wynik:  <katalog_wyjsciowy>/picon.tar   (220x132, rozpakowac w /usr/share/enigma2/)
@@ -117,12 +119,19 @@ def normalize_name(channel: str) -> str:
     return re.sub("[^a-z0-9]", "", ascii_name)
 
 
+def bouquet_path(settings_dir: Path, bq: str) -> Path:
+    """Nazwa pliku w katalogu settings albo sciezka (bukiety strumieniowe
+    sciagniete z dekodera, spoza paczki)."""
+    return Path(bq) if "/" in bq else settings_dir / bq
+
+
 def collect_streams(settings_dir: Path, bouquets: list[str]) -> list[Wanted]:
     """Wpisy strumieniowe (z URL w polu 11) - pikon bierzemy po nazwie bazowej
-    (bez tagu w nawiasie), a symlinki tworzymy po referencji i po pelnej nazwie."""
+    (bez tagu w nawiasie), a symlinki tworzymy po referencji, po pelnej nazwie
+    i po nazwie z odkodowanymi znakami URL (np. %3a)."""
     streams: dict[str, Wanted] = {}
     for bq in bouquets:
-        for raw in (settings_dir / bq).read_text(encoding="utf-8", errors="replace").splitlines():
+        for raw in bouquet_path(settings_dir, bq).read_text(encoding="utf-8", errors="replace").splitlines():
             if not raw.startswith("#SERVICE 1:"):
                 continue
             parts = raw[len("#SERVICE "):].split(":")
@@ -144,7 +153,7 @@ def collect_wanted(settings_dir: Path, bouquets: list[str], names_db: dict[str, 
     db = load_lamedb(settings_dir / "lamedb")
     wanted: dict[str, Wanted] = {}
     for bq in bouquets:
-        name, entries = load_bouquet(settings_dir / bq)
+        name, entries = load_bouquet(bouquet_path(settings_dir, bq))
         for e in entries:
             if e.key is None:
                 continue
@@ -243,7 +252,11 @@ def build_tar(out_path: Path, subdir: str, pngs: dict[str, bytes],
             if found not in packed:
                 pack(found, source[found])
                 packed.add(found)
-            link_names = [w.ref] + [a for a in [w.picon_name] + w.aliases if a != found]
+            # enigma szuka po referencji albo po nazwie kanalu - rozne obrazy
+            # obcinaja z niej sufiks HD/UHD, wiec link takze pod nazwa bazowa
+            names = [w.picon_name] + w.aliases
+            names += [re.sub(r"(uhd|fhd|hd)$", "", n) for n in list(names)]
+            link_names = [w.ref] + [a for a in names if a and a != found]
             for link_name in link_names:
                 if link_name in packed or link_name in linked:
                     continue
