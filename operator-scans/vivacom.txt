@@ -79,7 +79,7 @@ L 176 000C:2580:00D5 visible=1 src=bat
 L 177 000F:2580:00D5 visible=1 src=bat
 L 178 000D:2580:00D5 visible=1 src=bat
 L 179 000E:2580:00D5 visible=1 src=bat
-L 18 0106:25E4:00D5 visible=1 src=bat
+L 18 0138:2648:00D5 visible=1 src=bat
 L 180 000B:2580:00D5 visible=1 src=bat
 L 181 0017:2580:00D5 visible=1 src=bat
 L 182 003C:2580:00D5 visible=1 src=bat
@@ -110,9 +110,10 @@ L 25 138A:2710:00D5 visible=1 src=bat
 L 26 0140:2648:00D5 visible=1 src=bat
 L 27 00D0:25E4:00D5 visible=1 src=bat
 L 28 00D8:25E4:00D5 visible=1 src=bat
-L 29 0138:2648:00D5 visible=1 src=bat
+L 29 0106:25E4:00D5 visible=1 src=bat
 L 3 0034:2580:00D5 visible=1 src=bat
 L 30 00FA:25E4:00D5 visible=1 src=bat
+L 31 0021:2580:00D5 visible=1 src=bat
 L 32 0130:2648:00D5 visible=1 src=bat
 L 33 014A:2648:00D5 visible=1 src=bat
 L 34 0145:2648:00D5 visible=1 src=bat
@@ -173,7 +174,6 @@ L 84 002B:2580:00D5 visible=1 src=bat
 L 85 00C8:25E4:00D5 visible=1 src=bat
 L 86 0029:2580:00D5 visible=1 src=bat
 L 87 00EA:25E4:00D5 visible=1 src=bat
-L 88 0021:2580:00D5 visible=1 src=bat
 L 89 138B:2710:00D5 visible=1 src=bat
 L 9 0088:251C:00D5 visible=1 src=bat
 L 90 008D:251C:00D5 visible=1 src=bat

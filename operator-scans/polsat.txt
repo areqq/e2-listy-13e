@@ -133,9 +133,7 @@ L 244 0C20:1E78:0071 visible=1 src=nit
 L 25 10EA:03E8:013E visible=1 src=nit
 L 26 33A8:3390:0071 visible=1 src=nit
 L 28 3394:3390:0071 visible=1 src=nit
-L 2890 37A1:044C:013E visible=1 src=nit
-L 2892 37A3:044C:013E visible=1 src=nit
-L 2897 37A2:044C:013E visible=1 src=nit
+L 2895 4207:2F44:013E visible=1 src=nit
 L 29 339A:3390:0071 visible=1 src=nit
 L 3 1C9A:1CE8:0071 visible=1 src=nit
 L 3 3ABD:0514:013E visible=1 src=nit
@@ -251,12 +249,12 @@ L 865 0041:1964:013E visible=1 src=nit
 L 866 0042:1964:013E visible=1 src=nit
 L 87 1CB7:1CE8:0071 visible=1 src=nit
 L 88 2938:1EDC:0071 visible=1 src=nit
-L 890 113F:2AF8:013E visible=1 src=nit
+L 890 37A1:044C:013E visible=1 src=nit
 L 891 4224:3DB8:013E visible=1 src=nit
-L 892 1141:2AF8:013E visible=1 src=nit
+L 892 37A3:044C:013E visible=1 src=nit
 L 895 422C:2F44:013E visible=1 src=nit
 L 896 4206:2F44:013E visible=1 src=nit
-L 897 1140:2AF8:013E visible=1 src=nit
+L 897 37A2:044C:013E visible=1 src=nit
 L 9 3392:3390:0071 visible=1 src=nit
 L 90 1CB5:1CE8:0071 visible=1 src=nit
 L 900 33E9:3390:0071 visible=1 src=nit
@@ -392,9 +390,6 @@ S 1138:2AF8:013E type=1 ca=1 "TVP HD" "Cyfrowy Polsat S.A."
 S 1139:2AF8:013E type=1 ca=1 "TVP INFO HD" "Cyfrowy Polsat S.A."
 S 113D:2AF8:013E type=1 ca=1 "CANAL+ Domo HD" "Cyfrowy Polsat S.A."
 S 113E:2AF8:013E type=1 ca=1 "CANAL+ Kuchnia HD" "Cyfrowy Polsat S.A."
-S 113F:2AF8:013E type=1 ca=1 "Hustler HD" "Cyfrowy Polsat S.A."
-S 1140:2AF8:013E type=1 ca=1 "Blue Hustler" ""
-S 1141:2AF8:013E type=1 ca=1 "Private TV" ""
 S 1142:2AF8:013E type=1 ca=1 "TVP Seriale" "Cyfrowy Polsat S.A."
 S 11FB:2B5C:013E type=31 ca=1 "Travelxp 4K" "Cyfrowy Polsat S.A"
 S 11FC:2B5C:013E type=31 ca=1 "Museum TV 4K" ""
@@ -607,6 +602,7 @@ S 3E3E:2EE0:013E type=1 ca=0 "SciFi HD" "Cyfrowy Polsat S.A."
 S 3E44:2EE0:013E type=1 ca=0 "13 Ulica HD" "Cyfrowy Polsat S.A."
 S 3E4E:2EE0:013E type=12 ca=0 "B" "Cyfrowy Polsat S.A."
 S 4206:2F44:013E type=1 ca=1 "Dorcel TV HD" "Cyfrowy Polsat S.A."
+S 4207:2F44:013E type=1 ca=1 "Brazzers TV" "Cyfrowy Polsat S.A."
 S 421C:2F44:013E type=1 ca=0 "Freedom" ""
 S 4224:3DB8:013E type=1 ca=1 "Red Light HD" "Cyfrowy Polsat S.A."
 S 422C:2F44:013E type=1 ca=1 "Brazzers TV" "Cyfrowy Polsat S.A."
