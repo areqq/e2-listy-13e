@@ -1,0 +1,47 @@
+{
+ "_opis": "Fala 24.10.2026 wg pelnego skanu 13E z 24.10 (SDT) i tablic operatorow. Canal+ Sport 2 HD: SID z glownego LCN (38) zamiast 3ACE (LCN 172), typ jak dotychczasowy wpis. Nowe kanaly operatorow dopisane na koncu bukietow: XXX (4207), Nova (1BC6), Vivacom (014B). Wylaczone bez zamiennika usuniete: CNN Greek, Viasat True Crime, Russian Travel Guide, Setareh TV, blok 11096 H (bez locka od 04.10, 24 wpisy). Nazwy wg SDT: S1 -> Kabelio 3+ Focus, RTS Deux HD -> RTS 2 HD.",
+ "add_services": [
+  {"sid": "3A9C", "tsid": "0514", "type": 25, "name": "Canal+ Sport 2 HD", "provider": "CANAL+"},
+  {"sid": "4207", "tsid": "2F44", "type": 25, "name": "Brazzers TV POL", "provider": "iKO Media Group"},
+  {"sid": "1BC6", "tsid": "17D4", "type": 1, "name": "Novasports L HD", "provider": "NOVA"},
+  {"sid": "014B", "tsid": "2648", "onid": "00D5", "type": 25, "name": "MAX One HD", "provider": "VIVACOM"}
+ ],
+ "rename_services": [
+  {"sid": "00FD", "tsid": "2C24", "new_name": "Kabelio 3+ Focus"},
+  {"sid": "4334", "tsid": "300C", "new_name": "RTS 2 HD"}
+ ],
+ "targets": [
+  {"bouquet": "userbouquet.dbe00.tv",
+   "moves": [{"name": "Canal+ Sport 2 HD", "old_sid": "3ACE", "old_tsid": "0514", "new_sid": "3A9C", "new_tsid": "0514"}]},
+  {"bouquet": "userbouquet.dbe03.tv",
+   "moves": [{"name": "Canal+ Sport 2 HD", "old_sid": "3ACE", "old_tsid": "0514", "new_sid": "3A9C", "new_tsid": "0514"}]},
+  {"bouquet": "userbouquet.dbe06.tv",
+   "append": [{"name": "Brazzers TV POL", "sid": "4207", "tsid": "2F44"}]},
+  {"bouquet": "userbouquet.Nova.tv",
+   "remove": [{"name": "CNN_Greek", "sid": "1C94", "tsid": "1CE8"}],
+   "append": [{"name": "Novasports L HD", "sid": "1BC6", "tsid": "17D4"}]},
+  {"bouquet": "userbouquet.dbe0c.tv",
+   "remove": [{"name": "Viasat True Crime", "sid": "0131", "tsid": "251C"},
+              {"name": "Russian Travel Guide", "sid": "00D5", "tsid": "25E4"}],
+   "append": [{"name": "MAX One HD", "sid": "014B", "tsid": "2648", "onid": "00D5"}]},
+  {"bouquet": "userbouquet.dbe32.tv",
+   "remove": [{"name": "Setareh TV", "sid": "01F6", "tsid": "0384"}]},
+  {"bouquet": "userbouquet.dbe29.tv",
+   "remove": [{"name": "Kabelio Infokanal", "sid": "0088", "tsid": "3264"}]},
+  {"bouquet": "userbouquet.Kabelio.tv",
+   "remove": [
+    {"name": "Kabelio Infokanal", "sid": "0088", "tsid": "3264"}, {"name": "Servus TV HD", "sid": "0075", "tsid": "3264"},
+    {"name": "ORF Sport+ HD", "sid": "0076", "tsid": "3264"}, {"name": "3+HD", "sid": "0064", "tsid": "3264"},
+    {"name": "4+HD", "sid": "0065", "tsid": "3264"}, {"name": "5+HD", "sid": "0066", "tsid": "3264"},
+    {"name": "6+HD", "sid": "0069", "tsid": "3264"}, {"name": "TV24", "sid": "0067", "tsid": "3264"},
+    {"name": "TV25", "sid": "0068", "tsid": "3264"}, {"name": "RTL CH", "sid": "006F", "tsid": "3264"},
+    {"name": "RTLZWEI CH", "sid": "0070", "tsid": "3264"}, {"name": "Super RTL CH", "sid": "0082", "tsid": "3264"},
+    {"name": "VOX CH", "sid": "0071", "tsid": "3264"}, {"name": "SAT.1 CH", "sid": "0072", "tsid": "3264"},
+    {"name": "Pro 7 CH", "sid": "0073", "tsid": "3264"}, {"name": "KabelEins CH", "sid": "007F", "tsid": "3264"},
+    {"name": "n-tv", "sid": "0087", "tsid": "3264"}, {"name": "ORF 1", "sid": "006D", "tsid": "3264"},
+    {"name": "ORF 2 Tirol", "sid": "006E", "tsid": "3264"}, {"name": "ORF 3", "sid": "0074", "tsid": "3264"},
+    {"name": "Puls acht", "sid": "006C", "tsid": "3264"}, {"name": "Das Erste", "sid": "0084", "tsid": "3264"},
+    {"name": "ZDF", "sid": "0085", "tsid": "3264"}, {"name": "TeleZueri HD", "sid": "006B", "tsid": "3264"}
+   ]}
+ ]
+}
