@@ -33,6 +33,7 @@ na starszym Pythonie użyj równoważnego configu `.json`.
 | `scripts/operator_scans.py fullscan` | pełny skan satelity (`--scan-all`) w tle na dekoderze → `work/satscan-out/<DDMMRR>/full13e.txt` |
 | `scripts/operator_scans.py sweep [--kazdy]` | test satscana: wszystkie platformy na dekoderze, nic nie zapisuje |
 | `scripts/operator_scans.py --box <fragment> <komenda>` | jw. na wskazanym dekoderze (fragment pola `opis` w `scan.local.toml`), gdy pierwszy jest zajęty |
+| `scripts/compare_packages.py <paczka_A> <paczka_B>` | dwie paczki settings (np. cudza vs nasza): różnice transponderów i usług w lamedb, per bukiet (parowane po `#NAME`) wpisy tylko w A/B, zmiany typu, kolejność; czyta ISO-8859-2 i UTF-8, CRLF, lamedb z `/` |
 | `scripts/verify_vs_scan.py <settings> <skany...>` | lista vs sygnał: martwe referencje, przejęte SID-y (wg pełnego skanu), podpowiedzi „inny ONID" / „kandydat"; osobno bukiety polskie i obce |
 
 ## Przepływ pracy
