@@ -8403,17 +8403,21 @@
  },
  "0d4d:1450:013e": {
   "names": [
-   "Rai 4 HD"
+   "Rai 4 HD",
+   "Rai 4"
   ],
   "sources": {
+   "Rai 4": "antena-241026",
    "Rai 4 HD": "robocza"
   }
  },
  "0d4e:1450:013e": {
   "names": [
-   "Rai Movie HD"
+   "Rai Movie HD",
+   "Rai Movie"
   ],
   "sources": {
+   "Rai Movie": "antena-241026",
    "Rai Movie HD": "robocza"
   }
  },
@@ -9186,7 +9190,8 @@
    "Batman Collection",
    "Fast & Furious Collection",
    "Adventure Collection",
-   "Anni 90 Collection"
+   "Anni 90 Collection",
+   "Risate all'italiana"
   ],
   "sources": {
    "Adventure Collection": "kingofsat",
@@ -9196,6 +9201,7 @@
    "Batman Collection": "kingofsat",
    "Fast & Furious Collection": "vhannibal",
    "Mission: Impossible Collection": "vhannibal",
+   "Risate all'italiana": "vhannibal",
    "Sky Western Collection": "zewnetrzna"
   }
  },
@@ -11257,6 +11263,22 @@
    "One Channel HD": "robocza"
   }
  },
+ "1bc6:17d4:013e": {
+  "names": [
+   "Novasports L HD"
+  ],
+  "sources": {
+   "Novasports L HD": "robocza"
+  }
+ },
+ "1bc7:17d4:013e": {
+  "names": [
+   "Novasports L HD Cy"
+  ],
+  "sources": {
+   "Novasports L HD Cy": "antena-241026"
+  }
+ },
  "1bc8:17d4:013e": {
   "names": [
    "Viasat Epic Drama HD"
@@ -12325,9 +12347,11 @@
  },
  "213f:3070:013e": {
   "names": [
-   "Rai YoYo HD"
+   "Rai YoYo HD",
+   "Rai YoYo"
   ],
   "sources": {
+   "Rai YoYo": "antena-241026",
    "Rai YoYo HD": "robocza"
   }
  },
@@ -12371,9 +12395,11 @@
  },
  "214a:3070:013e": {
   "names": [
-   "Rai Premium HD"
+   "Rai Premium HD",
+   "Rai Premium"
   ],
   "sources": {
+   "Rai Premium": "antena-241026",
    "Rai Premium HD": "robocza"
   }
  },
@@ -15658,8 +15684,12 @@
   "sources": {}
  },
  "37db:044c:013e": {
-  "names": [],
-  "sources": {}
+  "names": [
+   "DATA"
+  ],
+  "sources": {
+   "DATA": "antena-241026"
+  }
  },
  "3873:00a3:4151": {
   "names": [
@@ -17183,6 +17213,30 @@
    "Dorcel TV HD": "robocza"
   }
  },
+ "4207:2f44:013e": {
+  "names": [
+   "Brazzers TV POL"
+  ],
+  "sources": {
+   "Brazzers TV POL": "robocza"
+  }
+ },
+ "4208:2f44:013e": {
+  "names": [
+   "Brazzers TV UM"
+  ],
+  "sources": {
+   "Brazzers TV UM": "antena-241026"
+  }
+ },
+ "4209:2f44:013e": {
+  "names": [
+   "Brazzers TV UM Nova"
+  ],
+  "sources": {
+   "Brazzers TV UM Nova": "antena-241026"
+  }
+ },
  "421a:3db8:013e": {
   "names": [
    "TRM h24",
@@ -18400,10 +18454,12 @@
  "4532:30d4:013e": {
   "names": [
    "Rai Sport HD",
-   "RAI Sport"
+   "RAI Sport",
+   "Rai Sport"
   ],
   "sources": {
    "RAI Sport": "antena-canalplus",
+   "Rai Sport": "antena-241026",
    "Rai Sport HD": "robocza"
   }
  },
@@ -18417,9 +18473,11 @@
  },
  "4534:30d4:013e": {
   "names": [
-   "Rai 5 HD"
+   "Rai 5 HD",
+   "Rai 5"
   ],
   "sources": {
+   "Rai 5": "antena-241026",
    "Rai 5 HD": "robocza"
   }
  },
