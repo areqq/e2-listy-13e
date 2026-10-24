@@ -1,0 +1,34 @@
+{
+ "_opis": "Poprawka 24.10 (b): dobor emisji pod zewnetrzny plik priorytetow softcama (CAID 1803/1861) - gdy kanal nadaje pod kilkoma SID-ami, bierzemy ten z wpisem. Eleven Sports 1-4 HD: 10796 V -> 11116 V (nowa emisja, obie nadaja, PMT nowej tylko Irdeto/Nagra); stare referencje z 10796 V zostaja jako swiadome duble na koncu POLSKA FULL (karty z innymi CA). Canal+ Sport 5 HD 3AA5 -> 3AB9 (ten sam TP). BBC Brit 07E0 -> 07D6 (ten sam TP). Typ nowych wpisow jak dotychczasowych.",
+ "add_services": [
+  {"sid": "070B", "tsid": "32C8", "type": 25, "name": "Eleven Sports 1 HD", "provider": "Cyfrowy Polsat S.A."},
+  {"sid": "070C", "tsid": "32C8", "type": 25, "name": "Eleven Sports 2 HD", "provider": "Cyfrowy Polsat S.A."},
+  {"sid": "0710", "tsid": "32C8", "type": 25, "name": "Eleven Sports 3 HD", "provider": "Cyfrowy Polsat S.A."}
+ ],
+ "targets": [
+  {"bouquet": "userbouquet.dbe00.tv",
+   "moves": [
+    {"name": "Eleven Sports 1 HD", "old_sid": "3D69", "old_tsid": "2C88", "new_sid": "070B", "new_tsid": "32C8"},
+    {"name": "Eleven Sports 2 HD", "old_sid": "3D6A", "old_tsid": "2C88", "new_sid": "070C", "new_tsid": "32C8"},
+    {"name": "Eleven Sports 3 HD", "old_sid": "3D6B", "old_tsid": "2C88", "new_sid": "0710", "new_tsid": "32C8"},
+    {"name": "Eleven Sports 4 HD", "old_sid": "3D6C", "old_tsid": "2C88", "new_sid": "0711", "new_tsid": "32C8"},
+    {"name": "Canal+ Sport 5 HD", "old_sid": "3AA5", "old_tsid": "0514", "new_sid": "3AB9", "new_tsid": "0514"}
+   ],
+   "append": [
+    {"name": "Eleven Sports 1 HD (10796 V)", "sid": "3D69", "tsid": "2C88"},
+    {"name": "Eleven Sports 2 HD (10796 V)", "sid": "3D6A", "tsid": "2C88"},
+    {"name": "Eleven Sports 3 HD (10796 V)", "sid": "3D6B", "tsid": "2C88"},
+    {"name": "Eleven Sports 4 HD (10796 V)", "sid": "3D6C", "tsid": "2C88"}
+   ]},
+  {"bouquet": "userbouquet.dbe03.tv",
+   "moves": [
+    {"name": "Eleven Sports 1 HD", "old_sid": "3D69", "old_tsid": "2C88", "new_sid": "070B", "new_tsid": "32C8"},
+    {"name": "Eleven Sports 2 HD", "old_sid": "3D6A", "old_tsid": "2C88", "new_sid": "070C", "new_tsid": "32C8"},
+    {"name": "Eleven Sports 3 HD", "old_sid": "3D6B", "old_tsid": "2C88", "new_sid": "0710", "new_tsid": "32C8"},
+    {"name": "Eleven Sports 4 HD", "old_sid": "3D6C", "old_tsid": "2C88", "new_sid": "0711", "new_tsid": "32C8"},
+    {"name": "Canal+ Sport 5 HD", "old_sid": "3AA5", "old_tsid": "0514", "new_sid": "3AB9", "new_tsid": "0514"}
+   ]},
+  {"bouquet": "userbouquet.dbe0b.tv",
+   "moves": [{"name": "BBC Brit", "old_sid": "07E0", "old_tsid": "22C4", "new_sid": "07D6", "new_tsid": "22C4"}]}
+ ]
+}

@@ -7673,10 +7673,12 @@
   "names": [
    "Test1803 (CP)",
    "Test1803",
-   "Eleven Sports 1"
+   "Eleven Sports 1",
+   "Eleven Sports 1 HD"
   ],
   "sources": {
    "Eleven Sports 1": "antena-101026",
+   "Eleven Sports 1 HD": "robocza",
    "Test1803": "vhannibal",
    "Test1803 (CP)": "zewnetrzna"
   }
@@ -7685,10 +7687,12 @@
   "names": [
    "Test1804 (CP)",
    "Test1804",
-   "Eleven Sports 2"
+   "Eleven Sports 2",
+   "Eleven Sports 2 HD"
   ],
   "sources": {
    "Eleven Sports 2": "antena-101026",
+   "Eleven Sports 2 HD": "robocza",
    "Test1804": "vhannibal",
    "Test1804 (CP)": "zewnetrzna"
   }
@@ -7705,10 +7709,12 @@
   "names": [
    "Test1808 (CP)",
    "Test1808",
-   "Eleven Sports 3"
+   "Eleven Sports 3",
+   "Eleven Sports 3 HD"
   ],
   "sources": {
    "Eleven Sports 3": "antena-101026",
+   "Eleven Sports 3 HD": "robocza",
    "Test1808": "vhannibal",
    "Test1808 (CP)": "zewnetrzna"
   }
