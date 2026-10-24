@@ -70,6 +70,9 @@ ALIASES = {
     "equidiapro2hd": "equidia",
     "musicbox": "musicboxpolska",
     "drgmedicalexaminer": "drg",
+    "brazzerstvpol": "brazzerstv",
+    "novelasplus1": "novelasplus",
+    "hellonwheelswitajwpieklehd": "hellonwheels",
 }
 
 
