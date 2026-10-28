@@ -34,7 +34,6 @@ L 310 019F:1518:013E visible=1 src=bat
 L 311 0169:1C84:013E visible=1 src=bat
 L 312 0198:1518:013E visible=1 src=bat
 L 313 017D:1C84:013E visible=1 src=bat
-L 314 1BBE:17D4:013E visible=1 src=bat
 L 320 0193:1518:013E visible=1 src=bat
 L 321 012F:157C:013E visible=1 src=bat
 L 322 0130:157C:013E visible=1 src=bat

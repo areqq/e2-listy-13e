@@ -7,8 +7,7 @@ L 101 07D6:22C4:013E visible=1 src=nit
 L 1010 1C96:1CE8:0071 visible=1 src=nit
 L 102 10E0:03E8:013E visible=1 src=nit
 L 103 3DD7:0640:013E visible=1 src=nit
-L 1030 13F1:05DC:013E visible=1 src=nit
-L 104 3D5A:2C88:013E visible=1 src=nit
+L 104 13F3:05DC:013E visible=1 src=nit
 L 105 10EB:03E8:013E visible=1 src=nit
 L 106 3D67:2C88:013E visible=1 src=nit
 L 107 32D7:0190:013E visible=1 src=nit
@@ -57,7 +56,7 @@ L 153 3E26:2EE0:013E visible=1 src=nit
 L 154 33A3:3390:0071 visible=1 src=nit
 L 155 4291:2BC0:013E visible=1 src=nit
 L 156 3DD4:0640:013E visible=1 src=nit
-L 157 3D5E:2C88:013E visible=1 src=nit
+L 157 13F2:05DC:013E visible=1 src=nit
 L 158 429E:2BC0:013E visible=1 src=nit
 L 159 0C37:1E78:0071 visible=1 src=nit
 L 16 4284:2BC0:013E visible=1 src=nit
@@ -103,15 +102,15 @@ L 20 3DD2:0640:013E visible=1 src=nit
 L 200 33B1:3390:0071 visible=1 src=nit
 L 202 33D9:3390:0071 visible=1 src=nit
 L 203 3343:3390:0071 visible=1 src=nit
+L 2095 1404:05DC:013E visible=1 src=nit
 L 210 0709:32C8:013E visible=1 src=nit
-L 2104 13F3:05DC:013E visible=1 src=nit
+L 2106 1405:05DC:013E visible=1 src=nit
 L 211 070A:32C8:013E visible=1 src=nit
 L 2118 0C28:1E78:0071 visible=1 src=nit
 L 212 3E2B:2EE0:013E visible=1 src=nit
 L 213 3E2C:2EE0:013E visible=1 src=nit
 L 214 0C33:1E78:0071 visible=1 src=nit
 L 215 0C34:1E78:0071 visible=1 src=nit
-L 2157 13F2:05DC:013E visible=1 src=nit
 L 2194 423F:3DB8:013E visible=1 src=nit
 L 220 3D69:2C88:013E visible=1 src=nit
 L 221 3D6A:2C88:013E visible=1 src=nit
@@ -124,6 +123,7 @@ L 224 070F:32C8:013E visible=1 src=nit
 L 229 3E1F:2EE0:013E visible=1 src=nit
 L 23 1139:2AF8:013E visible=1 src=nit
 L 230 33B8:3390:0071 visible=1 src=nit
+L 2308 1402:05DC:013E visible=1 src=nit
 L 232 33BA:3390:0071 visible=1 src=nit
 L 239 1C8B:1CE8:0071 visible=1 src=nit
 L 24 290B:1EDC:0071 visible=1 src=nit
@@ -137,7 +137,7 @@ L 2895 4207:2F44:013E visible=1 src=nit
 L 29 339A:3390:0071 visible=1 src=nit
 L 3 1C9A:1CE8:0071 visible=1 src=nit
 L 3 3ABD:0514:013E visible=1 src=nit
-L 30 3D66:2C88:013E visible=1 src=nit
+L 30 13F1:05DC:013E visible=1 src=nit
 L 307 003D:1964:013E visible=1 src=nit
 L 308 003E:1964:013E visible=1 src=nit
 L 308 3D56:2C88:013E visible=1 src=nit
@@ -407,7 +407,10 @@ S 13FC:05DC:013E type=1 ca=1 "TeenNick" "Cyfrowy Polsat S.A."
 S 13FD:05DC:013E type=1 ca=1 "Viasat True Crime" "Cyfrowy Polsat S.A."
 S 13FE:05DC:013E type=1 ca=1 "AXN Spin HD" "Cyfrowy Polsat S.A."
 S 1401:05DC:013E type=1 ca=1 "AMC" "Cyfrowy Polsat S.A."
+S 1402:05DC:013E type=1 ca=1 "Motowizja HD" "Cyfrowy Polsat S.A."
 S 1403:05DC:013E type=1 ca=0 "TVS" "Cyfrowy Polsat S.A."
+S 1404:05DC:013E type=1 ca=1 "TVP ABC" "Ctfrowy Polsat S.A."
+S 1405:05DC:013E type=1 ca=1 "TVP Historia" "Cyfrowy Polsat S.A."
 S 1410:05DC:013E type=2 ca=0 "Radio Zet" "Cyfrowy Polsat SA"
 S 1412:05DC:013E type=1 ca=0 "TVC" "Cyfrowy Polsat S.A."
 S 1428:05DC:013E type=1 ca=0 "National Geographic Wild HD" "Cyfrowy Polsat S.A."
@@ -563,10 +566,7 @@ S 3B6A:012C:013E type=1 ca=1 "Discovery Science HD" "Cyfrowy Polsat S.A."
 S 3B6B:012C:013E type=1 ca=1 "DTX HD" "Cyfrowy Polsat S.A."
 S 3B6D:012C:013E type=1 ca=1 "CNN Europe HD" "Cyfrowy Polsat S.A."
 S 3D56:2C88:013E type=1 ca=1 "Motowizja HD" "Cyfrowy Polsat S.A."
-S 3D5A:2C88:013E type=1 ca=1 "WP" "Cyfrowy Polsat S.A."
-S 3D5E:2C88:013E type=1 ca=1 "Puls 2 HD" "Cyfrowy Polsat S.A"
 S 3D5F:2C88:013E type=1 ca=1 "TVP ABC" "Cyfrowy Polsat S.A."
-S 3D66:2C88:013E type=1 ca=1 "TV Puls HD" "Cyfrowy Polsat S.A."
 S 3D67:2C88:013E type=1 ca=1 "TVP Historia" "Cyfrowy Polsat S.A."
 S 3D69:2C88:013E type=1 ca=1 "Eleven Sports 1" "Cyfrowy Polsat S.A."
 S 3D6A:2C88:013E type=1 ca=1 "Eleven Sports 2" "Cyfrowy Polsat S.A."
