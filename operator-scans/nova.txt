@@ -12,8 +12,6 @@ L 110 017F:1C84:013E visible=1 src=bat
 L 112 0149:157C:013E visible=1 src=bat
 L 113 1BC5:17D4:013E visible=1 src=bat
 L 114 0170:1C84:013E visible=1 src=bat
-L 116 1BC4:17D4:013E visible=1 src=bat
-L 117 019B:1518:013E visible=1 src=bat
 L 118 1BC9:17D4:013E visible=1 src=bat
 L 120 0160:1C84:013E visible=1 src=bat
 L 201 3C95:1BBC:013E visible=1 src=bat
@@ -23,17 +21,21 @@ L 204 016E:1C84:013E visible=1 src=bat
 L 230 0259:2774:013E visible=1 src=bat
 L 231 025A:2774:013E visible=1 src=bat
 L 240 1BC8:17D4:013E visible=1 src=bat
-L 300 01A4:1518:013E visible=1 src=bat
-L 301 0197:1518:013E visible=1 src=bat
-L 302 3C90:1BBC:013E visible=1 src=bat
-L 303 3CA0:1BBC:013E visible=1 src=bat
-L 304 0162:1C84:013E visible=1 src=bat
-L 305 01A0:1518:013E visible=1 src=bat
-L 306 0199:1518:013E visible=1 src=bat
-L 310 019F:1518:013E visible=1 src=bat
-L 311 0169:1C84:013E visible=1 src=bat
-L 312 0198:1518:013E visible=1 src=bat
-L 313 017D:1C84:013E visible=1 src=bat
+L 300 1BC4:17D4:013E visible=1 src=bat
+L 301 019B:1518:013E visible=1 src=bat
+L 302 01A4:1518:013E visible=1 src=bat
+L 303 019F:1518:013E visible=1 src=bat
+L 304 1BBE:17D4:013E visible=1 src=bat
+L 305 1BC6:17D4:013E visible=1 src=bat
+L 307 0197:1518:013E visible=1 src=bat
+L 308 3C90:1BBC:013E visible=1 src=bat
+L 309 3CA0:1BBC:013E visible=1 src=bat
+L 310 0162:1C84:013E visible=1 src=bat
+L 311 01A0:1518:013E visible=1 src=bat
+L 312 0199:1518:013E visible=1 src=bat
+L 313 0169:1C84:013E visible=1 src=bat
+L 314 0198:1518:013E visible=1 src=bat
+L 315 017D:1C84:013E visible=1 src=bat
 L 320 0193:1518:013E visible=1 src=bat
 L 321 012F:157C:013E visible=1 src=bat
 L 322 0130:157C:013E visible=1 src=bat
@@ -114,7 +116,7 @@ L 850 0641:2454:013E visible=1 src=bat
 L 900 37AA:044C:013E visible=1 src=bat
 L 901 1BC1:17D4:013E visible=1 src=bat
 L 904 37AB:044C:013E visible=1 src=bat
-L 905 4230:2F44:013E visible=1 src=bat
+L 905 4209:2F44:013E visible=1 src=bat
 L 906 37A8:044C:013E visible=1 src=bat
 L 907 0263:2774:013E visible=1 src=bat
 L 908 4224:3DB8:013E visible=1 src=bat
@@ -301,7 +303,7 @@ S 132A:33F4:013E type=1 ca=0 "RIKSat HD" "Telespazio"
 S 134B:33F4:013E type=1 ca=0 "Kentron TV" "NETMED"
 S 1360:33F4:013E type=1 ca=1 "Private TV" "NetMed"
 S 1BBD:17D4:013E type=1 ca=1 "еят NEWS" "NOVA"
-S 1BBE:17D4:013E type=1 ca=1 "Novasportsextra4HD" "NOVA"
+S 1BBE:17D4:013E type=1 ca=1 "Novasports1 League HD" "NOVA"
 S 1BBF:17D4:013E type=1 ca=1 "Viasat True Crime HD" "NOVA"
 S 1BC0:17D4:013E type=1 ca=1 "ducktv" "NOVA"
 S 1BC1:17D4:013E type=1 ca=1 "Adult Pack Info" "NOVA"
@@ -309,8 +311,8 @@ S 1BC2:17D4:013E type=1 ca=1 "Novacinema3HD" "NOVA"
 S 1BC3:17D4:013E type=1 ca=1 "M3_SID7107" "NOVA"
 S 1BC4:17D4:013E type=1 ca=1 "Novasports News HD" "NOVA"
 S 1BC5:17D4:013E type=1 ca=1 "One Channel HD" "NOVA"
-S 1BC6:17D4:013E type=1 ca=0 "Novasports L HD" "NOVA"
-S 1BC7:17D4:013E type=1 ca=0 "Novasports L HD Cy" "BOVA"
+S 1BC6:17D4:013E type=1 ca=1 "Novasports2 League HD" "NOVA"
+S 1BC7:17D4:013E type=1 ca=1 "Novasports2 League HD Cy" "BOVA"
 S 1BC8:17D4:013E type=1 ca=1 "Viasat Epic Drama HD" "NOVA"
 S 1BC9:17D4:013E type=1 ca=1 "MEGA NEWS HD" "NOVA"
 S 1BCA:17D4:013E type=1 ca=1 "Novacinema2HD" "NOVA"
@@ -319,7 +321,7 @@ S 1BCC:17D4:013E type=1 ca=1 "MagentaSport5" "NOVA"
 S 1BCD:17D4:013E type=2 ca=1 "Mad Radio" "NOVA"
 S 1BCE:17D4:013E type=1 ca=1 "MagentaSport6" "NOVA"
 S 1BCF:17D4:013E type=152 ca=0 "Cobalt Data" "NOVA"
-S 1BD0:17D4:013E type=1 ca=1 "Novasportsextra4HD Cy" "NOVA"
+S 1BD0:17D4:013E type=1 ca=1 "Novasports1 League HD Cy" "NOVA"
 S 1BD1:17D4:013E type=1 ca=1 "M3_SID7121" "NOVA"
 S 1BD2:17D4:013E type=1 ca=1 "Cartoonito HD" "NOVA"
 S 1BD3:17D4:013E type=1 ca=1 "MagentaSport2" "NOVA"
@@ -424,7 +426,7 @@ S 3CA0:1BBC:013E type=1 ca=1 "Novasports3HD" "NOVA"
 S 3CB4:1BBC:013E type=152 ca=0 "Cobalt Data" "NOVA"
 S 4205:2F44:013E type=1 ca=1 "Dorcel TV HD" "NetMed"
 S 4206:2F44:013E type=1 ca=1 "Dorcel TV HD" "NOVA"
-S 4209:2F44:013E type=1 ca=1 "Brazzers TV UM Nova" "IKOMG"
+S 4209:2F44:013E type=1 ca=1 "Brazzers TV HD" "IKOMG"
 S 4209:3DB8:013E type=1 ca=1 "PINKO TV" "NETMED"
 S 4219:3DB8:013E type=1 ca=0 "Extra 3" "NETMED"
 S 421C:2F44:013E type=1 ca=0 "FREEDOM" "Globecast"
@@ -433,7 +435,7 @@ S 4225:3DB8:013E type=1 ca=1 "HUSTLER HD-3D" "NetMed"
 S 4228:2F44:013E type=1 ca=1 "HUSTLER HD" "NETMED"
 S 4229:2F44:013E type=1 ca=1 "Blue Hustler" "M7"
 S 422A:2F44:013E type=1 ca=1 "Private HD" "Globecast"
-S 4230:2F44:013E type=1 ca=1 "Brazzers TV HD" "EUTELSAT-RMB"
+S 4230:2F44:013E type=1 ca=1 "Brazzers TV HD.." "EUTELSAT-RMB"
 S 4258:2F44:013E type=1 ca=0 "90 NUMERI SAT" "netmed"
 S 4267:3DB8:013E type=1 ca=1 "Vivid Red HD" "NETMED"
 S 4280:2BC0:013E type=1 ca=1 "Davinci Learning" "NetMed"

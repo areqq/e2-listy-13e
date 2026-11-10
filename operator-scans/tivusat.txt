@@ -161,6 +161,7 @@ L 74 421C:2F44:013E visible=1 src=nit
 L 75 0327:3BC4:013E visible=1 src=nit
 L 76 4236:2F44:013E visible=1 src=nit
 L 77 0641:2454:013E visible=1 src=nit
+L 78 0642:2454:013E visible=1 src=nit
 L 79 39D9:1FA4:013E visible=1 src=nit
 L 8 1C5C:1A90:FBFF visible=1 src=nit
 L 81 1326:33F4:013E visible=1 src=nit
@@ -252,6 +253,7 @@ S 051B:2E7C:013F type=25 ca=1 "Arte HD" "REAL LIFE"
 S 0531:3D54:013E type=22 ca=1 "La C Sat" "QVC HD"
 S 0535:3D54:013E type=22 ca=1 "ER24" "QVC HD"
 S 0641:2454:013E type=25 ca=1 "Al Jazeera HD" "AL JAZEERA HD"
+S 0642:2454:013E type=25 ca=1 "Al Jazeera NOW HD" "AL JAZEERA HD"
 S 064D:2454:013E type=22 ca=1 "ACI SPORT TV" "AL JAZEERA HD"
 S 06AA:3138:013E type=1 ca=1 "CGTN" "CGTN"
 S 07D4:22C4:013E type=1 ca=1 "Vatican Media Europa HD" "ARTURO LT"

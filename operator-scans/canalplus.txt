@@ -244,19 +244,16 @@ L 41 3AB9:0514:013E visible=1 src=bat
 L 410 0007:2E18:00B0 visible=1 src=bat
 L 411 4241:3DB8:013E visible=1 src=bat
 L 412 1C56:1C20:013E visible=1 src=bat
-L 416 0392:2134:013E visible=1 src=bat
 L 418 089A:01F4:00FC visible=1 src=bat
 L 419 031E:3BC4:013E visible=1 src=bat
 L 42 3AA6:0514:013E visible=1 src=bat
 L 420 06A5:3138:013E visible=1 src=bat
 L 423 0395:2134:013E visible=1 src=bat
-L 424 0389:2134:013E visible=1 src=bat
 L 427 2520:13EF:013E visible=1 src=bat
 L 428 0326:3BC4:013E visible=1 src=bat
 L 429 0641:2454:013E visible=1 src=bat
 L 430 2525:13EF:013E visible=1 src=bat
 L 431 0398:2134:013E visible=1 src=bat
-L 432 2338:2328:013E visible=1 src=bat
 L 436 01FA:0384:013E visible=1 src=bat
 L 437 01F5:0384:013E visible=1 src=bat
 L 438 11FE:2B5C:013E visible=1 src=bat
@@ -290,8 +287,17 @@ L 499 0202:0384:013E visible=1 src=bat
 L 5 3DCD:0640:013E visible=1 src=bat
 L 50 3DED:0640:013E visible=1 src=bat
 L 500 0205:0384:013E visible=1 src=bat
+L 501 1402:05DC:013E visible=1 src=bat
+L 502 1404:05DC:013E visible=1 src=bat
+L 503 1405:05DC:013E visible=1 src=bat
+L 504 1137:2AF8:013E visible=1 src=bat
+L 505 1169:2AF8:013E visible=1 src=bat
 L 506 232C:2328:013E visible=1 src=bat
+L 507 32CF:0190:013E visible=1 src=bat
+L 508 3301:0190:013E visible=1 src=bat
+L 509 32D0:0190:013E visible=1 src=bat
 L 51 10EA:03E8:013E visible=1 src=bat
+L 510 3302:0190:013E visible=1 src=bat
 L 513 07D4:22C4:013E visible=1 src=bat
 L 514 4238:3DB8:013E visible=1 src=bat
 L 515 29D1:1C20:013E visible=1 src=bat
@@ -307,7 +313,6 @@ L 534 233C:2328:013E visible=1 src=bat
 L 538 2147:3070:013E visible=1 src=bat
 L 54 1CBE:1CE8:0071 visible=1 src=bat
 L 542 1361:33F4:013E visible=1 src=bat
-L 543 421A:3DB8:013E visible=1 src=bat
 L 547 37C8:044C:013E visible=1 src=bat
 L 55 290C:1EDC:0071 visible=1 src=bat
 L 550 0D71:1450:013E visible=1 src=bat
@@ -317,7 +322,6 @@ L 553 3348:1388:013E visible=1 src=bat
 L 556 0E3A:1C20:013E visible=1 src=bat
 L 557 0065:1770:00BE visible=1 src=bat
 L 558 0E01:1F40:013E visible=1 src=bat
-L 559 0E46:1C20:013E visible=1 src=bat
 L 56 429D:2BC0:013E visible=1 src=bat
 L 560 0DFE:1F40:013E visible=1 src=bat
 L 561 434B:300C:013E visible=1 src=bat
@@ -344,7 +348,6 @@ L 582 02E2:1B58:013E visible=1 src=bat
 L 584 0DFF:1F40:013E visible=1 src=bat
 L 585 0E00:1F40:013E visible=1 src=bat
 L 586 000E:2E18:00B0 visible=1 src=bat
-L 587 0393:2134:013E visible=1 src=bat
 L 588 1C53:1C20:013E visible=1 src=bat
 L 59 1412:05DC:013E visible=1 src=bat
 L 591 02E4:1B58:013E visible=1 src=bat
@@ -570,7 +573,6 @@ L 883 28E2:0425:0001 visible=1 src=bat
 L 885 28E5:0425:0001 visible=1 src=bat
 L 886 28F7:0425:0001 visible=1 src=bat
 L 887 28AE:040F:0001 visible=1 src=bat
-L 888 28F1:0425:0001 visible=1 src=bat
 L 889 28C0:040F:0001 visible=1 src=bat
 L 89 118A:2AF8:013E visible=1 src=bat
 L 891 00A0:0007:0085 visible=1 src=bat
@@ -699,10 +701,7 @@ S 0369:3C28:013E type=1 ca=1 "CGTN Documentary" "CANAL+"
 S 036A:3C28:013E type=1 ca=1 "CGTN E" "CANAL+"
 S 036B:3C28:013E type=1 ca=1 "CGTN F" "CANAL+"
 S 0384:0021:0085 type=1 ca=1 "Sport 1" "CANAL+"
-S 0389:2134:013E type=1 ca=1 "Dubai TV HD" "CANAL+"
 S 038B:2134:013E type=1 ca=1 "Sudan TV" "CANAL+"
-S 0392:2134:013E type=1 ca=1 "Jordan Satellite Channel" "CANAL+"
-S 0393:2134:013E type=2 ca=1 "JORDAN R1" "CANAL+"
 S 0395:2134:013E type=1 ca=1 "Kuwait TV HD" "CANAL+"
 S 0398:2134:013E type=1 ca=1 "Oman TV Satellite" "CANAL+"
 S 039A:2134:013E type=2 ca=1 "Oman English Radio R2" "CANAL+"
@@ -754,7 +753,6 @@ S 0E2E:1C20:013E type=2 ca=1 "RADIO FRECCIA" "CANAL+"
 S 0E3A:1C20:013E type=2 ca=1 "RTL 102.5" "CANAL+"
 S 0E3B:1C20:013E type=2 ca=1 "RADIO ZETA" "CANAL+"
 S 0E43:1C20:013E type=2 ca=1 "DEEJAY" "CANAL+"
-S 0E46:1C20:013E type=2 ca=1 "Radio Iglesias" "CANAL+"
 S 1005:0451:0035 type=1 ca=1 "BVN" "CANAL+"
 S 1090:03EE:0001 type=1 ca=1 "TV TRWAM" "CANAL+"
 S 1091:03EE:0001 type=2 ca=1 "Radio Maryja" "CANAL+"
@@ -770,22 +768,15 @@ S 1131:2AF8:013E type=1 ca=1 "CANAL+ 360" "CANAL+"
 S 1133:2AF8:013E type=1 ca=1 "BBC FIRST" "CANAL+"
 S 1134:2AF8:013E type=1 ca=1 "BBC Earth HD" "CANAL+"
 S 1136:2AF8:013E type=1 ca=1 "CANAL+ EXTRA 1" "CANAL+"
+S 1137:2AF8:013E type=1 ca=1 "CANAL+ EXTRA 2" "CANAL+"
 S 1138:2AF8:013E type=1 ca=1 "TVP HD" "CANAL+"
 S 1139:2AF8:013E type=1 ca=0 "TVP INFO HD" "CANAL+"
 S 113D:2AF8:013E type=1 ca=1 "CANAL+ DOMO HD" "CANAL+"
 S 113E:2AF8:013E type=1 ca=1 "CANAL+ KUCHNIA" "CANAL+"
-S 113F:2AF8:013E type=25 ca=1 "Hustler HD" "CANAL+"
-S 1140:2AF8:013E type=22 ca=1 "Blue Hustler" "CANAL+"
-S 1141:2AF8:013E type=25 ca=1 "Private HD" "CANAL+"
 S 1142:2AF8:013E type=1 ca=0 "TVP SERIALE" "CANAL+"
-S 1147:2AF8:013E type=25 ca=1 "Hustler HD SBB" "CANAL+"
-S 1148:2AF8:013E type=25 ca=1 "Hustler HD Nova" "CANAL+"
-S 1149:2AF8:013E type=25 ca=1 "Private HD SBB" "CANAL+"
-S 114A:2AF8:013E type=22 ca=1 "Blue Hustler Nova" "CANAL+"
-S 114B:2AF8:013E type=25 ca=1 "Private HD Nova" "CANAL+"
-S 1154:2AF8:013E type=22 ca=1 "Blue Hustler SBB" "CANAL+"
 S 1163:2AF8:013E type=1 ca=1 "CANAL+ 360" "CANAL+"
 S 1168:2AF8:013E type=1 ca=1 "CANAL+ EXTRA 1" "CANAL+"
+S 1169:2AF8:013E type=1 ca=1 "CANAL+ EXTRA 2" "CANAL+"
 S 116D:2AF8:013E type=1 ca=1 "CANAL+ 360" "CANAL+"
 S 116F:2AF8:013E type=1 ca=1 "CANAL+ DOMO HD" "CANAL+"
 S 1170:2AF8:013E type=1 ca=1 "CANAL+ KUCHNIA" "CANAL+"
@@ -829,7 +820,10 @@ S 13FD:05DC:013E type=1 ca=1 "Viasat True Crime" "CANAL+"
 S 13FE:05DC:013E type=1 ca=1 "AXN Spin HD" "CANAL+"
 S 13FF:05DC:013E type=1 ca=1 "Active Family" "CANAL+"
 S 1401:05DC:013E type=1 ca=1 "AMC HD" "CANAL+"
+S 1402:05DC:013E type=1 ca=1 "Motowizja HD." "CANAL+"
 S 1403:05DC:013E type=1 ca=1 "TVS" "CANAL+"
+S 1404:05DC:013E type=1 ca=1 "TVP ABC." "CANAL+"
+S 1405:05DC:013E type=1 ca=1 "TVP Historia." "CANAL+"
 S 140B:05DC:013E type=1 ca=1 "ADVENTURE HD" "CANAL+"
 S 140C:05DC:013E type=1 ca=1 "ANTENA" "CANAL+"
 S 1411:05DC:013E type=1 ca=1 "SZLAGIER TV" "CANAL+"
@@ -896,7 +890,6 @@ S 2333:2328:013E type=1 ca=1 "Sterk TV HD" "CANAL+"
 S 2334:2328:013E type=1 ca=1 "CIRA TV" "CANAL+"
 S 2336:0442:0001 type=1 ca=1 "Cnews HD" "CANAL+"
 S 2336:2328:013E type=1 ca=1 "Paci Contemporary Channel" "CANAL+"
-S 2338:2328:013E type=1 ca=1 "Somaliland National TV" "CANAL+"
 S 233A:2328:013E type=1 ca=1 "The Kingdom Sat" "CANAL+"
 S 233C:2328:013E type=1 ca=1 "TBN Europe" "CANAL+"
 S 233E:2328:013E type=1 ca=1 "Euronews HD" "CANAL+"
@@ -982,7 +975,6 @@ S 28ED:0425:0001 type=2 ca=1 "MDR KULTUR" "CANAL+"
 S 28EE:0425:0001 type=2 ca=1 "MDR JUMP" "CANAL+"
 S 28EF:0425:0001 type=2 ca=1 "MDR SPUTNIK" "CANAL+"
 S 28F0:0425:0001 type=2 ca=1 "MDR AKTUELL" "CANAL+"
-S 28F1:0425:0001 type=2 ca=1 "MDR KLASSIK" "CANAL+"
 S 28F7:0425:0001 type=2 ca=1 "rbb 88.8" "CANAL+"
 S 28F9:0425:0001 type=2 ca=1 "Fritz" "CANAL+"
 S 2907:1EDC:0071 type=1 ca=1 "Nat Geo People HD" "CANAL+"
@@ -1015,6 +1007,8 @@ S 313C:0459:0001 type=1 ca=1 "Deutsches Musik" "CANAL+"
 S 32CB:0190:013E type=1 ca=1 "Ale kino+ HD" "CANAL+"
 S 32CD:0190:013E type=1 ca=1 "CANAL+ Now HD" "CANAL+"
 S 32CE:0190:013E type=1 ca=1 "CANAL+ FILM HD" "CANAL+"
+S 32CF:0190:013E type=1 ca=1 "CANAL+ DOKUMENT HD." "CANAL+"
+S 32D0:0190:013E type=1 ca=1 "CANAL+ SERIALE HD." "CANAL+"
 S 32D7:0190:013E type=1 ca=1 "TVP Kultura HD" "CANAL+"
 S 32DB:0190:013E type=31 ca=1 "CANAL+ 4K ULTRA HD" "CANAL+"
 S 32DC:0190:013E type=1 ca=1 "CANAL+ PREMIUM HD" "CANAL+"
@@ -1031,6 +1025,8 @@ S 32FC:0190:013E type=1 ca=1 "CANAL+ SPORT HD" "CANAL+"
 S 32FD:0190:013E type=1 ca=1 "Ale kino+ HD" "CANAL+"
 S 32FE:0190:013E type=1 ca=1 "MiniMini+ HD" "CANAL+"
 S 3300:0190:013E type=1 ca=1 "CANAL+ FILM HD" "CANAL+"
+S 3301:0190:013E type=1 ca=1 "CANAL+ DOKUMENT HD.." "CANAL+"
+S 3302:0190:013E type=1 ca=1 "CANAL+ SERIALE HD.." "CANAL+"
 S 3308:0190:013E type=1 ca=1 "MiniMini+ HD" "CANAL+"
 S 330D:0190:013E type=31 ca=1 "CANAL+ 4K ULTRA HD" "CANAL+"
 S 3315:0190:013E type=1 ca=1 "CANAL+ EXTRA 3" "CANAL+"
@@ -1165,7 +1161,6 @@ S 3E23:2EE0:013E type=1 ca=1 "Golf Zone" "CANAL+"
 S 3E24:2EE0:013E type=1 ca=1 "FightBox HD" "CANAL+"
 S 3E26:2EE0:013E type=1 ca=1 "13 Ulica HD" "CANAL+"
 S 4206:2F44:013E type=1 ca=1 "Dorcel TV" "CANAL+"
-S 421A:3DB8:013E type=1 ca=1 "TRM Network" "CANAL+"
 S 421C:2F44:013E type=1 ca=1 "FREEDOM" "CANAL+"
 S 4224:3DB8:013E type=1 ca=1 "Redlight HD" "CANAL+"
 S 422B:2F44:013E type=1 ca=1 "Mezzo" "CANAL+"
@@ -1180,7 +1175,7 @@ S 4242:3DB8:013E type=1 ca=1 "Radio Italia TV HD" "CANAL+"
 S 4243:3DB8:013E type=1 ca=1 "Unire Sat HD" "CANAL+"
 S 4246:3DB8:013E type=1 ca=1 "Radio Italia Trend TV HD" "CANAL+"
 S 4250:3DB8:013E type=1 ca=1 "Radio Kiss Kiss TV" "CANAL+"
-S 4251:3DB8:013E type=1 ca=1 "RDS TV." "CANAL+"
+S 4251:3DB8:013E type=1 ca=1 "RDS TV" "CANAL+"
 S 425C:3DB8:013E type=1 ca=1 "TVA Vicenza" "CANAL+"
 S 4279:2BC0:013E type=1 ca=1 "wPolsce24" "CANAL+"
 S 427B:2BC0:013E type=1 ca=1 "Stopklatka" "CANAL+"
@@ -1239,7 +1234,7 @@ S 4E25:043A:0001 type=1 ca=1 "SAT.1 A" "CANAL+"
 S 526C:041D:0001 type=1 ca=1 "Anixe HD" "CANAL+"
 S 526F:041D:0001 type=1 ca=1 "QVC Deutschland" "CANAL+"
 S 5270:041D:0001 type=1 ca=1 "HSE24" "CANAL+"
-S 6DCB:044D:0001 type=1 ca=1 "TELRGOLD" "CANAL+"
+S 6DCB:044D:0001 type=1 ca=1 "TELEGOLD" "CANAL+"
 S 6E2D:0431:0001 type=1 ca=1 "Xplore" "CANAL+"
 S 6E40:0431:0001 type=1 ca=1 "One Terra" "CANAL+"
 S 6E41:0431:0001 type=1 ca=1 "Deluxe Rap" "CANAL+"
