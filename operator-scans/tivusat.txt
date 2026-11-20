@@ -77,7 +77,7 @@ L 447 4235:2F44:013E visible=1 src=nit
 L 454 01FE:0384:013E visible=1 src=nit
 L 47 4233:2F44:013E visible=1 src=nit
 L 48 051B:2E7C:013F visible=1 src=nit
-L 49 422B:2F44:013E visible=1 src=nit
+L 49 37A0:044C:013E visible=1 src=nit
 L 5 007A:04B0:0110 visible=1 src=nit
 L 50 4251:3DB8:013E visible=1 src=nit
 L 500 214B:3070:013E visible=1 src=nit
@@ -330,6 +330,7 @@ S 3341:1388:013E type=2 ca=1 "DW08" "DW"
 S 3342:1388:013E type=2 ca=1 "DW09" "DW"
 S 3344:1388:013E type=2 ca=1 "DW02" "DW"
 S 334A:1388:013E type=2 ca=1 "RFI Francais" "DW"
+S 37A0:044C:013E type=25 ca=1 "MEZZO" "MEZZO"
 S 39D9:1FA4:013E type=1 ca=1 "Sonlife" "REAL LIFE"
 S 3B61:012C:013E type=25 ca=1 "Real Time" "SKY"
 S 3B62:012C:013E type=25 ca=1 "DMAX" "SKY"
@@ -337,7 +338,6 @@ S 3B63:012C:013E type=25 ca=1 "Food Network" "SKY"
 S 3B6C:012C:013E type=22 ca=1 "Discovery" "SKY"
 S 421A:3DB8:013E type=22 ca=1 "TRM h24" "TVA"
 S 421C:2F44:013E type=22 ca=1 "FREEDOM" "M7group"
-S 422B:2F44:013E type=22 ca=1 "MEZZO" "M7group"
 S 422E:2F44:013E type=25 ca=1 "Horse TV HD" "M7group"
 S 4233:2F44:013E type=25 ca=1 "Super!" "M7group"
 S 4235:2F44:013E type=25 ca=1 "BeJoy.kids" "M7group"
@@ -388,6 +388,7 @@ T 012C:013E freq=11258000 pol=H sr=27500000 fec=3 sys=S2 pos=130E mod=2
 T 01F4:00FC freq=11296000 pol=H sr=27500000 fec=4 sys=S pos=130E mod=1
 T 0384:013E freq=11373000 pol=H sr=27500000 fec=3 sys=S2 pos=130E mod=2
 T 03E8:013E freq=11393000 pol=V sr=27500000 fec=3 sys=S2 pos=130E mod=2
+T 044C:013E freq=11411000 pol=H sr=27500000 fec=4 sys=S2 pos=130E mod=2
 T 04B0:0110 freq=11432000 pol=V sr=29900000 fec=3 sys=S2 pos=130E mod=2
 T 1388:013E freq=11727000 pol=V sr=29900000 fec=3 sys=S2 pos=130E mod=2
 T 1450:013E freq=11765840 pol=V sr=29900000 fec=3 sys=S2 pos=130E mod=2
