@@ -12,7 +12,8 @@ ze zmiennej srodowiskowej LISTY_POSTPROC_CONFIG. Schemat - patrz postprocess.exa
   keywords     : filtr nazw bez wzgledu na wielkosc liter (opcjonalny)
   [channels.<key>] aliases=[...] url="..." : nazwy uslug (jak w lamedb) -> ustaw
                 sciezke; kazdy kanal definiuje swoj 'url' niezaleznie (albo korzysta
-                z url_template)
+                z url_template). Bez 'url' (i bez url_template) kanal zostaje satelitarny
+                i sluzy tylko jako kotwica 'after' dla extend.
   [[extend]] after/name/sref/display/url : dodatkowy wpis wstawiany po kanale-kotwicy
 
 Idempotentny: wpisy ze strumieniem wygenerowane wczesniej (nazwa konczy sie na `suffix`) sa
@@ -171,8 +172,7 @@ def process(bouquet_path: Path, db_services: dict[ServiceKey, object], cfg: Conf
             continue
         url = stream_url(cfg, key, None)
         if url is None:
-            print(f"  UWAGA: brak url dla '{name}' (klucz {key}) - pomijam")
-            out.append((line, None))
+            out.append((line, key))   # kanal bez url = tylko kotwica dla extend, referencja bez zmian
             continue
         while len(ref_parts) < 11:
             ref_parts.append("")

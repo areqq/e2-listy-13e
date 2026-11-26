@@ -39,14 +39,14 @@ RAW_BASE = "https://raw.githubusercontent.com/j00zek/eeRepo/main/"
 PKG_RE = re.compile(r"enigma2-plugin-picons--j00zeks-transparent-(220x132|400x170)-zet71_(.+)_all\.ipk")
 SUBDIR = {"220x132": "picon", "400x170": "zzpicon"}
 DEFAULT_BOUQUETS = [
-    "userbouquet.dbe00.tv",  # POLSKA FULL
-    "userbouquet.dbe25.tv",  # FTA Polska
-    "userbouquet.dbe64.tv",  # *Film
-    "userbouquet.dbe03.tv",  # *Sport
-    "userbouquet.dbe06.tv",  # *XXX_All
-    "userbouquet.dbe0e.tv",  # FTA English
-    "userbouquet.dbe24.tv",  # *Info
-    "userbouquet.dbe14.tv",  # FTA France
+    "userbouquet.PolskaFull.tv",      # POLSKA FULL
+    "userbouquet.FTA Polska.tv",      # FTA Polska
+    "userbouquet.Film.tv",            # *Film
+    "userbouquet.Sport.tv",           # *Sport
+    "userbouquet.XXX_All.tv",         # *XXX_All
+    "userbouquet.FTA English.tv",     # FTA English
+    "userbouquet.Info.tv",            # *Info
+    "userbouquet.Telesat-Bis(13E).tv",  # FTA France
 ]
 USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"
 STREAM_TAG_RE = re.compile(r"\s*\([^)]*\)\s*$")
@@ -54,7 +54,15 @@ ALIASES = {
     "canalplus1premiumhd": "canalplus1hd",
     "travelhd": "travelchannelhd",
     "inultratvuhd": "ultratv4k",
-    "cgtnnewshd": "cgtnhd",
+    "cgtnnewshd": "cgtn",
+    "hustlerhdnova": "hustlerhd",
+    "hustlerhdsbb": "hustlerhd",
+    "privatehdnova": "privatehd",
+    "privatehdsbb": "privatehd",
+    "bluehustlernova": "bluehustler",
+    "bluehustlersbb": "bluehustler",
+    "brazzershdnova": "brazzershd",
+    "brazzershdsbb": "brazzershd",
     "cgtndocumhd": "cgtndocumentary",
     "dubairacingchannel": "dubairacing",
     "euronewsitalian": "euronews",
