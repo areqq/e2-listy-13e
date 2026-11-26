@@ -35,10 +35,10 @@ work/                    kopie robocze i skany z anteny (generowane, poza repo)
 ## Format plików (ściąga)
 
 - **lamedb v4**: sekcja `transponders` (klucz `ns:tsid:onid` hex + linia `s freq:sr:pol:fec:pos:...:sys:mod:roll:pilot`), potem `services` (trójki linii: `sid:ns:tsid:onid:typ:0`, nazwa, `p:Provider,...`). Sekcje kończy `end`.
-- **userbouquet.\*.tv**: `#SERVICE 1:0:<typ_hex>:<SID>:<TSID>:<ONID>:<NS>:0:0:0:` (hex, wielkie litery, bez zer wiodących). `1:64:...` + `#DESCRIPTION` = marker/separator. Wpis z URL na końcu = strumień.
+- **userbouquet.\*.tv** (od 26.11 nazwy opisowe: `userbouquet.PolskaFull.tv`, `Sport.tv`, `Film.tv`, `Info.tv`, `XXX_All.tv`, `FTA Polska.tv`…; wcześniej `dbeXX`): `#SERVICE 1:0:<typ_hex>:<SID>:<TSID>:<ONID>:<NS>:0:0:0:` (hex, wielkie litery, bez zer wiodących). `1:64:...` + `#DESCRIPTION` = marker/separator. Wpis z URL na końcu = strumień.
 - Typy usług: 1=SD, 25 (0x19)=HD, 31 (0x1F)=UHD, 2/10=radio. Typ w bukiecie musi zgadzać się z lamedb (inaczej zła ikonka SD/HD).
 - Namespace 13°E: `00820000`, ONID `013E` (Hot Bird).
-- **Kodowanie ISO-8859-2**, nie UTF-8 — w Pythonie czytać jawnie, w shellu `LC_ALL=C`.
+- **Kodowanie:** bajty w lamedb i bukietach są UTF-8 (nazwy z diakrytykami), ale skrypty czytają i piszą je jako ISO-8859-2 — mapowanie 1:1 bajt w bajt, bez konwersji; w shellu `LC_ALL=C`. Nie przekodowywać. Cudze paczki bywają z CRLF — zamienić na LF.
 
 ## Zasady
 
