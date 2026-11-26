@@ -1,4 +1,12 @@
 {
+ "0001:0001:0001": {
+  "names": [
+   "NLFLEV_HOL-090 CH-A"
+  ],
+  "sources": {
+   "NLFLEV_HOL-090 CH-A": "robocza"
+  }
+ },
  "0001:0001:000b": {
   "names": [
    "MDS 1"
@@ -13,6 +21,14 @@
   ],
   "sources": {
    "Dubai Racing Channel": "robocza"
+  }
+ },
+ "0001:0bb8:0001": {
+  "names": [
+   "BasicDR-bck"
+  ],
+  "sources": {
+   "BasicDR-bck": "vhannibal"
   }
  },
  "0001:2580:00d5": {
@@ -35,10 +51,20 @@
  },
  "0001:4321:00eb": {
   "names": [
-   "Eurovision Services HD"
+   "Eurovision Services HD",
+   "IMG 2 EU",
+   "EBU 1 ENC",
+   "EBU 2 ENC",
+   "EBU 3 ENC",
+   "IMG 1 EU"
   ],
   "sources": {
-   "Eurovision Services HD": "robocza"
+   "EBU 1 ENC": "vhannibal",
+   "EBU 2 ENC": "vhannibal",
+   "EBU 3 ENC": "vhannibal",
+   "Eurovision Services HD": "robocza",
+   "IMG 1 EU": "vhannibal",
+   "IMG 2 EU": "robocza"
   }
  },
  "0002:0001:000b": {
@@ -1281,10 +1307,12 @@
  },
  "0052:2580:00d5": {
   "names": [
-   "RNE"
+   "RNE",
+   "VIVA-ROCK"
   ],
   "sources": {
-   "RNE": "robocza"
+   "RNE": "robocza",
+   "VIVA-ROCK": "antena-261126"
   }
  },
  "0053:2580:00d5": {
@@ -1435,9 +1463,11 @@
  },
  "005c:1770:00be": {
   "names": [
-   "inBlu2000"
+   "inBlu2000",
+   "InBlu2000"
   ],
   "sources": {
+   "InBlu2000": "antena-261126",
    "inBlu2000": "vhannibal"
   }
  },
@@ -1460,9 +1490,11 @@
  "005d:1770:00be": {
   "names": [
    "inBlu radio",
-   "inBlu"
+   "inBlu",
+   "InBlu"
   ],
   "sources": {
+   "InBlu": "antena-261126",
    "inBlu": "vhannibal",
    "inBlu radio": "robocza"
   }
@@ -2385,6 +2417,14 @@
   "names": [],
   "sources": {}
  },
+ "0076:0000:0001": {
+  "names": [
+   "AMC"
+  ],
+  "sources": {
+   "AMC": "kingofsat"
+  }
+ },
  "0076:04b0:0110": {
   "names": [
    "Virgin Radio TV",
@@ -2519,6 +2559,14 @@
   ],
   "sources": {
    "Epic Drama": "kingofsat"
+  }
+ },
+ "007b:0000:0001": {
+  "names": [
+   "TLC"
+  ],
+  "sources": {
+   "TLC": "kingofsat"
   }
  },
  "007b:04b0:0110": {
@@ -2989,9 +3037,11 @@
  },
  "008a:1645:013e": {
   "names": [
-   "Spare1"
+   "Spare1",
+   "3+ Family"
   ],
   "sources": {
+   "3+ Family": "robocza",
    "Spare1": "zewnetrzna"
   }
  },
@@ -3251,6 +3301,14 @@
    ".": "bzyk83"
   }
  },
+ "00c8:0000:0001": {
+  "names": [
+   "Agro TV"
+  ],
+  "sources": {
+   "Agro TV": "kingofsat"
+  }
+ },
  "00c8:25e4:00d5": {
   "names": [
    "Agro TV"
@@ -3293,6 +3351,14 @@
   ],
   "sources": {
    "Radio ECHO": "vhannibal"
+  }
+ },
+ "00ca:0000:0001": {
+  "names": [
+   "FilmBox Stars"
+  ],
+  "sources": {
+   "FilmBox Stars": "kingofsat"
   }
  },
  "00ca:25e4:00d5": {
@@ -3355,6 +3421,14 @@
   ],
   "sources": {
    "EURORADIO": "vhannibal"
+  }
+ },
+ "00cc:0000:0001": {
+  "names": [
+   "Тянков Фолк"
+  ],
+  "sources": {
+   "Тянков Фолк": "kingofsat"
   }
  },
  "00cc:25e4:00d5": {
@@ -3463,6 +3537,14 @@
    "Планета Фолк": "vhannibal"
   }
  },
+ "00d2:0000:0001": {
+  "names": [
+   "7/8 TV"
+  ],
+  "sources": {
+   "7/8 TV": "kingofsat"
+  }
+ },
  "00d2:25e4:00d5": {
   "names": [
    "7/8 TV"
@@ -3499,6 +3581,14 @@
   "sources": {
    "Kabelio SWISS 1": "vhannibal",
    "SWISS 1": "robocza"
+  }
+ },
+ "00d4:0000:0001": {
+  "names": [
+   "Viasat Nature"
+  ],
+  "sources": {
+   "Viasat Nature": "kingofsat"
   }
  },
  "00d4:25e4:00d5": {
@@ -3579,6 +3669,14 @@
    "Eurosport 2": "robocza"
   }
  },
+ "00d8:0000:0001": {
+  "names": [
+   "NKTV Evrokom"
+  ],
+  "sources": {
+   "NKTV Evrokom": "kingofsat"
+  }
+ },
  "00d8:25e4:00d5": {
   "names": [
    "NKTV Evrokom"
@@ -3603,6 +3701,14 @@
   "sources": {
    "TV 1000 Russkoe Kino": "robocza",
    "TV1000 RKG": "vhannibal"
+  }
+ },
+ "00dc:0000:0001": {
+  "names": [
+   "Nostalgia"
+  ],
+  "sources": {
+   "Nostalgia": "kingofsat"
   }
  },
  "00dc:25e4:00d5": {
@@ -3681,6 +3787,14 @@
    "Kabelio BBC3/CBBC": "vhannibal"
   }
  },
+ "00e0:0000:0001": {
+  "names": [
+   "HBO 3"
+  ],
+  "sources": {
+   "HBO 3": "kingofsat"
+  }
+ },
  "00e0:25e4:00d5": {
   "names": [
    "HBO 3 Bulgaria",
@@ -3707,6 +3821,14 @@
   "sources": {
    "BBC4/CBBies": "robocza",
    "Kabelio BBC4/CBBies": "vhannibal"
+  }
+ },
+ "00e1:0000:0001": {
+  "names": [
+   "Pickbox TV"
+  ],
+  "sources": {
+   "Pickbox TV": "kingofsat"
   }
  },
  "00e1:25e4:00d5": {
@@ -3777,6 +3899,14 @@
   "sources": {
    "ITV3": "robocza",
    "Kabelio ITV3": "vhannibal"
+  }
+ },
+ "00e4:0000:0001": {
+  "names": [
+   "Cartoonito"
+  ],
+  "sources": {
+   "Cartoonito": "kingofsat"
   }
  },
  "00e4:25e4:00d5": {
@@ -3925,6 +4055,14 @@
    ".": "bzyk83"
   }
  },
+ "00ed:0000:0001": {
+  "names": [
+   "Box TV"
+  ],
+  "sources": {
+   "Box TV": "kingofsat"
+  }
+ },
  "00ed:25e4:00d5": {
   "names": [
    "Box TV Bulgaria",
@@ -3959,6 +4097,14 @@
   "sources": {
    "MTV": "vhannibal",
    "MTV Europe": "robocza"
+  }
+ },
+ "00f1:0000:0001": {
+  "names": [
+   "AMS"
+  ],
+  "sources": {
+   "AMS": "kingofsat"
   }
  },
  "00f1:25e4:00d5": {
@@ -4023,6 +4169,14 @@
   "sources": {
    "Fan TV": "robocza",
    "Fen TV": "vhannibal"
+  }
+ },
+ "00f7:0000:0001": {
+  "names": [
+   "MovieSTAR"
+  ],
+  "sources": {
+   "MovieSTAR": "kingofsat"
   }
  },
  "00f7:25e4:00d5": {
@@ -4199,6 +4353,14 @@
    ".": "bzyk83"
   }
  },
+ "0106:0000:0001": {
+  "names": [
+   "Euronews Bulgaria"
+  ],
+  "sources": {
+   "Euronews Bulgaria": "kingofsat"
+  }
+ },
  "0106:25e4:00d5": {
   "names": [
    "Euronews Bulgaria"
@@ -4239,6 +4401,14 @@
    ".": "bzyk83"
   }
  },
+ "0109:0000:0001": {
+  "names": [
+   "България 24"
+  ],
+  "sources": {
+   "България 24": "kingofsat"
+  }
+ },
  "0109:25e4:00d5": {
   "names": [
    "Bulgaria 24",
@@ -4269,6 +4439,14 @@
    "The Voice Bulgaria": "robocza"
   }
  },
+ "010b:0000:0001": {
+  "names": [
+   "Magic TV"
+  ],
+  "sources": {
+   "Magic TV": "kingofsat"
+  }
+ },
  "010b:25e4:00d5": {
   "names": [
    "Magic TV (Bulgaria)",
@@ -4297,6 +4475,14 @@
    "TV8 Int.": "vhannibal"
   }
  },
+ "010d:0000:0001": {
+  "names": [
+   "History HD"
+  ],
+  "sources": {
+   "History HD": "kingofsat"
+  }
+ },
  "010d:25e4:00d5": {
   "names": [
    "History HD Europe",
@@ -4313,6 +4499,14 @@
   ],
   "sources": {
    "History HD": "kingofsat"
+  }
+ },
+ "010e:0000:0001": {
+  "names": [
+   "Nicktoons"
+  ],
+  "sources": {
+   "Nicktoons": "kingofsat"
   }
  },
  "010e:25e4:00d5": {
@@ -4333,6 +4527,14 @@
    "Nicktoons": "kingofsat"
   }
  },
+ "010f:0000:0001": {
+  "names": [
+   "Alfa TV"
+  ],
+  "sources": {
+   "Alfa TV": "kingofsat"
+  }
+ },
  "010f:25e4:00d5": {
   "names": [
    "Rodina TV"
@@ -4347,6 +4549,14 @@
   ],
   "sources": {
    "Alfa TV": "kingofsat"
+  }
+ },
+ "0110:0000:0001": {
+  "names": [
+   "Vivid TV"
+  ],
+  "sources": {
+   "Vivid TV": "kingofsat"
   }
  },
  "0110:25e4:00d5": {
@@ -5966,9 +6176,11 @@
  "02c2:1b58:013e": {
   "names": [
    "Al Jazeera Mubasher",
-   "Al Jazeera Mub"
+   "Al Jazeera Mub",
+   "Al Jazeera Live"
   ],
   "sources": {
+   "Al Jazeera Live": "robocza",
    "Al Jazeera Mub": "antena-canalplus",
    "Al Jazeera Mubasher": "robocza"
   }
@@ -6035,6 +6247,14 @@
   "sources": {
    "RTP Internacional": "antena-polsat",
    "RTP International": "robocza"
+  }
+ },
+ "02ca:14b4:013e": {
+  "names": [
+   "TV5 Monde Info"
+  ],
+  "sources": {
+   "TV5 Monde Info": "robocza"
   }
  },
  "02ca:1b58:013e": {
@@ -6297,6 +6517,14 @@
    "SERVICE IP/MAC NOTIFICATION": "vhannibal"
   }
  },
+ "0320:03e9:0001": {
+  "names": [
+   "SERVICE IP/MAC NOTIFICATION"
+  ],
+  "sources": {
+   "SERVICE IP/MAC NOTIFICATION": "vhannibal"
+  }
+ },
  "0320:03e9:0002": {
   "names": [
    "SERVICE IP/MAC NOTIFICATION"
@@ -6353,6 +6581,14 @@
    "SERVICE IP/MAC NOTIFICATION": "vhannibal"
   }
  },
+ "0320:0bb8:0001": {
+  "names": [
+   "SERVICE IP/MAC NOTIFICATION"
+  ],
+  "sources": {
+   "SERVICE IP/MAC NOTIFICATION": "vhannibal"
+  }
+ },
  "0322:3bc4:013e": {
   "names": [
    "Al Hiwar"
@@ -6395,10 +6631,12 @@
   "names": [
    "France 24 HD (en Francais)",
    "FRANCE 24 FRA.",
-   "France24"
+   "France24",
+   "France 24 HD (Francais)"
   ],
   "sources": {
    "FRANCE 24 FRA.": "antena-canalplus",
+   "France 24 HD (Francais)": "robocza",
    "France 24 HD (en Francais)": "robocza",
    "France24": "antena-polsat"
   }
@@ -6407,11 +6645,13 @@
   "names": [
    "France 24 HD (in English)",
    "FRANCE 24 ENG.",
-   "France 24"
+   "France 24",
+   "France 24 HD (English)"
   ],
   "sources": {
    "FRANCE 24 ENG.": "antena-canalplus",
    "France 24": "antena-polsat",
+   "France 24 HD (English)": "robocza",
    "France 24 HD (in English)": "robocza"
   }
  },
@@ -6713,6 +6953,14 @@
   ],
   "sources": {
    "dn1-sgp-BASIC": "bzyk83"
+  }
+ },
+ "03e9:03e9:0001": {
+  "names": [
+   "dn1-sgb-HVS1"
+  ],
+  "sources": {
+   "dn1-sgb-HVS1": "vhannibal"
   }
  },
  "03ea:03ea:0001": {
@@ -7324,9 +7572,11 @@
  "0642:2454:013e": {
   "names": [
    "Al Jazeera Test 1 HD",
-   "Test 1"
+   "Test 1",
+   "Al Jazeera Now HD"
   ],
   "sources": {
+   "Al Jazeera Now HD": "robocza",
    "Al Jazeera Test 1 HD": "antena-101026",
    "Test 1": "vhannibal"
   }
@@ -7334,9 +7584,11 @@
  "0643:2454:013e": {
   "names": [
    "Al Jazeera Test 2 HD",
-   "Test 2"
+   "Test 2",
+   "Al Jazeera Live HD"
   ],
   "sources": {
+   "Al Jazeera Live HD": "robocza",
    "Al Jazeera Test 2 HD": "antena-101026",
    "Test 2": "vhannibal"
   }
@@ -7390,10 +7642,12 @@
  "0657:2454:013e": {
   "names": [
    "Primaset TV",
-   "PRIMASET 149"
+   "PRIMASET 149",
+   "Primaset 149"
   ],
   "sources": {
    "PRIMASET 149": "vhannibal",
+   "Primaset 149": "robocza",
    "Primaset TV": "robocza"
   }
  },
@@ -9091,6 +9345,14 @@
    "IEPG Data": "vhannibal"
   }
  },
+ "0f96:2198:fbff": {
+  "names": [
+   "Fusion BGDL 3990"
+  ],
+  "sources": {
+   "Fusion BGDL 3990": "antena-261126"
+  }
+ },
  "0fc7:2260:fbff": {
   "names": [
    "Sky Cinema Restart"
@@ -9197,7 +9459,10 @@
    "Fast & Furious Collection",
    "Adventure Collection",
    "Anni 90 Collection",
-   "Risate all'italiana"
+   "Risate all'italiana",
+   "Halloween Collection",
+   "Twilight Collection",
+   "Guardie & Ladri Collection"
   ],
   "sources": {
    "Adventure Collection": "kingofsat",
@@ -9206,9 +9471,12 @@
    "BarLume Collection HD": "robocza",
    "Batman Collection": "kingofsat",
    "Fast & Furious Collection": "vhannibal",
+   "Guardie & Ladri Collection": "vhannibal",
+   "Halloween Collection": "robocza",
    "Mission: Impossible Collection": "vhannibal",
    "Risate all'italiana": "vhannibal",
-   "Sky Western Collection": "zewnetrzna"
+   "Sky Western Collection": "zewnetrzna",
+   "Twilight Collection": "antena-261126"
   }
  },
  "106e:2008:fbff": {
@@ -9348,18 +9616,22 @@
  "10e2:03e8:013e": {
   "names": [
    "Discovery Giallo TV HD",
-   "Giallo HD"
+   "Giallo HD",
+   "Giallo TV"
   ],
   "sources": {
    "Discovery Giallo TV HD": "robocza",
-   "Giallo HD": "vhannibal"
+   "Giallo HD": "vhannibal",
+   "Giallo TV": "robocza"
   }
  },
  "10e3:03e8:013e": {
   "names": [
-   "Nove HD"
+   "Nove HD",
+   "Nove"
   ],
   "sources": {
+   "Nove": "robocza",
    "Nove HD": "robocza"
   }
  },
@@ -9420,9 +9692,11 @@
  "10ee:03e8:013e": {
   "names": [
    "HGTV Italia HD",
-   "HGTV Italy HD"
+   "HGTV Italy HD",
+   "HGTV Italia"
   ],
   "sources": {
+   "HGTV Italia": "robocza",
    "HGTV Italia HD": "robocza",
    "HGTV Italy HD": "vhannibal"
   }
@@ -9481,6 +9755,16 @@
   "sources": {
    "CANAL+ EXTRA 1": "vhannibal",
    "Canal+ Extra 1": "robocza"
+  }
+ },
+ "1137:2af8:013e": {
+  "names": [
+   "Canal+ Extra 2",
+   "CANAL+ EXTRA 2"
+  ],
+  "sources": {
+   "CANAL+ EXTRA 2": "antena-261126",
+   "Canal+ Extra 2": "robocza"
   }
  },
  "1138:2af8:0071": {
@@ -9653,6 +9937,16 @@
   "sources": {
    "CANAL+ EXTRA 1": "vhannibal",
    "Canal+ Extra 1": "robocza"
+  }
+ },
+ "1169:2af8:013e": {
+  "names": [
+   "Canal+ Extra 2_",
+   "CANAL+ EXTRA 2"
+  ],
+  "sources": {
+   "CANAL+ EXTRA 2": "antena-261126",
+   "Canal+ Extra 2_": "robocza"
   }
  },
  "116d:2af8:013e": {
@@ -10165,9 +10459,11 @@
  },
  "138f:2710:00d5": {
   "names": [
-   "VIVACOM Arena HD"
+   "VIVACOM Arena HD",
+   "Arena Plus HD"
   ],
   "sources": {
+   "Arena Plus HD": "robocza",
    "VIVACOM Arena HD": "robocza"
   }
  },
@@ -10781,12 +11077,36 @@
    "AMC HD": "antena-canalplus"
   }
  },
+ "1402:05dc:013e": {
+  "names": [
+   "Motowizja HD"
+  ],
+  "sources": {
+   "Motowizja HD": "robocza"
+  }
+ },
  "1403:05dc:013e": {
   "names": [
    "TVS"
   ],
   "sources": {
    "TVS": "robocza"
+  }
+ },
+ "1404:05dc:013e": {
+  "names": [
+   "TVP ABC"
+  ],
+  "sources": {
+   "TVP ABC": "robocza"
+  }
+ },
+ "1405:05dc:013e": {
+  "names": [
+   "TVP Historia"
+  ],
+  "sources": {
+   "TVP Historia": "robocza"
   }
  },
  "140b:05dc:013e": {
@@ -11198,10 +11518,14 @@
  "1bbe:17d4:013e": {
   "names": [
    "Nova Sports Extra 4 HD",
-   "Novasportsextra4HD"
+   "Novasportsextra4HD",
+   "Nova Sports 1 League HD",
+   "Novasports1 League HD"
   ],
   "sources": {
+   "Nova Sports 1 League HD": "robocza",
    "Nova Sports Extra 4 HD": "robocza",
+   "Novasports1 League HD": "antena-261126",
    "Novasportsextra4HD": "vhannibal"
   }
  },
@@ -11271,18 +11595,24 @@
  },
  "1bc6:17d4:013e": {
   "names": [
-   "Novasports L HD"
+   "Novasports L HD",
+   "Nova Sports 2 League HD",
+   "Novasports2 League HD"
   ],
   "sources": {
-   "Novasports L HD": "robocza"
+   "Nova Sports 2 League HD": "robocza",
+   "Novasports L HD": "robocza",
+   "Novasports2 League HD": "antena-261126"
   }
  },
  "1bc7:17d4:013e": {
   "names": [
-   "Novasports L HD Cy"
+   "Novasports L HD Cy",
+   "Novasports2 League HD Cy"
   ],
   "sources": {
-   "Novasports L HD Cy": "antena-241026"
+   "Novasports L HD Cy": "antena-241026",
+   "Novasports2 League HD Cy": "antena-261126"
   }
  },
  "1bc8:17d4:013e": {
@@ -11373,9 +11703,11 @@
  },
  "1bd0:17d4:013e": {
   "names": [
-   "Novasportsextra4HD Cy"
+   "Novasportsextra4HD Cy",
+   "Novasports1 League HD Cy"
   ],
   "sources": {
+   "Novasports1 League HD Cy": "antena-261126",
    "Novasportsextra4HD Cy": "vhannibal"
   }
  },
@@ -11749,10 +12081,12 @@
  },
  "1c8e:332c:013e": {
   "names": [
-   "GNC"
+   "GNC",
+   "Glorious TV"
   ],
   "sources": {
-   "GNC": "robocza"
+   "GNC": "robocza",
+   "Glorious TV": "robocza"
   }
  },
  "1c8f:1ce8:0071": {
@@ -11811,12 +12145,30 @@
    "RMF FM": "robocza"
   }
  },
+ "1c99:332c:013e": {
+  "names": [
+   "Eco TV"
+  ],
+  "sources": {
+   "Eco TV": "robocza"
+  }
+ },
  "1c9a:1ce8:0071": {
   "names": [
    "RMF Classic"
   ],
   "sources": {
    "RMF Classic": "robocza"
+  }
+ },
+ "1c9a:332c:013e": {
+  "names": [
+   "Milady TV",
+   "MILADY TV"
+  ],
+  "sources": {
+   "MILADY TV": "antena-261126",
+   "Milady TV": "robocza"
   }
  },
  "1c9b:1ce8:0071": {
@@ -11827,12 +12179,38 @@
    "Jedynka - PR": "robocza"
   }
  },
+ "1c9b:332c:013e": {
+  "names": [
+   "Natali TV"
+  ],
+  "sources": {
+   "Natali TV": "robocza"
+  }
+ },
  "1c9c:1ce8:0071": {
   "names": [
    "Trójka - PR"
   ],
   "sources": {
    "Trójka - PR": "robocza"
+  }
+ },
+ "1c9c:332c:013e": {
+  "names": [
+   "Provence TV"
+  ],
+  "sources": {
+   "Provence TV": "robocza"
+  }
+ },
+ "1c9d:332c:013e": {
+  "names": [
+   "Karavan TV",
+   "KARAVAN TV"
+  ],
+  "sources": {
+   "KARAVAN TV": "antena-261126",
+   "Karavan TV": "robocza"
   }
  },
  "1c9e:1ce8:0071": {
@@ -14333,6 +14711,26 @@
    "Canal+ Film HD": "robocza"
   }
  },
+ "32cf:0190:013e": {
+  "names": [
+   "Canal+ Dokument HD",
+   "CANAL+ DOKUMENT HD"
+  ],
+  "sources": {
+   "CANAL+ DOKUMENT HD": "antena-261126",
+   "Canal+ Dokument HD": "robocza"
+  }
+ },
+ "32d0:0190:013e": {
+  "names": [
+   "Canal+ Seriale HD",
+   "CANAL+ SERIALE HD"
+  ],
+  "sources": {
+   "CANAL+ SERIALE HD": "antena-261126",
+   "Canal+ Seriale HD": "robocza"
+  }
+ },
  "32d7:0190:013e": {
   "names": [
    "TVP Kultura HD",
@@ -14485,6 +14883,26 @@
   ],
   "sources": {
    "CANAL+ FILM HD": "vhannibal"
+  }
+ },
+ "3301:0190:013e": {
+  "names": [
+   "Canal+ Dokument HD_",
+   "CANAL+ DOKUMENT HD"
+  ],
+  "sources": {
+   "CANAL+ DOKUMENT HD": "antena-261126",
+   "Canal+ Dokument HD_": "robocza"
+  }
+ },
+ "3302:0190:013e": {
+  "names": [
+   "Canal+ Seriale HD_",
+   "CANAL+ SERIALE HD"
+  ],
+  "sources": {
+   "CANAL+ SERIALE HD": "antena-261126",
+   "Canal+ Seriale HD_": "robocza"
   }
  },
  "3304:0190:013e": {
@@ -15543,6 +15961,14 @@
    "Radio Contact": "vhannibal"
   }
  },
+ "37a0:044c:013e": {
+  "names": [
+   "Mezzo SD"
+  ],
+  "sources": {
+   "Mezzo SD": "robocza"
+  }
+ },
  "37a1:044c:013e": {
   "names": [
    "Hustler HD"
@@ -16131,26 +16557,32 @@
  },
  "3b61:012c:013e": {
   "names": [
-   "Realtime Italy HD"
+   "Realtime Italy HD",
+   "Realtime Italy"
   ],
   "sources": {
+   "Realtime Italy": "robocza",
    "Realtime Italy HD": "robocza"
   }
  },
  "3b62:012c:013e": {
   "names": [
-   "DMAX Italy HD"
+   "DMAX Italy HD",
+   "DMAX Italy"
   ],
   "sources": {
+   "DMAX Italy": "robocza",
    "DMAX Italy HD": "robocza"
   }
  },
  "3b63:012c:013e": {
   "names": [
    "Food Network Italy HD",
-   "Food Network italy HD"
+   "Food Network italy HD",
+   "Food Network Italy"
   ],
   "sources": {
+   "Food Network Italy": "robocza",
    "Food Network Italy HD": "robocza",
    "Food Network italy HD": "vhannibal"
   }
@@ -16238,9 +16670,11 @@
  "3b6c:012c:013e": {
   "names": [
    "Discovery Italia HD",
-   "Discovery Italy HD"
+   "Discovery Italy HD",
+   "Discovery Italia"
   ],
   "sources": {
+   "Discovery Italia": "robocza",
    "Discovery Italia HD": "robocza",
    "Discovery Italy HD": "vhannibal"
   }
@@ -17048,10 +17482,12 @@
  "3e20:2ee0:013e": {
   "names": [
    "SciFi HD",
-   "Sci fi HD"
+   "Sci fi HD",
+   "SciFi"
   ],
   "sources": {
    "Sci fi HD": "antena-canalplus",
+   "SciFi": "robocza",
    "SciFi HD": "robocza"
   }
  },
@@ -17221,9 +17657,11 @@
  },
  "4207:2f44:013e": {
   "names": [
-   "Brazzers TV POL"
+   "Brazzers TV POL",
+   "Brazzers HD Pol"
   ],
   "sources": {
+   "Brazzers HD Pol": "robocza",
    "Brazzers TV POL": "robocza"
   }
  },
@@ -18421,12 +18859,28 @@
    "kabel eins doku": "antena-canalplus"
   }
  },
+ "4526:1d4c:013e": {
+  "names": [
+   "DVB-NIP-01"
+  ],
+  "sources": {
+   "DVB-NIP-01": "antena-261126"
+  }
+ },
  "4526:1db0:013e": {
   "names": [
    "DVB-NIP-01"
   ],
   "sources": {
    "DVB-NIP-01": "vhannibal"
+  }
+ },
+ "4528:1d4c:013e": {
+  "names": [
+   "dvb-nip-02"
+  ],
+  "sources": {
+   "dvb-nip-02": "antena-261126"
   }
  },
  "4528:1db0:013e": {
